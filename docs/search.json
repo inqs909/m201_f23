@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "books.html",
+    "href": "books.html",
+    "title": "Books",
+    "section": "",
+    "text": "A List of recommended books to learn more about Statistics, all freely available from the Broome Library:"
+  },
+  {
+    "objectID": "books.html#basics",
+    "href": "books.html#basics",
+    "title": "Books",
+    "section": "Basics",
+    "text": "Basics\n\nIntroduction to Statistics and Data Analysis\n\nHeumann and Shalabh\n\nStatistical Foundations, Reasoning and Inference\n\nKauermann, Küchenhoff, and Heumann"
+  },
+  {
+    "objectID": "books.html#regression",
+    "href": "books.html#regression",
+    "title": "Books",
+    "section": "Regression",
+    "text": "Regression\n\nGeneralized Linear Models With Examples in R\n\nDunn and Smyth\nGraduate\n\nLinear and Generalized Linear Mixed Models and Their Applications (2nd Edition)\n\nJiang and Nguyen\nGraudate\n\nRegression Modeling Strategies\n\nHarrell\nUndergraduate\n\nVector Generalized Linear and Additive Models\n\nYee\nGraduate"
+  },
+  {
+    "objectID": "books.html#nonparametric",
+    "href": "books.html#nonparametric",
+    "title": "Books",
+    "section": "Nonparametric",
+    "text": "Nonparametric\n\nSemiparametric Regression with R\n\nHarezlak, Ruppert, and Wand\nGraduate"
+  },
+  {
+    "objectID": "books.html#computational",
+    "href": "books.html#computational",
+    "title": "Books",
+    "section": "Computational",
+    "text": "Computational\n\nBootstrap Methods with applications in R\n\nDikta and Scheer\nGraduate\n\nModern Optimization with R (2nd Edition)\n\nCortez\nGraduate\n\nComputational Statistics\n\nGentle\n\nMonte Carlo and Quasi-Monte Carlo Sampling\n\nLemieux\n\nStatistics With Julia\n\nNazarathy andKlok\n\nIntroducing Monte Carlo Methods in R\n\nRobert and Casella\n\nPermutation Statistical Methods with R\n\nBerry, Kvamme, Johnston, and Mielke\n\nMonte Carlo Strategies in Scientific Computing\n\nLiu"
+  },
+  {
+    "objectID": "books.html#bayesian",
+    "href": "books.html#bayesian",
+    "title": "Books",
+    "section": "Bayesian",
+    "text": "Bayesian\n\nIntroduction to Bayesian Inference, Methods and Computation\n\nHeard\n\nApplied Bayesian Statistics\n\nCowles\n\nBayesian Statistical Modeling with Stan, R, and Python\n\nMatsuura\n\nBayesian Essentials in R\n\nMarin and Robert"
+  },
+  {
+    "objectID": "books.html#theoretical",
+    "href": "books.html#theoretical",
+    "title": "Books",
+    "section": "Theoretical",
+    "text": "Theoretical\n\nEssentials of Stochastic Processes (3rd Edition)\n\nDurrett\nGraduate\n\nA Concise Introduction to Measure Theory\n\nShirali\nGraduate\n\nLarge Sample Techniques for Statistics (2nd Edition)\n\nJiang\nGraduate\n\nA Course in Mathematical Statistics and Large Sample Theory\n\nBhattacharya, Lin, and Patrangenaru\nGraduate\n\nMixture and Hidden Markov Models with R\n\nVisser and Speekenbrink\nUndergraduate\n\nModern Mathematical Statistics (3rd Edition)\n\nDevore, Berk, and Carlton\nUndergraduate\n\nProbability Theory (3rd Edition)\n\nKlenke\nGraduate\n\nTesting Statistical Hypotheses (4th Edition)\n\nLehmann and Romano\nGraduate\n\nTheory of Point Estimation\n\nLehmann and Casella\nGraduate\nMay not be available"
+  },
+  {
+    "objectID": "books.html#longitudinal-data-analysis",
+    "href": "books.html#longitudinal-data-analysis",
+    "title": "Books",
+    "section": "Longitudinal Data Analysis",
+    "text": "Longitudinal Data Analysis\n\nLongitudinal Categorical Data Analysis\n\nSutradhar"
+  },
+  {
+    "objectID": "books.html#survival-analysis",
+    "href": "books.html#survival-analysis",
+    "title": "Books",
+    "section": "Survival Analysis",
+    "text": "Survival Analysis\n\nStatistical Modelling of Survival Data with Random Effects\n\nHa, Jeong, and Lee\n\nSurvival Analysis (3rd Edition)\n\nKleinbaum and Klein\n\nApplied Survival Analysis in R\n\nMoore\n\nBayesian Survival Analysis\n\nIbrahim, Chen, and Sinha\n\nSurvival Analysis Techniques for Censored and Truncated Data (2nd Edition)\n\nKlein and Moeschberger"
+  },
+  {
+    "objectID": "books.html#machine-learning",
+    "href": "books.html#machine-learning",
+    "title": "Books",
+    "section": "Machine Learning",
+    "text": "Machine Learning\n\nFundamental of High-Dimensional Statistics\n\nLederer\n\nAn Introduction to Statistical Learning (2nd Edition)\n\nJames, Witten, Hastie and Tibshirani\n\nStatistical Learning from a Regression Perspective (2nd Edition)\n\nBerk\n\nElements of Statistical Learning\n\nHastie, Friedman, and Tibshirani\n\nStatistics for High Dimensional Data\n\nBühlmann and van der Geer\n\nProbability and Statistics for Machine Learning\n\nDas Gupta"
+  },
+  {
+    "objectID": "books.html#time-series",
+    "href": "books.html#time-series",
+    "title": "Books",
+    "section": "Time-Series",
+    "text": "Time-Series\n\nIntroduction to Time Series and Forcasting (3rd Edition)\n\nBrockwell and Davis\n\nTime Series Analysis and Its Applications\n\nShumway and Stoffer\n\nTime Series Analysis for the State-Space Model with R/Stan\n\nHagiwara"
+  },
+  {
+    "objectID": "books.html#study-desing-and-causal-inference",
+    "href": "books.html#study-desing-and-causal-inference",
+    "title": "Books",
+    "section": "Study Desing and Causal Inference",
+    "text": "Study Desing and Causal Inference\n\nCausal Inference What IF\n\nHernán and Robins\n\nDesign of Observational Studies\n\nRosenbaum\n\n\nBolded Titles, I have read thoroughly."
+  },
+  {
+    "objectID": "ec.html",
+    "href": "ec.html",
+    "title": "Extra Credit",
+    "section": "",
+    "text": "Extra Credit is designed to expand on different topics that related to Probability and Statistics, but are not necessarily required for the course. Additionally, these opportunities provide students relief when unexpected situations occur during the semester. While it is not required, I encourage everyone to attempt each opportunity.\nBelow is more information on each assignment.\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to Elementary Statistics!",
+    "section": "",
+    "text": "Brief Introduction\n\n\n\n\n\nWelcome to the course! This is the home page of the course where I will provide a recap on what was covered in the week. Here I will post any documents or videos for your reference. If you have any questions, please email me at isaac.qs@csuci.edu.\n\n\n\n\n\n\n\n\n\nIntroduction to Statistics Book\n\n\n\n\n\nhttps://www.openintro.org/book/os/\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Term: Fall 2023\nInstructor: Isaac Quintanilla Salinas\nContact: isaac.qs@csuci.edu\nOffice Location: BTE 2840\nOffice Hours:\n\n\n\nOH\nCourse\nR Programming\nMath/Stat Hour\n\n\n\n\nDay\nMW\nTue\nTue\n\n\nLocation\nBTE 2840\nBTE 2810\nBTE 2810\n\n\nTime\n4:30-5:30 PM\n10-12 AM\n4-6 PM\n\n\n\nOr by Zoom appointment.\nLecture: Monday and Wednesday 3:00-4:15 PM in BT 1462\n\n\n\nCritical reasoning using a quantitative and statistical, problem-solving approach to solving real-world problems. Topics include: probability and statistics, sample data, probability and empirical data distributions, sampling techniques, estimation and hypothesis testing, ANOVA, and correlation and regression analysis. Students will use standard statistical software to analyze real-world and simulated data. GenEd: B4\n\n\n\n\nPrepare students for advanced courses in data-management and statistics\nReason both inductively and deductively with quantitative information and data\nUse statistical software for complex statistical analysis of real-world and simulated data\nEmpower students to apply computational and inferential thinking to address real-world problems\nWrite the results of a statistical study and draw conclusion in reports\n\n\n\n\nThis course will use Coursekata, a Canvas-embedded textbook with built-in R functionality.\n\n\n\nFor this course, we will use R and RStudio. You will have access to them online, but you may download and install them on your computer.\n\nR is a free statistical software program that is available for download at: https://www.r-project.org/.\nRStudio provides free and open source tools for your data analysis in R: https://www.rstudio.com/\n\n\n\n\n\n\n\nCategory\nPercentage\n\n\n\n\nReading Assignments\n15%\n\n\nLab Assignments\n15%\n\n\nWeekly Quizzes\n15%\n\n\nPre-Test\n5%\n\n\nPost-Test\n5%\n\n\nExam 1\n15%\n\n\nExam 2\n15%\n\n\nExam 3\n15%\n\n\n\nAt the end of the quarter, course grades will be assigned according to the following scale:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA+\n98 – 100\nB+\n87 – &lt;90\nC+\n77 – &lt;80\nD+\n67 – &lt;70\n\n\n\n\nA\n93 – &lt;98\nB\n83 – &lt;87\nC\n73 – &lt;77\nD\n63 – &lt;67\nF\n&lt; 60\n\n\nA–\n90 - &lt;93\nB-\n80 – &lt;83\nC–\n70 – &lt;73\nD–\n60 – &lt;63\n\n\n\n\n\n\n\n\n\n\n\n\n\nThere will be three exams. Exam #1 will most likely be during the 6th week of the semester. Exam #2 will most likely be during the 12th week of the semester. Exam #3 will be on finals week. While the exams are not considered cumulative, the material builds on each other. Developing a strong understanding of the material through out the course is important for your success. At the end of the semester, your lowest exam grade will be replaced by your median average exam grade. This course will operate under a zero-tolerance policy. Talking during the time of the exam, sharing materials, looking at another students’ exam, or not following directions given will be subject to the University’s academic integrity policy.\n\n\n\nThere will be 3 extra credit opportunities worth a total of 10% of your overall grade. (There are no make-ups for missed extra credit assignments!) More information will be provided on the extra credit assignments on a later date. Information on the extra credit can be found here.\n\n\n\n\nThe following outline may be subject to change. Any changes will be announced in class.\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nCh. Due\nLab Due\n\n\n\n\n8/21-8/25\nWelcome to College/Course\n\n\n\n\n8/28-9/1\nWelcome to Statistics: A Modeling Approach\nCh 1\n\n\n\n9/4-9/8\nUnderstanding Data\nCh 2\n\n\n\n9/11-9/15\nExamining Distributions\nCh 3\n\n\n\n9/18-9/22\nExplaining Variation\nCh 4\n\n\n\n9/25-9/29\nExam #1/ A Simple Model\n\n\n\n\n10/2-10/6\nA Simple Model\nCh 5\n\n\n\n10/9-10/13\nQuantifying Error\nCh 6\n\n\n\n10/16-10/20\nAdding an Explanatory Variable to the Model\nCh 7\n\n\n\n10/23-10/27\nDigging Deeper into Group Model\nCh 8\n\n\n\n10/30-11/3\nModels with a Quantitative Explanatory Variable\nCh 9\n\n\n\n11/6-11/10\nExam #2\n\n\n\n\n11/13-11/17\nLogic of Inference\nCh 10\n\n\n\n11/20-11/24\nModel Comparison with F\nCh 11\n\n\n\n11/27-12/1\nParameter Estimation and Confidence Intervals\nCh 12\n\n\n\n12/4-12/8\nExam #3\nCh 13\n\n\n\n\n\n\n\n\nAcademic Honesty:\nPlease conduct yourself with honesty and integrity. Do not submit others’ work as your own. For assignments and quizzes that allow you to work with a group, only put your name on what the group submits if you genuinely contributed to the work. Work completely independently on exams, using only the materials that are indicated as allowed. Failure to observe academic honesty results in substantial penalties that can include failing the course.\nDisabilities:\nIf you are a student with a disability requesting reasonable accommodations in this course, you need to contact Disability Accommodations and Support Services (DASS) located on the second floor of Arroyo Hall, via email accommodations@csuci.edu or call 805-437-3331. All requests for reasonable accommodations require registration with DASS in advance of need: https://www.csuci.edu/dass/students/apply-for-services.htm. Faculty, students and DASS will work together regarding classroom accommodations. You are encouraged to discuss approved.\nEmergency Procedure Notice to Students:\nCSUCI is following guidelines and public orders from the California Department of Public Health and Ventura County Public Health for the COVID-19 pandemic as it pertains to CSUCI students, employees and visitors on the campus. Students are expected to adhere to all health and safety requirements as noted on the University’s Spring 2023 Semester website or they may be subject to removal from the classroom."
+  },
+  {
+    "objectID": "syllabus.html#math-201-elementary-statistics",
+    "href": "syllabus.html#math-201-elementary-statistics",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Term: Fall 2023\nInstructor: Isaac Quintanilla Salinas\nContact: isaac.qs@csuci.edu\nOffice Location: BTE 2840\nOffice Hours:\n\n\n\nOH\nCourse\nR Programming\nMath/Stat Hour\n\n\n\n\nDay\nMW\nTue\nTue\n\n\nLocation\nBTE 2840\nBTE 2810\nBTE 2810\n\n\nTime\n4:30-5:30 PM\n10-12 AM\n4-6 PM\n\n\n\nOr by Zoom appointment.\nLecture: Monday and Wednesday 3:00-4:15 PM in BT 1462\n\n\n\nCritical reasoning using a quantitative and statistical, problem-solving approach to solving real-world problems. Topics include: probability and statistics, sample data, probability and empirical data distributions, sampling techniques, estimation and hypothesis testing, ANOVA, and correlation and regression analysis. Students will use standard statistical software to analyze real-world and simulated data. GenEd: B4\n\n\n\n\nPrepare students for advanced courses in data-management and statistics\nReason both inductively and deductively with quantitative information and data\nUse statistical software for complex statistical analysis of real-world and simulated data\nEmpower students to apply computational and inferential thinking to address real-world problems\nWrite the results of a statistical study and draw conclusion in reports\n\n\n\n\nThis course will use Coursekata, a Canvas-embedded textbook with built-in R functionality.\n\n\n\nFor this course, we will use R and RStudio. You will have access to them online, but you may download and install them on your computer.\n\nR is a free statistical software program that is available for download at: https://www.r-project.org/.\nRStudio provides free and open source tools for your data analysis in R: https://www.rstudio.com/\n\n\n\n\n\n\n\nCategory\nPercentage\n\n\n\n\nReading Assignments\n15%\n\n\nLab Assignments\n15%\n\n\nWeekly Quizzes\n15%\n\n\nPre-Test\n5%\n\n\nPost-Test\n5%\n\n\nExam 1\n15%\n\n\nExam 2\n15%\n\n\nExam 3\n15%\n\n\n\nAt the end of the quarter, course grades will be assigned according to the following scale:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA+\n98 – 100\nB+\n87 – &lt;90\nC+\n77 – &lt;80\nD+\n67 – &lt;70\n\n\n\n\nA\n93 – &lt;98\nB\n83 – &lt;87\nC\n73 – &lt;77\nD\n63 – &lt;67\nF\n&lt; 60\n\n\nA–\n90 - &lt;93\nB-\n80 – &lt;83\nC–\n70 – &lt;73\nD–\n60 – &lt;63\n\n\n\n\n\n\n\n\n\n\n\n\n\nThere will be three exams. Exam #1 will most likely be during the 6th week of the semester. Exam #2 will most likely be during the 12th week of the semester. Exam #3 will be on finals week. While the exams are not considered cumulative, the material builds on each other. Developing a strong understanding of the material through out the course is important for your success. At the end of the semester, your lowest exam grade will be replaced by your median average exam grade. This course will operate under a zero-tolerance policy. Talking during the time of the exam, sharing materials, looking at another students’ exam, or not following directions given will be subject to the University’s academic integrity policy.\n\n\n\nThere will be 3 extra credit opportunities worth a total of 10% of your overall grade. (There are no make-ups for missed extra credit assignments!) More information will be provided on the extra credit assignments on a later date. Information on the extra credit can be found here.\n\n\n\n\nThe following outline may be subject to change. Any changes will be announced in class.\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nCh. Due\nLab Due\n\n\n\n\n8/21-8/25\nWelcome to College/Course\n\n\n\n\n8/28-9/1\nWelcome to Statistics: A Modeling Approach\nCh 1\n\n\n\n9/4-9/8\nUnderstanding Data\nCh 2\n\n\n\n9/11-9/15\nExamining Distributions\nCh 3\n\n\n\n9/18-9/22\nExplaining Variation\nCh 4\n\n\n\n9/25-9/29\nExam #1/ A Simple Model\n\n\n\n\n10/2-10/6\nA Simple Model\nCh 5\n\n\n\n10/9-10/13\nQuantifying Error\nCh 6\n\n\n\n10/16-10/20\nAdding an Explanatory Variable to the Model\nCh 7\n\n\n\n10/23-10/27\nDigging Deeper into Group Model\nCh 8\n\n\n\n10/30-11/3\nModels with a Quantitative Explanatory Variable\nCh 9\n\n\n\n11/6-11/10\nExam #2\n\n\n\n\n11/13-11/17\nLogic of Inference\nCh 10\n\n\n\n11/20-11/24\nModel Comparison with F\nCh 11\n\n\n\n11/27-12/1\nParameter Estimation and Confidence Intervals\nCh 12\n\n\n\n12/4-12/8\nExam #3\nCh 13\n\n\n\n\n\n\n\n\nAcademic Honesty:\nPlease conduct yourself with honesty and integrity. Do not submit others’ work as your own. For assignments and quizzes that allow you to work with a group, only put your name on what the group submits if you genuinely contributed to the work. Work completely independently on exams, using only the materials that are indicated as allowed. Failure to observe academic honesty results in substantial penalties that can include failing the course.\nDisabilities:\nIf you are a student with a disability requesting reasonable accommodations in this course, you need to contact Disability Accommodations and Support Services (DASS) located on the second floor of Arroyo Hall, via email accommodations@csuci.edu or call 805-437-3331. All requests for reasonable accommodations require registration with DASS in advance of need: https://www.csuci.edu/dass/students/apply-for-services.htm. Faculty, students and DASS will work together regarding classroom accommodations. You are encouraged to discuss approved.\nEmergency Procedure Notice to Students:\nCSUCI is following guidelines and public orders from the California Department of Public Health and Ventura County Public Health for the COVID-19 pandemic as it pertains to CSUCI students, employees and visitors on the campus. Students are expected to adhere to all health and safety requirements as noted on the University’s Spring 2023 Semester website or they may be subject to removal from the classroom."
+  }
+]
