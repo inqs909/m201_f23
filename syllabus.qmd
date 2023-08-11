@@ -69,10 +69,10 @@ An EPE is there to help you understand the material and succeed in the course. T
 
 | Category            | Percentage |
 |:--------------------|:-----------|
-| Reading Assignments | 15%        |
+| Reading Assignments | 20%        |
 | Lab Assignments     | 15%        |
 | Weekly Quizzes      | 15%        |
-| Participation       | 10%        |
+| Participation       | 5%         |
 | Exam 1              | 15%        |
 | Exam 2              | 15%        |
 | Exam 3              | 15%        |
@@ -80,14 +80,14 @@ An EPE is there to help you understand the material and succeed in the course. T
 At the end of the quarter, course grades will be assigned according to the following scale:
 
 |         |            |        |            |         |            |         |            |       |       |
-|:----|:--------|:----|:--------|:----|:--------|:----|:--------|:-------|:-------|
+|:-----|:---------|:----|:---------|:----|:---------|:-----|:--------|:----|:------|
 | **A+**  | 98 -- 100  | **B+** | 87 -- \<90 | **C+**  | 77 -- \<80 | **D+**  | 67 -- \<70 |       |       |
 | **A**   | 93 -- \<98 | **B**  | 83 -- \<87 | **C**   | 73 -- \<77 | **D**   | 63 -- \<67 | **F** | \< 60 |
 | **A--** | 90 - \<93  | **B-** | 80 -- \<83 | **C--** | 70 -- \<73 | **D--** | 60 -- \<63 |       |       |
 
 #### Participation
 
-Participation is based on short writing assignments conducted in class. These assignments will be lead by the EPE in class. You will need to complete at least 20 prompts to get full credit for the semester. There will be no make ups for these writing prompts.
+Participation is based on short writing assignments conducted in class. There will be no make ups for these writing prompts.
 
 #### Lab Assignments
 
@@ -99,11 +99,11 @@ Reading assignments are designed to teach you different statistical concepts and
 
 #### Quizzes
 
-Starting on Week 2, there will be a weekly quiz every Friday. The quiz will become available for you to take on Canvas at 12AM to 11:59 PM every Friday. The quiz is designed to test whether you recall the material from the previous week. You are expected to complete the quiz with out using any material such as your notes, textbook, or internet. Additionally, you will get 80% of the quiz grade for simply taking the quiz. The remaining 20% is based on getting the question correct. There are a total of 12 quizzes in the semester. The lowest 3 quizzes will be dropped from your class grade. There are no make up quizzes.
+Starting on Week 2, there will be a weekly quiz every Friday. The quiz will become available for you to take on Canvas at 12AM to 11:59 PM every Friday. The quiz is designed to test whether you recall the material from the previous week. You are expected to complete the quiz with out using any material such as your notes, textbook, or internet. Additionally, you will get 90% of the quiz grade for simply taking the quiz. The remaining 20% is based on getting the question correct. There are a total of 12 quizzes in the semester. The lowest 3 quizzes will be dropped from your class grade. There are no make up quizzes.
 
 #### Exams
 
-There will be three exams. Exam #1 will on Sept 25, Exam #2 will be on Nov 8, and Exam #3 will be on Dec 6 at 8-10 AM (Sec 01) or 1-3 PM (Sec 02). While the exams are not considered cumulative, the material builds on each other. Developing a strong understanding of the material through out the course is important for your success. At the end of the semester, your lowest exam grade will be replaced by your median average exam grade. This course will operate under a zero-tolerance policy. Talking during the time of the exam, sharing materials, looking at another students' exam, or not following directions given will be subject to the University's academic integrity policy.
+There will be three in exams. Exam #1 will on Sept 25, Exam #2 will be on Nov 8, and Exam #3 will be on Dec 6 at 8-10 AM (Sec 01) or 1-3 PM (Sec 02). While the exams are not considered cumulative, the material builds on each other. Developing a strong understanding of the material through out the course is important for your success. At the end of the semester, your lowest exam grade will be replaced by your median average exam grade. This course will operate under a zero-tolerance policy. Talking during the time of the exam, sharing materials, looking at another students' exam, or not following directions given will be subject to the University's academic integrity policy.
 
 #### Extra Credit
 
@@ -114,7 +114,7 @@ There will be **3** extra credit opportunities worth a total of 10% of your over
 The following outline may be subject to change. Any changes will be announced in class.
 
 | Week        | Topic                                           | Ch. Due | Lab Due     | Quiz    |
-|:-----------|:------------------------------------|:---------|:------------|---------|
+|:-----------|:-------------------------|:-----------|:-------------|------------|
 | 8/21-8/25   | Welcome to College/Course                       |         |             |         |
 | 8/28-9/1    | Welcome to Statistics: A Modeling Approach      | Ch 1    | 1A and 1B   | Quiz 1  |
 | 9/4-9/8     | Labor Day/Understanding Data                    | Ch 2    | 2A          | Quiz 2  |
