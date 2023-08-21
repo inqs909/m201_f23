@@ -8,7 +8,7 @@ format:
     navigation-mode: vertical
     controls-layout: bottom-right
     controls-tutorial: true
-    incremental: false 
+    incremental: true 
     chalkboard:
       src: chalkboard.json
       storage: chalkboard_pres
@@ -35,7 +35,91 @@ editor: visual
 
 ## Learning Outcomes
 
+-   Introductions
+-   Embedded Peer Educator
 -   Syllabus
--   
+-   Important Announcements
+-   Statistics Activity
+-   Access to Coursekata
 
-## Syllabus
+# Introductions
+
+## Introductions
+
+-   San Bernardino, CA
+
+-   CSU Monterey Bay
+
+    -   BS Biology
+
+-   San Diego State University
+
+    -   Master's in Public Health
+
+-   UC Riverside
+
+    -   PhD in Applied Statistics
+
+## Introductions
+
+::: nonincremental
+-   Name
+
+-   Year
+
+-   Major
+
+-   Fun Fact
+
+-   Career Goal
+:::
+
+# Embedded Peer Educator
+
+## EPE - Devin Frost (Sec 01)
+
+-   4th Year
+
+-   Math Major
+
+    -   Emphasis - Statistics
+
+    -   Emphasis - Pure Mathematics
+
+-   Philosophy Minor
+
+## EPE - Amanda Parks (Sec 02)
+
+-   2nd Year
+
+-   Pre-Nursing Major
+
+# Syllabus
+
+https://www.inqs.info/m201_f23/syllabus.html
+
+# Important Announcements
+
+## Field Trip
+
+We will be taking a field trip to the library on Wednesday Aug 23.
+
+## Math Minds
+
+-   Math Minds is a program for students who have math anxiety.
+
+-   You will meet during semester to work through your anxiety and become a more mathematical person.
+
+-   More information will come when it becomes available.
+
+# Statistics Activity
+
+## When do you use statistics?
+
+## What is the difference between math and stats?
+
+## What is variation?
+
+## Complete Handout
+
+# Access to Coursekata
