@@ -36,8 +36,6 @@ editor: visual
 
 -   Announcements
 
--   Numbers
-
 -   Data
 
 -   Measurements
@@ -54,34 +52,89 @@ For Math 201, spend 8-12 hours to succeed.
 
 ## Math Minds
 
-# Numbers
-
-## Numbers
-
-Numbers are used to describe
+![](img/Fall 23 Math MINDS Flyer.png){fig-align="center"}
 
 # Data
 
+## Population
+
+A population is the entire group that we want to know more about.
+
+## Sample
+
+A sample is a subset of a population that is considered representative.
+
+## Sample vs Population
+
+## Experimental Unit
+
+An experimental unit is one individual unit from a sample.
+
 ## Data
 
+Data is information from a particular experimental unit. There can be more that one piece of information per experimental unit.
+
 ## Data Structure
+
+The structure of the data can be represented in various forms:
+
+-   A list of long numbers
+
+-   Table
+
+## Tabular Form
+
+```{r}
+#| echo: false
+#| message: false
+library(DT)
+mtcars |> datatable(options = list(dom = "t",
+                                   pageLength = 4))
+
+```
 
 # Measurements
 
 ## Measurements
 
+Measurements are the processes where we represent an attribute of an experimental unit as either a number or category.
+
 ## Quantitative Measurements
+
+Quantitative measurements are data measurements that take a numeric form.
 
 ## Qualitative Measurements
 
-## Variable
+Qualitative measurements are data measurements that take a certain category.
 
 ## Value
+
+A value is a description (number or category) of a specific attribute of an experimental unit.
+
+## Variable
+
+A variable is the descriptive attribute that we want to obtain from an experimental unit. In terms of a data set, the variable contains all the values of specific attribute in a sample.
 
 # Penguins
 
 ## Penguin
 
+![](https://nzbirdsonline.org.nz/sites/all/files/2X2A1697%20King%20Penguin%20bol.jpg){fig-align="center"}
+
 ## Penguins
 
+![](https://www.sciencealert.com/images/2022-07/processed/PenguinsOnBeach_1024.jpg){fig-align="center"}
+
 ## Palmer Penguins
+
+```{r}
+#| message: false
+#| echo: false
+library(tidyverse)
+library(palmerpenguins)
+penguins |> drop_na() |> 
+  slice_sample(n = 6) |> 
+  datatable(options = list(dom = "t",
+                           pageLength = 6))
+
+```

@@ -14,130 +14,109 @@
     "text": "Term: Fall 2023\nInstructor: Isaac Quintanilla Salinas\nEmail: isaac.qs@csuci.edu\nOffice Location: BTE 2840\nOffice Hours:\n\n\n\nOH\nCourse\nR Programming\nTEA Math/Stat Hour\n\n\n\n\nDay\nMW\nTue\nTh\n\n\nLocation\nBT 1462\nLRC\nBTE Courtyard\n\n\nTime\n4:30-6:00 PM\n10-12 AM\n12-1:30 PM\n\n\n\nOr by Zoom appointment.\nLecture: Monday/Wednesday 10:00-11:50 AM (Sec 01) or 2:00-3:50 PM (Sec 02) in BT 1462\n\n\n\nCritical reasoning using a quantitative and statistical, problem-solving approach to solving real-world problems. Topics include: probability and statistics, sample data, probability and empirical data distributions, sampling techniques, estimation and hypothesis testing, ANOVA, and correlation and regression analysis. Students will use standard statistical software to analyze real-world and simulated data. GenEd: B4\n\n\n\n\nPrepare students for advanced courses in data-management and statistics\nReason both inductively and deductively with quantitative information and data\nUse statistical software for complex statistical analysis of real-world and simulated data\nEmpower students to apply computational and inferential thinking to address real-world problems\nWrite the results of a statistical study and draw conclusion in reports\n\n\n\n\nThis course will use Coursekata, a Canvas-embedded textbook with built-in R functionality.\n\n\n\nFor this course, we will use R and RStudio. You will have access to them online, but you may download and install them on your computer.\n\nR is a free statistical software program that is available for download at: https://www.r-project.org/.\nRStudio provides free and open source tools for your data analysis in R: https://www.rstudio.com/\n\n\n\n\nThis course will have two embedded peer educators:\n\nDevin Frost (Sec 01)\n\nEmail: devin.frost091@csuci.edu\n\nAmanda Parks (Sec 02)\n\nEmail: amanda.parks743@myci.csuci.edu\n\n\nAn EPE is there to help you understand the material and succeed in the course. They will be leading in class assignments. hold special tutoring sessions, and support you in your R programming. These educators are trained with study skills that will set you up with success in college.\n\n\n\n\n\n\nCategory\nPercentage\n\n\n\n\nReading Assignments\n20%\n\n\nLab Assignments\n15%\n\n\nWeekly Quizzes\n15%\n\n\nParticipation\n5%\n\n\nExam 1\n15%\n\n\nExam 2\n15%\n\n\nExam 3\n15%\n\n\n\nAt the end of the quarter, course grades will be assigned according to the following scale:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA+\n98 – 100\nB+\n87 – &lt;90\nC+\n77 – &lt;80\nD+\n67 – &lt;70\n\n\n\n\nA\n93 – &lt;98\nB\n83 – &lt;87\nC\n73 – &lt;77\nD\n63 – &lt;67\nF\n&lt; 60\n\n\nA–\n90 - &lt;93\nB-\n80 – &lt;83\nC–\n70 – &lt;73\nD–\n60 – &lt;63\n\n\n\n\n\n\n\nParticipation is based on short writing assignments conducted in class. There will be no make ups for these writing prompts.\n\n\n\nLab assignments are designed to expand your statistical knowledge. These will be completed in JupyterHub which can be accessed from Canvas. There are approximately 2 lab assignments every week that you can complete during class time. The lab assignment will be due either on Tuesday or Thursday at 11:59 PM following the lab day it was assigned.\n\n\n\nReading assignments are designed to teach you different statistical concepts and R Programming. As the course progresses, many of the concepts build on each other. Therefore, the assignments encourage you to read each chapter in an appropriate amount of time. You must read the chapter and answer the questions by the Sunday night at 11:59 PM. The 2 lowest reading assignments will be dropped.\n\n\n\nStarting on Week 2, there will be a weekly quiz every Friday. The quiz will become available for you to take on Canvas at 12AM to 11:59 PM every Friday. The quiz is designed to test whether you recall the material from the previous week. You are expected to complete the quiz with out using any material such as your notes, textbook, or internet. Additionally, you will get 90% of the quiz grade for simply taking the quiz. The remaining 10% is based on getting the question correct. There are a total of 12 quizzes in the semester. The lowest 3 quizzes will be dropped from your class grade. There are no make up quizzes.\n\n\n\nThere will be three in exams. Exam #1 will on Sept 25, Exam #2 will be on Nov 8, and Exam #3 will be on Dec 6 at 8-10 AM (Sec 01) or 1-3 PM (Sec 02). While the exams are not considered cumulative, the material builds on each other. Developing a strong understanding of the material through out the course is important for your success. At the end of the semester, your lowest exam grade will be replaced by your median average exam grade. This course will operate under a zero-tolerance policy. Talking during the time of the exam, sharing materials, looking at another students’ exam, or not following directions given will be subject to the University’s academic integrity policy.\n\n\n\nThere will be 3 extra credit opportunities worth a total of 10% of your overall grade. (There are no make-ups for missed extra credit assignments!) More information will be provided on the extra credit assignments on a later date. Information on the extra credit can be found here.\n\n\n\n\nThe following outline may be subject to change. Any changes will be announced in class.\n\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nCh. Due\nLab Due\nQuiz\n\n\n\n\n8/21-8/25\nWelcome to College/Course\n\n\n\n\n\n8/28-9/1\nWelcome to Statistics: A Modeling Approach\nCh 1\n1A and 1B\nQuiz 1\n\n\n9/4-9/8\nLabor Day/Understanding Data\nCh 2\n2A\nQuiz 2\n\n\n9/11-9/15\nExamining Distributions\nCh 3\n3A and 3B\nQuiz 3\n\n\n9/18-9/22\nExplaining Variation\nCh 4\n4A and 4B\nQuiz 4\n\n\n9/25-9/29\nExam #1/ A Simple Model\n\n\n\n\n\n10/2-10/6\nA Simple Model\nCh 5\n5A and 5B\nQuiz 5\n\n\n10/9-10/13\nQuantifying Error\nCh 6\n6A and 6B\nQuiz 6\n\n\n10/16-10/20\nAdding an Explanatory Variable to the Model\nCh 7\n7A and 7B\nQuiz 7\n\n\n10/23-10/27\nDigging Deeper into Group Model\nCh 8\n8A\nQuiz 8\n\n\n10/30-11/3\nModels with a Quantitative Explanatory Variable\nCh 9\n9A and 9B\nQuiz 9\n\n\n11/6-11/10\nExam #2\n\n\n\n\n\n11/13-11/17\nLogic of Inference\nCh 10\n10A and 10B\nQuiz 10\n\n\n11/20-11/24\nModel Comparison with F\nCh 11\n11A\nQuiz 11\n\n\n11/27-12/1\nParameter Estimation and Confidence Intervals\nCh 12\n12A and 12B\nQuiz 12\n\n\n12/4-12/8\nExam #3\nCh 13\n\n\n\n\n\n\n\n\n\nAcademic Honesty:\nPlease conduct yourself with honesty and integrity. Do not submit others’ work as your own. For assignments and quizzes that allow you to work with a group, only put your name on what the group submits if you genuinely contributed to the work. Work completely independently on exams, using only the materials that are indicated as allowed. Failure to observe academic honesty results in substantial penalties that can include failing the course.\nDisabilities:\nIf you are a student with a disability requesting reasonable accommodations in this course, you need to contact Disability Accommodations and Support Services (DASS) located on the second floor of Arroyo Hall, via email accommodations@csuci.edu or call 805-437-3331. All requests for reasonable accommodations require registration with DASS in advance of need: https://www.csuci.edu/dass/students/apply-for-services.htm. Faculty, students and DASS will work together regarding classroom accommodations. You are encouraged to discuss approved.\nEmergency Procedure Notice to Students:\nCSUCI is following guidelines and public orders from the California Department of Public Health and Ventura County Public Health for the COVID-19 pandemic as it pertains to CSUCI students, employees and visitors on the campus. Students are expected to adhere to all health and safety requirements as noted on the University’s Spring 2023 Semester website or they may be subject to removal from the classroom.\n\n\n\n\nThe California Faculty Association (the labor union of Lecturers, Professors, Coaches, Counselors, and Librarians across the 23 CSU campuses) is in a difficult contract dispute with California State University management. It is possible that we will call a strike or other work stoppage this term. I promise to promptly inform you of any schedule disruption. Our working conditions are your learning conditions; we seek to protect both. For further information go to www.CFAbargaining.org."
   },
   {
-    "objectID": "lectures/2a.html#learning-outcomes",
-    "href": "lectures/2a.html#learning-outcomes",
-    "title": "Numbers & Data",
+    "objectID": "lectures/2b.html#learning-outcomes",
+    "href": "lectures/2b.html#learning-outcomes",
+    "title": "Welcome!",
     "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\nAnnouncements\nNumbers\nData\nMeasurements\nPenguins"
+    "text": "Learning Outcomes"
   },
   {
-    "objectID": "lectures/2a.html#expected-study-time",
-    "href": "lectures/2a.html#expected-study-time",
-    "title": "Numbers & Data",
-    "section": "Expected Study Time",
-    "text": "Expected Study Time\nYou should spend 2-3 hours per unit of registered class.\nFor Math 201, spend 8-12 hours to succeed."
+    "objectID": "lectures/1a.html#learning-outcomes",
+    "href": "lectures/1a.html#learning-outcomes",
+    "title": "Welcome!",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nIntroductions\nEmbedded Peer Educator\nSyllabus\nImportant Announcements\nStatistics Activity\nAccess to Coursekata"
   },
   {
-    "objectID": "lectures/2a.html#math-minds",
-    "href": "lectures/2a.html#math-minds",
-    "title": "Numbers & Data",
+    "objectID": "lectures/1a.html#introductions-1",
+    "href": "lectures/1a.html#introductions-1",
+    "title": "Welcome!",
+    "section": "Introductions",
+    "text": "Introductions\n\nSan Bernardino, CA\nCSU Monterey Bay\n\nBS Biology\n\nSan Diego State University\n\nMaster’s in Public Health\n\nUC Riverside\n\nPhD in Applied Statistics"
+  },
+  {
+    "objectID": "lectures/1a.html#introductions-2",
+    "href": "lectures/1a.html#introductions-2",
+    "title": "Welcome!",
+    "section": "Introductions",
+    "text": "Introductions\n\n\nName\nYear\nMajor\nFun Fact\nCareer Goal"
+  },
+  {
+    "objectID": "lectures/1a.html#epe---devin-frost-sec-01",
+    "href": "lectures/1a.html#epe---devin-frost-sec-01",
+    "title": "Welcome!",
+    "section": "EPE - Devin Frost (Sec 01)",
+    "text": "EPE - Devin Frost (Sec 01)\n\n4th Year\nMath Major\n\nEmphasis - Statistics\nEmphasis - Pure Mathematics\n\nPhilosophy Minor"
+  },
+  {
+    "objectID": "lectures/1a.html#epe---amanda-parks-sec-02",
+    "href": "lectures/1a.html#epe---amanda-parks-sec-02",
+    "title": "Welcome!",
+    "section": "EPE - Amanda Parks (Sec 02)",
+    "text": "EPE - Amanda Parks (Sec 02)\n\n2nd Year\nPre-Nursing Major"
+  },
+  {
+    "objectID": "lectures/1a.html#register-to-math-97",
+    "href": "lectures/1a.html#register-to-math-97",
+    "title": "Welcome!",
+    "section": "Register to Math 97",
+    "text": "Register to Math 97\nThis course is a 4 unit course:\n3 Units Math 201\n1 Unit Math 97"
+  },
+  {
+    "objectID": "lectures/1a.html#field-trip",
+    "href": "lectures/1a.html#field-trip",
+    "title": "Welcome!",
+    "section": "Field Trip",
+    "text": "Field Trip\nWe will be taking a field trip to the library on Wednesday Aug 23."
+  },
+  {
+    "objectID": "lectures/1a.html#math-minds",
+    "href": "lectures/1a.html#math-minds",
+    "title": "Welcome!",
     "section": "Math Minds",
-    "text": "Math Minds"
+    "text": "Math Minds\n\nMath MINDS is open to motivated Channel Islands students enrolled in a B4 Quantitative reasoning course this semester. This FREE transformative program includes:\n\nA $350 scholarship award (payable upon completion of the program requirements)\nFour workshops early in the semester to develop your mathematical ability with active learning\n\nWeeks 4 through 8 of the semester\n\nIndividualized skill development through a minimum of four one-on-one tutoring sessions with Learning Resource Center tutors\n\nMinimum of two tutoring sessions before Week 6 of the semester\nMinimum of two additional tutoring sessions before Week 12 of the semester\n\nA short asynchronous online course about learning mathematics\nFour MasterMINDS Group Check-In Meetings\n\nWeeks 9 through 15 of the semester\n\nSupport to build long-lasting strength and confidence in your mathematical ability\nA chance to make new friends and strengthen your college journey!"
   },
   {
-    "objectID": "lectures/2a.html#numbers-1",
-    "href": "lectures/2a.html#numbers-1",
-    "title": "Numbers & Data",
-    "section": "Numbers",
-    "text": "Numbers\nNumbers are used to describe"
+    "objectID": "lectures/1a.html#when-do-you-use-statistics",
+    "href": "lectures/1a.html#when-do-you-use-statistics",
+    "title": "Welcome!",
+    "section": "When do you use statistics?",
+    "text": "When do you use statistics?"
   },
   {
-    "objectID": "lectures/2a.html#data-1",
-    "href": "lectures/2a.html#data-1",
-    "title": "Numbers & Data",
-    "section": "Data",
-    "text": "Data"
+    "objectID": "lectures/1a.html#what-is-the-difference-between-math-and-stats",
+    "href": "lectures/1a.html#what-is-the-difference-between-math-and-stats",
+    "title": "Welcome!",
+    "section": "What is the difference between math and stats?",
+    "text": "What is the difference between math and stats?"
   },
   {
-    "objectID": "lectures/2a.html#data-structure",
-    "href": "lectures/2a.html#data-structure",
-    "title": "Numbers & Data",
-    "section": "Data Structure",
-    "text": "Data Structure"
+    "objectID": "lectures/1a.html#what-is-variation",
+    "href": "lectures/1a.html#what-is-variation",
+    "title": "Welcome!",
+    "section": "What is variation?",
+    "text": "What is variation?"
   },
   {
-    "objectID": "lectures/2a.html#measurements-1",
-    "href": "lectures/2a.html#measurements-1",
-    "title": "Numbers & Data",
-    "section": "Measurements",
-    "text": "Measurements"
+    "objectID": "lectures/1a.html#complete-survey",
+    "href": "lectures/1a.html#complete-survey",
+    "title": "Welcome!",
+    "section": "Complete Survey",
+    "text": "Complete Survey\nhttps://forms.gle/EdYK1sGZpDEibaHK7"
   },
   {
-    "objectID": "lectures/2a.html#quantitative-measurements",
-    "href": "lectures/2a.html#quantitative-measurements",
-    "title": "Numbers & Data",
-    "section": "Quantitative Measurements",
-    "text": "Quantitative Measurements"
-  },
-  {
-    "objectID": "lectures/2a.html#qualitative-measurements",
-    "href": "lectures/2a.html#qualitative-measurements",
-    "title": "Numbers & Data",
-    "section": "Qualitative Measurements",
-    "text": "Qualitative Measurements"
-  },
-  {
-    "objectID": "lectures/2a.html#variable",
-    "href": "lectures/2a.html#variable",
-    "title": "Numbers & Data",
-    "section": "Variable",
-    "text": "Variable"
-  },
-  {
-    "objectID": "lectures/2a.html#value",
-    "href": "lectures/2a.html#value",
-    "title": "Numbers & Data",
-    "section": "Value",
-    "text": "Value"
-  },
-  {
-    "objectID": "lectures/2a.html#penguin",
-    "href": "lectures/2a.html#penguin",
-    "title": "Numbers & Data",
-    "section": "Penguin",
-    "text": "Penguin"
-  },
-  {
-    "objectID": "lectures/2a.html#penguins-1",
-    "href": "lectures/2a.html#penguins-1",
-    "title": "Numbers & Data",
-    "section": "Penguins",
-    "text": "Penguins"
-  },
-  {
-    "objectID": "lectures/2a.html#palmer-penguins",
-    "href": "lectures/2a.html#palmer-penguins",
-    "title": "Numbers & Data",
-    "section": "Palmer Penguins",
-    "text": "Palmer Penguins"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to Elementary Statistics!",
+    "objectID": "ec/ec_3.html",
+    "href": "ec/ec_3.html",
+    "title": "Extra Credit 3",
     "section": "",
-    "text": "Brief Introduction\n\n\n\n\n\nWelcome to the course! This is the home page of the course where I will provide a recap on what was covered in the week. Here I will post any documents or videos for your reference. If you have any questions, please email me at isaac.qs@csuci.edu.\n\n\n\n\n\n\n\n\n\nIntroduction to Statistics Book\n\n\n\n\n\nhttps://www.openintro.org/book/os/\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Provide a summary of one book below, an write a brief analysis in supporting or opposing the book, and a personal reaction of the book. Some of these books are available through the Broome Library.\nBooks:\n\nThe Book of Why\n\nJudea Pearl\n\nAlgorithms of Oppression\n\nSafiya Umoja Noble\n\nData Feminism\n\nCatherine D’Ignazio and Lauren Klein\n\nWeapons of Math Destruction\n\nCathy O’Niel\n\nInvisible women : data bias in a world designed for men\n\nCaroline Criado Perez\n\nFactfulness: Ten Reasons We’re Wrong About the World… and Why Things are Better Than You Think\n\nHans Rosling\n\nArtificial Unintelligence: How Computers Misunderstand the World\n\nMerideth Broussard\n\nTechnically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech\n\nSara Wachter-Boettcher\n\n\nReport guidelines\n\n5-6 Pages\nMust include a title page\nDouble Spaced\n12 point font\nProofread your work\nSubmit a pdf of your work to Canvas\nDue 12/4/2023\n\nWorth 4 final grade percentage points."
   },
   {
-    "objectID": "ec/ec_2.html",
-    "href": "ec/ec_2.html",
-    "title": "Extra Credit 2",
+    "objectID": "ec/ec_1.html",
+    "href": "ec/ec_1.html",
+    "title": "Extra Credit 1",
     "section": "",
-    "text": "Provide a summary of one book below, an write a brief analysis in supporting or opposing the book, and a personal reaction of the book. The majority of these books are available through the Broome Library.\nBooks:\n\nHappiness: A Guide to Developing Life’s\n\nMatthieu Ricard\n\nGrit: The Power of Passion and Perserverance\n\nAngela Duckworth\n\nMindset: The New Psychology of Success\n\nCarol Dweck\n\n\nReport guidelines\n\n5-6 Pages\nMust include a title page\nDouble Spaced\n12 point font\nProofread your work\nSubmit a pdf of your work to Canvas\nDue 12/4/2023\n\nWorth 3 final grade percentage points."
-  },
-  {
-    "objectID": "ec.html",
-    "href": "ec.html",
-    "title": "Extra Credit",
-    "section": "",
-    "text": "Extra Credit is designed to expand on different topics that related to Probability and Statistics, but are not necessarily required for the course. Additionally, these opportunities provide students relief when unexpected situations occur during the semester. While it is not required, I encourage everyone to attempt each opportunity.\nBelow is more information on each assignment.\n\n\n\n\n\n\n\n\n  \n\n\n\n\nExtra Credit 1\n\n\n\n\n\nInstructions for extra credit one.\n\n\n\n\n\n\nAug 5, 2023\n\n\n\n\n\n\n  \n\n\n\n\nExtra Credit 2\n\n\n\n\n\nInstructions for extra credit two.\n\n\n\n\n\n\nAug 5, 2023\n\n\n\n\n\n\n  \n\n\n\n\nExtra Credit 3\n\n\n\n\n\nInstructions for extra credit three.\n\n\n\n\n\n\nAug 5, 2023\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Provide a summary of one book below, an write a brief analysis in supporting or opposing the book, and a personal reaction of the book. All books should be available through the Broome Library.\nBooks:\n\nMake it Stick: The Science of Successful Learning\n\nPeter Brown\n\nTeach Yourself How to Learn: Strategies you can use to ace any course\n\nSaundra McGuire\n\n\nReport guidelines\n\n5-6 Pages\nMust include a title page\nDouble Spaced\n12 point font\nProofread your work\nSubmit a pdf of your work to Canvas\nDue 12/4/2023\n\nWorth 3 final grade percentage points."
   },
   {
     "objectID": "books.html",
@@ -224,102 +203,158 @@
     "text": "Study Desing and Causal Inference\n\nCausal Inference What IF\n\nHernán and Robins\n\nDesign of Observational Studies\n\nRosenbaum\n\n\nBolded Titles, I have read thoroughly."
   },
   {
-    "objectID": "ec/ec_1.html",
-    "href": "ec/ec_1.html",
-    "title": "Extra Credit 1",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Provide a summary of one book below, an write a brief analysis in supporting or opposing the book, and a personal reaction of the book. All books should be available through the Broome Library.\nBooks:\n\nMake it Stick: The Science of Successful Learning\n\nPeter Brown\n\nTeach Yourself How to Learn: Strategies you can use to ace any course\n\nSaundra McGuire\n\n\nReport guidelines\n\n5-6 Pages\nMust include a title page\nDouble Spaced\n12 point font\nProofread your work\nSubmit a pdf of your work to Canvas\nDue 12/4/2023\n\nWorth 3 final grade percentage points."
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "ec/ec_3.html",
-    "href": "ec/ec_3.html",
-    "title": "Extra Credit 3",
+    "objectID": "ec.html",
+    "href": "ec.html",
+    "title": "Extra Credit",
     "section": "",
-    "text": "Provide a summary of one book below, an write a brief analysis in supporting or opposing the book, and a personal reaction of the book. Some of these books are available through the Broome Library.\nBooks:\n\nThe Book of Why\n\nJudea Pearl\n\nAlgorithms of Oppression\n\nSafiya Umoja Noble\n\nData Feminism\n\nCatherine D’Ignazio and Lauren Klein\n\nWeapons of Math Destruction\n\nCathy O’Niel\n\nInvisible women : data bias in a world designed for men\n\nCaroline Criado Perez\n\nFactfulness: Ten Reasons We’re Wrong About the World… and Why Things are Better Than You Think\n\nHans Rosling\n\nArtificial Unintelligence: How Computers Misunderstand the World\n\nMerideth Broussard\n\nTechnically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech\n\nSara Wachter-Boettcher\n\n\nReport guidelines\n\n5-6 Pages\nMust include a title page\nDouble Spaced\n12 point font\nProofread your work\nSubmit a pdf of your work to Canvas\nDue 12/4/2023\n\nWorth 4 final grade percentage points."
+    "text": "Extra Credit is designed to expand on different topics that related to Probability and Statistics, but are not necessarily required for the course. Additionally, these opportunities provide students relief when unexpected situations occur during the semester. While it is not required, I encourage everyone to attempt each opportunity.\nBelow is more information on each assignment.\n\n\n\n\n\n\n\n\n  \n\n\n\n\nExtra Credit 1\n\n\n\n\n\nInstructions for extra credit one.\n\n\n\n\n\n\nAug 5, 2023\n\n\n\n\n\n\n  \n\n\n\n\nExtra Credit 2\n\n\n\n\n\nInstructions for extra credit two.\n\n\n\n\n\n\nAug 5, 2023\n\n\n\n\n\n\n  \n\n\n\n\nExtra Credit 3\n\n\n\n\n\nInstructions for extra credit three.\n\n\n\n\n\n\nAug 5, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "lectures/1a.html#learning-outcomes",
-    "href": "lectures/1a.html#learning-outcomes",
-    "title": "Welcome!",
+    "objectID": "ec/ec_2.html",
+    "href": "ec/ec_2.html",
+    "title": "Extra Credit 2",
+    "section": "",
+    "text": "Provide a summary of one book below, an write a brief analysis in supporting or opposing the book, and a personal reaction of the book. The majority of these books are available through the Broome Library.\nBooks:\n\nHappiness: A Guide to Developing Life’s\n\nMatthieu Ricard\n\nGrit: The Power of Passion and Perserverance\n\nAngela Duckworth\n\nMindset: The New Psychology of Success\n\nCarol Dweck\n\n\nReport guidelines\n\n5-6 Pages\nMust include a title page\nDouble Spaced\n12 point font\nProofread your work\nSubmit a pdf of your work to Canvas\nDue 12/4/2023\n\nWorth 3 final grade percentage points."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to Elementary Statistics!",
+    "section": "",
+    "text": "Brief Introduction\n\n\n\n\n\nWelcome to the course! This is the home page of the course where I will provide a recap on what was covered in the week. Here I will post any documents or videos for your reference. If you have any questions, please email me at isaac.qs@csuci.edu.\n\n\n\n\n\n\n\n\n\nIntroduction to Statistics Book\n\n\n\n\n\nhttps://www.openintro.org/book/os/\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "lectures/2a.html#learning-outcomes",
+    "href": "lectures/2a.html#learning-outcomes",
+    "title": "Numbers & Data",
     "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\nIntroductions\nEmbedded Peer Educator\nSyllabus\nImportant Announcements\nStatistics Activity\nAccess to Coursekata"
+    "text": "Learning Outcomes\n\nAnnouncements\nData\nMeasurements\nPenguins"
   },
   {
-    "objectID": "lectures/1a.html#introductions-1",
-    "href": "lectures/1a.html#introductions-1",
-    "title": "Welcome!",
-    "section": "Introductions",
-    "text": "Introductions\n\nSan Bernardino, CA\nCSU Monterey Bay\n\nBS Biology\n\nSan Diego State University\n\nMaster’s in Public Health\n\nUC Riverside\n\nPhD in Applied Statistics"
+    "objectID": "lectures/2a.html#expected-study-time",
+    "href": "lectures/2a.html#expected-study-time",
+    "title": "Numbers & Data",
+    "section": "Expected Study Time",
+    "text": "Expected Study Time\nYou should spend 2-3 hours per unit of registered class.\nFor Math 201, spend 8-12 hours to succeed."
   },
   {
-    "objectID": "lectures/1a.html#introductions-2",
-    "href": "lectures/1a.html#introductions-2",
-    "title": "Welcome!",
-    "section": "Introductions",
-    "text": "Introductions\n\n\nName\nYear\nMajor\nFun Fact\nCareer Goal"
-  },
-  {
-    "objectID": "lectures/1a.html#epe---devin-frost-sec-01",
-    "href": "lectures/1a.html#epe---devin-frost-sec-01",
-    "title": "Welcome!",
-    "section": "EPE - Devin Frost (Sec 01)",
-    "text": "EPE - Devin Frost (Sec 01)\n\n4th Year\nMath Major\n\nEmphasis - Statistics\nEmphasis - Pure Mathematics\n\nPhilosophy Minor"
-  },
-  {
-    "objectID": "lectures/1a.html#epe---amanda-parks-sec-02",
-    "href": "lectures/1a.html#epe---amanda-parks-sec-02",
-    "title": "Welcome!",
-    "section": "EPE - Amanda Parks (Sec 02)",
-    "text": "EPE - Amanda Parks (Sec 02)\n\n2nd Year\nPre-Nursing Major"
-  },
-  {
-    "objectID": "lectures/1a.html#register-to-math-97",
-    "href": "lectures/1a.html#register-to-math-97",
-    "title": "Welcome!",
-    "section": "Register to Math 97",
-    "text": "Register to Math 97\nThis course is a 4 unit course:\n3 Units Math 201\n1 Unit Math 97"
-  },
-  {
-    "objectID": "lectures/1a.html#field-trip",
-    "href": "lectures/1a.html#field-trip",
-    "title": "Welcome!",
-    "section": "Field Trip",
-    "text": "Field Trip\nWe will be taking a field trip to the library on Wednesday Aug 23."
-  },
-  {
-    "objectID": "lectures/1a.html#math-minds",
-    "href": "lectures/1a.html#math-minds",
-    "title": "Welcome!",
+    "objectID": "lectures/2a.html#math-minds",
+    "href": "lectures/2a.html#math-minds",
+    "title": "Numbers & Data",
     "section": "Math Minds",
-    "text": "Math Minds\n\nMath MINDS is open to motivated Channel Islands students enrolled in a B4 Quantitative reasoning course this semester. This FREE transformative program includes:\n\nA $350 scholarship award (payable upon completion of the program requirements)\nFour workshops early in the semester to develop your mathematical ability with active learning\n\nWeeks 4 through 8 of the semester\n\nIndividualized skill development through a minimum of four one-on-one tutoring sessions with Learning Resource Center tutors\n\nMinimum of two tutoring sessions before Week 6 of the semester\nMinimum of two additional tutoring sessions before Week 12 of the semester\n\nA short asynchronous online course about learning mathematics\nFour MasterMINDS Group Check-In Meetings\n\nWeeks 9 through 15 of the semester\n\nSupport to build long-lasting strength and confidence in your mathematical ability\nA chance to make new friends and strengthen your college journey!"
+    "text": "Math Minds"
   },
   {
-    "objectID": "lectures/1a.html#when-do-you-use-statistics",
-    "href": "lectures/1a.html#when-do-you-use-statistics",
-    "title": "Welcome!",
-    "section": "When do you use statistics?",
-    "text": "When do you use statistics?"
+    "objectID": "lectures/2a.html#population",
+    "href": "lectures/2a.html#population",
+    "title": "Numbers & Data",
+    "section": "Population",
+    "text": "Population\nA population is the entire group that we want to know more about."
   },
   {
-    "objectID": "lectures/1a.html#what-is-the-difference-between-math-and-stats",
-    "href": "lectures/1a.html#what-is-the-difference-between-math-and-stats",
-    "title": "Welcome!",
-    "section": "What is the difference between math and stats?",
-    "text": "What is the difference between math and stats?"
+    "objectID": "lectures/2a.html#sample",
+    "href": "lectures/2a.html#sample",
+    "title": "Numbers & Data",
+    "section": "Sample",
+    "text": "Sample\nA sample is a subset of a population that is considered representative."
   },
   {
-    "objectID": "lectures/1a.html#what-is-variation",
-    "href": "lectures/1a.html#what-is-variation",
-    "title": "Welcome!",
-    "section": "What is variation?",
-    "text": "What is variation?"
+    "objectID": "lectures/2a.html#sample-vs-population",
+    "href": "lectures/2a.html#sample-vs-population",
+    "title": "Numbers & Data",
+    "section": "Sample vs Population",
+    "text": "Sample vs Population"
   },
   {
-    "objectID": "lectures/1a.html#complete-survey",
-    "href": "lectures/1a.html#complete-survey",
-    "title": "Welcome!",
-    "section": "Complete Survey",
-    "text": "Complete Survey\nhttps://forms.gle/EdYK1sGZpDEibaHK7"
+    "objectID": "lectures/2a.html#experimental-unit",
+    "href": "lectures/2a.html#experimental-unit",
+    "title": "Numbers & Data",
+    "section": "Experimental Unit",
+    "text": "Experimental Unit\nAn experimental unit is one individual unit from a sample."
+  },
+  {
+    "objectID": "lectures/2a.html#data-1",
+    "href": "lectures/2a.html#data-1",
+    "title": "Numbers & Data",
+    "section": "Data",
+    "text": "Data\nData is information from a particular experimental unit. There can be more that one piece of information per experimental unit."
+  },
+  {
+    "objectID": "lectures/2a.html#data-structure",
+    "href": "lectures/2a.html#data-structure",
+    "title": "Numbers & Data",
+    "section": "Data Structure",
+    "text": "Data Structure\nThe structure of the data can be represented in various forms:\n\nA list of long numbers\nTable"
+  },
+  {
+    "objectID": "lectures/2a.html#tabular-form",
+    "href": "lectures/2a.html#tabular-form",
+    "title": "Numbers & Data",
+    "section": "Tabular Form",
+    "text": "Tabular Form"
+  },
+  {
+    "objectID": "lectures/2a.html#measurements-1",
+    "href": "lectures/2a.html#measurements-1",
+    "title": "Numbers & Data",
+    "section": "Measurements",
+    "text": "Measurements\nMeasurements are the processes where we represent an attribute of an experimental unit as either a number or category."
+  },
+  {
+    "objectID": "lectures/2a.html#quantitative-measurements",
+    "href": "lectures/2a.html#quantitative-measurements",
+    "title": "Numbers & Data",
+    "section": "Quantitative Measurements",
+    "text": "Quantitative Measurements\nQuantitative measurements are data measurements that take a numeric form."
+  },
+  {
+    "objectID": "lectures/2a.html#qualitative-measurements",
+    "href": "lectures/2a.html#qualitative-measurements",
+    "title": "Numbers & Data",
+    "section": "Qualitative Measurements",
+    "text": "Qualitative Measurements\nQualitative measurements are data measurements that take a certain category."
+  },
+  {
+    "objectID": "lectures/2a.html#value",
+    "href": "lectures/2a.html#value",
+    "title": "Numbers & Data",
+    "section": "Value",
+    "text": "Value\nA value is a description (number or category) of a specific attribute of an experimental unit."
+  },
+  {
+    "objectID": "lectures/2a.html#variable",
+    "href": "lectures/2a.html#variable",
+    "title": "Numbers & Data",
+    "section": "Variable",
+    "text": "Variable\nA variable is the descriptive attribute that we want to obtain from an experimental unit. In terms of a data set, the variable contains all the values of specific attribute in a sample."
+  },
+  {
+    "objectID": "lectures/2a.html#penguin",
+    "href": "lectures/2a.html#penguin",
+    "title": "Numbers & Data",
+    "section": "Penguin",
+    "text": "Penguin"
+  },
+  {
+    "objectID": "lectures/2a.html#penguins-1",
+    "href": "lectures/2a.html#penguins-1",
+    "title": "Numbers & Data",
+    "section": "Penguins",
+    "text": "Penguins"
+  },
+  {
+    "objectID": "lectures/2a.html#palmer-penguins",
+    "href": "lectures/2a.html#palmer-penguins",
+    "title": "Numbers & Data",
+    "section": "Palmer Penguins",
+    "text": "Palmer Penguins"
   },
   {
     "objectID": "lectures/template.html#learning-outcomes",

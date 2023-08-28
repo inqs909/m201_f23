@@ -329,6 +329,16 @@
       margin-right: 0; 
     }
   </style>
+  
+  <script src="../site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+  <link href="../site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+  <script src="../site_libs/datatables-binding-0.28/datatables.js"></script>
+  <script src="../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <link href="../site_libs/dt-core-1.13.4/css/jquery.dataTables.min.css" rel="stylesheet">
+  <link href="../site_libs/dt-core-1.13.4/css/jquery.dataTables.extra.css" rel="stylesheet">
+  <script src="../site_libs/dt-core-1.13.4/js/jquery.dataTables.min.js"></script>
+  <link href="../site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet">
+  <script src="../site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -345,7 +355,6 @@
 <h2>Learning Outcomes</h2>
 <ul>
 <li><p>Announcements</p></li>
-<li><p>Numbers</p></li>
 <li><p>Data</p></li>
 <li><p>Measurements</p></li>
 <li><p>Penguins</p></li>
@@ -363,26 +372,49 @@
 </section>
 <section id="math-minds" class="slide level2">
 <h2>Math Minds</h2>
-</section></section>
-<section>
-<section id="numbers" class="title-slide slide level1 center">
-<h1>Numbers</h1>
 
-</section>
-<section id="numbers-1" class="slide level2">
-<h2>Numbers</h2>
-<p>Numbers are used to describe</p>
-</section></section>
+<img data-src="img/Fall 23 Math MINDS Flyer.png" class="r-stretch quarto-figure-center"></section></section>
 <section>
 <section id="data" class="title-slide slide level1 center">
 <h1>Data</h1>
 
 </section>
+<section id="population" class="slide level2">
+<h2>Population</h2>
+<p>A population is the entire group that we want to know more about.</p>
+</section>
+<section id="sample" class="slide level2">
+<h2>Sample</h2>
+<p>A sample is a subset of a population that is considered representative.</p>
+</section>
+<section id="sample-vs-population" class="slide level2">
+<h2>Sample vs Population</h2>
+</section>
+<section id="experimental-unit" class="slide level2">
+<h2>Experimental Unit</h2>
+<p>An experimental unit is one individual unit from a sample.</p>
+</section>
 <section id="data-1" class="slide level2">
 <h2>Data</h2>
+<p>Data is information from a particular experimental unit. There can be more that one piece of information per experimental unit.</p>
 </section>
 <section id="data-structure" class="slide level2">
 <h2>Data Structure</h2>
+<p>The structure of the data can be represented in various forms:</p>
+<ul>
+<li><p>A list of long numbers</p></li>
+<li><p>Table</p></li>
+</ul>
+</section>
+<section id="tabular-form" class="slide level2">
+<h2>Tabular Form</h2>
+<div class="cell">
+<div class="cell-output-display">
+
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-f1774a6a91527d1ed2f3" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-f1774a6a91527d1ed2f3">{"x":{"filter":"none","vertical":false,"data":[["Mazda RX4","Mazda RX4 Wag","Datsun 710","Hornet 4 Drive","Hornet Sportabout","Valiant","Duster 360","Merc 240D","Merc 230","Merc 280","Merc 280C","Merc 450SE","Merc 450SL","Merc 450SLC","Cadillac Fleetwood","Lincoln Continental","Chrysler Imperial","Fiat 128","Honda Civic","Toyota Corolla","Toyota Corona","Dodge Challenger","AMC Javelin","Camaro Z28","Pontiac Firebird","Fiat X1-9","Porsche 914-2","Lotus Europa","Ford Pantera L","Ferrari Dino","Maserati Bora","Volvo 142E"],[21,21,22.8,21.4,18.7,18.1,14.3,24.4,22.8,19.2,17.8,16.4,17.3,15.2,10.4,10.4,14.7,32.4,30.4,33.9,21.5,15.5,15.2,13.3,19.2,27.3,26,30.4,15.8,19.7,15,21.4],[6,6,4,6,8,6,8,4,4,6,6,8,8,8,8,8,8,4,4,4,4,8,8,8,8,4,4,4,8,6,8,4],[160,160,108,258,360,225,360,146.7,140.8,167.6,167.6,275.8,275.8,275.8,472,460,440,78.7,75.7,71.09999999999999,120.1,318,304,350,400,79,120.3,95.09999999999999,351,145,301,121],[110,110,93,110,175,105,245,62,95,123,123,180,180,180,205,215,230,66,52,65,97,150,150,245,175,66,91,113,264,175,335,109],[3.9,3.9,3.85,3.08,3.15,2.76,3.21,3.69,3.92,3.92,3.92,3.07,3.07,3.07,2.93,3,3.23,4.08,4.93,4.22,3.7,2.76,3.15,3.73,3.08,4.08,4.43,3.77,4.22,3.62,3.54,4.11],[2.62,2.875,2.32,3.215,3.44,3.46,3.57,3.19,3.15,3.44,3.44,4.07,3.73,3.78,5.25,5.424,5.345,2.2,1.615,1.835,2.465,3.52,3.435,3.84,3.845,1.935,2.14,1.513,3.17,2.77,3.57,2.78],[16.46,17.02,18.61,19.44,17.02,20.22,15.84,20,22.9,18.3,18.9,17.4,17.6,18,17.98,17.82,17.42,19.47,18.52,19.9,20.01,16.87,17.3,15.41,17.05,18.9,16.7,16.9,14.5,15.5,14.6,18.6],[0,0,1,1,0,1,0,1,1,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,1,0,0,0,1],[1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1],[4,4,4,3,3,3,3,4,4,4,4,3,3,3,3,3,3,4,4,4,3,3,3,3,3,4,5,5,5,5,5,4],[4,4,1,1,2,1,4,2,2,4,4,3,3,3,4,4,4,1,2,1,1,2,2,4,2,1,2,2,4,6,8,2]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>mpg<\/th>\n      <th>cyl<\/th>\n      <th>disp<\/th>\n      <th>hp<\/th>\n      <th>drat<\/th>\n      <th>wt<\/th>\n      <th>qsec<\/th>\n      <th>vs<\/th>\n      <th>am<\/th>\n      <th>gear<\/th>\n      <th>carb<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","pageLength":4,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4,5,6,7,8,9,10,11]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[4,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
 </section></section>
 <section>
 <section id="measurements" class="title-slide slide level1 center">
@@ -391,18 +423,23 @@
 </section>
 <section id="measurements-1" class="slide level2">
 <h2>Measurements</h2>
+<p>Measurements are the processes where we represent an attribute of an experimental unit as either a number or category.</p>
 </section>
 <section id="quantitative-measurements" class="slide level2">
 <h2>Quantitative Measurements</h2>
+<p>Quantitative measurements are data measurements that take a numeric form.</p>
 </section>
 <section id="qualitative-measurements" class="slide level2">
 <h2>Qualitative Measurements</h2>
-</section>
-<section id="variable" class="slide level2">
-<h2>Variable</h2>
+<p>Qualitative measurements are data measurements that take a certain category.</p>
 </section>
 <section id="value" class="slide level2">
 <h2>Value</h2>
+<p>A value is a description (number or category) of a specific attribute of an experimental unit.</p>
+</section>
+<section id="variable" class="slide level2">
+<h2>Variable</h2>
+<p>A variable is the descriptive attribute that we want to obtain from an experimental unit. In terms of a data set, the variable contains all the values of specific attribute in a sample.</p>
 </section></section>
 <section>
 <section id="penguins" class="title-slide slide level1 center">
@@ -411,12 +448,21 @@
 </section>
 <section id="penguin" class="slide level2">
 <h2>Penguin</h2>
-</section>
+
+<img data-src="https://nzbirdsonline.org.nz/sites/all/files/2X2A1697%20King%20Penguin%20bol.jpg" class="r-stretch quarto-figure-center"></section>
 <section id="penguins-1" class="slide level2">
 <h2>Penguins</h2>
-</section>
+
+<img data-src="https://www.sciencealert.com/images/2022-07/processed/PenguinsOnBeach_1024.jpg" class="r-stretch quarto-figure-center"></section>
 <section id="palmer-penguins" class="slide level2">
 <h2>Palmer Penguins</h2>
+<div class="cell">
+<div class="cell-output-display">
+
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-4ac18882b2db29bda9ee" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-4ac18882b2db29bda9ee">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6"],["Chinstrap","Gentoo","Chinstrap","Chinstrap","Chinstrap","Adelie"],["Dream","Biscoe","Dream","Dream","Dream","Dream"],[46.9,49.1,50.8,50.9,48.5,32.1],[16.6,14.8,19,17.9,17.5,15.5],[192,220,210,196,191,188],[2700,5150,4100,3675,3400,3050],["female","female","male","female","male","female"],[2008,2008,2009,2009,2007,2009]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>species<\/th>\n      <th>island<\/th>\n      <th>bill_length_mm<\/th>\n      <th>bill_depth_mm<\/th>\n      <th>flipper_length_mm<\/th>\n      <th>body_mass_g<\/th>\n      <th>sex<\/th>\n      <th>year<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","pageLength":6,"columnDefs":[{"className":"dt-right","targets":[3,4,5,6,8]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[6,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
 
 <div class="footer footer-default">
 
