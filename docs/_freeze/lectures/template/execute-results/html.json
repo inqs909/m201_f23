@@ -1,8 +1,10 @@
 {
-  "hash": "8f9c803d897ac0c0427810ef8b181d57",
+  "hash": "f981f7322d8ea329b273994ede296385",
   "result": {
-    "markdown": "---\ntitle: \"Welcome!\"\nsubtitle: \"Introduction to Statistics\"\nformat:\n  revealjs:\n    scrollable: true\n    theme: [default, styles.scss]\n    navigation-mode: vertical\n    controls-layout: bottom-right\n    controls-tutorial: true\n    incremental: false \n    chalkboard:\n      src: chalkboard.json\n      storage: chalkboard_pres\n      theme: whiteboard\n      chalk-width: 4\nknitr:\n  opts_chunk: \n    echo: true\n    eval: true\n    message: false\n    warnings: false\n    comment: \"#>\" \n    \nrevealjs-plugins:\n  - pointer\n  - verticator\n  \nfilters: \n  - reveal-header\n  - code-fullscreen\n\neditor: visual\n---\n\n\n## Learning Outcomes\n\n-   Introductions\n-   Embedded Peer Educator\n-   Syllabus\n-   \n\n## Syllabus\n",
-    "supporting": [],
+    "markdown": "---\ntitle: \"Welcome!\"\nsubtitle: \"Introduction to Statistics\"\nformat:\n  revealjs:\n    scrollable: true\n    theme: [default, styles.scss]\n    navigation-mode: vertical\n    controls-layout: bottom-right\n    controls-tutorial: true\n    incremental: false \n    chalkboard:\n      src: chalkboard.json\n      storage: chalkboard_pres\n      theme: whiteboard\n      chalk-width: 4\nknitr:\n  opts_chunk: \n    echo: true\n    eval: true\n    message: false\n    warnings: false\n    comment: \"#>\" \n    \nrevealjs-plugins:\n  - pointer\n  - verticator\n  \nfilters: \n  - reveal-header\n  - code-fullscreen\n\neditor: visual\n---\n\n\n## Learning Outcomes\n",
+    "supporting": [
+      "template_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

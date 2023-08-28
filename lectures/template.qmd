@@ -34,10 +34,3 @@ editor: visual
 ---
 
 ## Learning Outcomes
-
--   Introductions
--   Embedded Peer Educator
--   Syllabus
--   
-
-## Syllabus

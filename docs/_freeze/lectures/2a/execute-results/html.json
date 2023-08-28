@@ -1,9 +1,9 @@
 {
-  "hash": "f981f7322d8ea329b273994ede296385",
+  "hash": "ae0d6afb19cb364b06f1643e67c4babb",
   "result": {
-    "markdown": "---\ntitle: \"Welcome!\"\nsubtitle: \"Introduction to Statistics\"\nformat:\n  revealjs:\n    scrollable: true\n    theme: [default, styles.scss]\n    navigation-mode: vertical\n    controls-layout: bottom-right\n    controls-tutorial: true\n    incremental: false \n    chalkboard:\n      src: chalkboard.json\n      storage: chalkboard_pres\n      theme: whiteboard\n      chalk-width: 4\nknitr:\n  opts_chunk: \n    echo: true\n    eval: true\n    message: false\n    warnings: false\n    comment: \"#>\" \n    \nrevealjs-plugins:\n  - pointer\n  - verticator\n  \nfilters: \n  - reveal-header\n  - code-fullscreen\n\neditor: visual\n---\n\n\n## Learning Outcomes\n",
+    "markdown": "---\ntitle: \"Numbers & Data\"\nformat:\n  revealjs:\n    scrollable: true\n    theme: [default, styles.scss]\n    navigation-mode: vertical\n    controls-layout: bottom-right\n    controls-tutorial: true\n    incremental: false \n    chalkboard:\n      src: notes/chalkboard_1a.json\n      storage: chalkboard_pres\n      theme: whiteboard\n      chalk-width: 4\nknitr:\n  opts_chunk: \n    echo: true\n    eval: true\n    message: false\n    warnings: false\n    comment: \"#>\" \n    \nrevealjs-plugins:\n  - pointer\n  - verticator\n  \nfilters: \n  - reveal-header\n  - code-fullscreen\n\neditor: visual\n---\n\n\n## Learning Outcomes\n\n-   Announcements\n\n-   Numbers\n\n-   Data\n\n-   Measurements\n\n-   Penguins\n\n# Announcements\n\n## Expected Study Time\n\nYou should spend 2-3 hours per unit of registered class.\n\nFor Math 201, spend 8-12 hours to succeed.\n\n## Math Minds\n\n# Numbers\n\n## Numbers\n\nNumbers are used to describe\n\n# Data\n\n## Data\n\n## Data Structure\n\n# Measurements\n\n## Measurements\n\n## Quantitative Measurements\n\n## Qualitative Measurements\n\n## Variable\n\n## Value\n\n# Penguins\n\n## Penguin\n\n## Penguins\n\n## Palmer Penguins\n",
     "supporting": [
-      "template_files"
+      "2a_files"
     ],
     "filters": [
       "rmarkdown/pagebreak.lua"
