@@ -1,6 +1,5 @@
 ---
 title: "Welcome!"
-subtitle: "Introduction to Statistics"
 format:
   revealjs:
     scrollable: true

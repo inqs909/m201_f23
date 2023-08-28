@@ -52,7 +52,7 @@ For Math 201, spend 8-12 hours to succeed.
 
 ## Math Minds
 
-![](img/Fall 23 Math MINDS Flyer.png){fig-align="center"}
+![](img/Fall%2023%20Math%20MINDS%20Flyer.png){fig-align="center"}
 
 # Data
 
@@ -138,3 +138,11 @@ penguins |> drop_na() |>
                            pageLength = 6))
 
 ```
+
+# Prediction
+
+## Prediction
+
+When you are given a large data set, what numbers do you want to know about?
+
+What would these numbers tell you about the data?
