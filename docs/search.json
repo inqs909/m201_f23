@@ -14,11 +14,116 @@
     "text": "Term: Fall 2023\nInstructor: Isaac Quintanilla Salinas\nEmail: isaac.qs@csuci.edu\nOffice Location: BTE 2840\nOffice Hours:\n\n\n\nOH\nCourse\nR Programming\nTEA Math/Stat Hour\n\n\n\n\nDay\nMW\nTue\nTh\n\n\nLocation\nBT 1462\nLRC\nBTE Courtyard\n\n\nTime\n4:30-6:00 PM\n10-12 AM\n12-1:30 PM\n\n\n\nOr by Zoom appointment.\nLecture: Monday/Wednesday 10:00-11:50 AM (Sec 01) or 2:00-3:50 PM (Sec 02) in BT 1462\n\n\n\nCritical reasoning using a quantitative and statistical, problem-solving approach to solving real-world problems. Topics include: probability and statistics, sample data, probability and empirical data distributions, sampling techniques, estimation and hypothesis testing, ANOVA, and correlation and regression analysis. Students will use standard statistical software to analyze real-world and simulated data. GenEd: B4\n\n\n\n\nPrepare students for advanced courses in data-management and statistics\nReason both inductively and deductively with quantitative information and data\nUse statistical software for complex statistical analysis of real-world and simulated data\nEmpower students to apply computational and inferential thinking to address real-world problems\nWrite the results of a statistical study and draw conclusion in reports\n\n\n\n\nThis course will use Coursekata, a Canvas-embedded textbook with built-in R functionality.\n\n\n\nFor this course, we will use R and RStudio. You will have access to them online, but you may download and install them on your computer.\n\nR is a free statistical software program that is available for download at: https://www.r-project.org/.\nRStudio provides free and open source tools for your data analysis in R: https://www.rstudio.com/\n\n\n\n\nThis course will have two embedded peer educators:\n\nDevin Frost (Sec 01)\n\nEmail: devin.frost091@csuci.edu\n\nAmanda Parks (Sec 02)\n\nEmail: amanda.parks743@myci.csuci.edu\n\n\nAn EPE is there to help you understand the material and succeed in the course. They will be leading in class assignments. hold special tutoring sessions, and support you in your R programming. These educators are trained with study skills that will set you up with success in college.\n\n\n\n\n\n\nCategory\nPercentage\n\n\n\n\nReading Assignments\n20%\n\n\nLab Assignments\n15%\n\n\nWeekly Quizzes\n15%\n\n\nParticipation\n5%\n\n\nExam 1\n15%\n\n\nExam 2\n15%\n\n\nExam 3\n15%\n\n\n\nAt the end of the quarter, course grades will be assigned according to the following scale:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA+\n98 – 100\nB+\n87 – &lt;90\nC+\n77 – &lt;80\nD+\n67 – &lt;70\n\n\n\n\nA\n93 – &lt;98\nB\n83 – &lt;87\nC\n73 – &lt;77\nD\n63 – &lt;67\nF\n&lt; 60\n\n\nA–\n90 - &lt;93\nB-\n80 – &lt;83\nC–\n70 – &lt;73\nD–\n60 – &lt;63\n\n\n\n\n\n\n\nParticipation is based on short writing assignments conducted in class. There will be no make ups for these writing prompts.\n\n\n\nLab assignments are designed to expand your statistical knowledge. These will be completed in JupyterHub which can be accessed from Canvas. There are approximately 2 lab assignments every week that you can complete during class time. The lab assignment will be due either on Tuesday or Thursday at 11:59 PM following the lab day it was assigned.\n\n\n\nReading assignments are designed to teach you different statistical concepts and R Programming. As the course progresses, many of the concepts build on each other. Therefore, the assignments encourage you to read each chapter in an appropriate amount of time. You must read the chapter and answer the questions by the Sunday night at 11:59 PM. The 2 lowest reading assignments will be dropped.\n\n\n\nStarting on Week 2, there will be a weekly quiz every Friday. The quiz will become available for you to take on Canvas at 12AM to 11:59 PM every Friday. The quiz is designed to test whether you recall the material from the previous week. You are expected to complete the quiz with out using any material such as your notes, textbook, or internet. Additionally, you will get 90% of the quiz grade for simply taking the quiz. The remaining 10% is based on getting the question correct. There are a total of 12 quizzes in the semester. The lowest 3 quizzes will be dropped from your class grade. There are no make up quizzes.\n\n\n\nThere will be three in exams. Exam #1 will on Sept 25, Exam #2 will be on Nov 8, and Exam #3 will be on Dec 6 at 8-10 AM (Sec 01) or 1-3 PM (Sec 02). While the exams are not considered cumulative, the material builds on each other. Developing a strong understanding of the material through out the course is important for your success. At the end of the semester, your lowest exam grade will be replaced by your median average exam grade. This course will operate under a zero-tolerance policy. Talking during the time of the exam, sharing materials, looking at another students’ exam, or not following directions given will be subject to the University’s academic integrity policy.\n\n\n\nThere will be 3 extra credit opportunities worth a total of 10% of your overall grade. (There are no make-ups for missed extra credit assignments!) More information will be provided on the extra credit assignments on a later date. Information on the extra credit can be found here.\n\n\n\n\nThe following outline may be subject to change. Any changes will be announced in class.\n\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nCh. Due\nLab Due\nQuiz\n\n\n\n\n8/21-8/25\nWelcome to College/Course\n\n\n\n\n\n8/28-9/1\nWelcome to Statistics: A Modeling Approach\nCh 1\n1A and 1B\nQuiz 1\n\n\n9/4-9/8\nLabor Day/Understanding Data\nCh 2\n2A\nQuiz 2\n\n\n9/11-9/15\nExamining Distributions\nCh 3\n3A and 3B\nQuiz 3\n\n\n9/18-9/22\nExplaining Variation\nCh 4\n4A and 4B\nQuiz 4\n\n\n9/25-9/29\nExam #1/ A Simple Model\n\n\n\n\n\n10/2-10/6\nA Simple Model\nCh 5\n5A and 5B\nQuiz 5\n\n\n10/9-10/13\nQuantifying Error\nCh 6\n6A and 6B\nQuiz 6\n\n\n10/16-10/20\nAdding an Explanatory Variable to the Model\nCh 7\n7A and 7B\nQuiz 7\n\n\n10/23-10/27\nDigging Deeper into Group Model\nCh 8\n8A\nQuiz 8\n\n\n10/30-11/3\nModels with a Quantitative Explanatory Variable\nCh 9\n9A and 9B\nQuiz 9\n\n\n11/6-11/10\nExam #2\n\n\n\n\n\n11/13-11/17\nLogic of Inference\nCh 10\n10A and 10B\nQuiz 10\n\n\n11/20-11/24\nModel Comparison with F\nCh 11\n11A\nQuiz 11\n\n\n11/27-12/1\nParameter Estimation and Confidence Intervals\nCh 12\n12A and 12B\nQuiz 12\n\n\n12/4-12/8\nExam #3\nCh 13\n\n\n\n\n\n\n\n\n\nAcademic Honesty:\nPlease conduct yourself with honesty and integrity. Do not submit others’ work as your own. For assignments and quizzes that allow you to work with a group, only put your name on what the group submits if you genuinely contributed to the work. Work completely independently on exams, using only the materials that are indicated as allowed. Failure to observe academic honesty results in substantial penalties that can include failing the course.\nDisabilities:\nIf you are a student with a disability requesting reasonable accommodations in this course, you need to contact Disability Accommodations and Support Services (DASS) located on the second floor of Arroyo Hall, via email accommodations@csuci.edu or call 805-437-3331. All requests for reasonable accommodations require registration with DASS in advance of need: https://www.csuci.edu/dass/students/apply-for-services.htm. Faculty, students and DASS will work together regarding classroom accommodations. You are encouraged to discuss approved.\nEmergency Procedure Notice to Students:\nCSUCI is following guidelines and public orders from the California Department of Public Health and Ventura County Public Health for the COVID-19 pandemic as it pertains to CSUCI students, employees and visitors on the campus. Students are expected to adhere to all health and safety requirements as noted on the University’s Spring 2023 Semester website or they may be subject to removal from the classroom.\n\n\n\n\nThe California Faculty Association (the labor union of Lecturers, Professors, Coaches, Counselors, and Librarians across the 23 CSU campuses) is in a difficult contract dispute with California State University management. It is possible that we will call a strike or other work stoppage this term. I promise to promptly inform you of any schedule disruption. Our working conditions are your learning conditions; we seek to protect both. For further information go to www.CFAbargaining.org."
   },
   {
-    "objectID": "lectures/2b.html#learning-outcomes",
-    "href": "lectures/2b.html#learning-outcomes",
+    "objectID": "lectures/2b.html#sampling-1",
+    "href": "lectures/2b.html#sampling-1",
     "title": "Welcome!",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes"
+    "section": "Sampling",
+    "text": "Sampling\nSampling is the process of selecting units from a population interest to collect data from."
+  },
+  {
+    "objectID": "lectures/2b.html#sampling-2",
+    "href": "lectures/2b.html#sampling-2",
+    "title": "Welcome!",
+    "section": "Sampling",
+    "text": "Sampling\nWhen Sampling you want to maintain these properties:\n\nRepresentative sample\nLarge enough sample size"
+  },
+  {
+    "objectID": "lectures/2b.html#sampling-example",
+    "href": "lectures/2b.html#sampling-example",
+    "title": "Welcome!",
+    "section": "Sampling Example",
+    "text": "Sampling Example\nWe want to answer the question, are people happy?"
+  },
+  {
+    "objectID": "lectures/2b.html#random-sampling",
+    "href": "lectures/2b.html#random-sampling",
+    "title": "Welcome!",
+    "section": "Random Sampling",
+    "text": "Random Sampling\nWhen sampling, we strive for random sampling\n\nEach unit in the population of interest must have an equal probability of being selected for the study.\nThis ensures a representative population"
+  },
+  {
+    "objectID": "lectures/2b.html#independent-sampling",
+    "href": "lectures/2b.html#independent-sampling",
+    "title": "Welcome!",
+    "section": "Independent Sampling",
+    "text": "Independent Sampling\nIn addition to random sampling, we strive to make sure each unit is independent from each other.\n\nThe probability of UNIT A being sampled will not affect the probability of UNIT B to be sampled."
+  },
+  {
+    "objectID": "lectures/2b.html#sampling-variation",
+    "href": "lectures/2b.html#sampling-variation",
+    "title": "Welcome!",
+    "section": "Sampling Variation",
+    "text": "Sampling Variation\n\nRandom samples may vary from the population of interest.\nDue to randomness, samples many not look the or biased.\nHowever, this is to be expected as because the sample will not be biased in one way or another.\nSamples are then considered unbiased as long as experimental units were collected randomly."
+  },
+  {
+    "objectID": "lectures/2b.html#data-structure-1",
+    "href": "lectures/2b.html#data-structure-1",
+    "title": "Welcome!",
+    "section": "Data Structure",
+    "text": "Data Structure"
+  },
+  {
+    "objectID": "lectures/2b.html#data",
+    "href": "lectures/2b.html#data",
+    "title": "Welcome!",
+    "section": "Data",
+    "text": "Data\nA data set can be manipulated in ways to make it easier to process:\n\nfilter(): allows you to remove rows that do not satisfy a certain condition\nselect(): select to view certain variables\nmutate(): add a new variable to the data set based on a set of instructions"
+  },
+  {
+    "objectID": "lectures/2b.html#selecting-a-variable",
+    "href": "lectures/2b.html#selecting-a-variable",
+    "title": "Welcome!",
+    "section": "Selecting a Variable",
+    "text": "Selecting a Variable\nI am interested in viewing species, island, and body_mass_g in my data set:\n\nselect(penguins, species, island, body_mass_g)\n\n#&gt; # A tibble: 344 × 3\n#&gt;    species island    body_mass_g\n#&gt;    &lt;fct&gt;   &lt;fct&gt;           &lt;int&gt;\n#&gt;  1 Adelie  Torgersen        3750\n#&gt;  2 Adelie  Torgersen        3800\n#&gt;  3 Adelie  Torgersen        3250\n#&gt;  4 Adelie  Torgersen          NA\n#&gt;  5 Adelie  Torgersen        3450\n#&gt;  6 Adelie  Torgersen        3650\n#&gt;  7 Adelie  Torgersen        3625\n#&gt;  8 Adelie  Torgersen        4675\n#&gt;  9 Adelie  Torgersen        3475\n#&gt; 10 Adelie  Torgersen        4250\n#&gt; # ℹ 334 more rows"
+  },
+  {
+    "objectID": "lectures/2b.html#filtering-a-data-set",
+    "href": "lectures/2b.html#filtering-a-data-set",
+    "title": "Welcome!",
+    "section": "Filtering a Data Set",
+    "text": "Filtering a Data Set\nI am only interested in looking at the penguins with a body mass bigger than 4000 g:\n\npenguins_over_4000 &lt;- filter(penguins, body_mass_g &gt; 4000)\nselect(penguins_over_4000, species, island, body_mass_g)\n\n#&gt; # A tibble: 172 × 3\n#&gt;    species island    body_mass_g\n#&gt;    &lt;fct&gt;   &lt;fct&gt;           &lt;int&gt;\n#&gt;  1 Adelie  Torgersen        4675\n#&gt;  2 Adelie  Torgersen        4250\n#&gt;  3 Adelie  Torgersen        4400\n#&gt;  4 Adelie  Torgersen        4500\n#&gt;  5 Adelie  Torgersen        4200\n#&gt;  6 Adelie  Dream            4150\n#&gt;  7 Adelie  Dream            4650\n#&gt;  8 Adelie  Dream            4400\n#&gt;  9 Adelie  Dream            4600\n#&gt; 10 Adelie  Dream            4150\n#&gt; # ℹ 162 more rows"
+  },
+  {
+    "objectID": "lectures/2b.html#data-manipulation-1",
+    "href": "lectures/2b.html#data-manipulation-1",
+    "title": "Welcome!",
+    "section": "Data Manipulation",
+    "text": "Data Manipulation\nThis is a process where we can manipulate the data when there are errors in the data recording process.\nOR\nData must be formatted in a way for analysis (computer requirements)."
+  },
+  {
+    "objectID": "lectures/2b.html#missing-data",
+    "href": "lectures/2b.html#missing-data",
+    "title": "Welcome!",
+    "section": "Missing Data",
+    "text": "Missing Data"
+  },
+  {
+    "objectID": "lectures/2b.html#handling-missing-data",
+    "href": "lectures/2b.html#handling-missing-data",
+    "title": "Welcome!",
+    "section": "Handling Missing Data",
+    "text": "Handling Missing Data\nHow do we handle missing data?\n\nRemove the experimental unit\nTake and educated guess what it is\n\nReplace with mean\nSingle Imputation\nMultiple Imputation"
+  },
+  {
+    "objectID": "lectures/2b.html#handling-missing-data-1",
+    "href": "lectures/2b.html#handling-missing-data-1",
+    "title": "Welcome!",
+    "section": "Handling Missing Data",
+    "text": "Handling Missing Data\nFor this class, we will remove the entire experimental unit.\n\n# Obtaining the number of rows\nnrow(penguins)\n\n#&gt; [1] 344\n\n# Removing missing cases\npenguins_missing_removed &lt;- drop_na(penguins)\nnrow(penguins_missing_removed)\n\n#&gt; [1] 333"
+  },
+  {
+    "objectID": "lectures/2b.html#summarizing-data",
+    "href": "lectures/2b.html#summarizing-data",
+    "title": "Welcome!",
+    "section": "Summarizing Data",
+    "text": "Summarizing Data\n\n\n#&gt; [1] 14.14 12.54 15.74 12.83  7.94  1.59 11.06  8.85\n\n\nHow would a computer count how many values are greater than 10?"
+  },
+  {
+    "objectID": "lectures/2b.html#prediction-1",
+    "href": "lectures/2b.html#prediction-1",
+    "title": "Welcome!",
+    "section": "Prediction",
+    "text": "Prediction\n3, 4, 6, 2, 7, 9, 2, 0, 1, 4, 6, 2\nList as many ways you can present the data to collaborators. With each method, what are the advantages and disadvantages?"
   },
   {
     "objectID": "lectures/1a.html#learning-outcomes",

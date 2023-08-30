@@ -45,3 +45,22 @@ section.has-light-background {
     text-shadow: none;
   }
 }
+
+.agenda {
+}
+
+.agenda-slide h1 {
+  size: 0em;
+  display: none;
+}
+
+.agenda-inactive {
+  opacity: 0.15;
+  margin-top: -0.5em;
+  margin-bottom: -0.5em;
+}
+
+.agenda-active {
+  margin-top: -0.5em;
+  margin-bottom: -0.5em;
+}

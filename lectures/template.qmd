@@ -28,7 +28,12 @@ revealjs-plugins:
 filters: 
   - reveal-header
   - code-fullscreen
-
+  - reveal-auto-agenda
+  
+auto-agenda:
+  bullets: numbered
+  heading: Learning Outcomes
+  
 editor: visual
 ---
 
