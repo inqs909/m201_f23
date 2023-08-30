@@ -16,112 +16,112 @@
   {
     "objectID": "lectures/2b.html#sampling-1",
     "href": "lectures/2b.html#sampling-1",
-    "title": "Welcome!",
+    "title": "Data Summarization",
     "section": "Sampling",
     "text": "Sampling\nSampling is the process of selecting units from a population interest to collect data from."
   },
   {
     "objectID": "lectures/2b.html#sampling-2",
     "href": "lectures/2b.html#sampling-2",
-    "title": "Welcome!",
+    "title": "Data Summarization",
     "section": "Sampling",
     "text": "Sampling\nWhen Sampling you want to maintain these properties:\n\nRepresentative sample\nLarge enough sample size"
   },
   {
     "objectID": "lectures/2b.html#sampling-example",
     "href": "lectures/2b.html#sampling-example",
-    "title": "Welcome!",
+    "title": "Data Summarization",
     "section": "Sampling Example",
     "text": "Sampling Example\nWe want to answer the question, are people happy?"
   },
   {
     "objectID": "lectures/2b.html#random-sampling",
     "href": "lectures/2b.html#random-sampling",
-    "title": "Welcome!",
+    "title": "Data Summarization",
     "section": "Random Sampling",
     "text": "Random Sampling\nWhen sampling, we strive for random sampling\n\nEach unit in the population of interest must have an equal probability of being selected for the study.\nThis ensures a representative population"
   },
   {
     "objectID": "lectures/2b.html#independent-sampling",
     "href": "lectures/2b.html#independent-sampling",
-    "title": "Welcome!",
+    "title": "Data Summarization",
     "section": "Independent Sampling",
     "text": "Independent Sampling\nIn addition to random sampling, we strive to make sure each unit is independent from each other.\n\nThe probability of UNIT A being sampled will not affect the probability of UNIT B to be sampled."
   },
   {
     "objectID": "lectures/2b.html#sampling-variation",
     "href": "lectures/2b.html#sampling-variation",
-    "title": "Welcome!",
+    "title": "Data Summarization",
     "section": "Sampling Variation",
     "text": "Sampling Variation\n\nRandom samples may vary from the population of interest.\nDue to randomness, samples many not look the or biased.\nHowever, this is to be expected as because the sample will not be biased in one way or another.\nSamples are then considered unbiased as long as experimental units were collected randomly."
   },
   {
     "objectID": "lectures/2b.html#data-structure-1",
     "href": "lectures/2b.html#data-structure-1",
-    "title": "Welcome!",
+    "title": "Data Summarization",
     "section": "Data Structure",
     "text": "Data Structure"
   },
   {
     "objectID": "lectures/2b.html#data",
     "href": "lectures/2b.html#data",
-    "title": "Welcome!",
+    "title": "Data Summarization",
     "section": "Data",
     "text": "Data\nA data set can be manipulated in ways to make it easier to process:\n\nfilter(): allows you to remove rows that do not satisfy a certain condition\nselect(): select to view certain variables\nmutate(): add a new variable to the data set based on a set of instructions"
   },
   {
     "objectID": "lectures/2b.html#selecting-a-variable",
     "href": "lectures/2b.html#selecting-a-variable",
-    "title": "Welcome!",
+    "title": "Data Summarization",
     "section": "Selecting a Variable",
     "text": "Selecting a Variable\nI am interested in viewing species, island, and body_mass_g in my data set:\n\nselect(penguins, species, island, body_mass_g)\n\n#&gt; # A tibble: 344 × 3\n#&gt;    species island    body_mass_g\n#&gt;    &lt;fct&gt;   &lt;fct&gt;           &lt;int&gt;\n#&gt;  1 Adelie  Torgersen        3750\n#&gt;  2 Adelie  Torgersen        3800\n#&gt;  3 Adelie  Torgersen        3250\n#&gt;  4 Adelie  Torgersen          NA\n#&gt;  5 Adelie  Torgersen        3450\n#&gt;  6 Adelie  Torgersen        3650\n#&gt;  7 Adelie  Torgersen        3625\n#&gt;  8 Adelie  Torgersen        4675\n#&gt;  9 Adelie  Torgersen        3475\n#&gt; 10 Adelie  Torgersen        4250\n#&gt; # ℹ 334 more rows"
   },
   {
     "objectID": "lectures/2b.html#filtering-a-data-set",
     "href": "lectures/2b.html#filtering-a-data-set",
-    "title": "Welcome!",
+    "title": "Data Summarization",
     "section": "Filtering a Data Set",
     "text": "Filtering a Data Set\nI am only interested in looking at the penguins with a body mass bigger than 4000 g:\n\npenguins_over_4000 &lt;- filter(penguins, body_mass_g &gt; 4000)\nselect(penguins_over_4000, species, island, body_mass_g)\n\n#&gt; # A tibble: 172 × 3\n#&gt;    species island    body_mass_g\n#&gt;    &lt;fct&gt;   &lt;fct&gt;           &lt;int&gt;\n#&gt;  1 Adelie  Torgersen        4675\n#&gt;  2 Adelie  Torgersen        4250\n#&gt;  3 Adelie  Torgersen        4400\n#&gt;  4 Adelie  Torgersen        4500\n#&gt;  5 Adelie  Torgersen        4200\n#&gt;  6 Adelie  Dream            4150\n#&gt;  7 Adelie  Dream            4650\n#&gt;  8 Adelie  Dream            4400\n#&gt;  9 Adelie  Dream            4600\n#&gt; 10 Adelie  Dream            4150\n#&gt; # ℹ 162 more rows"
   },
   {
     "objectID": "lectures/2b.html#data-manipulation-1",
     "href": "lectures/2b.html#data-manipulation-1",
-    "title": "Welcome!",
+    "title": "Data Summarization",
     "section": "Data Manipulation",
     "text": "Data Manipulation\nThis is a process where we can manipulate the data when there are errors in the data recording process.\nOR\nData must be formatted in a way for analysis (computer requirements)."
   },
   {
     "objectID": "lectures/2b.html#missing-data",
     "href": "lectures/2b.html#missing-data",
-    "title": "Welcome!",
+    "title": "Data Summarization",
     "section": "Missing Data",
     "text": "Missing Data"
   },
   {
     "objectID": "lectures/2b.html#handling-missing-data",
     "href": "lectures/2b.html#handling-missing-data",
-    "title": "Welcome!",
+    "title": "Data Summarization",
     "section": "Handling Missing Data",
     "text": "Handling Missing Data\nHow do we handle missing data?\n\nRemove the experimental unit\nTake and educated guess what it is\n\nReplace with mean\nSingle Imputation\nMultiple Imputation"
   },
   {
     "objectID": "lectures/2b.html#handling-missing-data-1",
     "href": "lectures/2b.html#handling-missing-data-1",
-    "title": "Welcome!",
+    "title": "Data Summarization",
     "section": "Handling Missing Data",
     "text": "Handling Missing Data\nFor this class, we will remove the entire experimental unit.\n\n# Obtaining the number of rows\nnrow(penguins)\n\n#&gt; [1] 344\n\n# Removing missing cases\npenguins_missing_removed &lt;- drop_na(penguins)\nnrow(penguins_missing_removed)\n\n#&gt; [1] 333"
   },
   {
     "objectID": "lectures/2b.html#summarizing-data",
     "href": "lectures/2b.html#summarizing-data",
-    "title": "Welcome!",
+    "title": "Data Summarization",
     "section": "Summarizing Data",
-    "text": "Summarizing Data\n\n\n#&gt; [1] 14.14 12.54 15.74 12.83  7.94  1.59 11.06  8.85\n\n\nHow would a computer count how many values are greater than 10?"
+    "text": "Summarizing Data\n\n\n#&gt; [1] 13.85  8.61 14.21 11.87  8.12  8.47  4.66  8.23\n\n\nHow would a computer count how many values are greater than 10?"
   },
   {
     "objectID": "lectures/2b.html#prediction-1",
     "href": "lectures/2b.html#prediction-1",
-    "title": "Welcome!",
+    "title": "Data Summarization",
     "section": "Prediction",
     "text": "Prediction\n3, 4, 6, 2, 7, 9, 2, 0, 1, 4, 6, 2\nList as many ways you can present the data to collaborators. With each method, what are the advantages and disadvantages?"
   },
@@ -467,6 +467,132 @@
     "title": "Numbers & Data",
     "section": "Prediction",
     "text": "Prediction\nWhen you are given a large data set, what numbers do you want to know about?\nWhat would these numbers tell you about the data?"
+  },
+  {
+    "objectID": "lectures/3a.html#data-distribution-1",
+    "href": "lectures/3a.html#data-distribution-1",
+    "title": "Data Generating Process",
+    "section": "Data Distribution",
+    "text": "Data Distribution\nWhen thinking about data, we know an attribute is allowed to vary. With this variation, some numbers are more likely to be observed than others."
+  },
+  {
+    "objectID": "lectures/3a.html#forest-from-the-trees",
+    "href": "lectures/3a.html#forest-from-the-trees",
+    "title": "Data Generating Process",
+    "section": "Forest from the trees",
+    "text": "Forest from the trees"
+  },
+  {
+    "objectID": "lectures/3a.html#data",
+    "href": "lectures/3a.html#data",
+    "title": "Data Generating Process",
+    "section": "Data",
+    "text": "Data\nWhen inspecting data:\n\nDo not focus on one individual data point.\nSee how data points interact with each other\nSee what is common\nSee what is rare"
+  },
+  {
+    "objectID": "lectures/3a.html#data-1",
+    "href": "lectures/3a.html#data-1",
+    "title": "Data Generating Process",
+    "section": "Data",
+    "text": "Data\n\n\n#&gt; [1] 10.5  8.7 11.7 13.5 10.0 10.7  7.4 11.5"
+  },
+  {
+    "objectID": "lectures/3a.html#visualizing-data",
+    "href": "lectures/3a.html#visualizing-data",
+    "title": "Data Generating Process",
+    "section": "Visualizing Data",
+    "text": "Visualizing Data\nWhy should we visualize data?"
+  },
+  {
+    "objectID": "lectures/3a.html#introduction-to-histograms",
+    "href": "lectures/3a.html#introduction-to-histograms",
+    "title": "Data Generating Process",
+    "section": "Introduction to Histograms",
+    "text": "Introduction to Histograms\n\n\n#&gt; [1] 10.5  8.7 11.7 13.5 10.0 10.7  7.4 11.5"
+  },
+  {
+    "objectID": "lectures/3a.html#visualizing-data-1",
+    "href": "lectures/3a.html#visualizing-data-1",
+    "title": "Data Generating Process",
+    "section": "Visualizing Data",
+    "text": "Visualizing Data\n\n\n#&gt; [1] 10.5  8.7 11.7 13.5 10.0 10.7  7.4 11.5"
+  },
+  {
+    "objectID": "lectures/3a.html#histograms",
+    "href": "lectures/3a.html#histograms",
+    "title": "Data Generating Process",
+    "section": "Histograms",
+    "text": "Histograms\n\nX-Axis: the values from the sample\n\nThese are binned to capture a range of numbers\n\nY-Axis: the frequency of the data\nDisplays which values are the most common"
+  },
+  {
+    "objectID": "lectures/3a.html#shape",
+    "href": "lectures/3a.html#shape",
+    "title": "Data Generating Process",
+    "section": "Shape",
+    "text": "Shape\nShape is how we describe the histogram:\n\nLeft Skewed\nRight Skewed\nUnimodal\nBimodal\nNarrow\nWide"
+  },
+  {
+    "objectID": "lectures/3a.html#left-skewed",
+    "href": "lectures/3a.html#left-skewed",
+    "title": "Data Generating Process",
+    "section": "Left Skewed",
+    "text": "Left Skewed"
+  },
+  {
+    "objectID": "lectures/3a.html#right-skewed",
+    "href": "lectures/3a.html#right-skewed",
+    "title": "Data Generating Process",
+    "section": "Right Skewed",
+    "text": "Right Skewed"
+  },
+  {
+    "objectID": "lectures/3a.html#unimodal",
+    "href": "lectures/3a.html#unimodal",
+    "title": "Data Generating Process",
+    "section": "Unimodal",
+    "text": "Unimodal"
+  },
+  {
+    "objectID": "lectures/3a.html#narrow",
+    "href": "lectures/3a.html#narrow",
+    "title": "Data Generating Process",
+    "section": "Narrow",
+    "text": "Narrow"
+  },
+  {
+    "objectID": "lectures/3a.html#wide",
+    "href": "lectures/3a.html#wide",
+    "title": "Data Generating Process",
+    "section": "Wide",
+    "text": "Wide"
+  },
+  {
+    "objectID": "lectures/3a.html#bimodal",
+    "href": "lectures/3a.html#bimodal",
+    "title": "Data Generating Process",
+    "section": "Bimodal",
+    "text": "Bimodal"
+  },
+  {
+    "objectID": "lectures/3a.html#center",
+    "href": "lectures/3a.html#center",
+    "title": "Data Generating Process",
+    "section": "Center",
+    "text": "Center"
+  },
+  {
+    "objectID": "lectures/3a.html#spread",
+    "href": "lectures/3a.html#spread",
+    "title": "Data Generating Process",
+    "section": "Spread",
+    "text": "Spread"
+  },
+  {
+    "objectID": "lectures/3a.html#weird",
+    "href": "lectures/3a.html#weird",
+    "title": "Data Generating Process",
+    "section": "Weird",
+    "text": "Weird"
   },
   {
     "objectID": "lectures/template.html#learning-outcomes",
