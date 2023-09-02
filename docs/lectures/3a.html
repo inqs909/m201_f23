@@ -343,6 +343,67 @@
 
 </section>
 <section>
+<section id="announcements" class="title-slide slide level1 agenda-slide center">
+<h1>Announcements</h1>
+<div class="agenda-heading">
+<p>Learning Outcomes</p>
+</div>
+<div class="agenda">
+<ol>
+<li><div class="agenda-active">
+<p>Announcements</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Data Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Data Generation Process (DGP)</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Sampling and DGP</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Visualizing Data Distributions</p>
+</div></li>
+</ol>
+</div>
+</section>
+<section id="quiz" class="slide level2">
+<h2>Quiz</h2>
+<div class="fragment">
+<ol type="1">
+<li class="fragment">What is a boolean value?
+<ol type="1">
+<li class="fragment">TRUE or FALSE</li>
+</ol></li>
+</ol>
+</div>
+<div class="fragment">
+<ol start="2" type="1">
+<li class="fragment">Who is your EPE?
+<ol type="1">
+<li class="fragment">Sec 01: Devin</li>
+<li class="fragment">Sec 02: Amanda</li>
+</ol></li>
+</ol>
+</div>
+</section>
+<section id="week-3" class="slide level2">
+<h2>Week 3</h2>
+<div>
+<ul>
+<li class="fragment"><p>Read Chapter 3</p>
+<ul>
+<li class="fragment">Finish reading the chapter by Sunday Night (7/10)</li>
+</ul></li>
+<li class="fragment"><p>Quiz 2</p>
+<ul>
+<li class="fragment">Available from Thursday 12 AM to Friday 11:59 PM</li>
+</ul></li>
+</ul>
+</div>
+</section></section>
+<section>
 <section id="data-distribution" class="title-slide slide level1 agenda-slide center">
 <h1>Data Distribution</h1>
 <div class="agenda-heading">
@@ -350,17 +411,20 @@
 </div>
 <div class="agenda">
 <ol>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Announcements</p>
+</div></li>
 <li><div class="agenda-active">
 <p>Data Distribution</p>
-</div></li>
-<li><div class="agenda-inactive agenda-post-active">
-<p>Visualizing Distributions</p>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active">
 <p>Data Generation Process (DGP)</p>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active">
 <p>Sampling and DGP</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Visualizing Data Distributions</p>
 </div></li>
 </ol>
 </div>
@@ -375,33 +439,158 @@
 <img data-src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/seeing-the-forest-through-the-tree-jill-reger.jpg" width="694" class="r-stretch quarto-figure-center"></section>
 <section id="data" class="slide level2">
 <h2>Data</h2>
+<div>
 <p>When inspecting data:</p>
 <ul>
-<li><p>Do not focus on one individual data point.</p></li>
-<li><p>See how data points interact with each other</p></li>
-<li><p>See what is common</p></li>
-<li><p>See what is rare</p></li>
+<li class="fragment"><p>Do not focus on one individual data point.</p></li>
+<li class="fragment"><p>See how data points interact with each other</p></li>
+<li class="fragment"><p>See what is common</p></li>
+<li class="fragment"><p>See what is rare</p></li>
 </ul>
+</div>
 </section></section>
 <section>
-<section id="visualizing-distributions" class="title-slide slide level1 agenda-slide center">
-<h1>Visualizing Distributions</h1>
+<section id="data-generation-process-dgp" class="title-slide slide level1 agenda-slide center">
+<h1>Data Generation Process (DGP)</h1>
 <div class="agenda-heading">
 <p>Learning Outcomes</p>
 </div>
 <div class="agenda">
 <ol>
 <li><div class="agenda-inactive agenda-pre-active">
+<p>Announcements</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
 <p>Data Distribution</p>
 </div></li>
 <li><div class="agenda-active">
-<p>Visualizing Distributions</p>
-</div></li>
-<li><div class="agenda-inactive agenda-post-active">
 <p>Data Generation Process (DGP)</p>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active">
 <p>Sampling and DGP</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Visualizing Data Distributions</p>
+</div></li>
+</ol>
+</div>
+</section>
+<section id="dgp" class="slide level2">
+<h2>DGP</h2>
+<p>The data generation process is understanding how variation from the population is transferred to the data collected.</p>
+<div class="fragment">
+<p>A population has a mechanism to produce data, understanding this mechanism is essential understanding the data.</p>
+</div>
+</section>
+<section id="dgp-1" class="slide level2">
+<h2>DGP</h2>
+<p>A populations DGP can be defined with the following characteristics:</p>
+<ul>
+<li><p>The potential outcomes that can be observed when measuring</p></li>
+<li><p>Each potential outcome will have a probability of being observed</p>
+<ul>
+<li>The probability must be between 0 and 1</li>
+</ul></li>
+<li><p>Sum of all the probabilities of each outcome will add up to 1</p></li>
+</ul>
+</section>
+<section id="flipping-a-coin" class="slide level2">
+<h2>Flipping a Coin</h2>
+<p>Flipping a coin results in either heads or tail. The probability for heads is 50%</p>
+<div class="fragment">
+<p>The DGP of flipping a coin is the process of selecting an outcome, given the probability of both options are 50%.</p>
+</div>
+</section>
+<section id="rolling-a-die" class="slide level2">
+<h2>Rolling a die</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTjs3jKF-jqTMR35Zuaf6IZb26EbTq0Vu8tg&amp;usqp=CAU.png"></p>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+
+</div>
+</div>
+</section>
+<section id="measuring-body-temperature" class="slide level2">
+<h2>Measuring Body Temperature</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="https://www.thermofisher.com/TFS-Assets/CMD/product-images/gc-ms-reacti-therm-thermometer-2000x2000.jpg-650.jpg"></p>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+
+</div>
+</div>
+</section></section>
+<section>
+<section id="sampling-and-dgp" class="title-slide slide level1 agenda-slide center">
+<h1>Sampling and DGP</h1>
+<div class="agenda-heading">
+<p>Learning Outcomes</p>
+</div>
+<div class="agenda">
+<ol>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Announcements</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Data Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Data Generation Process (DGP)</p>
+</div></li>
+<li><div class="agenda-active">
+<p>Sampling and DGP</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Visualizing Data Distributions</p>
+</div></li>
+</ol>
+</div>
+</section>
+<section id="inference" class="slide level2">
+<h2>Inference</h2>
+<p>How do we use DGP and sampling to understand the world?</p>
+<div class="fragment">
+<p>We can use a sample to understand the DGP.</p>
+</div>
+<div class="fragment">
+<p>We can use the DGP to understand the sample.</p>
+</div>
+</section>
+<section id="example" class="slide level2">
+<h2>Example</h2>
+
+<img data-src="3a_files/figure-revealjs/unnamed-chunk-1-1.png" width="960" class="r-stretch"></section></section>
+<section>
+<section id="visualizing-data-distributions" class="title-slide slide level1 agenda-slide center">
+<h1>Visualizing Data Distributions</h1>
+<div class="agenda-heading">
+<p>Learning Outcomes</p>
+</div>
+<div class="agenda">
+<ol>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Announcements</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Data Distribution</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Data Generation Process (DGP)</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Sampling and DGP</p>
+</div></li>
+<li><div class="agenda-active">
+<p>Visualizing Data Distributions</p>
 </div></li>
 </ol>
 </div>
@@ -434,110 +623,72 @@
 </div>
 
 </div>
-<img data-src="3a_files/figure-revealjs/unnamed-chunk-3-1.png" width="960" class="r-stretch"></section>
+<img data-src="3a_files/figure-revealjs/unnamed-chunk-4-1.png" width="960" class="r-stretch"></section>
 <section id="histograms" class="slide level2">
 <h2>Histograms</h2>
+<div>
 <ul>
-<li><p>X-Axis: the values from the sample</p>
+<li class="fragment"><p>X-Axis: the values from the sample</p>
 <ul>
-<li>These are binned to capture a range of numbers</li>
+<li class="fragment">These are binned to capture a range of numbers</li>
 </ul></li>
-<li><p>Y-Axis: the frequency of the data</p></li>
-<li><p>Displays which values are the most common</p></li>
+<li class="fragment"><p>Y-Axis: the frequency of the data</p></li>
+<li class="fragment"><p>Displays which values are the most common</p></li>
 </ul>
+</div>
 </section>
 <section id="shape" class="slide level2">
 <h2>Shape</h2>
 <p>Shape is how we describe the histogram:</p>
+<div>
 <ul>
-<li><p>Left Skewed</p></li>
-<li><p>Right Skewed</p></li>
-<li><p>Unimodal</p></li>
-<li><p>Bimodal</p></li>
-<li><p>Narrow</p></li>
-<li><p>Wide</p></li>
+<li class="fragment"><p>Left Skewed</p></li>
+<li class="fragment"><p>Right Skewed</p></li>
+<li class="fragment"><p>Unimodal</p></li>
+<li class="fragment"><p>Bimodal</p></li>
+<li class="fragment"><p>Narrow</p></li>
+<li class="fragment"><p>Wide</p></li>
 </ul>
+</div>
 </section>
 <section id="left-skewed" class="slide level2">
 <h2>Left Skewed</h2>
 
-<img data-src="3a_files/figure-revealjs/unnamed-chunk-4-1.png" width="960" class="r-stretch"></section>
+<img data-src="3a_files/figure-revealjs/unnamed-chunk-5-1.png" width="960" class="r-stretch"></section>
 <section id="right-skewed" class="slide level2">
 <h2>Right Skewed</h2>
 
-<img data-src="3a_files/figure-revealjs/unnamed-chunk-5-1.png" width="960" class="r-stretch"></section>
+<img data-src="3a_files/figure-revealjs/unnamed-chunk-6-1.png" width="960" class="r-stretch"></section>
 <section id="unimodal" class="slide level2">
 <h2>Unimodal</h2>
 
-<img data-src="3a_files/figure-revealjs/unnamed-chunk-6-1.png" width="960" class="r-stretch"></section>
+<img data-src="3a_files/figure-revealjs/unnamed-chunk-7-1.png" width="960" class="r-stretch"></section>
 <section id="narrow" class="slide level2">
 <h2>Narrow</h2>
 
-<img data-src="3a_files/figure-revealjs/unnamed-chunk-7-1.png" width="960" class="r-stretch"></section>
+<img data-src="3a_files/figure-revealjs/unnamed-chunk-8-1.png" width="960" class="r-stretch"></section>
 <section id="wide" class="slide level2">
 <h2>Wide</h2>
 
-<img data-src="3a_files/figure-revealjs/unnamed-chunk-8-1.png" width="960" class="r-stretch"></section>
+<img data-src="3a_files/figure-revealjs/unnamed-chunk-9-1.png" width="960" class="r-stretch"></section>
 <section id="bimodal" class="slide level2">
 <h2>Bimodal</h2>
 
-<img data-src="3a_files/figure-revealjs/unnamed-chunk-9-1.png" width="960" class="r-stretch"></section>
+<img data-src="3a_files/figure-revealjs/unnamed-chunk-10-1.png" width="960" class="r-stretch"></section>
 <section id="center" class="slide level2">
 <h2>Center</h2>
 
-<img data-src="3a_files/figure-revealjs/unnamed-chunk-10-1.png" width="960" class="r-stretch"></section>
+<img data-src="3a_files/figure-revealjs/unnamed-chunk-11-1.png" width="960" class="r-stretch"></section>
 <section id="spread" class="slide level2">
 <h2>Spread</h2>
-</section>
+
+<img data-src="3a_files/figure-revealjs/unnamed-chunk-12-1.png" width="960" class="r-stretch"></section>
 <section id="weird" class="slide level2">
 <h2>Weird</h2>
-</section>
-<section id="section" class="slide level2">
-<h2></h2>
-</section></section>
-<section id="data-generation-process-dgp" class="title-slide slide level1 agenda-slide center">
-<h1>Data Generation Process (DGP)</h1>
-<div class="agenda-heading">
-<p>Learning Outcomes</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="3a_files/figure-revealjs/unnamed-chunk-13-1.png" width="960"></p>
 </div>
-<div class="agenda">
-<ol>
-<li><div class="agenda-inactive agenda-pre-active">
-<p>Data Distribution</p>
-</div></li>
-<li><div class="agenda-inactive agenda-pre-active">
-<p>Visualizing Distributions</p>
-</div></li>
-<li><div class="agenda-active">
-<p>Data Generation Process (DGP)</p>
-</div></li>
-<li><div class="agenda-inactive agenda-post-active">
-<p>Sampling and DGP</p>
-</div></li>
-</ol>
-</div>
-</section>
-
-<section id="sampling-and-dgp" class="title-slide slide level1 agenda-slide center">
-<h1>Sampling and DGP</h1>
-<div class="agenda-heading">
-<p>Learning Outcomes</p>
-</div>
-<div class="agenda">
-<ol>
-<li><div class="agenda-inactive agenda-pre-active">
-<p>Data Distribution</p>
-</div></li>
-<li><div class="agenda-inactive agenda-pre-active">
-<p>Visualizing Distributions</p>
-</div></li>
-<li><div class="agenda-inactive agenda-pre-active">
-<p>Data Generation Process (DGP)</p>
-</div></li>
-<li><div class="agenda-active">
-<p>Sampling and DGP</p>
-</div></li>
-</ol>
 </div>
 
 <div class="footer footer-default">
@@ -557,7 +708,7 @@
 <p> </p>
 </div>
 </div>
-</section>
+</section></section>
     </div>
   </div>
 

@@ -469,6 +469,20 @@
     "text": "Prediction\nWhen you are given a large data set, what numbers do you want to know about?\nWhat would these numbers tell you about the data?"
   },
   {
+    "objectID": "lectures/3a.html#quiz",
+    "href": "lectures/3a.html#quiz",
+    "title": "Data Generating Process",
+    "section": "Quiz",
+    "text": "Quiz\n\n\nWhat is a boolean value?\n\nTRUE or FALSE\n\n\n\n\n\nWho is your EPE?\n\nSec 01: Devin\nSec 02: Amanda"
+  },
+  {
+    "objectID": "lectures/3a.html#week-3",
+    "href": "lectures/3a.html#week-3",
+    "title": "Data Generating Process",
+    "section": "Week 3",
+    "text": "Week 3\n\n\nRead Chapter 3\n\nFinish reading the chapter by Sunday Night (7/10)\n\nQuiz 2\n\nAvailable from Thursday 12 AM to Friday 11:59 PM"
+  },
+  {
     "objectID": "lectures/3a.html#data-distribution-1",
     "href": "lectures/3a.html#data-distribution-1",
     "title": "Data Generating Process",
@@ -487,7 +501,56 @@
     "href": "lectures/3a.html#data",
     "title": "Data Generating Process",
     "section": "Data",
-    "text": "Data\nWhen inspecting data:\n\nDo not focus on one individual data point.\nSee how data points interact with each other\nSee what is common\nSee what is rare"
+    "text": "Data\n\nWhen inspecting data:\n\nDo not focus on one individual data point.\nSee how data points interact with each other\nSee what is common\nSee what is rare"
+  },
+  {
+    "objectID": "lectures/3a.html#dgp",
+    "href": "lectures/3a.html#dgp",
+    "title": "Data Generating Process",
+    "section": "DGP",
+    "text": "DGP\nThe data generation process is understanding how variation from the population is transferred to the data collected.\n\nA population has a mechanism to produce data, understanding this mechanism is essential understanding the data."
+  },
+  {
+    "objectID": "lectures/3a.html#dgp-1",
+    "href": "lectures/3a.html#dgp-1",
+    "title": "Data Generating Process",
+    "section": "DGP",
+    "text": "DGP\nA populations DGP can be defined with the following characteristics:\n\nThe potential outcomes that can be observed when measuring\nEach potential outcome will have a probability of being observed\n\nThe probability must be between 0 and 1\n\nSum of all the probabilities of each outcome will add up to 1"
+  },
+  {
+    "objectID": "lectures/3a.html#flipping-a-coin",
+    "href": "lectures/3a.html#flipping-a-coin",
+    "title": "Data Generating Process",
+    "section": "Flipping a Coin",
+    "text": "Flipping a Coin\nFlipping a coin results in either heads or tail. The probability for heads is 50%\n\nThe DGP of flipping a coin is the process of selecting an outcome, given the probability of both options are 50%."
+  },
+  {
+    "objectID": "lectures/3a.html#rolling-a-die",
+    "href": "lectures/3a.html#rolling-a-die",
+    "title": "Data Generating Process",
+    "section": "Rolling a die",
+    "text": "Rolling a die"
+  },
+  {
+    "objectID": "lectures/3a.html#measuring-body-temperature",
+    "href": "lectures/3a.html#measuring-body-temperature",
+    "title": "Data Generating Process",
+    "section": "Measuring Body Temperature",
+    "text": "Measuring Body Temperature"
+  },
+  {
+    "objectID": "lectures/3a.html#inference",
+    "href": "lectures/3a.html#inference",
+    "title": "Data Generating Process",
+    "section": "Inference",
+    "text": "Inference\nHow do we use DGP and sampling to understand the world?\n\nWe can use a sample to understand the DGP.\n\n\nWe can use the DGP to understand the sample."
+  },
+  {
+    "objectID": "lectures/3a.html#example",
+    "href": "lectures/3a.html#example",
+    "title": "Data Generating Process",
+    "section": "Example",
+    "text": "Example"
   },
   {
     "objectID": "lectures/3a.html#data-1",
@@ -522,14 +585,14 @@
     "href": "lectures/3a.html#histograms",
     "title": "Data Generating Process",
     "section": "Histograms",
-    "text": "Histograms\n\nX-Axis: the values from the sample\n\nThese are binned to capture a range of numbers\n\nY-Axis: the frequency of the data\nDisplays which values are the most common"
+    "text": "Histograms\n\n\nX-Axis: the values from the sample\n\nThese are binned to capture a range of numbers\n\nY-Axis: the frequency of the data\nDisplays which values are the most common"
   },
   {
     "objectID": "lectures/3a.html#shape",
     "href": "lectures/3a.html#shape",
     "title": "Data Generating Process",
     "section": "Shape",
-    "text": "Shape\nShape is how we describe the histogram:\n\nLeft Skewed\nRight Skewed\nUnimodal\nBimodal\nNarrow\nWide"
+    "text": "Shape\nShape is how we describe the histogram:\n\n\nLeft Skewed\nRight Skewed\nUnimodal\nBimodal\nNarrow\nWide"
   },
   {
     "objectID": "lectures/3a.html#left-skewed",
