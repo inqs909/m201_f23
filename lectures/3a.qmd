@@ -158,12 +158,13 @@ We can use the DGP to understand the sample.
 
 ```{r}
 library(tidyverse)
+library(ThemePark)
 library(patchwork)
 g1 <- seq(0, 1, length.out = 1000) |> 
   dbeta(shape1 = 2, shape2 = 5) |> 
   tibble(x = seq(0, 1, length.out = 1000), y = _) |>
   ggplot(aes(x, y)) + geom_line() + theme_bw() +
-  ggtitle("DGP")
+  ggtitle("DGP") + theme_barbie()
 
 g2 <- rbeta(100, shape1 = 2, shape2 = 5) |> 
   tibble(y = _) |>
@@ -171,7 +172,7 @@ g2 <- rbeta(100, shape1 = 2, shape2 = 5) |>
     geom_histogram(aes(y = ..density..), col = "gray70", fill = "gray") +
     geom_density(col = "red", lwd = 1) +
     theme_bw() +
-    ggtitle("Sample")
+    ggtitle("Sample")+ theme_barbie()
 
 g1 + g2
 ```
