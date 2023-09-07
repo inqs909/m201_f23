@@ -163,18 +163,27 @@ library(patchwork)
 g1 <- seq(0, 1, length.out = 1000) |> 
   dbeta(shape1 = 2, shape2 = 5) |> 
   tibble(x = seq(0, 1, length.out = 1000), y = _) |>
-  ggplot(aes(x, y)) + geom_line() + theme_bw() +
-  ggtitle("DGP") + theme_barbie()
+  ggplot(aes(x, y)) + geom_line() + 
+  ggtitle("DGP") + ylab("Density") +
+  theme_barbie(plot.title = element_text(size = 48),
+               axis.title.x = element_text(size = 36),
+               axis.title.y = element_text(size = 36),
+               axis.text.x = element_text(size = 24),
+               axis.text.y = element_text(size = 24)) 
 
 g2 <- rbeta(100, shape1 = 2, shape2 = 5) |> 
   tibble(y = _) |>
   ggplot(aes(y)) + 
     geom_histogram(aes(y = ..density..), col = "gray70", fill = "gray") +
     geom_density(col = "red", lwd = 1) +
-    theme_bw() +
-    ggtitle("Sample")+ theme_barbie()
+    ggtitle("Sample") + ylab("Density") +
+    theme_barbie(plot.title = element_text(size = 48),
+                 axis.title.x = element_text(size = 36),
+                 axis.title.y = element_text(size = 36),
+                 axis.text.x = element_text(size = 24),
+                 axis.text.y = element_text(size = 24)) 
 
-g1 + g2
+g1 + g2 
 ```
 
 # Visualizing Data Distributions
