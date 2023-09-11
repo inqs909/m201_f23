@@ -1,14 +1,14 @@
 [
   {
+    "listing": "/index.html",
+    "items": []
+  },
+  {
     "listing": "/ec.html",
     "items": [
       "/ec/ec_1.html",
       "/ec/ec_2.html",
       "/ec/ec_3.html"
     ]
-  },
-  {
-    "listing": "/index.html",
-    "items": []
   }
 ]
