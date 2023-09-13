@@ -407,15 +407,16 @@
 </div>
 
 </section>
-<section id="announcements" class="title-slide slide level1 agenda-slide center">
-<h1>Announcements</h1>
+<section>
+<section id="data-visualization" class="title-slide slide level1 agenda-slide center">
+<h1>Data Visualization</h1>
 <div class="agenda-heading">
 <p>Learning Outcomes</p>
 </div>
 <div class="agenda">
 <ol>
 <li><div class="agenda-active">
-<p>Announcements</p>
+<p>Data Visualization</p>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active">
 <p>Summarizing Categorical Variables</p>
@@ -426,7 +427,38 @@
 </ol>
 </div>
 </section>
+<section id="histogram" class="slide level2">
+<h2>Histogram</h2>
+<p>A histogram is a graphical representation of the distribution or frequency of data points in a dataset. It provides a visual way to understand the shape, central tendency, and spread of a dataset by dividing the data into intervals or bins and showing how many data points fall into each bin.</p>
+</section>
+<section id="histogram-r-code" class="slide level2">
+<h2>Histogram R Code</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">gf_histogram</span>(<span class="sc">~</span>bill_length_mm, <span class="at">data =</span> penguins)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="histogram-1" class="slide level2">
+<h2>Histogram</h2>
 
+<img data-src="4b_files/figure-revealjs/unnamed-chunk-3-1.png" width="960" class="r-stretch"></section>
+<section id="box-plot" class="slide level2">
+<h2>Box Plot</h2>
+<p>A box plot, also known as a box-and-whisker plot, is a graphical representation of the distribution and key statistical characteristics of a dataset. It provides a visual summary of the data’s central tendency, spread, and potential outliers.</p>
+</section>
+<section id="box-plot-1" class="slide level2">
+<h2>Box Plot</h2>
+
+<img data-src="https://miro.medium.com/max/9000/1*2c21SkzJMf3frPXPAR_gZA.png" class="r-stretch quarto-figure-center"></section>
+<section id="box-plot-r-code" class="slide level2">
+<h2>Box Plot R Code</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="fu">gf_boxplot</span>(<span class="sc">~</span>bill_length_mm, <span class="at">data =</span> penguins)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="box-plot-2" class="slide level2">
+<h2>Box Plot</h2>
+
+<img data-src="4b_files/figure-revealjs/unnamed-chunk-5-1.png" width="960" class="r-stretch"></section></section>
 <section>
 <section id="summarizing-categorical-variables" class="title-slide slide level1 agenda-slide center">
 <h1>Summarizing Categorical Variables</h1>
@@ -436,7 +468,7 @@
 <div class="agenda">
 <ol>
 <li><div class="agenda-inactive agenda-pre-active">
-<p>Announcements</p>
+<p>Data Visualization</p>
 </div></li>
 <li><div class="agenda-active">
 <p>Summarizing Categorical Variables</p>
@@ -449,26 +481,59 @@
 </section>
 <section id="categorical-variables" class="slide level2">
 <h2>Categorical Variables</h2>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>#&gt; $species
+#&gt;  [1] Adelie    Gentoo    Adelie    Chinstrap Adelie    Adelie    Adelie   
+#&gt;  [8] Gentoo    Chinstrap Gentoo    Chinstrap Adelie    Gentoo    Adelie   
+#&gt; [15] Gentoo    Adelie    Chinstrap Gentoo    Adelie    Gentoo   
+#&gt; Levels: Adelie Chinstrap Gentoo</code></pre>
+</div>
+</div>
 </section>
 <section id="frequency-tables" class="slide level2">
 <h2>Frequency Tables</h2>
+<p>A frequency table is a statistical tool used to organize and summarize a set of data by counting the number of times each unique value or category appears within the dataset. It provides a simple and clear way to represent the distribution of data, particularly for categorical or discrete variables.</p>
+</section>
+<section id="relative-frequency" class="slide level2">
+<h2>Relative Frequency</h2>
+<p>Relative frequency is a statistical concept used to describe the proportion or percentage of times a particular event or outcome occurs relative to the total number of observations or occurrences in a dataset or sample.</p>
 </section>
 <section id="proportional-tables" class="slide level2">
 <h2>Proportional Tables</h2>
+<p>A proportion table is a type of statistical table used to display the relative frequencies or proportions of different categories within a dataset. It provides a way to represent the distribution of data in terms of percentages or proportions, making it easier to compare and understand the relative sizes of different categories.</p>
 </section>
+<section id="pie-charts" class="slide level2">
+<h2>Pie Charts</h2>
+<p>A pie chart is a circular graphical representation used to display data in a way that illustrates the relative proportions or percentages of different categories or components within a whole. Pie charts are particularly useful for showing the composition of a dataset when you want to emphasize the parts of a whole and how they relate to each other.</p>
+</section>
+<section id="pie-charts-r-code" class="slide level2">
+<h2>Pie Charts R Code</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a>penguins <span class="sc">|&gt;</span> <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x=</span><span class="st">""</span>, <span class="at">fill =</span> species)) <span class="sc">+</span> </span>
+<span id="cb4-2"><a href="#cb4-2"></a>  <span class="fu">geom_bar</span>() <span class="sc">+</span> </span>
+<span id="cb4-3"><a href="#cb4-3"></a>  <span class="fu">coord_polar</span>(<span class="st">"y"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="pie-charts-in-r" class="slide level2">
+<h2>Pie Charts in R</h2>
+
+<img data-src="4b_files/figure-revealjs/unnamed-chunk-8-1.png" width="960" class="r-stretch"></section>
 <section id="bar-charts" class="slide level2">
 <h2>Bar Charts</h2>
+<p>A bar chart, also known as a bar graph, is a graphical representation used to display categorical data in a way that visually represents the values or frequencies of different categories by using rectangular bars. Bar charts are particularly effective for comparing and showing the relationships between distinct categories or groups.</p>
 </section>
 <section id="bar-charts-r-code" class="slide level2">
 <h2>Bar Charts R Code</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">gf_bar</span>(<span class="sc">~</span>species, <span class="at">data =</span> penguins)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="fu">gf_bar</span>(<span class="sc">~</span>species, <span class="at">data =</span> penguins)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="bar-charts-r-code-1" class="slide level2">
 <h2>Bar Charts R Code</h2>
 
-<img data-src="4b_files/figure-revealjs/unnamed-chunk-3-1.png" width="960" class="r-stretch"></section></section>
+<img data-src="4b_files/figure-revealjs/unnamed-chunk-10-1.png" width="960" class="r-stretch"></section></section>
+<section>
 <section id="explaining-variation" class="title-slide slide level1 agenda-slide center">
 <h1>Explaining Variation</h1>
 <div class="agenda-heading">
@@ -477,7 +542,7 @@
 <div class="agenda">
 <ol>
 <li><div class="agenda-inactive agenda-pre-active">
-<p>Announcements</p>
+<p>Data Visualization</p>
 </div></li>
 <li><div class="agenda-inactive agenda-pre-active">
 <p>Summarizing Categorical Variables</p>
@@ -487,6 +552,12 @@
 </div></li>
 </ol>
 </div>
+</section>
+<section id="explaining-variation-1" class="slide level2">
+<h2>Explaining Variation</h2>
+</section>
+<section id="explaining-variation-with-one-variable" class="slide level2">
+<h2>Explaining Variation with One Variable</h2>
 
 <div class="footer footer-default">
 
@@ -505,7 +576,7 @@
 <p> </p>
 </div>
 </div>
-</section>
+</section></section>
     </div>
   </div>
 
