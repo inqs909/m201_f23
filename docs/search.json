@@ -16,140 +16,161 @@
   {
     "objectID": "lectures/4b.html#histogram",
     "href": "lectures/4b.html#histogram",
-    "title": "Summarizing Data",
+    "title": "Data Visualization",
     "section": "Histogram",
     "text": "Histogram\nA histogram is a graphical representation of the distribution or frequency of data points in a dataset. It provides a visual way to understand the shape, central tendency, and spread of a dataset by dividing the data into intervals or bins and showing how many data points fall into each bin."
   },
   {
     "objectID": "lectures/4b.html#histogram-r-code",
     "href": "lectures/4b.html#histogram-r-code",
-    "title": "Summarizing Data",
+    "title": "Data Visualization",
     "section": "Histogram R Code",
     "text": "Histogram R Code\n\ngf_histogram(~bill_length_mm, data = penguins)"
   },
   {
     "objectID": "lectures/4b.html#histogram-1",
     "href": "lectures/4b.html#histogram-1",
-    "title": "Summarizing Data",
+    "title": "Data Visualization",
     "section": "Histogram",
     "text": "Histogram"
   },
   {
     "objectID": "lectures/4b.html#box-plot",
     "href": "lectures/4b.html#box-plot",
-    "title": "Summarizing Data",
+    "title": "Data Visualization",
     "section": "Box Plot",
     "text": "Box Plot\nA box plot, also known as a box-and-whisker plot, is a graphical representation of the distribution and key statistical characteristics of a dataset. It provides a visual summary of the data’s central tendency, spread, and potential outliers."
   },
   {
     "objectID": "lectures/4b.html#box-plot-1",
     "href": "lectures/4b.html#box-plot-1",
-    "title": "Summarizing Data",
+    "title": "Data Visualization",
     "section": "Box Plot",
     "text": "Box Plot"
   },
   {
     "objectID": "lectures/4b.html#box-plot-r-code",
     "href": "lectures/4b.html#box-plot-r-code",
-    "title": "Summarizing Data",
+    "title": "Data Visualization",
     "section": "Box Plot R Code",
     "text": "Box Plot R Code\n\ngf_boxplot(~bill_length_mm, data = penguins)"
   },
   {
     "objectID": "lectures/4b.html#box-plot-2",
     "href": "lectures/4b.html#box-plot-2",
-    "title": "Summarizing Data",
+    "title": "Data Visualization",
     "section": "Box Plot",
     "text": "Box Plot"
   },
   {
     "objectID": "lectures/4b.html#categorical-variables",
     "href": "lectures/4b.html#categorical-variables",
-    "title": "Summarizing Data",
+    "title": "Data Visualization",
     "section": "Categorical Variables",
-    "text": "Categorical Variables\n\n\n#&gt; $species\n#&gt;  [1] Gentoo    Adelie    Adelie    Gentoo    Chinstrap Adelie    Gentoo   \n#&gt;  [8] Adelie    Adelie    Gentoo    Gentoo    Gentoo    Adelie    Gentoo   \n#&gt; [15] Chinstrap Gentoo    Adelie    Gentoo    Gentoo    Gentoo   \n#&gt; Levels: Adelie Chinstrap Gentoo"
+    "text": "Categorical Variables\n\n\n#&gt; $species\n#&gt;  [1] Gentoo    Adelie    Gentoo    Gentoo    Chinstrap Chinstrap Gentoo   \n#&gt;  [8] Gentoo    Gentoo    Adelie    Adelie    Gentoo    Chinstrap Gentoo   \n#&gt; [15] Chinstrap Chinstrap Gentoo    Chinstrap Chinstrap Adelie   \n#&gt; Levels: Adelie Chinstrap Gentoo"
   },
   {
     "objectID": "lectures/4b.html#frequency-tables",
     "href": "lectures/4b.html#frequency-tables",
-    "title": "Summarizing Data",
+    "title": "Data Visualization",
     "section": "Frequency Tables",
     "text": "Frequency Tables\nA frequency table is a statistical tool used to organize and summarize a set of data by counting the number of times each unique value or category appears within the dataset. It provides a simple and clear way to represent the distribution of data, particularly for categorical or discrete variables."
   },
   {
     "objectID": "lectures/4b.html#relative-frequency",
     "href": "lectures/4b.html#relative-frequency",
-    "title": "Summarizing Data",
+    "title": "Data Visualization",
     "section": "Relative Frequency",
     "text": "Relative Frequency\nRelative frequency is a statistical concept used to describe the proportion or percentage of times a particular event or outcome occurs relative to the total number of observations or occurrences in a dataset or sample."
   },
   {
     "objectID": "lectures/4b.html#proportional-tables",
     "href": "lectures/4b.html#proportional-tables",
-    "title": "Summarizing Data",
+    "title": "Data Visualization",
     "section": "Proportional Tables",
     "text": "Proportional Tables\nA proportion table is a type of statistical table used to display the relative frequencies or proportions of different categories within a dataset. It provides a way to represent the distribution of data in terms of percentages or proportions, making it easier to compare and understand the relative sizes of different categories."
   },
   {
     "objectID": "lectures/4b.html#pie-charts",
     "href": "lectures/4b.html#pie-charts",
-    "title": "Summarizing Data",
+    "title": "Data Visualization",
     "section": "Pie Charts",
     "text": "Pie Charts\nA pie chart is a circular graphical representation used to display data in a way that illustrates the relative proportions or percentages of different categories or components within a whole. Pie charts are particularly useful for showing the composition of a dataset when you want to emphasize the parts of a whole and how they relate to each other."
   },
   {
     "objectID": "lectures/4b.html#pie-charts-r-code",
     "href": "lectures/4b.html#pie-charts-r-code",
-    "title": "Summarizing Data",
+    "title": "Data Visualization",
     "section": "Pie Charts R Code",
     "text": "Pie Charts R Code\n\npenguins |&gt; ggplot(aes(x=\"\", fill = species)) + \n  geom_bar() + \n  coord_polar(\"y\")"
   },
   {
     "objectID": "lectures/4b.html#pie-charts-in-r",
     "href": "lectures/4b.html#pie-charts-in-r",
-    "title": "Summarizing Data",
+    "title": "Data Visualization",
     "section": "Pie Charts in R",
     "text": "Pie Charts in R"
   },
   {
     "objectID": "lectures/4b.html#bar-charts",
     "href": "lectures/4b.html#bar-charts",
-    "title": "Summarizing Data",
+    "title": "Data Visualization",
     "section": "Bar Charts",
     "text": "Bar Charts\nA bar chart, also known as a bar graph, is a graphical representation used to display categorical data in a way that visually represents the values or frequencies of different categories by using rectangular bars. Bar charts are particularly effective for comparing and showing the relationships between distinct categories or groups."
   },
   {
     "objectID": "lectures/4b.html#bar-charts-r-code",
     "href": "lectures/4b.html#bar-charts-r-code",
-    "title": "Summarizing Data",
+    "title": "Data Visualization",
     "section": "Bar Charts R Code",
     "text": "Bar Charts R Code\n\ngf_bar(~species, data = penguins)"
   },
   {
     "objectID": "lectures/4b.html#bar-charts-r-code-1",
     "href": "lectures/4b.html#bar-charts-r-code-1",
-    "title": "Summarizing Data",
+    "title": "Data Visualization",
     "section": "Bar Charts R Code",
     "text": "Bar Charts R Code"
   },
   {
     "objectID": "lectures/4b.html#explaining-variation-1",
     "href": "lectures/4b.html#explaining-variation-1",
-    "title": "Summarizing Data",
+    "title": "Data Visualization",
+    "section": "Explaining Variation",
+    "text": "Explaining Variation\n\nThis is the process where we try to reduce the variation with the use of other variables.\n\n\nCan be thought of as getting it less wrong when taking an educated guess."
+  },
+  {
+    "objectID": "lectures/4b.html#explaining-variation-2",
+    "href": "lectures/4b.html#explaining-variation-2",
+    "title": "Data Visualization",
     "section": "Explaining Variation",
     "text": "Explaining Variation"
   },
   {
     "objectID": "lectures/4b.html#explaining-variation-with-one-variable",
     "href": "lectures/4b.html#explaining-variation-with-one-variable",
-    "title": "Summarizing Data",
+    "title": "Data Visualization",
     "section": "Explaining Variation with One Variable",
     "text": "Explaining Variation with One Variable"
   },
   {
+    "objectID": "lectures/4b.html#outcome-variables",
+    "href": "lectures/4b.html#outcome-variables",
+    "title": "Data Visualization",
+    "section": "Outcome Variables",
+    "text": "Outcome Variables\nThese are variables we want to study.\n\nAlso known as outcome of interest.\n\n\nAlso known as dependent variable."
+  },
+  {
+    "objectID": "lectures/4b.html#explanatory-variables",
+    "href": "lectures/4b.html#explanatory-variables",
+    "title": "Data Visualization",
+    "section": "Explanatory Variables",
+    "text": "Explanatory Variables\nThese are variable that explain the outcome of interest.\n\nAlso known as predictor variable.\n\n\nAlso known as independent variable."
+  },
+  {
     "objectID": "lectures/4b.html#study-habits",
     "href": "lectures/4b.html#study-habits",
-    "title": "Summarizing Data",
+    "title": "Data Visualization",
     "section": "Study Habits",
     "text": "Study Habits\n\nThe first exam will be on September 25.\n\n\nWhat are some study strategies that you can implement in this course?"
   },

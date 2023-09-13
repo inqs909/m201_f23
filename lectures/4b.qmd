@@ -1,5 +1,5 @@
 ---
-title: "Summarizing Data"
+title: "Data Visualization"
 format:
   revealjs:
     scrollable: true
@@ -169,7 +169,52 @@ penguins |> gf_bar(~species) + theme_zelda()
 
 ## Explaining Variation
 
+::: fragment
+This is the process where we try to reduce the variation with the use of other variables.
+:::
+
+::: fragment
+Can be thought of as getting it less wrong when taking an educated guess.
+:::
+
+## Explaining Variation
+
+```{r}
+age <- c(rnorm(48, 18, 0.5), rnorm(18, 28, 4))
+age |> tibble() |> 
+  ggplot(aes(age)) +
+    geom_density() +
+    ggtitle("Age Distribution of Dr. QS Students") +
+    theme_hufflepuff(axis.text.x = element_text(size = 24),
+                     axis.title.x = element_text(size = 26),
+                     plot.title = element_text(size = 30))
+```
+
 ## Explaining Variation with One Variable
+
+## Outcome Variables
+
+These are variables we want to study.
+
+::: fragment
+Also known as outcome of interest.
+:::
+
+::: fragment
+Also known as dependent variable.
+:::
+
+## Explanatory Variables
+
+These are variable that explain the outcome of interest.
+
+::: fragment
+Also known as predictor variable.
+:::
+
+::: fragment
+Also known as independent variable.
+:::
 
 ## Study Habits
 
