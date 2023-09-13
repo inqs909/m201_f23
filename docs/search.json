@@ -67,7 +67,7 @@
     "href": "lectures/4b.html#categorical-variables",
     "title": "Data Visualization",
     "section": "Categorical Variables",
-    "text": "Categorical Variables\n\n\n#&gt; $species\n#&gt;  [1] Gentoo    Adelie    Gentoo    Gentoo    Chinstrap Chinstrap Gentoo   \n#&gt;  [8] Gentoo    Gentoo    Adelie    Adelie    Gentoo    Chinstrap Gentoo   \n#&gt; [15] Chinstrap Chinstrap Gentoo    Chinstrap Chinstrap Adelie   \n#&gt; Levels: Adelie Chinstrap Gentoo"
+    "text": "Categorical Variables\n\n\n#&gt; $species\n#&gt;  [1] Gentoo    Adelie    Adelie    Adelie    Adelie    Adelie    Gentoo   \n#&gt;  [8] Chinstrap Chinstrap Gentoo    Adelie    Chinstrap Gentoo    Adelie   \n#&gt; [15] Gentoo    Chinstrap Adelie    Chinstrap Adelie    Gentoo   \n#&gt; Levels: Adelie Chinstrap Gentoo"
   },
   {
     "objectID": "lectures/4b.html#frequency-tables",
@@ -149,6 +149,13 @@
   {
     "objectID": "lectures/4b.html#explaining-variation-with-one-variable",
     "href": "lectures/4b.html#explaining-variation-with-one-variable",
+    "title": "Data Visualization",
+    "section": "Explaining Variation with One Variable",
+    "text": "Explaining Variation with One Variable"
+  },
+  {
+    "objectID": "lectures/4b.html#explaining-variation-with-one-variable-1",
+    "href": "lectures/4b.html#explaining-variation-with-one-variable-1",
     "title": "Data Visualization",
     "section": "Explaining Variation with One Variable",
     "text": "Explaining Variation with One Variable"

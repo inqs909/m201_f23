@@ -181,16 +181,31 @@ Can be thought of as getting it less wrong when taking an educated guess.
 
 ```{r}
 age <- c(rnorm(48, 18, 0.5), rnorm(18, 28, 4))
+class <- c(rep('LD', 48), rep('UD', 18))
 age |> tibble() |> 
   ggplot(aes(age)) +
     geom_density() +
-    ggtitle("Age Distribution of Dr. QS Students") +
+    ggtitle("Age DGP of Dr. QS' Students") +
     theme_hufflepuff(axis.text.x = element_text(size = 24),
                      axis.title.x = element_text(size = 26),
                      plot.title = element_text(size = 30))
 ```
 
 ## Explaining Variation with One Variable
+
+## Explaining Variation with One Variable
+
+```{r}
+tibble(age, class) |> 
+  ggplot(aes(age, fill = class)) +
+    geom_density() +
+    ggtitle("Age DGP of Dr. QS' Students") +
+    theme_zelda(axis.text.x = element_text(size = 34),
+                axis.title.x = element_text(size = 36),
+                plot.title = element_text(size = 48),
+                legend.text = element_text(size = 30),
+                legend.title = element_text(size = 32))
+```
 
 ## Outcome Variables
 
