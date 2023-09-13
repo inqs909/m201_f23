@@ -170,3 +170,13 @@ penguins |> gf_bar(~species) + theme_zelda()
 ## Explaining Variation
 
 ## Explaining Variation with One Variable
+
+## Study Habits
+
+::: fragment
+The first exam will be on September 25.
+:::
+
+::: fragment
+What are some study strategies that you can implement in this course?
+:::

@@ -67,7 +67,7 @@
     "href": "lectures/4b.html#categorical-variables",
     "title": "Summarizing Data",
     "section": "Categorical Variables",
-    "text": "Categorical Variables\n\n\n#&gt; $species\n#&gt;  [1] Adelie    Gentoo    Adelie    Chinstrap Adelie    Adelie    Adelie   \n#&gt;  [8] Gentoo    Chinstrap Gentoo    Chinstrap Adelie    Gentoo    Adelie   \n#&gt; [15] Gentoo    Adelie    Chinstrap Gentoo    Adelie    Gentoo   \n#&gt; Levels: Adelie Chinstrap Gentoo"
+    "text": "Categorical Variables\n\n\n#&gt; $species\n#&gt;  [1] Gentoo    Adelie    Adelie    Gentoo    Chinstrap Adelie    Gentoo   \n#&gt;  [8] Adelie    Adelie    Gentoo    Gentoo    Gentoo    Adelie    Gentoo   \n#&gt; [15] Chinstrap Gentoo    Adelie    Gentoo    Gentoo    Gentoo   \n#&gt; Levels: Adelie Chinstrap Gentoo"
   },
   {
     "objectID": "lectures/4b.html#frequency-tables",
@@ -145,6 +145,13 @@
     "title": "Summarizing Data",
     "section": "Explaining Variation with One Variable",
     "text": "Explaining Variation with One Variable"
+  },
+  {
+    "objectID": "lectures/4b.html#study-habits",
+    "href": "lectures/4b.html#study-habits",
+    "title": "Summarizing Data",
+    "section": "Study Habits",
+    "text": "Study Habits\n\nThe first exam will be on September 25.\n\n\nWhat are some study strategies that you can implement in this course?"
   },
   {
     "objectID": "lectures/3a.html#quiz",
