@@ -180,7 +180,7 @@ Can be thought of as getting it less wrong when taking an educated guess.
 ## Explaining Variation
 
 ```{r}
-age <- c(rnorm(48, 18, 0.5), rnorm(18, 28, 4))
+age <- c(rnorm(48, 18.5, 0.5), rnorm(18, 28, 4))
 class <- c(rep('LD', 48), rep('UD', 18))
 age |> tibble() |> 
   ggplot(aes(age)) +
