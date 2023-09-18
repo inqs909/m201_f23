@@ -43,6 +43,7 @@ editor: visual
 library(palmerpenguins)
 library(ggformula)
 library(ThemePark)
+library(tidyverse)
 ```
 
 # Announcements
