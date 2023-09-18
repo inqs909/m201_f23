@@ -134,6 +134,20 @@ tibble(age, class) |>
 
 # Sources of Variation
 
+## Variation of Data
+
+## Modeling Variation
+
+![](https://i.postimg.cc/5yKSBdXm/OMcsBKY.png){fig-align="center"}
+
+## Explained
+
+## Unexplained
+
+## System Variation
+
+## Sampling Variation
+
 # Quantitative Variable
 
 ## What is a quantitative variable?
