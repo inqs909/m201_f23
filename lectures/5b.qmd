@@ -1,5 +1,5 @@
 ---
-title: "Reseach Design"
+title: "Research Design"
 format:
   revealjs:
     scrollable: true

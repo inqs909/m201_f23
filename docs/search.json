@@ -16,168 +16,168 @@
   {
     "objectID": "lectures/5b.html#solito-a-memoir",
     "href": "lectures/5b.html#solito-a-memoir",
-    "title": "Reseach Design",
+    "title": "Research Design",
     "section": "Solito: A Memoir",
     "text": "Solito: A Memoir"
   },
   {
     "objectID": "lectures/5b.html#first-exam",
     "href": "lectures/5b.html#first-exam",
-    "title": "Reseach Design",
+    "title": "Research Design",
     "section": "First Exam",
     "text": "First Exam\n\nSeptember 25\n30 Questions\nMixed of Multiple Choice, True or False, and Free Response\nGet 1 sheet of notes, front and back\nIn-person"
   },
   {
     "objectID": "lectures/5b.html#junior-math-seminar",
     "href": "lectures/5b.html#junior-math-seminar",
-    "title": "Reseach Design",
+    "title": "Research Design",
     "section": "Junior Math Seminar",
     "text": "Junior Math Seminar\n\nStatistics: A Math? A Science? An Art? Or Something Else?\nLocation: Sierra 2411\nDay and Time: Wednesday Sept 27 4:30-5:30 PM\nOH Cancelled that day"
   },
   {
     "objectID": "lectures/5b.html#complete-survey",
     "href": "lectures/5b.html#complete-survey",
-    "title": "Reseach Design",
+    "title": "Research Design",
     "section": "Complete Survey",
     "text": "Complete Survey\n\nhttps://forms.gle/tYgmpJFk6fzz36r18"
   },
   {
     "objectID": "lectures/5b.html#what-is-the-purpose-of-research",
     "href": "lectures/5b.html#what-is-the-purpose-of-research",
-    "title": "Reseach Design",
+    "title": "Research Design",
     "section": "What is the purpose of research?",
     "text": "What is the purpose of research?\nThe purpose of research is to systematically investigate, gather information, analyze data, and draw conclusions to advance knowledge, solve problems, or answer questions."
   },
   {
     "objectID": "lectures/5b.html#experimental-studies",
     "href": "lectures/5b.html#experimental-studies",
-    "title": "Reseach Design",
+    "title": "Research Design",
     "section": "Experimental Studies",
     "text": "Experimental Studies\nExperimental studies are research designs in which the researcher deliberately manipulates one or more independent variables to observe their effects on an outcome of interest. These studies are commonly used in scientific and social science research to establish cause-and-effect relationships between variables."
   },
   {
     "objectID": "lectures/5b.html#examples-of-experimental-studies",
     "href": "lectures/5b.html#examples-of-experimental-studies",
-    "title": "Reseach Design",
+    "title": "Research Design",
     "section": "Examples of Experimental Studies",
     "text": "Examples of Experimental Studies\n\nRandomized-Control Trials\n\nPlacebo-Drug Studies"
   },
   {
     "objectID": "lectures/5b.html#observational-studies",
     "href": "lectures/5b.html#observational-studies",
-    "title": "Reseach Design",
+    "title": "Research Design",
     "section": "Observational Studies",
     "text": "Observational Studies\nObservational studies are research designs in which researchers observe and collect data on individuals or groups without intervening or manipulating any variables. These studies aim to understand and describe the relationships between variables or to analyze the natural occurrence of events or phenomena. Unlike experimental studies, observational studies do not involve the manipulation of independent variables, and they are often used when it is not ethical or practical to conduct experiments."
   },
   {
     "objectID": "lectures/5b.html#examples-of-observational-studies",
     "href": "lectures/5b.html#examples-of-observational-studies",
-    "title": "Reseach Design",
+    "title": "Research Design",
     "section": "Examples of Observational Studies",
     "text": "Examples of Observational Studies\n\nCross-Sectional Studies\nLongitudinal Studies\nCase-Control Studies\nCohort Studies"
   },
   {
     "objectID": "lectures/5b.html#randomness",
     "href": "lectures/5b.html#randomness",
-    "title": "Reseach Design",
+    "title": "Research Design",
     "section": "Randomness",
     "text": "Randomness\n\nRandomness refers to the lack of predictability or pattern in a sequence of events or outcomes.\n\n\nRandomness is often associated with chance and uncertainty."
   },
   {
     "objectID": "lectures/5b.html#random-sampling",
     "href": "lectures/5b.html#random-sampling",
-    "title": "Reseach Design",
+    "title": "Research Design",
     "section": "Random Sampling",
     "text": "Random Sampling"
   },
   {
     "objectID": "lectures/5b.html#palmer-penguins",
     "href": "lectures/5b.html#palmer-penguins",
-    "title": "Reseach Design",
+    "title": "Research Design",
     "section": "Palmer Penguins",
     "text": "Palmer Penguins\n\n333 Penguins Measured\nCollected information on:\n\nFlipper Length\nBeak Length\nSpecies\nIsland\nBody Mass\n\n~20 million penguins in Antartica"
   },
   {
     "objectID": "lectures/5b.html#flipper-length",
     "href": "lectures/5b.html#flipper-length",
-    "title": "Reseach Design",
+    "title": "Research Design",
     "section": "Flipper Length",
     "text": "Flipper Length"
   },
   {
     "objectID": "lectures/5b.html#is-there-a-signal",
     "href": "lectures/5b.html#is-there-a-signal",
-    "title": "Reseach Design",
+    "title": "Research Design",
     "section": "Is there a signal?",
     "text": "Is there a signal?\n\nAre we seeing differences in penguin species?\n\n\nOr is it due to random chance?\n\n\nHow can we know?\n\n\nHow about we simulate random samples and conduct a permutation test?"
   },
   {
     "objectID": "lectures/5b.html#permutation-test-shuffling",
     "href": "lectures/5b.html#permutation-test-shuffling",
-    "title": "Reseach Design",
+    "title": "Research Design",
     "section": "Permutation Test (Shuffling)",
     "text": "Permutation Test (Shuffling)\nA permutation test, also known as a randomization or re-randomization test, is a statistical method used to assess the significance of an observed statistical result by comparing it to a large number of randomly generated permutations or rearrangements of the data."
   },
   {
     "objectID": "lectures/5b.html#permutation-test",
     "href": "lectures/5b.html#permutation-test",
-    "title": "Reseach Design",
+    "title": "Research Design",
     "section": "Permutation Test",
     "text": "Permutation Test\n\nWe will shuffle the outcome of interest, while maintaining the species location.\n\nThis generates a simulated data set.\n\nWe will create a large number of simulated data sets to get an idea of the distribution.\nWe will then compare the true data with the simulated data sets to see if they overlap."
   },
   {
     "objectID": "lectures/5b.html#shuffling-penguins",
     "href": "lectures/5b.html#shuffling-penguins",
-    "title": "Reseach Design",
+    "title": "Research Design",
     "section": "Shuffling Penguins",
     "text": "Shuffling Penguins\n\nWhile maintaining the structure of the data, we will shuffle the flipper length and plot them.\nWe will repeat the process multiple times\nCompare the simulated data with the actual data"
   },
   {
     "objectID": "lectures/5b.html#shuffling",
     "href": "lectures/5b.html#shuffling",
-    "title": "Reseach Design",
+    "title": "Research Design",
     "section": "Shuffling",
     "text": "Shuffling"
   },
   {
     "objectID": "lectures/5b.html#side-by-side",
     "href": "lectures/5b.html#side-by-side",
-    "title": "Reseach Design",
+    "title": "Research Design",
     "section": "Side by Side",
     "text": "Side by Side"
   },
   {
     "objectID": "lectures/5b.html#shuffling-9-plots",
     "href": "lectures/5b.html#shuffling-9-plots",
-    "title": "Reseach Design",
+    "title": "Research Design",
     "section": "Shuffling 9 Plots",
     "text": "Shuffling 9 Plots"
   },
   {
     "objectID": "lectures/5b.html#overlay-points",
     "href": "lectures/5b.html#overlay-points",
-    "title": "Reseach Design",
+    "title": "Research Design",
     "section": "Overlay Points",
     "text": "Overlay Points"
   },
   {
     "objectID": "lectures/5b.html#overlay-boxplots",
     "href": "lectures/5b.html#overlay-boxplots",
-    "title": "Reseach Design",
+    "title": "Research Design",
     "section": "Overlay Boxplots",
     "text": "Overlay Boxplots"
   },
   {
     "objectID": "lectures/5b.html#how-does-the-data-fit",
     "href": "lectures/5b.html#how-does-the-data-fit",
-    "title": "Reseach Design",
+    "title": "Research Design",
     "section": "How does the data fit?",
     "text": "How does the data fit?"
   },
   {
     "objectID": "lectures/5b.html#time-management",
     "href": "lectures/5b.html#time-management",
-    "title": "Reseach Design",
+    "title": "Research Design",
     "section": "Time Management",
     "text": "Time Management"
   },
