@@ -359,6 +359,9 @@
 <li><div class="agenda-inactive agenda-post-active">
 <p>Randomization</p>
 </div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>EPE-Session</p>
+</div></li>
 </ol>
 </div>
 </section>
@@ -381,7 +384,7 @@
 <ul>
 <li><p>Statistics: A Math? A Science? An Art? Or Something Else?</p></li>
 <li><p>Location: Sierra 2411</p></li>
-<li><p>Day and Time: Wednesday Sept 27 4:30 PM</p></li>
+<li><p>Day and Time: Wednesday Sept 27 4:30-5:30 PM</p></li>
 <li><p>OH Cancelled that day</p></li>
 </ul>
 </section>
@@ -406,6 +409,9 @@
 </div></li>
 <li><div class="agenda-inactive agenda-post-active">
 <p>Randomization</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>EPE-Session</p>
 </div></li>
 </ol>
 </div>
@@ -457,35 +463,130 @@
 <li><div class="agenda-active">
 <p>Randomization</p>
 </div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>EPE-Session</p>
+</div></li>
 </ol>
 </div>
 </section>
-<section id="randomization-1" class="slide level2">
-<h2>Randomization</h2>
+<section id="randomness" class="slide level2">
+<h2>Randomness</h2>
+<div class="fragment">
+<p>Randomness refers to the lack of predictability or pattern in a sequence of events or outcomes.</p>
+</div>
+<div class="fragment">
+<p>Randomness is often associated with chance and uncertainty.</p>
+</div>
+</section>
+<section id="random-sampling" class="slide level2">
+<h2>Random Sampling</h2>
+</section>
+<section id="palmer-penguins" class="slide level2">
+<h2>Palmer Penguins</h2>
+<ul>
+<li><p>333 Penguins Measured</p></li>
+<li><p>Collected information on:</p>
+<ul>
+<li><p>Flipper Length</p></li>
+<li><p>Beak Length</p></li>
+<li><p>Species</p></li>
+<li><p>Island</p></li>
+<li><p>Body Mass</p></li>
+</ul></li>
+<li><p>~20 million penguins in Antartica</p></li>
+</ul>
+</section>
+<section id="flipper-length" class="slide level2">
+<h2>Flipper Length</h2>
+
+<img data-src="5b_files/figure-revealjs/unnamed-chunk-2-1.png" width="960" class="r-stretch"></section>
+<section id="is-there-a-signal" class="slide level2">
+<h2>Is there a signal?</h2>
+<div class="fragment">
+<p>Are we seeing differences in penguin species?</p>
+</div>
+<div class="fragment">
+<p>Or is it due to random chance?</p>
+</div>
+<div class="fragment">
+<p>How can we know?</p>
+</div>
+<div class="fragment">
+<p>How about we simulate random samples and conduct a permutation test?</p>
+</div>
+</section>
+<section id="permutation-test-shuffling" class="slide level2">
+<h2>Permutation Test (Shuffling)</h2>
+<p>A permutation test, also known as a randomization or re-randomization test, is a statistical method used to assess the significance of an observed statistical result by comparing it to a large number of randomly generated permutations or rearrangements of the data.</p>
+</section>
+<section id="permutation-test" class="slide level2">
+<h2>Permutation Test</h2>
+<ul>
+<li><p>We will shuffle the outcome of interest, while maintaining the species location.</p>
+<ul>
+<li>This generates a simulated data set.</li>
+</ul></li>
+<li><p>We will create a large number of simulated data sets to get an idea of the distribution.</p></li>
+<li><p>We will then compare the true data with the simulated data sets to see if they overlap.</p></li>
+</ul>
+</section>
+<section id="shuffling-penguins" class="slide level2">
+<h2>Shuffling Penguins</h2>
+<ul>
+<li><p>While maintaining the structure of the data, we will shuffle the flipper length and plot them.</p></li>
+<li><p>We will repeat the process multiple times</p></li>
+<li><p>Compare the simulated data with the actual data</p></li>
+</ul>
 </section>
 <section id="shuffling" class="slide level2">
 <h2>Shuffling</h2>
 
-<img data-src="5b_files/figure-revealjs/unnamed-chunk-2-1.png" width="960" class="r-stretch"></section>
-<section id="shuffling-1" class="slide level2">
-<h2>Shuffling</h2>
-
 <img data-src="5b_files/figure-revealjs/unnamed-chunk-3-1.png" width="960" class="r-stretch"></section>
+<section id="side-by-side" class="slide level2">
+<h2>Side by Side</h2>
+
+<img data-src="5b_files/figure-revealjs/unnamed-chunk-4-1.png" width="960" class="r-stretch"></section>
+<section id="shuffling-9-plots" class="slide level2">
+<h2>Shuffling 9 Plots</h2>
+
+<img data-src="5b_files/figure-revealjs/unnamed-chunk-5-1.png" width="960" class="r-stretch"></section>
 <section id="overlay-points" class="slide level2">
 <h2>Overlay Points</h2>
 
-<img data-src="5b_files/figure-revealjs/unnamed-chunk-4-1.png" width="960" class="r-stretch"></section>
+<img data-src="5b_files/figure-revealjs/unnamed-chunk-6-1.png" width="960" class="r-stretch"></section>
 <section id="overlay-boxplots" class="slide level2">
 <h2>Overlay Boxplots</h2>
 
-<img data-src="5b_files/figure-revealjs/unnamed-chunk-5-1.png" width="960" class="r-stretch"></section>
+<img data-src="5b_files/figure-revealjs/unnamed-chunk-7-1.png" width="960" class="r-stretch"></section>
 <section id="how-does-the-data-fit" class="slide level2">
 <h2>How does the data fit?</h2>
-<div class="cell">
-<div class="cell-output-display">
-<p><img data-src="5b_files/figure-revealjs/unnamed-chunk-6-1.png" width="960"></p>
+
+<img data-src="5b_files/figure-revealjs/unnamed-chunk-8-1.png" width="960" class="r-stretch"></section></section>
+<section>
+<section id="epe-session" class="title-slide slide level1 agenda-slide center">
+<h1>EPE-Session</h1>
+<div class="agenda-heading">
+<p>Learning Outcomes</p>
 </div>
+<div class="agenda">
+<ol>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Announcements</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Research Design</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Randomization</p>
+</div></li>
+<li><div class="agenda-active">
+<p>EPE-Session</p>
+</div></li>
+</ol>
 </div>
+</section>
+<section id="time-management" class="slide level2">
+<h2>Time Management</h2>
 
 <div class="footer footer-default">
 

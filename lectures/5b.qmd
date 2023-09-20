@@ -71,7 +71,7 @@ library(patchwork)
 
 -   Location: Sierra 2411
 
--   Day and Time: Wednesday Sept 27 4:30 PM
+-   Day and Time: Wednesday Sept 27 4:30-5:30 PM
 
 -   OH Cancelled that day
 
@@ -113,18 +113,111 @@ Observational studies are research designs in which researchers observe and coll
 
 # Randomization
 
-## Randomization
+## Randomness
+
+::: fragment
+Randomness refers to the lack of predictability or pattern in a sequence of events or outcomes.
+:::
+
+::: fragment
+Randomness is often associated with chance and uncertainty.
+:::
+
+## Random Sampling
+
+## Palmer Penguins
+
+-   333 Penguins Measured
+
+-   Collected information on:
+
+    -   Flipper Length
+
+    -   Beak Length
+
+    -   Species
+
+    -   Island
+
+    -   Body Mass
+
+-   \~20 million penguins in Antartica
+
+## Flipper Length
+
+```{r}
+s0 <- penguins |> drop_na() |> 
+  ggplot(aes(species, flipper_length_mm)) + geom_jitter() +
+  geom_boxplot(fill = "pink") + 
+  theme_barbie() + xlab("") +
+  theme(axis.text.x = element_text(size = 48))
+plot(s0)
+```
+
+## Is there a signal?
+
+::: fragment
+Are we seeing differences in penguin species?
+:::
+
+::: fragment
+Or is it due to random chance?
+:::
+
+::: fragment
+How can we know?
+:::
+
+::: fragment
+How about we simulate random samples and conduct a permutation test?
+:::
+
+## Permutation Test (Shuffling)
+
+A permutation test, also known as a randomization or re-randomization test, is a statistical method used to assess the significance of an observed statistical result by comparing it to a large number of randomly generated permutations or rearrangements of the data.
+
+## Permutation Test
+
+-   We will shuffle the outcome of interest, while maintaining the species location.
+
+    -   This generates a simulated data set.
+
+-   We will create a large number of simulated data sets to get an idea of the distribution.
+
+-   We will then compare the true data with the simulated data sets to see if they overlap.
+
+## Shuffling Penguins
+
+-   While maintaining the structure of the data, we will shuffle the flipper length and plot them.
+
+-   We will repeat the process multiple times
+
+-   Compare the simulated data with the actual data
 
 ## Shuffling
 
 ```{r}
-penguins |> drop_na() |> 
-  ggplot(aes(species, flipper_length_mm)) + geom_jitter() +
+s1 <- penguins |> drop_na() |> 
+  ggplot(aes(species, shuffle(flipper_length_mm))) + geom_jitter() +
   geom_boxplot(fill = "pink") +
-  theme_barbie()
+  theme_barbie() + theme(axis.text.x = element_text(size = 48))
+plot(s1)
 ```
 
-## Shuffling
+## Side by Side
+
+```{r}
+s0 <- s0 + ggtitle("Actual Data") + ylab("") + xlab("") +
+  theme(plot.title = element_text(size = 60),
+        axis.text.x = element_text(size = 48))
+s1 <- s1 + ggtitle("Shuffled Data") + ylab("") + xlab("") +
+  theme(plot.title = element_text(size = 60),
+        axis.text.x = element_text(size = 48))
+s0 + s1
+
+```
+
+## Shuffling 9 Plots
 
 ```{r}
 res <- vector("list", 9)
@@ -165,7 +258,8 @@ df_shuffle |> ggplot(aes(species, flipper_length_mm)) +
   # geom_boxplot(aes(species, flipper_length_mm),
   #             penguins |> drop_na(), 
   #             col = "blue", fill= "blue", alpha = 0.8) +
-  theme_barbie()
+  theme_barbie() + xlab("") +
+  theme(axis.text.x = element_text(size = 48))
 ```
 
 ## Overlay Boxplots
@@ -181,7 +275,8 @@ df_shuffle |> ggplot(aes(species, flipper_length_mm)) +
   # geom_boxplot(aes(species, flipper_length_mm),
   #             penguins |> drop_na(), 
   #             col = "blue", fill= "blue", alpha = 0.8) +
-  theme_barbie()
+  theme_barbie() + xlab("") +
+  theme(axis.text.x = element_text(size = 48))
 ```
 
 ## How does the data fit?
@@ -196,5 +291,10 @@ df_shuffle |> ggplot(aes(species, flipper_length_mm)) +
   geom_boxplot(aes(species, flipper_length_mm),
               penguins |> drop_na(), 
               col = "red", fill= "blue", alpha = 0.5) +
-  theme_barbie()
+  theme_barbie() + xlab("") +
+  theme(axis.text.x = element_text(size = 48))
 ```
+
+# EPE-Session
+
+## Time Management

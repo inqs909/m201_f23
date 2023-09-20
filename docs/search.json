@@ -32,7 +32,7 @@
     "href": "lectures/5b.html#junior-math-seminar",
     "title": "Reseach Design",
     "section": "Junior Math Seminar",
-    "text": "Junior Math Seminar\n\nStatistics: A Math? A Science? An Art? Or Something Else?\nLocation: Sierra 2411\nDay and Time: Wednesday Sept 27 4:30 PM\nOH Cancelled that day"
+    "text": "Junior Math Seminar\n\nStatistics: A Math? A Science? An Art? Or Something Else?\nLocation: Sierra 2411\nDay and Time: Wednesday Sept 27 4:30-5:30 PM\nOH Cancelled that day"
   },
   {
     "objectID": "lectures/5b.html#complete-survey",
@@ -77,11 +77,60 @@
     "text": "Examples of Observational Studies\n\nCross-Sectional Studies\nLongitudinal Studies\nCase-Control Studies\nCohort Studies"
   },
   {
-    "objectID": "lectures/5b.html#randomization-1",
-    "href": "lectures/5b.html#randomization-1",
+    "objectID": "lectures/5b.html#randomness",
+    "href": "lectures/5b.html#randomness",
     "title": "Reseach Design",
-    "section": "Randomization",
-    "text": "Randomization"
+    "section": "Randomness",
+    "text": "Randomness\n\nRandomness refers to the lack of predictability or pattern in a sequence of events or outcomes.\n\n\nRandomness is often associated with chance and uncertainty."
+  },
+  {
+    "objectID": "lectures/5b.html#random-sampling",
+    "href": "lectures/5b.html#random-sampling",
+    "title": "Reseach Design",
+    "section": "Random Sampling",
+    "text": "Random Sampling"
+  },
+  {
+    "objectID": "lectures/5b.html#palmer-penguins",
+    "href": "lectures/5b.html#palmer-penguins",
+    "title": "Reseach Design",
+    "section": "Palmer Penguins",
+    "text": "Palmer Penguins\n\n333 Penguins Measured\nCollected information on:\n\nFlipper Length\nBeak Length\nSpecies\nIsland\nBody Mass\n\n~20 million penguins in Antartica"
+  },
+  {
+    "objectID": "lectures/5b.html#flipper-length",
+    "href": "lectures/5b.html#flipper-length",
+    "title": "Reseach Design",
+    "section": "Flipper Length",
+    "text": "Flipper Length"
+  },
+  {
+    "objectID": "lectures/5b.html#is-there-a-signal",
+    "href": "lectures/5b.html#is-there-a-signal",
+    "title": "Reseach Design",
+    "section": "Is there a signal?",
+    "text": "Is there a signal?\n\nAre we seeing differences in penguin species?\n\n\nOr is it due to random chance?\n\n\nHow can we know?\n\n\nHow about we simulate random samples and conduct a permutation test?"
+  },
+  {
+    "objectID": "lectures/5b.html#permutation-test-shuffling",
+    "href": "lectures/5b.html#permutation-test-shuffling",
+    "title": "Reseach Design",
+    "section": "Permutation Test (Shuffling)",
+    "text": "Permutation Test (Shuffling)\nA permutation test, also known as a randomization or re-randomization test, is a statistical method used to assess the significance of an observed statistical result by comparing it to a large number of randomly generated permutations or rearrangements of the data."
+  },
+  {
+    "objectID": "lectures/5b.html#permutation-test",
+    "href": "lectures/5b.html#permutation-test",
+    "title": "Reseach Design",
+    "section": "Permutation Test",
+    "text": "Permutation Test\n\nWe will shuffle the outcome of interest, while maintaining the species location.\n\nThis generates a simulated data set.\n\nWe will create a large number of simulated data sets to get an idea of the distribution.\nWe will then compare the true data with the simulated data sets to see if they overlap."
+  },
+  {
+    "objectID": "lectures/5b.html#shuffling-penguins",
+    "href": "lectures/5b.html#shuffling-penguins",
+    "title": "Reseach Design",
+    "section": "Shuffling Penguins",
+    "text": "Shuffling Penguins\n\nWhile maintaining the structure of the data, we will shuffle the flipper length and plot them.\nWe will repeat the process multiple times\nCompare the simulated data with the actual data"
   },
   {
     "objectID": "lectures/5b.html#shuffling",
@@ -91,11 +140,18 @@
     "text": "Shuffling"
   },
   {
-    "objectID": "lectures/5b.html#shuffling-1",
-    "href": "lectures/5b.html#shuffling-1",
+    "objectID": "lectures/5b.html#side-by-side",
+    "href": "lectures/5b.html#side-by-side",
     "title": "Reseach Design",
-    "section": "Shuffling",
-    "text": "Shuffling"
+    "section": "Side by Side",
+    "text": "Side by Side"
+  },
+  {
+    "objectID": "lectures/5b.html#shuffling-9-plots",
+    "href": "lectures/5b.html#shuffling-9-plots",
+    "title": "Reseach Design",
+    "section": "Shuffling 9 Plots",
+    "text": "Shuffling 9 Plots"
   },
   {
     "objectID": "lectures/5b.html#overlay-points",
@@ -117,6 +173,13 @@
     "title": "Reseach Design",
     "section": "How does the data fit?",
     "text": "How does the data fit?"
+  },
+  {
+    "objectID": "lectures/5b.html#time-management",
+    "href": "lectures/5b.html#time-management",
+    "title": "Reseach Design",
+    "section": "Time Management",
+    "text": "Time Management"
   },
   {
     "objectID": "lectures/4b.html#histogram",
