@@ -53,17 +53,6 @@ library(patchwork)
 
 ![](https://ww2.kqed.org/app/uploads/sites/43/2022/09/Zamora_Author-Photo_credit_Gerardo-del-Valle-COLLAGE-1020x765.jpg){fig-align="center"}
 
-## First Exam
-
--   September 25
-
--   30 Questions
-
--   Mixed of Multiple Choice, True or False, and Free Response
-
--   Get 1 sheet of notes, front and back
-
--   In-person
 
 ## Junior Math Seminar
 
@@ -79,3 +68,10 @@ library(patchwork)
 
 ## Exam
 
+::: incremental
+
+-   Test Evaluation
+
+-   Test Correction
+
+:::
