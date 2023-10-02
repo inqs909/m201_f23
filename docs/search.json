@@ -14,179 +14,1145 @@
     "text": "Term: Fall 2023\nInstructor: Isaac Quintanilla Salinas\nEmail: isaac.qs@csuci.edu\nOffice Location: BTE 2840\nOffice Hours:\n\n\n\nOH\nCourse\nR Programming\nTEA Math/Stat Hour\n\n\n\n\nDay\nMW\nTue\nTh\n\n\nLocation\nBT 1462\nLRC\nBTE Courtyard\n\n\nTime\n4:30-6:00 PM\n10-12 AM\n12-1:30 PM\n\n\n\nOr by Zoom appointment.\nLecture: Monday/Wednesday 10:00-11:50 AM (Sec 01) or 2:00-3:50 PM (Sec 02) in BT 1462\n\n\n\nCritical reasoning using a quantitative and statistical, problem-solving approach to solving real-world problems. Topics include: probability and statistics, sample data, probability and empirical data distributions, sampling techniques, estimation and hypothesis testing, ANOVA, and correlation and regression analysis. Students will use standard statistical software to analyze real-world and simulated data. GenEd: B4\n\n\n\n\nPrepare students for advanced courses in data-management and statistics\nReason both inductively and deductively with quantitative information and data\nUse statistical software for complex statistical analysis of real-world and simulated data\nEmpower students to apply computational and inferential thinking to address real-world problems\nWrite the results of a statistical study and draw conclusion in reports\n\n\n\n\nThis course will use Coursekata, a Canvas-embedded textbook with built-in R functionality.\n\n\n\nFor this course, we will use R and RStudio. You will have access to them online, but you may download and install them on your computer.\n\nR is a free statistical software program that is available for download at: https://www.r-project.org/.\nRStudio provides free and open source tools for your data analysis in R: https://www.rstudio.com/\n\n\n\n\nThis course will have two embedded peer educators:\n\nDevin Frost (Sec 01)\n\nEmail: devin.frost091@csuci.edu\n\nAmanda Parks (Sec 02)\n\nEmail: amanda.parks743@myci.csuci.edu\n\n\nAn EPE is there to help you understand the material and succeed in the course. They will be leading in class assignments. hold special tutoring sessions, and support you in your R programming. These educators are trained with study skills that will set you up with success in college.\n\n\n\n\n\n\nCategory\nPercentage\n\n\n\n\nReading Assignments\n20%\n\n\nLab Assignments\n15%\n\n\nWeekly Quizzes\n15%\n\n\nParticipation\n5%\n\n\nExam 1\n15%\n\n\nExam 2\n15%\n\n\nExam 3\n15%\n\n\n\nAt the end of the quarter, course grades will be assigned according to the following scale:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA+\n98 – 100\nB+\n87 – &lt;90\nC+\n77 – &lt;80\nD+\n67 – &lt;70\n\n\n\n\nA\n93 – &lt;98\nB\n83 – &lt;87\nC\n73 – &lt;77\nD\n63 – &lt;67\nF\n&lt; 60\n\n\nA–\n90 - &lt;93\nB-\n80 – &lt;83\nC–\n70 – &lt;73\nD–\n60 – &lt;63\n\n\n\n\n\n\n\nParticipation is based on short writing assignments conducted in class. There will be no make ups for these writing prompts.\n\n\n\nLab assignments are designed to expand your statistical knowledge. These will be completed in JupyterHub which can be accessed from Canvas. There are approximately 2 lab assignments every week that you can complete during class time. The lab assignment will be due either on Tuesday or Thursday at 11:59 PM following the lab day it was assigned.\n\n\n\nReading assignments are designed to teach you different statistical concepts and R Programming. As the course progresses, many of the concepts build on each other. Therefore, the assignments encourage you to read each chapter in an appropriate amount of time. You must read the chapter and answer the questions by the Sunday night at 11:59 PM. The 2 lowest reading assignments will be dropped.\n\n\n\nStarting on Week 2, there will be a weekly quiz every Friday. The quiz will become available for you to take on Canvas at 12AM to 11:59 PM every Friday. The quiz is designed to test whether you recall the material from the previous week. You are expected to complete the quiz with out using any material such as your notes, textbook, or internet. Additionally, you will get 90% of the quiz grade for simply taking the quiz. The remaining 10% is based on getting the question correct. There are a total of 12 quizzes in the semester. The lowest 3 quizzes will be dropped from your class grade. There are no make up quizzes.\n\n\n\nThere will be three in exams. Exam #1 will on Sept 25, Exam #2 will be on Nov 8, and Exam #3 will be on Dec 6 at 8-10 AM (Sec 01) or 1-3 PM (Sec 02). While the exams are not considered cumulative, the material builds on each other. Developing a strong understanding of the material through out the course is important for your success. At the end of the semester, your lowest exam grade will be replaced by your median average exam grade. This course will operate under a zero-tolerance policy. Talking during the time of the exam, sharing materials, looking at another students’ exam, or not following directions given will be subject to the University’s academic integrity policy.\n\n\n\nThere will be 3 extra credit opportunities worth a total of 10% of your overall grade. (There are no make-ups for missed extra credit assignments!) More information will be provided on the extra credit assignments on a later date. Information on the extra credit can be found here.\n\n\n\n\nThe following outline may be subject to change. Any changes will be announced in class.\n\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nCh. Due\nLab Due\nQuiz\n\n\n\n\n8/21-8/25\nWelcome to College/Course\n\n\n\n\n\n8/28-9/1\nWelcome to Statistics: A Modeling Approach\nCh 1\n1A and 1B\nQuiz 1\n\n\n9/4-9/8\nLabor Day/Understanding Data\nCh 2\n2A\nQuiz 2\n\n\n9/11-9/15\nExamining Distributions\nCh 3\n3A and 3B\nQuiz 3\n\n\n9/18-9/22\nExplaining Variation\nCh 4\n4A and 4B\nQuiz 4\n\n\n9/25-9/29\nExam #1/ A Simple Model\n\n\n\n\n\n10/2-10/6\nA Simple Model\nCh 5\n5A and 5B\nQuiz 5\n\n\n10/9-10/13\nQuantifying Error\nCh 6\n6A and 6B\nQuiz 6\n\n\n10/16-10/20\nAdding an Explanatory Variable to the Model\nCh 7\n7A and 7B\nQuiz 7\n\n\n10/23-10/27\nDigging Deeper into Group Model\nCh 8\n8A\nQuiz 8\n\n\n10/30-11/3\nModels with a Quantitative Explanatory Variable\nCh 9\n9A and 9B\nQuiz 9\n\n\n11/6-11/10\nExam #2\n\n\n\n\n\n11/13-11/17\nLogic of Inference\nCh 10\n10A and 10B\nQuiz 10\n\n\n11/20-11/24\nModel Comparison with F\nCh 11\n11A\nQuiz 11\n\n\n11/27-12/1\nParameter Estimation and Confidence Intervals\nCh 12\n12A and 12B\nQuiz 12\n\n\n12/4-12/8\nExam #3\nCh 13\n\n\n\n\n\n\n\n\n\nAcademic Honesty:\nPlease conduct yourself with honesty and integrity. Do not submit others’ work as your own. For assignments and quizzes that allow you to work with a group, only put your name on what the group submits if you genuinely contributed to the work. Work completely independently on exams, using only the materials that are indicated as allowed. Failure to observe academic honesty results in substantial penalties that can include failing the course.\nDisabilities:\nIf you are a student with a disability requesting reasonable accommodations in this course, you need to contact Disability Accommodations and Support Services (DASS) located on the second floor of Arroyo Hall, via email accommodations@csuci.edu or call 805-437-3331. All requests for reasonable accommodations require registration with DASS in advance of need: https://www.csuci.edu/dass/students/apply-for-services.htm. Faculty, students and DASS will work together regarding classroom accommodations. You are encouraged to discuss approved.\nEmergency Procedure Notice to Students:\nCSUCI is following guidelines and public orders from the California Department of Public Health and Ventura County Public Health for the COVID-19 pandemic as it pertains to CSUCI students, employees and visitors on the campus. Students are expected to adhere to all health and safety requirements as noted on the University’s Spring 2023 Semester website or they may be subject to removal from the classroom.\n\n\n\n\nThe California Faculty Association (the labor union of Lecturers, Professors, Coaches, Counselors, and Librarians across the 23 CSU campuses) is in a difficult contract dispute with California State University management. It is possible that we will call a strike or other work stoppage this term. I promise to promptly inform you of any schedule disruption. Our working conditions are your learning conditions; we seek to protect both. For further information go to www.CFAbargaining.org."
   },
   {
-    "objectID": "lectures/6b.html#solito-a-memoir",
-    "href": "lectures/6b.html#solito-a-memoir",
+    "objectID": "lectures/7a.html#computer-literacy-survey",
+    "href": "lectures/7a.html#computer-literacy-survey",
     "title": "A Simple Model",
+    "section": "Computer Literacy Survey",
+    "text": "Computer Literacy Survey"
+  },
+  {
+    "objectID": "lectures/7a.html#plotathon",
+    "href": "lectures/7a.html#plotathon",
+    "title": "A Simple Model",
+    "section": "Plotathon",
+    "text": "Plotathon"
+  },
+  {
+    "objectID": "lectures/7a.html#r-workshop",
+    "href": "lectures/7a.html#r-workshop",
+    "title": "A Simple Model",
+    "section": "R Workshop",
+    "text": "R Workshop\n\nTuesday November 7, 12-1:30PM\nBroome 2680\nFree Lunch"
+  },
+  {
+    "objectID": "lectures/7a.html#generated-model",
+    "href": "lectures/7a.html#generated-model",
+    "title": "A Simple Model",
+    "section": "Generated Model",
+    "text": "Generated Model\n\\[\nOutcome \\sim OtherStuff\n\\]"
+  },
+  {
+    "objectID": "lectures/7a.html#other-stuff",
+    "href": "lectures/7a.html#other-stuff",
+    "title": "A Simple Model",
+    "section": "Other Stuff",
+    "text": "Other Stuff\nWhat is other stuff?"
+  },
+  {
+    "objectID": "lectures/7a.html#generated-model-1",
+    "href": "lectures/7a.html#generated-model-1",
+    "title": "A Simple Model",
+    "section": "Generated Model",
+    "text": "Generated Model\n\\[\nOutcome \\sim DGP\n\\]"
+  },
+  {
+    "objectID": "lectures/7a.html#a-simple-model-1",
+    "href": "lectures/7a.html#a-simple-model-1",
+    "title": "A Simple Model",
+    "section": "A Simple Model",
+    "text": "A Simple Model"
+  },
+  {
+    "objectID": "lectures/7a.html#a-simple-model-2",
+    "href": "lectures/7a.html#a-simple-model-2",
+    "title": "A Simple Model",
+    "section": "A Simple Model",
+    "text": "A Simple Model\n\\[\nOutcome = \\_\\_\\_ + OtherStuff\n\\]"
+  },
+  {
+    "objectID": "lectures/7a.html#notation",
+    "href": "lectures/7a.html#notation",
+    "title": "A Simple Model",
+    "section": "Notation",
+    "text": "Notation\n\\[\nY = \\ \\ \\ \\ \\ \\ \\ \\ \\ + \\varepsilon\n\\]"
+  },
+  {
+    "objectID": "lectures/7a.html#the-simple-generated-model",
+    "href": "lectures/7a.html#the-simple-generated-model",
+    "title": "A Simple Model",
+    "section": "The Simple Generated Model",
+    "text": "The Simple Generated Model\n\\[\nY \\sim \\mu + \\varepsilon\n\\]\n\\[\n\\varepsilon \\sim DGP\n\\]\n\nDGP is not the same as the previous one, it is transformed due \\(\\beta_0\\). Consider this the NULL DGP."
+  },
+  {
+    "objectID": "lectures/7a.html#observing-data",
+    "href": "lectures/7a.html#observing-data",
+    "title": "A Simple Model",
+    "section": "Observing Data",
+    "text": "Observing Data\n\\[\nY = \\beta_0 + \\varepsilon\n\\]"
+  },
+  {
+    "objectID": "lectures/7a.html#estimated-data",
+    "href": "lectures/7a.html#estimated-data",
+    "title": "A Simple Model",
+    "section": "Estimated Data",
+    "text": "Estimated Data\n\\[\n\\hat Y=\\hat\\beta_0\n\\]"
+  },
+  {
+    "objectID": "lectures/7a.html#notation-1",
+    "href": "lectures/7a.html#notation-1",
+    "title": "A Simple Model",
+    "section": "Notation",
+    "text": "Notation\n\n\nObserved\n\\[\nY = \\beta_0 + \\varepsilon\n\\]\n\nEstimated\n\\[\n\\hat Y = \\hat \\beta_0\n\\]"
+  },
+  {
+    "objectID": "lectures/7a.html#mean-vs-median-1",
+    "href": "lectures/7a.html#mean-vs-median-1",
+    "title": "A Simple Model",
+    "section": "Mean vs Median",
+    "text": "Mean vs Median"
+  },
+  {
+    "objectID": "lectures/7a.html#mean-vs-median-2",
+    "href": "lectures/7a.html#mean-vs-median-2",
+    "title": "A Simple Model",
+    "section": "Mean vs Median",
+    "text": "Mean vs Median\nWhich one is preferred?"
+  },
+  {
+    "objectID": "lectures/7a.html#mean-vs-median-3",
+    "href": "lectures/7a.html#mean-vs-median-3",
+    "title": "A Simple Model",
+    "section": "Mean vs Median",
+    "text": "Mean vs Median"
+  },
+  {
+    "objectID": "lectures/7a.html#deviations",
+    "href": "lectures/7a.html#deviations",
+    "title": "A Simple Model",
+    "section": "Deviations",
+    "text": "Deviations\nDeviations are know as the distance of a data point from a model:\n\\[\n\\hat r_i= y_i -\\hat y_i\n\\]\nThese are also know as residuals (\\(\\hat r_i\\))"
+  },
+  {
+    "objectID": "lectures/7a.html#deviations-1",
+    "href": "lectures/7a.html#deviations-1",
+    "title": "A Simple Model",
+    "section": "Deviations",
+    "text": "Deviations"
+  },
+  {
+    "objectID": "lectures/7a.html#deviations-2",
+    "href": "lectures/7a.html#deviations-2",
+    "title": "A Simple Model",
+    "section": "Deviations",
+    "text": "Deviations\n\n\n#&gt;   [1]  -457.057057  -407.057057  -957.057057  -757.057057  -557.057057\n#&gt;   [6]  -582.057057   467.942943 -1007.057057  -407.057057   192.942943\n#&gt;  [11]  -507.057057  -757.057057   292.942943  -882.057057    -7.057057\n#&gt;  [16]  -807.057057  -607.057057  -407.057057  -257.057057  -407.057057\n#&gt;  [21]  -407.057057  -657.057057 -1007.057057 -1057.057057  -257.057057\n#&gt;  [26]  -957.057057  -307.057057  -907.057057  -307.057057  -882.057057\n#&gt;  [31]   -57.057057  -257.057057  -657.057057  -907.057057   442.942943\n#&gt;  [36] -1057.057057  -307.057057 -1107.057057   192.942943 -1207.057057\n#&gt;  [41]   392.942943  -782.057057  -757.057057   -57.057057  -707.057057\n#&gt;  [46]    92.942943  -757.057057  -157.057057 -1307.057057  -507.057057\n#&gt;  [51]  -657.057057  -407.057057 -1357.057057  -457.057057 -1057.057057\n#&gt;  [56]   192.942943  -607.057057  -157.057057 -1357.057057  -257.057057\n#&gt;  [61]  -857.057057  -107.057057 -1157.057057   242.942943  -607.057057\n#&gt;  [66]  -307.057057  -657.057057   -57.057057  -507.057057    42.942943\n#&gt;  [71]  -507.057057  -307.057057  -657.057057  -207.057057 -1007.057057\n#&gt;  [76]   492.942943  -407.057057    -7.057057  -857.057057  -657.057057\n#&gt;  [81]  -407.057057  -707.057057  -257.057057  -607.057057  -657.057057\n#&gt;  [86]    92.942943  -807.057057   242.942943  -907.057057    92.942943\n#&gt;  [91]  -507.057057   142.942943 -1307.057057  -107.057057  -482.057057\n#&gt;  [96]   517.942943 -1132.057057    42.942943 -1282.057057  -657.057057\n#&gt; [101]  -457.057057  -307.057057 -1032.057057   567.942943  -382.057057\n#&gt; [106]   392.942943 -1007.057057    67.942943  -307.057057  -132.057057\n#&gt; [111] -1307.057057  -432.057057  -857.057057  -882.057057 -1057.057057\n#&gt; [116]  -707.057057  -757.057057  -332.057057 -1157.057057  -207.057057\n#&gt; [121]  -932.057057    92.942943 -1157.057057  -207.057057  -882.057057\n#&gt; [126]  -707.057057  -707.057057   267.942943  -782.057057  -307.057057\n#&gt; [131] -1032.057057  -232.057057  -807.057057    42.942943  -807.057057\n#&gt; [136]  -732.057057 -1157.057057  -482.057057 -1207.057057  -557.057057\n#&gt; [141]    42.942943  -732.057057  -757.057057  -457.057057  -507.057057\n#&gt; [146]  -207.057057   292.942943  1492.942943   242.942943  1492.942943\n#&gt; [151]  1192.942943   342.942943   592.942943   992.942943   192.942943\n#&gt; [156]   942.942943   442.942943  1342.942943   442.942943  1642.942943\n#&gt; [161]    -7.057057  1642.942943   -57.057057  2092.942943   592.942943\n#&gt; [166]  1142.942943  1492.942943   792.942943   192.942943   842.942943\n#&gt; [171]   792.942943   892.942943  1442.942943   392.942943  1342.942943\n#&gt; [176]  1042.942943   492.942943   842.942943  1842.942943   942.942943\n#&gt; [181]  1192.942943   742.942943  1042.942943   142.942943  1142.942943\n#&gt; [186]  -257.057057  1492.942943    92.942943   542.942943  1342.942943\n#&gt; [191]   692.942943    -7.057057  1192.942943   892.942943  1092.942943\n#&gt; [196]   642.942943  1092.942943   192.942943   792.942943   692.942943\n#&gt; [201]   842.942943    92.942943   792.942943   242.942943  1342.942943\n#&gt; [206]    -7.057057  1092.942943   192.942943  1442.942943   492.942943\n#&gt; [211]  1492.942943  1592.942943   492.942943  1342.942943   542.942943\n#&gt; [216]   792.942943   892.942943   992.942943   492.942943  1592.942943\n#&gt; [221]   392.942943  1792.942943   542.942943  1742.942943   417.942943\n#&gt; [226]  1242.942943   517.942943  1142.942943   542.942943  1392.942943\n#&gt; [231]   392.942943  1092.942943   667.942943  1342.942943   742.942943\n#&gt; [236]  1192.942943   542.942943  1442.942943   642.942943   992.942943\n#&gt; [241]   717.942943   667.942943   417.942943  1042.942943   642.942943\n#&gt; [246]  1392.942943   767.942943  1292.942943  1292.942943   492.942943\n#&gt; [251]  1292.942943   367.942943  1292.942943   792.942943  1742.942943\n#&gt; [256]   442.942943  1292.942943   167.942943  1642.942943  1792.942943\n#&gt; [261]   717.942943   642.942943  1542.942943   992.942943  1192.942943\n#&gt; [266]  -707.057057  -307.057057  -557.057057  -682.057057  -482.057057\n#&gt; [271]  -257.057057  -957.057057  -457.057057   -57.057057  -507.057057\n#&gt; [276]  -407.057057  -432.057057  -507.057057  -157.057057  -632.057057\n#&gt; [281]  -157.057057  -907.057057  -507.057057  -757.057057   192.942943\n#&gt; [286]  -607.057057  -807.057057 -1307.057057  -407.057057  -907.057057\n#&gt; [291]   -57.057057  -807.057057  -407.057057  -507.057057   342.942943\n#&gt; [296] -1007.057057    92.942943  -857.057057  -107.057057  -607.057057\n#&gt; [301]  -307.057057  -357.057057   592.942943 -1507.057057   292.942943\n#&gt; [306]  -257.057057  -557.057057  -657.057057  -707.057057  -532.057057\n#&gt; [311]   242.942943  -807.057057    92.942943  -957.057057  -532.057057\n#&gt; [316]  -882.057057  -257.057057  -607.057057  -157.057057  -857.057057\n#&gt; [321]  -757.057057  -957.057057  -157.057057  -407.057057  -682.057057\n#&gt; [326]  -257.057057  -557.057057  -557.057057  -207.057057  -807.057057\n#&gt; [331]  -432.057057  -107.057057  -432.057057"
+  },
+  {
+    "objectID": "lectures/7a.html#sum-of-deviations-with-mean",
+    "href": "lectures/7a.html#sum-of-deviations-with-mean",
+    "title": "A Simple Model",
+    "section": "Sum of Deviations with Mean",
+    "text": "Sum of Deviations with Mean\n\npenguins |&gt; drop_na() |&gt; \n  {\\(.) .$body_mass_g - mean(.$body_mass_g)}() |&gt; \n  sum()\n\n#&gt; [1] -2.637535e-11"
+  },
+  {
+    "objectID": "lectures/7a.html#x",
+    "href": "lectures/7a.html#x",
+    "title": "A Simple Model",
+    "section": "\\(10^{-x}\\)",
+    "text": "\\(10^{-x}\\)"
+  },
+  {
+    "objectID": "lectures/7a.html#sum-of-median-deviations-with-median",
+    "href": "lectures/7a.html#sum-of-median-deviations-with-median",
+    "title": "A Simple Model",
+    "section": "Sum of Median Deviations with Median",
+    "text": "Sum of Median Deviations with Median\n\npenguins |&gt; drop_na() |&gt; \n  {\\(.) .$body_mass_g - median(.$body_mass_g)}() |&gt; \n  sum()\n\n#&gt; [1] 52300"
+  },
+  {
+    "objectID": "lectures/7a.html#prediction",
+    "href": "lectures/7a.html#prediction",
+    "title": "A Simple Model",
+    "section": "Prediction",
+    "text": "Prediction\n\n\n#&gt; [1] 27 28 15\n\n\nCome up with 3 ways to transform the data.\nDoes this remind you of something you have learned in your previous math classes?"
+  },
+  {
+    "objectID": "lectures/5b.html#solito-a-memoir",
+    "href": "lectures/5b.html#solito-a-memoir",
+    "title": "Research Design",
     "section": "Solito: A Memoir",
     "text": "Solito: A Memoir"
   },
   {
-    "objectID": "lectures/6b.html#junior-math-seminar",
-    "href": "lectures/6b.html#junior-math-seminar",
-    "title": "A Simple Model",
+    "objectID": "lectures/5b.html#first-exam",
+    "href": "lectures/5b.html#first-exam",
+    "title": "Research Design",
+    "section": "First Exam",
+    "text": "First Exam\n\nSeptember 25\n30 Questions\nMixed of Multiple Choice, True or False, and Free Response\nGet 1 sheet of notes, front and back\nIn-person"
+  },
+  {
+    "objectID": "lectures/5b.html#junior-math-seminar",
+    "href": "lectures/5b.html#junior-math-seminar",
+    "title": "Research Design",
     "section": "Junior Math Seminar",
-    "text": "Junior Math Seminar\n\nStatistics: A Math? A Science? An Art? Or Something Else?\nLocation: Sierra 2411\nDay and Time: Wednesday Sept 27 4:30-5:30 PM\nOH Cancelled Today"
+    "text": "Junior Math Seminar\n\nStatistics: A Math? A Science? An Art? Or Something Else?\nLocation: Sierra 2411\nDay and Time: Wednesday Sept 27 4:30-5:30 PM\nOH Cancelled that day"
   },
   {
-    "objectID": "lectures/6b.html#thursdays-office-hours-cancelled",
-    "href": "lectures/6b.html#thursdays-office-hours-cancelled",
-    "title": "A Simple Model",
-    "section": "Thursday’s Office Hours Cancelled",
-    "text": "Thursday’s Office Hours Cancelled"
+    "objectID": "lectures/5b.html#complete-survey",
+    "href": "lectures/5b.html#complete-survey",
+    "title": "Research Design",
+    "section": "Complete Survey",
+    "text": "Complete Survey\n\nhttps://forms.gle/tYgmpJFk6fzz36r18"
   },
   {
-    "objectID": "lectures/6b.html#exam",
-    "href": "lectures/6b.html#exam",
-    "title": "A Simple Model",
-    "section": "Exam",
-    "text": "Exam\n\n\nTest Evaluation\nTest Correction"
+    "objectID": "lectures/5b.html#what-is-the-purpose-of-research",
+    "href": "lectures/5b.html#what-is-the-purpose-of-research",
+    "title": "Research Design",
+    "section": "What is the purpose of research?",
+    "text": "What is the purpose of research?\nThe purpose of research is to systematically investigate, gather information, analyze data, and draw conclusions to advance knowledge, solve problems, or answer questions."
   },
   {
-    "objectID": "lectures/5a.html#solito-a-memoir",
-    "href": "lectures/5a.html#solito-a-memoir",
-    "title": "Modelling Relationships",
-    "section": "Solito: A Memoir",
-    "text": "Solito: A Memoir"
+    "objectID": "lectures/5b.html#experimental-studies",
+    "href": "lectures/5b.html#experimental-studies",
+    "title": "Research Design",
+    "section": "Experimental Studies",
+    "text": "Experimental Studies\nExperimental studies are research designs in which the researcher deliberately manipulates one or more independent variables to observe their effects on an outcome of interest. These studies are commonly used in scientific and social science research to establish cause-and-effect relationships between variables."
   },
   {
-    "objectID": "lectures/5a.html#voces-inocentes",
-    "href": "lectures/5a.html#voces-inocentes",
-    "title": "Modelling Relationships",
-    "section": "Voces Inocentes",
-    "text": "Voces Inocentes\n\n\n\n\n\n\n\n\n\nSeptember 18\nBroome Library 1360\n5 - 8 PM\nSnacks will be provided\nCW: Portrays war, child soldiers, children death\nRegister here\nOH cancelled that day."
+    "objectID": "lectures/5b.html#examples-of-experimental-studies",
+    "href": "lectures/5b.html#examples-of-experimental-studies",
+    "title": "Research Design",
+    "section": "Examples of Experimental Studies",
+    "text": "Examples of Experimental Studies\n\nRandomized-Control Trials\n\nPlacebo-Drug Studies"
   },
   {
-    "objectID": "lectures/5a.html#quiz-1",
-    "href": "lectures/5a.html#quiz-1",
-    "title": "Modelling Relationships",
-    "section": "Quiz 1",
-    "text": "Quiz 1\nWhat are the components of a data generating process?"
+    "objectID": "lectures/5b.html#observational-studies",
+    "href": "lectures/5b.html#observational-studies",
+    "title": "Research Design",
+    "section": "Observational Studies",
+    "text": "Observational Studies\nObservational studies are research designs in which researchers observe and collect data on individuals or groups without intervening or manipulating any variables. These studies aim to understand and describe the relationships between variables or to analyze the natural occurrence of events or phenomena. Unlike experimental studies, observational studies do not involve the manipulation of independent variables, and they are often used when it is not ethical or practical to conduct experiments."
   },
   {
-    "objectID": "lectures/5a.html#quiz-2",
-    "href": "lectures/5a.html#quiz-2",
-    "title": "Modelling Relationships",
-    "section": "Quiz 2",
-    "text": "Quiz 2\nDescribe the potential data generating process of blood pressure in patients in a hospital."
+    "objectID": "lectures/5b.html#examples-of-observational-studies",
+    "href": "lectures/5b.html#examples-of-observational-studies",
+    "title": "Research Design",
+    "section": "Examples of Observational Studies",
+    "text": "Examples of Observational Studies\n\nCross-Sectional Studies\nLongitudinal Studies\nCase-Control Studies\nCohort Studies"
   },
   {
-    "objectID": "lectures/5a.html#quiz-3",
-    "href": "lectures/5a.html#quiz-3",
-    "title": "Modelling Relationships",
-    "section": "Quiz 3",
-    "text": "Quiz 3\nDescribe the data generating process of number of years of school in students."
+    "objectID": "lectures/5b.html#randomness",
+    "href": "lectures/5b.html#randomness",
+    "title": "Research Design",
+    "section": "Randomness",
+    "text": "Randomness\n\nRandomness refers to the lack of predictability or pattern in a sequence of events or outcomes.\n\n\nRandomness is often associated with chance and uncertainty."
   },
   {
-    "objectID": "lectures/5a.html#explaining-variation",
-    "href": "lectures/5a.html#explaining-variation",
-    "title": "Modelling Relationships",
+    "objectID": "lectures/5b.html#random-sampling",
+    "href": "lectures/5b.html#random-sampling",
+    "title": "Research Design",
+    "section": "Random Sampling",
+    "text": "Random Sampling"
+  },
+  {
+    "objectID": "lectures/5b.html#palmer-penguins",
+    "href": "lectures/5b.html#palmer-penguins",
+    "title": "Research Design",
+    "section": "Palmer Penguins",
+    "text": "Palmer Penguins\n\n333 Penguins Measured\nCollected information on:\n\nFlipper Length\nBeak Length\nSpecies\nIsland\nBody Mass\n\n~20 million penguins in Antartica"
+  },
+  {
+    "objectID": "lectures/5b.html#flipper-length",
+    "href": "lectures/5b.html#flipper-length",
+    "title": "Research Design",
+    "section": "Flipper Length",
+    "text": "Flipper Length"
+  },
+  {
+    "objectID": "lectures/5b.html#is-there-a-signal",
+    "href": "lectures/5b.html#is-there-a-signal",
+    "title": "Research Design",
+    "section": "Is there a signal?",
+    "text": "Is there a signal?\n\nAre we seeing differences in penguin species?\n\n\nOr is it due to random chance?\n\n\nHow can we know?\n\n\nHow about we simulate random samples and conduct a permutation test?"
+  },
+  {
+    "objectID": "lectures/5b.html#permutation-test-shuffling",
+    "href": "lectures/5b.html#permutation-test-shuffling",
+    "title": "Research Design",
+    "section": "Permutation Test (Shuffling)",
+    "text": "Permutation Test (Shuffling)\nA permutation test, also known as a randomization or re-randomization test, is a statistical method used to assess the significance of an observed statistical result by comparing it to a large number of randomly generated permutations or rearrangements of the data."
+  },
+  {
+    "objectID": "lectures/5b.html#permutation-test",
+    "href": "lectures/5b.html#permutation-test",
+    "title": "Research Design",
+    "section": "Permutation Test",
+    "text": "Permutation Test\n\nWe will shuffle the outcome of interest, while maintaining the species location.\n\nThis generates a simulated data set.\n\nWe will create a large number of simulated data sets to get an idea of the distribution.\nWe will then compare the true data with the simulated data sets to see if they overlap."
+  },
+  {
+    "objectID": "lectures/5b.html#shuffling-penguins",
+    "href": "lectures/5b.html#shuffling-penguins",
+    "title": "Research Design",
+    "section": "Shuffling Penguins",
+    "text": "Shuffling Penguins\n\nWhile maintaining the structure of the data, we will shuffle the flipper length and plot them.\nWe will repeat the process multiple times\nCompare the simulated data with the actual data"
+  },
+  {
+    "objectID": "lectures/5b.html#shuffling",
+    "href": "lectures/5b.html#shuffling",
+    "title": "Research Design",
+    "section": "Shuffling",
+    "text": "Shuffling"
+  },
+  {
+    "objectID": "lectures/5b.html#side-by-side",
+    "href": "lectures/5b.html#side-by-side",
+    "title": "Research Design",
+    "section": "Side by Side",
+    "text": "Side by Side"
+  },
+  {
+    "objectID": "lectures/5b.html#shuffling-9-plots",
+    "href": "lectures/5b.html#shuffling-9-plots",
+    "title": "Research Design",
+    "section": "Shuffling 9 Plots",
+    "text": "Shuffling 9 Plots"
+  },
+  {
+    "objectID": "lectures/5b.html#overlay-points",
+    "href": "lectures/5b.html#overlay-points",
+    "title": "Research Design",
+    "section": "Overlay Points",
+    "text": "Overlay Points"
+  },
+  {
+    "objectID": "lectures/5b.html#overlay-boxplots",
+    "href": "lectures/5b.html#overlay-boxplots",
+    "title": "Research Design",
+    "section": "Overlay Boxplots",
+    "text": "Overlay Boxplots"
+  },
+  {
+    "objectID": "lectures/5b.html#how-does-the-data-fit",
+    "href": "lectures/5b.html#how-does-the-data-fit",
+    "title": "Research Design",
+    "section": "How does the data fit?",
+    "text": "How does the data fit?"
+  },
+  {
+    "objectID": "lectures/5b.html#time-management",
+    "href": "lectures/5b.html#time-management",
+    "title": "Research Design",
+    "section": "Time Management",
+    "text": "Time Management"
+  },
+  {
+    "objectID": "lectures/4b.html#histogram",
+    "href": "lectures/4b.html#histogram",
+    "title": "Data Visualization",
+    "section": "Histogram",
+    "text": "Histogram\nA histogram is a graphical representation of the distribution or frequency of data points in a dataset. It provides a visual way to understand the shape, central tendency, and spread of a dataset by dividing the data into intervals or bins and showing how many data points fall into each bin."
+  },
+  {
+    "objectID": "lectures/4b.html#histogram-r-code",
+    "href": "lectures/4b.html#histogram-r-code",
+    "title": "Data Visualization",
+    "section": "Histogram R Code",
+    "text": "Histogram R Code\n\ngf_histogram(~bill_length_mm, data = penguins)"
+  },
+  {
+    "objectID": "lectures/4b.html#histogram-1",
+    "href": "lectures/4b.html#histogram-1",
+    "title": "Data Visualization",
+    "section": "Histogram",
+    "text": "Histogram"
+  },
+  {
+    "objectID": "lectures/4b.html#box-plot",
+    "href": "lectures/4b.html#box-plot",
+    "title": "Data Visualization",
+    "section": "Box Plot",
+    "text": "Box Plot\nA box plot, also known as a box-and-whisker plot, is a graphical representation of the distribution and key statistical characteristics of a dataset. It provides a visual summary of the data’s central tendency, spread, and potential outliers."
+  },
+  {
+    "objectID": "lectures/4b.html#box-plot-1",
+    "href": "lectures/4b.html#box-plot-1",
+    "title": "Data Visualization",
+    "section": "Box Plot",
+    "text": "Box Plot"
+  },
+  {
+    "objectID": "lectures/4b.html#box-plot-r-code",
+    "href": "lectures/4b.html#box-plot-r-code",
+    "title": "Data Visualization",
+    "section": "Box Plot R Code",
+    "text": "Box Plot R Code\n\ngf_boxplot(~bill_length_mm, data = penguins)"
+  },
+  {
+    "objectID": "lectures/4b.html#box-plot-2",
+    "href": "lectures/4b.html#box-plot-2",
+    "title": "Data Visualization",
+    "section": "Box Plot",
+    "text": "Box Plot"
+  },
+  {
+    "objectID": "lectures/4b.html#categorical-variables",
+    "href": "lectures/4b.html#categorical-variables",
+    "title": "Data Visualization",
+    "section": "Categorical Variables",
+    "text": "Categorical Variables\n\n\n#&gt; $species\n#&gt;  [1] Adelie    Gentoo    Chinstrap Chinstrap Gentoo    Gentoo    Gentoo   \n#&gt;  [8] Adelie    Adelie    Gentoo    Gentoo    Gentoo    Chinstrap Gentoo   \n#&gt; [15] Chinstrap Chinstrap Gentoo    Chinstrap Adelie    Adelie   \n#&gt; Levels: Adelie Chinstrap Gentoo"
+  },
+  {
+    "objectID": "lectures/4b.html#frequency-tables",
+    "href": "lectures/4b.html#frequency-tables",
+    "title": "Data Visualization",
+    "section": "Frequency Tables",
+    "text": "Frequency Tables\nA frequency table is a statistical tool used to organize and summarize a set of data by counting the number of times each unique value or category appears within the dataset. It provides a simple and clear way to represent the distribution of data, particularly for categorical or discrete variables."
+  },
+  {
+    "objectID": "lectures/4b.html#relative-frequency",
+    "href": "lectures/4b.html#relative-frequency",
+    "title": "Data Visualization",
+    "section": "Relative Frequency",
+    "text": "Relative Frequency\nRelative frequency is a statistical concept used to describe the proportion or percentage of times a particular event or outcome occurs relative to the total number of observations or occurrences in a dataset or sample."
+  },
+  {
+    "objectID": "lectures/4b.html#proportional-tables",
+    "href": "lectures/4b.html#proportional-tables",
+    "title": "Data Visualization",
+    "section": "Proportional Tables",
+    "text": "Proportional Tables\nA proportion table is a type of statistical table used to display the relative frequencies or proportions of different categories within a dataset. It provides a way to represent the distribution of data in terms of percentages or proportions, making it easier to compare and understand the relative sizes of different categories."
+  },
+  {
+    "objectID": "lectures/4b.html#pie-charts",
+    "href": "lectures/4b.html#pie-charts",
+    "title": "Data Visualization",
+    "section": "Pie Charts",
+    "text": "Pie Charts\nA pie chart is a circular graphical representation used to display data in a way that illustrates the relative proportions or percentages of different categories or components within a whole. Pie charts are particularly useful for showing the composition of a dataset when you want to emphasize the parts of a whole and how they relate to each other."
+  },
+  {
+    "objectID": "lectures/4b.html#pie-charts-r-code",
+    "href": "lectures/4b.html#pie-charts-r-code",
+    "title": "Data Visualization",
+    "section": "Pie Charts R Code",
+    "text": "Pie Charts R Code\n\npenguins |&gt; ggplot(aes(x=\"\", fill = species)) + \n  geom_bar() + \n  coord_polar(\"y\")"
+  },
+  {
+    "objectID": "lectures/4b.html#pie-charts-in-r",
+    "href": "lectures/4b.html#pie-charts-in-r",
+    "title": "Data Visualization",
+    "section": "Pie Charts in R",
+    "text": "Pie Charts in R"
+  },
+  {
+    "objectID": "lectures/4b.html#bar-charts",
+    "href": "lectures/4b.html#bar-charts",
+    "title": "Data Visualization",
+    "section": "Bar Charts",
+    "text": "Bar Charts\nA bar chart, also known as a bar graph, is a graphical representation used to display categorical data in a way that visually represents the values or frequencies of different categories by using rectangular bars. Bar charts are particularly effective for comparing and showing the relationships between distinct categories or groups."
+  },
+  {
+    "objectID": "lectures/4b.html#bar-charts-r-code",
+    "href": "lectures/4b.html#bar-charts-r-code",
+    "title": "Data Visualization",
+    "section": "Bar Charts R Code",
+    "text": "Bar Charts R Code\n\ngf_bar(~species, data = penguins)"
+  },
+  {
+    "objectID": "lectures/4b.html#bar-charts-r-code-1",
+    "href": "lectures/4b.html#bar-charts-r-code-1",
+    "title": "Data Visualization",
+    "section": "Bar Charts R Code",
+    "text": "Bar Charts R Code"
+  },
+  {
+    "objectID": "lectures/4b.html#explaining-variation-1",
+    "href": "lectures/4b.html#explaining-variation-1",
+    "title": "Data Visualization",
     "section": "Explaining Variation",
     "text": "Explaining Variation\n\nThis is the process where we try to reduce the variation with the use of other variables.\n\n\nCan be thought of as getting it less wrong when taking an educated guess."
   },
   {
-    "objectID": "lectures/5a.html#explaining-variation-1",
-    "href": "lectures/5a.html#explaining-variation-1",
-    "title": "Modelling Relationships",
+    "objectID": "lectures/4b.html#explaining-variation-2",
+    "href": "lectures/4b.html#explaining-variation-2",
+    "title": "Data Visualization",
     "section": "Explaining Variation",
     "text": "Explaining Variation"
   },
   {
-    "objectID": "lectures/5a.html#explaining-variation-with-one-variable",
-    "href": "lectures/5a.html#explaining-variation-with-one-variable",
-    "title": "Modelling Relationships",
+    "objectID": "lectures/4b.html#explaining-variation-with-one-variable",
+    "href": "lectures/4b.html#explaining-variation-with-one-variable",
+    "title": "Data Visualization",
     "section": "Explaining Variation with One Variable",
     "text": "Explaining Variation with One Variable"
   },
   {
-    "objectID": "lectures/5a.html#representing-it-logically",
-    "href": "lectures/5a.html#representing-it-logically",
-    "title": "Modelling Relationships",
-    "section": "Representing it Logically",
-    "text": "Representing it Logically"
+    "objectID": "lectures/4b.html#explaining-variation-with-one-variable-1",
+    "href": "lectures/4b.html#explaining-variation-with-one-variable-1",
+    "title": "Data Visualization",
+    "section": "Explaining Variation with One Variable",
+    "text": "Explaining Variation with One Variable"
   },
   {
-    "objectID": "lectures/5a.html#general-form",
-    "href": "lectures/5a.html#general-form",
-    "title": "Modelling Relationships",
-    "section": "General Form",
-    "text": "General Form"
+    "objectID": "lectures/4b.html#outcome-variables",
+    "href": "lectures/4b.html#outcome-variables",
+    "title": "Data Visualization",
+    "section": "Outcome Variables",
+    "text": "Outcome Variables\nThese are variables we want to study.\n\nAlso known as outcome of interest.\n\n\nAlso known as dependent variable."
   },
   {
-    "objectID": "lectures/5a.html#variation-of-data",
-    "href": "lectures/5a.html#variation-of-data",
-    "title": "Modelling Relationships",
-    "section": "Variation of Data",
-    "text": "Variation of Data"
+    "objectID": "lectures/4b.html#explanatory-variables",
+    "href": "lectures/4b.html#explanatory-variables",
+    "title": "Data Visualization",
+    "section": "Explanatory Variables",
+    "text": "Explanatory Variables\nThese are variable that explain the outcome of interest.\n\nAlso known as predictor variable.\n\n\nAlso known as independent variable."
   },
   {
-    "objectID": "lectures/5a.html#modeling-variation",
-    "href": "lectures/5a.html#modeling-variation",
-    "title": "Modelling Relationships",
-    "section": "Modeling Variation",
-    "text": "Modeling Variation"
+    "objectID": "lectures/4b.html#study-habits",
+    "href": "lectures/4b.html#study-habits",
+    "title": "Data Visualization",
+    "section": "Study Habits",
+    "text": "Study Habits\n\nThe first exam will be on September 25.\n\n\nWhat are some study strategies that you can implement in this course?"
   },
   {
-    "objectID": "lectures/5a.html#explained",
-    "href": "lectures/5a.html#explained",
-    "title": "Modelling Relationships",
-    "section": "Explained",
-    "text": "Explained"
+    "objectID": "lectures/3a.html#quiz",
+    "href": "lectures/3a.html#quiz",
+    "title": "Data Generating Process",
+    "section": "Quiz",
+    "text": "Quiz\n\n\nWhat is a boolean value?\n\nTRUE or FALSE\n\n\n\n\n\nWho is your EPE?\n\nSec 01: Devin\nSec 02: Amanda"
   },
   {
-    "objectID": "lectures/5a.html#unexplained",
-    "href": "lectures/5a.html#unexplained",
-    "title": "Modelling Relationships",
-    "section": "Unexplained",
-    "text": "Unexplained"
+    "objectID": "lectures/3a.html#week-3",
+    "href": "lectures/3a.html#week-3",
+    "title": "Data Generating Process",
+    "section": "Week 3",
+    "text": "Week 3\n\n\nRead Chapter 3\n\nFinish reading the chapter by Sunday Night (7/10)\n\nQuiz 2\n\nAvailable from Thursday 12 AM to Friday 11:59 PM"
   },
   {
-    "objectID": "lectures/5a.html#system-variation",
-    "href": "lectures/5a.html#system-variation",
-    "title": "Modelling Relationships",
-    "section": "System Variation",
-    "text": "System Variation"
+    "objectID": "lectures/3a.html#data-distribution-1",
+    "href": "lectures/3a.html#data-distribution-1",
+    "title": "Data Generating Process",
+    "section": "Data Distribution",
+    "text": "Data Distribution\nWhen thinking about data, we know an attribute is allowed to vary. With this variation, some numbers are more likely to be observed than others."
   },
   {
-    "objectID": "lectures/5a.html#sampling-variation",
-    "href": "lectures/5a.html#sampling-variation",
-    "title": "Modelling Relationships",
+    "objectID": "lectures/3a.html#forest-from-the-trees",
+    "href": "lectures/3a.html#forest-from-the-trees",
+    "title": "Data Generating Process",
+    "section": "Forest from the trees",
+    "text": "Forest from the trees"
+  },
+  {
+    "objectID": "lectures/3a.html#data",
+    "href": "lectures/3a.html#data",
+    "title": "Data Generating Process",
+    "section": "Data",
+    "text": "Data\n\nWhen inspecting data:\n\nDo not focus on one individual data point.\nSee how data points interact with each other\nSee what is common\nSee what is rare"
+  },
+  {
+    "objectID": "lectures/3a.html#dgp",
+    "href": "lectures/3a.html#dgp",
+    "title": "Data Generating Process",
+    "section": "DGP",
+    "text": "DGP\nThe data generation process is understanding how variation from the population is transferred to the data collected.\n\nA population has a mechanism to produce data, understanding this mechanism is essential understanding the data."
+  },
+  {
+    "objectID": "lectures/3a.html#dgp-1",
+    "href": "lectures/3a.html#dgp-1",
+    "title": "Data Generating Process",
+    "section": "DGP",
+    "text": "DGP\nA populations DGP can be defined with the following characteristics:\n\nThe potential outcomes that can be observed when measuring\nEach potential outcome will have a probability of being observed\n\nThe probability must be between 0 and 1\n\nSum of all the probabilities of each outcome will add up to 1"
+  },
+  {
+    "objectID": "lectures/3a.html#flipping-a-coin",
+    "href": "lectures/3a.html#flipping-a-coin",
+    "title": "Data Generating Process",
+    "section": "Flipping a Coin",
+    "text": "Flipping a Coin\nFlipping a coin results in either heads or tail. The probability for heads is 50%\n\nThe DGP of flipping a coin is the process of selecting an outcome, given the probability of both options are 50%."
+  },
+  {
+    "objectID": "lectures/3a.html#rolling-a-die",
+    "href": "lectures/3a.html#rolling-a-die",
+    "title": "Data Generating Process",
+    "section": "Rolling a die",
+    "text": "Rolling a die"
+  },
+  {
+    "objectID": "lectures/3a.html#measuring-body-temperature",
+    "href": "lectures/3a.html#measuring-body-temperature",
+    "title": "Data Generating Process",
+    "section": "Measuring Body Temperature",
+    "text": "Measuring Body Temperature"
+  },
+  {
+    "objectID": "lectures/3a.html#inference",
+    "href": "lectures/3a.html#inference",
+    "title": "Data Generating Process",
+    "section": "Inference",
+    "text": "Inference\nHow do we use DGP and sampling to understand the world?\n\nWe can use a sample to understand the DGP.\n\n\nWe can use the DGP to understand the sample."
+  },
+  {
+    "objectID": "lectures/3a.html#example",
+    "href": "lectures/3a.html#example",
+    "title": "Data Generating Process",
+    "section": "Example",
+    "text": "Example"
+  },
+  {
+    "objectID": "lectures/3a.html#data-1",
+    "href": "lectures/3a.html#data-1",
+    "title": "Data Generating Process",
+    "section": "Data",
+    "text": "Data\n\n\n#&gt; [1] 10.5  8.7 11.7 13.5 10.0 10.7  7.4 11.5"
+  },
+  {
+    "objectID": "lectures/3a.html#visualizing-data",
+    "href": "lectures/3a.html#visualizing-data",
+    "title": "Data Generating Process",
+    "section": "Visualizing Data",
+    "text": "Visualizing Data\nWhy should we visualize data?"
+  },
+  {
+    "objectID": "lectures/3a.html#introduction-to-histograms",
+    "href": "lectures/3a.html#introduction-to-histograms",
+    "title": "Data Generating Process",
+    "section": "Introduction to Histograms",
+    "text": "Introduction to Histograms\n\n\n#&gt; [1] 10.5  8.7 11.7 13.5 10.0 10.7  7.4 11.5"
+  },
+  {
+    "objectID": "lectures/3a.html#visualizing-data-1",
+    "href": "lectures/3a.html#visualizing-data-1",
+    "title": "Data Generating Process",
+    "section": "Visualizing Data",
+    "text": "Visualizing Data\n\n\n#&gt; [1] 10.5  8.7 11.7 13.5 10.0 10.7  7.4 11.5"
+  },
+  {
+    "objectID": "lectures/3a.html#histograms",
+    "href": "lectures/3a.html#histograms",
+    "title": "Data Generating Process",
+    "section": "Histograms",
+    "text": "Histograms\n\n\nX-Axis: the values from the sample\n\nThese are binned to capture a range of numbers\n\nY-Axis: the frequency of the data\nDisplays which values are the most common"
+  },
+  {
+    "objectID": "lectures/3a.html#shape",
+    "href": "lectures/3a.html#shape",
+    "title": "Data Generating Process",
+    "section": "Shape",
+    "text": "Shape\nShape is how we describe the histogram:\n\n\nLeft Skewed\nRight Skewed\nUnimodal\nBimodal\nNarrow\nWide"
+  },
+  {
+    "objectID": "lectures/3a.html#left-skewed",
+    "href": "lectures/3a.html#left-skewed",
+    "title": "Data Generating Process",
+    "section": "Left Skewed",
+    "text": "Left Skewed"
+  },
+  {
+    "objectID": "lectures/3a.html#right-skewed",
+    "href": "lectures/3a.html#right-skewed",
+    "title": "Data Generating Process",
+    "section": "Right Skewed",
+    "text": "Right Skewed"
+  },
+  {
+    "objectID": "lectures/3a.html#unimodal",
+    "href": "lectures/3a.html#unimodal",
+    "title": "Data Generating Process",
+    "section": "Unimodal",
+    "text": "Unimodal"
+  },
+  {
+    "objectID": "lectures/3a.html#narrow",
+    "href": "lectures/3a.html#narrow",
+    "title": "Data Generating Process",
+    "section": "Narrow",
+    "text": "Narrow"
+  },
+  {
+    "objectID": "lectures/3a.html#wide",
+    "href": "lectures/3a.html#wide",
+    "title": "Data Generating Process",
+    "section": "Wide",
+    "text": "Wide"
+  },
+  {
+    "objectID": "lectures/3a.html#bimodal",
+    "href": "lectures/3a.html#bimodal",
+    "title": "Data Generating Process",
+    "section": "Bimodal",
+    "text": "Bimodal"
+  },
+  {
+    "objectID": "lectures/3a.html#center",
+    "href": "lectures/3a.html#center",
+    "title": "Data Generating Process",
+    "section": "Center",
+    "text": "Center"
+  },
+  {
+    "objectID": "lectures/3a.html#spread",
+    "href": "lectures/3a.html#spread",
+    "title": "Data Generating Process",
+    "section": "Spread",
+    "text": "Spread"
+  },
+  {
+    "objectID": "lectures/3a.html#weird",
+    "href": "lectures/3a.html#weird",
+    "title": "Data Generating Process",
+    "section": "Weird",
+    "text": "Weird"
+  },
+  {
+    "objectID": "lectures/2a.html#learning-outcomes",
+    "href": "lectures/2a.html#learning-outcomes",
+    "title": "Numbers & Data",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nAnnouncements\nData\nMeasurements\nPenguins"
+  },
+  {
+    "objectID": "lectures/2a.html#expected-study-time",
+    "href": "lectures/2a.html#expected-study-time",
+    "title": "Numbers & Data",
+    "section": "Expected Study Time",
+    "text": "Expected Study Time\nYou should spend 2-3 hours per unit of registered class.\nFor Math 201, spend 8-12 hours to succeed."
+  },
+  {
+    "objectID": "lectures/2a.html#math-minds",
+    "href": "lectures/2a.html#math-minds",
+    "title": "Numbers & Data",
+    "section": "Math Minds",
+    "text": "Math Minds"
+  },
+  {
+    "objectID": "lectures/2a.html#population",
+    "href": "lectures/2a.html#population",
+    "title": "Numbers & Data",
+    "section": "Population",
+    "text": "Population\nA population is the entire group that we want to know more about."
+  },
+  {
+    "objectID": "lectures/2a.html#sample",
+    "href": "lectures/2a.html#sample",
+    "title": "Numbers & Data",
+    "section": "Sample",
+    "text": "Sample\nA sample is a subset of a population that is considered representative."
+  },
+  {
+    "objectID": "lectures/2a.html#sample-vs-population",
+    "href": "lectures/2a.html#sample-vs-population",
+    "title": "Numbers & Data",
+    "section": "Sample vs Population",
+    "text": "Sample vs Population"
+  },
+  {
+    "objectID": "lectures/2a.html#experimental-unit",
+    "href": "lectures/2a.html#experimental-unit",
+    "title": "Numbers & Data",
+    "section": "Experimental Unit",
+    "text": "Experimental Unit\nAn experimental unit is one individual unit from a sample."
+  },
+  {
+    "objectID": "lectures/2a.html#data-1",
+    "href": "lectures/2a.html#data-1",
+    "title": "Numbers & Data",
+    "section": "Data",
+    "text": "Data\nData is information from a particular experimental unit. There can be more that one piece of information per experimental unit."
+  },
+  {
+    "objectID": "lectures/2a.html#data-structure",
+    "href": "lectures/2a.html#data-structure",
+    "title": "Numbers & Data",
+    "section": "Data Structure",
+    "text": "Data Structure\nThe structure of the data can be represented in various forms:\n\nA list of long numbers\nTable"
+  },
+  {
+    "objectID": "lectures/2a.html#tabular-form",
+    "href": "lectures/2a.html#tabular-form",
+    "title": "Numbers & Data",
+    "section": "Tabular Form",
+    "text": "Tabular Form"
+  },
+  {
+    "objectID": "lectures/2a.html#measurements-1",
+    "href": "lectures/2a.html#measurements-1",
+    "title": "Numbers & Data",
+    "section": "Measurements",
+    "text": "Measurements\nMeasurements are the processes where we represent an attribute of an experimental unit as either a number or category."
+  },
+  {
+    "objectID": "lectures/2a.html#quantitative-measurements",
+    "href": "lectures/2a.html#quantitative-measurements",
+    "title": "Numbers & Data",
+    "section": "Quantitative Measurements",
+    "text": "Quantitative Measurements\nQuantitative measurements are data measurements that take a numeric form."
+  },
+  {
+    "objectID": "lectures/2a.html#qualitative-measurements",
+    "href": "lectures/2a.html#qualitative-measurements",
+    "title": "Numbers & Data",
+    "section": "Qualitative Measurements",
+    "text": "Qualitative Measurements\nQualitative measurements are data measurements that take a certain category."
+  },
+  {
+    "objectID": "lectures/2a.html#value",
+    "href": "lectures/2a.html#value",
+    "title": "Numbers & Data",
+    "section": "Value",
+    "text": "Value\nA value is a description (number or category) of a specific attribute of an experimental unit."
+  },
+  {
+    "objectID": "lectures/2a.html#variable",
+    "href": "lectures/2a.html#variable",
+    "title": "Numbers & Data",
+    "section": "Variable",
+    "text": "Variable\nA variable is the descriptive attribute that we want to obtain from an experimental unit. In terms of a data set, the variable contains all the values of specific attribute in a sample."
+  },
+  {
+    "objectID": "lectures/2a.html#penguin",
+    "href": "lectures/2a.html#penguin",
+    "title": "Numbers & Data",
+    "section": "Penguin",
+    "text": "Penguin"
+  },
+  {
+    "objectID": "lectures/2a.html#penguins-1",
+    "href": "lectures/2a.html#penguins-1",
+    "title": "Numbers & Data",
+    "section": "Penguins",
+    "text": "Penguins"
+  },
+  {
+    "objectID": "lectures/2a.html#palmer-penguins",
+    "href": "lectures/2a.html#palmer-penguins",
+    "title": "Numbers & Data",
+    "section": "Palmer Penguins",
+    "text": "Palmer Penguins"
+  },
+  {
+    "objectID": "lectures/2a.html#prediction-1",
+    "href": "lectures/2a.html#prediction-1",
+    "title": "Numbers & Data",
+    "section": "Prediction",
+    "text": "Prediction\nWhen you are given a large data set, what numbers do you want to know about?\nWhat would these numbers tell you about the data?"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to Elementary Statistics!",
+    "section": "",
+    "text": "Brief Introduction\n\n\n\n\n\nWelcome to the course! This is the home page of the course where I will provide a recap on what was covered in the week. Here I will post any documents or videos for your reference. If you have any questions, please email me at isaac.qs@csuci.edu.\n\n\n\n\n\n\n\n\n\nIntroduction to Statistics Book\n\n\n\n\n\nhttps://www.openintro.org/book/os/\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "ec/ec_2.html",
+    "href": "ec/ec_2.html",
+    "title": "Extra Credit 2",
+    "section": "",
+    "text": "Provide a summary of one book below, an write a brief analysis in supporting or opposing the book, and a personal reaction of the book. The majority of these books are available through the Broome Library.\nBooks:\n\nHappiness: A Guide to Developing Life’s\n\nMatthieu Ricard\n\nGrit: The Power of Passion and Perserverance\n\nAngela Duckworth\n\nMindset: The New Psychology of Success\n\nCarol Dweck\n\n\nReport guidelines\n\n5-6 Pages\nMust include a title page\nDouble Spaced\n12 point font\nProofread your work\nSubmit a pdf of your work to Canvas\nDue 12/4/2023\n\nWorth 3 final grade percentage points."
+  },
+  {
+    "objectID": "ec.html",
+    "href": "ec.html",
+    "title": "Extra Credit",
+    "section": "",
+    "text": "Extra Credit is designed to expand on different topics that related to Probability and Statistics, but are not necessarily required for the course. Additionally, these opportunities provide students relief when unexpected situations occur during the semester. While it is not required, I encourage everyone to attempt each opportunity.\nBelow is more information on each assignment.\n\n\n\n\n\n\n\n\n  \n\n\n\n\nExtra Credit 1\n\n\n\n\n\nInstructions for extra credit one.\n\n\n\n\n\n\nAug 5, 2023\n\n\n\n\n\n\n  \n\n\n\n\nExtra Credit 2\n\n\n\n\n\nInstructions for extra credit two.\n\n\n\n\n\n\nAug 5, 2023\n\n\n\n\n\n\n  \n\n\n\n\nExtra Credit 3\n\n\n\n\n\nInstructions for extra credit three.\n\n\n\n\n\n\nAug 5, 2023\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "books.html",
+    "href": "books.html",
+    "title": "Books",
+    "section": "",
+    "text": "A List of recommended books to learn more about Statistics, all freely available from the Broome Library:"
+  },
+  {
+    "objectID": "books.html#basics",
+    "href": "books.html#basics",
+    "title": "Books",
+    "section": "Basics",
+    "text": "Basics\n\nIntroduction to Statistics and Data Analysis\n\nHeumann and Shalabh\n\nStatistical Foundations, Reasoning and Inference\n\nKauermann, Küchenhoff, and Heumann"
+  },
+  {
+    "objectID": "books.html#regression",
+    "href": "books.html#regression",
+    "title": "Books",
+    "section": "Regression",
+    "text": "Regression\n\nGeneralized Linear Models With Examples in R\n\nDunn and Smyth\nGraduate\n\nLinear and Generalized Linear Mixed Models and Their Applications (2nd Edition)\n\nJiang and Nguyen\nGraudate\n\nRegression Modeling Strategies\n\nHarrell\nUndergraduate\n\nVector Generalized Linear and Additive Models\n\nYee\nGraduate"
+  },
+  {
+    "objectID": "books.html#nonparametric",
+    "href": "books.html#nonparametric",
+    "title": "Books",
+    "section": "Nonparametric",
+    "text": "Nonparametric\n\nSemiparametric Regression with R\n\nHarezlak, Ruppert, and Wand\nGraduate"
+  },
+  {
+    "objectID": "books.html#computational",
+    "href": "books.html#computational",
+    "title": "Books",
+    "section": "Computational",
+    "text": "Computational\n\nBootstrap Methods with applications in R\n\nDikta and Scheer\nGraduate\n\nModern Optimization with R (2nd Edition)\n\nCortez\nGraduate\n\nComputational Statistics\n\nGentle\n\nMonte Carlo and Quasi-Monte Carlo Sampling\n\nLemieux\n\nStatistics With Julia\n\nNazarathy andKlok\n\nIntroducing Monte Carlo Methods in R\n\nRobert and Casella\n\nPermutation Statistical Methods with R\n\nBerry, Kvamme, Johnston, and Mielke\n\nMonte Carlo Strategies in Scientific Computing\n\nLiu"
+  },
+  {
+    "objectID": "books.html#bayesian",
+    "href": "books.html#bayesian",
+    "title": "Books",
+    "section": "Bayesian",
+    "text": "Bayesian\n\nIntroduction to Bayesian Inference, Methods and Computation\n\nHeard\n\nApplied Bayesian Statistics\n\nCowles\n\nBayesian Statistical Modeling with Stan, R, and Python\n\nMatsuura\n\nBayesian Essentials in R\n\nMarin and Robert"
+  },
+  {
+    "objectID": "books.html#theoretical",
+    "href": "books.html#theoretical",
+    "title": "Books",
+    "section": "Theoretical",
+    "text": "Theoretical\n\nEssentials of Stochastic Processes (3rd Edition)\n\nDurrett\nGraduate\n\nA Concise Introduction to Measure Theory\n\nShirali\nGraduate\n\nLarge Sample Techniques for Statistics (2nd Edition)\n\nJiang\nGraduate\n\nA Course in Mathematical Statistics and Large Sample Theory\n\nBhattacharya, Lin, and Patrangenaru\nGraduate\n\nMixture and Hidden Markov Models with R\n\nVisser and Speekenbrink\nUndergraduate\n\nModern Mathematical Statistics (3rd Edition)\n\nDevore, Berk, and Carlton\nUndergraduate\n\nProbability Theory (3rd Edition)\n\nKlenke\nGraduate\n\nTesting Statistical Hypotheses (4th Edition)\n\nLehmann and Romano\nGraduate\n\nTheory of Point Estimation\n\nLehmann and Casella\nGraduate\nMay not be available"
+  },
+  {
+    "objectID": "books.html#longitudinal-data-analysis",
+    "href": "books.html#longitudinal-data-analysis",
+    "title": "Books",
+    "section": "Longitudinal Data Analysis",
+    "text": "Longitudinal Data Analysis\n\nLongitudinal Categorical Data Analysis\n\nSutradhar"
+  },
+  {
+    "objectID": "books.html#survival-analysis",
+    "href": "books.html#survival-analysis",
+    "title": "Books",
+    "section": "Survival Analysis",
+    "text": "Survival Analysis\n\nStatistical Modelling of Survival Data with Random Effects\n\nHa, Jeong, and Lee\n\nSurvival Analysis (3rd Edition)\n\nKleinbaum and Klein\n\nApplied Survival Analysis in R\n\nMoore\n\nBayesian Survival Analysis\n\nIbrahim, Chen, and Sinha\n\nSurvival Analysis Techniques for Censored and Truncated Data (2nd Edition)\n\nKlein and Moeschberger"
+  },
+  {
+    "objectID": "books.html#machine-learning",
+    "href": "books.html#machine-learning",
+    "title": "Books",
+    "section": "Machine Learning",
+    "text": "Machine Learning\n\nFundamental of High-Dimensional Statistics\n\nLederer\n\nAn Introduction to Statistical Learning (2nd Edition)\n\nJames, Witten, Hastie and Tibshirani\n\nStatistical Learning from a Regression Perspective (2nd Edition)\n\nBerk\n\nElements of Statistical Learning\n\nHastie, Friedman, and Tibshirani\n\nStatistics for High Dimensional Data\n\nBühlmann and van der Geer\n\nProbability and Statistics for Machine Learning\n\nDas Gupta"
+  },
+  {
+    "objectID": "books.html#time-series",
+    "href": "books.html#time-series",
+    "title": "Books",
+    "section": "Time-Series",
+    "text": "Time-Series\n\nIntroduction to Time Series and Forcasting (3rd Edition)\n\nBrockwell and Davis\n\nTime Series Analysis and Its Applications\n\nShumway and Stoffer\n\nTime Series Analysis for the State-Space Model with R/Stan\n\nHagiwara"
+  },
+  {
+    "objectID": "books.html#study-desing-and-causal-inference",
+    "href": "books.html#study-desing-and-causal-inference",
+    "title": "Books",
+    "section": "Study Desing and Causal Inference",
+    "text": "Study Desing and Causal Inference\n\nCausal Inference What IF\n\nHernán and Robins\n\nDesign of Observational Studies\n\nRosenbaum\n\n\nBolded Titles, I have read thoroughly."
+  },
+  {
+    "objectID": "ec/ec_1.html",
+    "href": "ec/ec_1.html",
+    "title": "Extra Credit 1",
+    "section": "",
+    "text": "Provide a summary of one book below, an write a brief analysis in supporting or opposing the book, and a personal reaction of the book. All books should be available through the Broome Library.\nBooks:\n\nMake it Stick: The Science of Successful Learning\n\nPeter Brown\n\nTeach Yourself How to Learn: Strategies you can use to ace any course\n\nSaundra McGuire\n\n\nReport guidelines\n\n5-6 Pages\nMust include a title page\nDouble Spaced\n12 point font\nProofread your work\nSubmit a pdf of your work to Canvas\nDue 12/4/2023\n\nWorth 3 final grade percentage points."
+  },
+  {
+    "objectID": "ec/ec_3.html",
+    "href": "ec/ec_3.html",
+    "title": "Extra Credit 3",
+    "section": "",
+    "text": "Provide a summary of one book below, an write a brief analysis in supporting or opposing the book, and a personal reaction of the book. Some of these books are available through the Broome Library.\nBooks:\n\nThe Book of Why\n\nJudea Pearl\n\nAlgorithms of Oppression\n\nSafiya Umoja Noble\n\nData Feminism\n\nCatherine D’Ignazio and Lauren Klein\n\nWeapons of Math Destruction\n\nCathy O’Niel\n\nInvisible women : data bias in a world designed for men\n\nCaroline Criado Perez\n\nFactfulness: Ten Reasons We’re Wrong About the World… and Why Things are Better Than You Think\n\nHans Rosling\n\nArtificial Unintelligence: How Computers Misunderstand the World\n\nMerideth Broussard\n\nTechnically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech\n\nSara Wachter-Boettcher\n\n\nReport guidelines\n\n5-6 Pages\nMust include a title page\nDouble Spaced\n12 point font\nProofread your work\nSubmit a pdf of your work to Canvas\nDue 12/4/2023\n\nWorth 4 final grade percentage points."
+  },
+  {
+    "objectID": "lectures/1a.html#learning-outcomes",
+    "href": "lectures/1a.html#learning-outcomes",
+    "title": "Welcome!",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nIntroductions\nEmbedded Peer Educator\nSyllabus\nImportant Announcements\nStatistics Activity\nAccess to Coursekata"
+  },
+  {
+    "objectID": "lectures/1a.html#introductions-1",
+    "href": "lectures/1a.html#introductions-1",
+    "title": "Welcome!",
+    "section": "Introductions",
+    "text": "Introductions\n\nSan Bernardino, CA\nCSU Monterey Bay\n\nBS Biology\n\nSan Diego State University\n\nMaster’s in Public Health\n\nUC Riverside\n\nPhD in Applied Statistics"
+  },
+  {
+    "objectID": "lectures/1a.html#introductions-2",
+    "href": "lectures/1a.html#introductions-2",
+    "title": "Welcome!",
+    "section": "Introductions",
+    "text": "Introductions\n\n\nName\nYear\nMajor\nFun Fact\nCareer Goal"
+  },
+  {
+    "objectID": "lectures/1a.html#epe---devin-frost-sec-01",
+    "href": "lectures/1a.html#epe---devin-frost-sec-01",
+    "title": "Welcome!",
+    "section": "EPE - Devin Frost (Sec 01)",
+    "text": "EPE - Devin Frost (Sec 01)\n\n4th Year\nMath Major\n\nEmphasis - Statistics\nEmphasis - Pure Mathematics\n\nPhilosophy Minor"
+  },
+  {
+    "objectID": "lectures/1a.html#epe---amanda-parks-sec-02",
+    "href": "lectures/1a.html#epe---amanda-parks-sec-02",
+    "title": "Welcome!",
+    "section": "EPE - Amanda Parks (Sec 02)",
+    "text": "EPE - Amanda Parks (Sec 02)\n\n2nd Year\nPre-Nursing Major"
+  },
+  {
+    "objectID": "lectures/1a.html#register-to-math-97",
+    "href": "lectures/1a.html#register-to-math-97",
+    "title": "Welcome!",
+    "section": "Register to Math 97",
+    "text": "Register to Math 97\nThis course is a 4 unit course:\n3 Units Math 201\n1 Unit Math 97"
+  },
+  {
+    "objectID": "lectures/1a.html#field-trip",
+    "href": "lectures/1a.html#field-trip",
+    "title": "Welcome!",
+    "section": "Field Trip",
+    "text": "Field Trip\nWe will be taking a field trip to the library on Wednesday Aug 23."
+  },
+  {
+    "objectID": "lectures/1a.html#math-minds",
+    "href": "lectures/1a.html#math-minds",
+    "title": "Welcome!",
+    "section": "Math Minds",
+    "text": "Math Minds\n\nMath MINDS is open to motivated Channel Islands students enrolled in a B4 Quantitative reasoning course this semester. This FREE transformative program includes:\n\nA $350 scholarship award (payable upon completion of the program requirements)\nFour workshops early in the semester to develop your mathematical ability with active learning\n\nWeeks 4 through 8 of the semester\n\nIndividualized skill development through a minimum of four one-on-one tutoring sessions with Learning Resource Center tutors\n\nMinimum of two tutoring sessions before Week 6 of the semester\nMinimum of two additional tutoring sessions before Week 12 of the semester\n\nA short asynchronous online course about learning mathematics\nFour MasterMINDS Group Check-In Meetings\n\nWeeks 9 through 15 of the semester\n\nSupport to build long-lasting strength and confidence in your mathematical ability\nA chance to make new friends and strengthen your college journey!"
+  },
+  {
+    "objectID": "lectures/1a.html#when-do-you-use-statistics",
+    "href": "lectures/1a.html#when-do-you-use-statistics",
+    "title": "Welcome!",
+    "section": "When do you use statistics?",
+    "text": "When do you use statistics?"
+  },
+  {
+    "objectID": "lectures/1a.html#what-is-the-difference-between-math-and-stats",
+    "href": "lectures/1a.html#what-is-the-difference-between-math-and-stats",
+    "title": "Welcome!",
+    "section": "What is the difference between math and stats?",
+    "text": "What is the difference between math and stats?"
+  },
+  {
+    "objectID": "lectures/1a.html#what-is-variation",
+    "href": "lectures/1a.html#what-is-variation",
+    "title": "Welcome!",
+    "section": "What is variation?",
+    "text": "What is variation?"
+  },
+  {
+    "objectID": "lectures/1a.html#complete-survey",
+    "href": "lectures/1a.html#complete-survey",
+    "title": "Welcome!",
+    "section": "Complete Survey",
+    "text": "Complete Survey\nhttps://forms.gle/EdYK1sGZpDEibaHK7"
+  },
+  {
+    "objectID": "lectures/2b.html#sampling-1",
+    "href": "lectures/2b.html#sampling-1",
+    "title": "Data Summarization",
+    "section": "Sampling",
+    "text": "Sampling\nSampling is the process of selecting units from a population interest to collect data from."
+  },
+  {
+    "objectID": "lectures/2b.html#sampling-2",
+    "href": "lectures/2b.html#sampling-2",
+    "title": "Data Summarization",
+    "section": "Sampling",
+    "text": "Sampling\nWhen Sampling you want to maintain these properties:\n\nRepresentative sample\nLarge enough sample size"
+  },
+  {
+    "objectID": "lectures/2b.html#sampling-example",
+    "href": "lectures/2b.html#sampling-example",
+    "title": "Data Summarization",
+    "section": "Sampling Example",
+    "text": "Sampling Example\nWe want to answer the question, are people happy?"
+  },
+  {
+    "objectID": "lectures/2b.html#random-sampling",
+    "href": "lectures/2b.html#random-sampling",
+    "title": "Data Summarization",
+    "section": "Random Sampling",
+    "text": "Random Sampling\nWhen sampling, we strive for random sampling\n\nEach unit in the population of interest must have an equal probability of being selected for the study.\nThis ensures a representative population"
+  },
+  {
+    "objectID": "lectures/2b.html#independent-sampling",
+    "href": "lectures/2b.html#independent-sampling",
+    "title": "Data Summarization",
+    "section": "Independent Sampling",
+    "text": "Independent Sampling\nIn addition to random sampling, we strive to make sure each unit is independent from each other.\n\nThe probability of UNIT A being sampled will not affect the probability of UNIT B to be sampled."
+  },
+  {
+    "objectID": "lectures/2b.html#sampling-variation",
+    "href": "lectures/2b.html#sampling-variation",
+    "title": "Data Summarization",
     "section": "Sampling Variation",
-    "text": "Sampling Variation"
+    "text": "Sampling Variation\n\nRandom samples may vary from the population of interest.\nDue to randomness, samples many not look the or biased.\nHowever, this is to be expected as because the sample will not be biased in one way or another.\nSamples are then considered unbiased as long as experimental units were collected randomly."
   },
   {
-    "objectID": "lectures/5a.html#what-is-a-quantitative-variable",
-    "href": "lectures/5a.html#what-is-a-quantitative-variable",
-    "title": "Modelling Relationships",
-    "section": "What is a quantitative variable?",
-    "text": "What is a quantitative variable?"
+    "objectID": "lectures/2b.html#data-structure-1",
+    "href": "lectures/2b.html#data-structure-1",
+    "title": "Data Summarization",
+    "section": "Data Structure",
+    "text": "Data Structure"
   },
   {
-    "objectID": "lectures/5a.html#back-to-age-example",
-    "href": "lectures/5a.html#back-to-age-example",
-    "title": "Modelling Relationships",
-    "section": "Back to age example",
-    "text": "Back to age example"
+    "objectID": "lectures/2b.html#data",
+    "href": "lectures/2b.html#data",
+    "title": "Data Summarization",
+    "section": "Data",
+    "text": "Data\nA data set can be manipulated in ways to make it easier to process:\n\nfilter(): allows you to remove rows that do not satisfy a certain condition\nselect(): select to view certain variables\nmutate(): add a new variable to the data set based on a set of instructions"
   },
   {
-    "objectID": "lectures/5a.html#a-quantitative-explanatory-variable",
-    "href": "lectures/5a.html#a-quantitative-explanatory-variable",
-    "title": "Modelling Relationships",
-    "section": "A Quantitative Explanatory Variable",
-    "text": "A Quantitative Explanatory Variable"
+    "objectID": "lectures/2b.html#selecting-a-variable",
+    "href": "lectures/2b.html#selecting-a-variable",
+    "title": "Data Summarization",
+    "section": "Selecting a Variable",
+    "text": "Selecting a Variable\nI am interested in viewing species, island, and body_mass_g in my data set:\n\nselect(penguins, species, island, body_mass_g)\n\n#&gt; # A tibble: 344 × 3\n#&gt;    species island    body_mass_g\n#&gt;    &lt;fct&gt;   &lt;fct&gt;           &lt;int&gt;\n#&gt;  1 Adelie  Torgersen        3750\n#&gt;  2 Adelie  Torgersen        3800\n#&gt;  3 Adelie  Torgersen        3250\n#&gt;  4 Adelie  Torgersen          NA\n#&gt;  5 Adelie  Torgersen        3450\n#&gt;  6 Adelie  Torgersen        3650\n#&gt;  7 Adelie  Torgersen        3625\n#&gt;  8 Adelie  Torgersen        4675\n#&gt;  9 Adelie  Torgersen        3475\n#&gt; 10 Adelie  Torgersen        4250\n#&gt; # ℹ 334 more rows"
   },
   {
-    "objectID": "lectures/5a.html#modeling-the-relationship",
-    "href": "lectures/5a.html#modeling-the-relationship",
-    "title": "Modelling Relationships",
-    "section": "Modeling the relationship",
-    "text": "Modeling the relationship"
+    "objectID": "lectures/2b.html#filtering-a-data-set",
+    "href": "lectures/2b.html#filtering-a-data-set",
+    "title": "Data Summarization",
+    "section": "Filtering a Data Set",
+    "text": "Filtering a Data Set\nI am only interested in looking at the penguins with a body mass bigger than 4000 g:\n\npenguins_over_4000 &lt;- filter(penguins, body_mass_g &gt; 4000)\nselect(penguins_over_4000, species, island, body_mass_g)\n\n#&gt; # A tibble: 172 × 3\n#&gt;    species island    body_mass_g\n#&gt;    &lt;fct&gt;   &lt;fct&gt;           &lt;int&gt;\n#&gt;  1 Adelie  Torgersen        4675\n#&gt;  2 Adelie  Torgersen        4250\n#&gt;  3 Adelie  Torgersen        4400\n#&gt;  4 Adelie  Torgersen        4500\n#&gt;  5 Adelie  Torgersen        4200\n#&gt;  6 Adelie  Dream            4150\n#&gt;  7 Adelie  Dream            4650\n#&gt;  8 Adelie  Dream            4400\n#&gt;  9 Adelie  Dream            4600\n#&gt; 10 Adelie  Dream            4150\n#&gt; # ℹ 162 more rows"
   },
   {
-    "objectID": "lectures/5a.html#dgp-practice",
-    "href": "lectures/5a.html#dgp-practice",
-    "title": "Modelling Relationships",
-    "section": "DGP Practice",
-    "text": "DGP Practice\nPredict/Draw how the data will look when collecting the height of 1000 CSUCI students."
+    "objectID": "lectures/2b.html#data-manipulation-1",
+    "href": "lectures/2b.html#data-manipulation-1",
+    "title": "Data Summarization",
+    "section": "Data Manipulation",
+    "text": "Data Manipulation\nThis is a process where we can manipulate the data when there are errors in the data recording process.\nOR\nData must be formatted in a way for analysis (computer requirements)."
+  },
+  {
+    "objectID": "lectures/2b.html#missing-data",
+    "href": "lectures/2b.html#missing-data",
+    "title": "Data Summarization",
+    "section": "Missing Data",
+    "text": "Missing Data"
+  },
+  {
+    "objectID": "lectures/2b.html#handling-missing-data",
+    "href": "lectures/2b.html#handling-missing-data",
+    "title": "Data Summarization",
+    "section": "Handling Missing Data",
+    "text": "Handling Missing Data\nHow do we handle missing data?\n\nRemove the experimental unit\nTake and educated guess what it is\n\nReplace with mean\nSingle Imputation\nMultiple Imputation"
+  },
+  {
+    "objectID": "lectures/2b.html#handling-missing-data-1",
+    "href": "lectures/2b.html#handling-missing-data-1",
+    "title": "Data Summarization",
+    "section": "Handling Missing Data",
+    "text": "Handling Missing Data\nFor this class, we will remove the entire experimental unit.\n\n# Obtaining the number of rows\nnrow(penguins)\n\n#&gt; [1] 344\n\n# Removing missing cases\npenguins_missing_removed &lt;- drop_na(penguins)\nnrow(penguins_missing_removed)\n\n#&gt; [1] 333"
+  },
+  {
+    "objectID": "lectures/2b.html#summarizing-data",
+    "href": "lectures/2b.html#summarizing-data",
+    "title": "Data Summarization",
+    "section": "Summarizing Data",
+    "text": "Summarizing Data\n\n\n#&gt; [1] 13.85  8.61 14.21 11.87  8.12  8.47  4.66  8.23\n\n\nHow would a computer count how many values are greater than 10?"
+  },
+  {
+    "objectID": "lectures/2b.html#prediction-1",
+    "href": "lectures/2b.html#prediction-1",
+    "title": "Data Summarization",
+    "section": "Prediction",
+    "text": "Prediction\n3, 4, 6, 2, 7, 9, 2, 0, 1, 4, 6, 2\nList as many ways you can present the data to collaborators. With each method, what are the advantages and disadvantages?"
   },
   {
     "objectID": "lectures/4a.html#dominos-with-dean-kholi",
@@ -385,984 +1351,179 @@
     "text": "Box Plot"
   },
   {
-    "objectID": "lectures/2b.html#sampling-1",
-    "href": "lectures/2b.html#sampling-1",
-    "title": "Data Summarization",
-    "section": "Sampling",
-    "text": "Sampling\nSampling is the process of selecting units from a population interest to collect data from."
-  },
-  {
-    "objectID": "lectures/2b.html#sampling-2",
-    "href": "lectures/2b.html#sampling-2",
-    "title": "Data Summarization",
-    "section": "Sampling",
-    "text": "Sampling\nWhen Sampling you want to maintain these properties:\n\nRepresentative sample\nLarge enough sample size"
-  },
-  {
-    "objectID": "lectures/2b.html#sampling-example",
-    "href": "lectures/2b.html#sampling-example",
-    "title": "Data Summarization",
-    "section": "Sampling Example",
-    "text": "Sampling Example\nWe want to answer the question, are people happy?"
-  },
-  {
-    "objectID": "lectures/2b.html#random-sampling",
-    "href": "lectures/2b.html#random-sampling",
-    "title": "Data Summarization",
-    "section": "Random Sampling",
-    "text": "Random Sampling\nWhen sampling, we strive for random sampling\n\nEach unit in the population of interest must have an equal probability of being selected for the study.\nThis ensures a representative population"
-  },
-  {
-    "objectID": "lectures/2b.html#independent-sampling",
-    "href": "lectures/2b.html#independent-sampling",
-    "title": "Data Summarization",
-    "section": "Independent Sampling",
-    "text": "Independent Sampling\nIn addition to random sampling, we strive to make sure each unit is independent from each other.\n\nThe probability of UNIT A being sampled will not affect the probability of UNIT B to be sampled."
-  },
-  {
-    "objectID": "lectures/2b.html#sampling-variation",
-    "href": "lectures/2b.html#sampling-variation",
-    "title": "Data Summarization",
-    "section": "Sampling Variation",
-    "text": "Sampling Variation\n\nRandom samples may vary from the population of interest.\nDue to randomness, samples many not look the or biased.\nHowever, this is to be expected as because the sample will not be biased in one way or another.\nSamples are then considered unbiased as long as experimental units were collected randomly."
-  },
-  {
-    "objectID": "lectures/2b.html#data-structure-1",
-    "href": "lectures/2b.html#data-structure-1",
-    "title": "Data Summarization",
-    "section": "Data Structure",
-    "text": "Data Structure"
-  },
-  {
-    "objectID": "lectures/2b.html#data",
-    "href": "lectures/2b.html#data",
-    "title": "Data Summarization",
-    "section": "Data",
-    "text": "Data\nA data set can be manipulated in ways to make it easier to process:\n\nfilter(): allows you to remove rows that do not satisfy a certain condition\nselect(): select to view certain variables\nmutate(): add a new variable to the data set based on a set of instructions"
-  },
-  {
-    "objectID": "lectures/2b.html#selecting-a-variable",
-    "href": "lectures/2b.html#selecting-a-variable",
-    "title": "Data Summarization",
-    "section": "Selecting a Variable",
-    "text": "Selecting a Variable\nI am interested in viewing species, island, and body_mass_g in my data set:\n\nselect(penguins, species, island, body_mass_g)\n\n#&gt; # A tibble: 344 × 3\n#&gt;    species island    body_mass_g\n#&gt;    &lt;fct&gt;   &lt;fct&gt;           &lt;int&gt;\n#&gt;  1 Adelie  Torgersen        3750\n#&gt;  2 Adelie  Torgersen        3800\n#&gt;  3 Adelie  Torgersen        3250\n#&gt;  4 Adelie  Torgersen          NA\n#&gt;  5 Adelie  Torgersen        3450\n#&gt;  6 Adelie  Torgersen        3650\n#&gt;  7 Adelie  Torgersen        3625\n#&gt;  8 Adelie  Torgersen        4675\n#&gt;  9 Adelie  Torgersen        3475\n#&gt; 10 Adelie  Torgersen        4250\n#&gt; # ℹ 334 more rows"
-  },
-  {
-    "objectID": "lectures/2b.html#filtering-a-data-set",
-    "href": "lectures/2b.html#filtering-a-data-set",
-    "title": "Data Summarization",
-    "section": "Filtering a Data Set",
-    "text": "Filtering a Data Set\nI am only interested in looking at the penguins with a body mass bigger than 4000 g:\n\npenguins_over_4000 &lt;- filter(penguins, body_mass_g &gt; 4000)\nselect(penguins_over_4000, species, island, body_mass_g)\n\n#&gt; # A tibble: 172 × 3\n#&gt;    species island    body_mass_g\n#&gt;    &lt;fct&gt;   &lt;fct&gt;           &lt;int&gt;\n#&gt;  1 Adelie  Torgersen        4675\n#&gt;  2 Adelie  Torgersen        4250\n#&gt;  3 Adelie  Torgersen        4400\n#&gt;  4 Adelie  Torgersen        4500\n#&gt;  5 Adelie  Torgersen        4200\n#&gt;  6 Adelie  Dream            4150\n#&gt;  7 Adelie  Dream            4650\n#&gt;  8 Adelie  Dream            4400\n#&gt;  9 Adelie  Dream            4600\n#&gt; 10 Adelie  Dream            4150\n#&gt; # ℹ 162 more rows"
-  },
-  {
-    "objectID": "lectures/2b.html#data-manipulation-1",
-    "href": "lectures/2b.html#data-manipulation-1",
-    "title": "Data Summarization",
-    "section": "Data Manipulation",
-    "text": "Data Manipulation\nThis is a process where we can manipulate the data when there are errors in the data recording process.\nOR\nData must be formatted in a way for analysis (computer requirements)."
-  },
-  {
-    "objectID": "lectures/2b.html#missing-data",
-    "href": "lectures/2b.html#missing-data",
-    "title": "Data Summarization",
-    "section": "Missing Data",
-    "text": "Missing Data"
-  },
-  {
-    "objectID": "lectures/2b.html#handling-missing-data",
-    "href": "lectures/2b.html#handling-missing-data",
-    "title": "Data Summarization",
-    "section": "Handling Missing Data",
-    "text": "Handling Missing Data\nHow do we handle missing data?\n\nRemove the experimental unit\nTake and educated guess what it is\n\nReplace with mean\nSingle Imputation\nMultiple Imputation"
-  },
-  {
-    "objectID": "lectures/2b.html#handling-missing-data-1",
-    "href": "lectures/2b.html#handling-missing-data-1",
-    "title": "Data Summarization",
-    "section": "Handling Missing Data",
-    "text": "Handling Missing Data\nFor this class, we will remove the entire experimental unit.\n\n# Obtaining the number of rows\nnrow(penguins)\n\n#&gt; [1] 344\n\n# Removing missing cases\npenguins_missing_removed &lt;- drop_na(penguins)\nnrow(penguins_missing_removed)\n\n#&gt; [1] 333"
-  },
-  {
-    "objectID": "lectures/2b.html#summarizing-data",
-    "href": "lectures/2b.html#summarizing-data",
-    "title": "Data Summarization",
-    "section": "Summarizing Data",
-    "text": "Summarizing Data\n\n\n#&gt; [1] 13.85  8.61 14.21 11.87  8.12  8.47  4.66  8.23\n\n\nHow would a computer count how many values are greater than 10?"
-  },
-  {
-    "objectID": "lectures/2b.html#prediction-1",
-    "href": "lectures/2b.html#prediction-1",
-    "title": "Data Summarization",
-    "section": "Prediction",
-    "text": "Prediction\n3, 4, 6, 2, 7, 9, 2, 0, 1, 4, 6, 2\nList as many ways you can present the data to collaborators. With each method, what are the advantages and disadvantages?"
-  },
-  {
-    "objectID": "lectures/1a.html#learning-outcomes",
-    "href": "lectures/1a.html#learning-outcomes",
-    "title": "Welcome!",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\nIntroductions\nEmbedded Peer Educator\nSyllabus\nImportant Announcements\nStatistics Activity\nAccess to Coursekata"
-  },
-  {
-    "objectID": "lectures/1a.html#introductions-1",
-    "href": "lectures/1a.html#introductions-1",
-    "title": "Welcome!",
-    "section": "Introductions",
-    "text": "Introductions\n\nSan Bernardino, CA\nCSU Monterey Bay\n\nBS Biology\n\nSan Diego State University\n\nMaster’s in Public Health\n\nUC Riverside\n\nPhD in Applied Statistics"
-  },
-  {
-    "objectID": "lectures/1a.html#introductions-2",
-    "href": "lectures/1a.html#introductions-2",
-    "title": "Welcome!",
-    "section": "Introductions",
-    "text": "Introductions\n\n\nName\nYear\nMajor\nFun Fact\nCareer Goal"
-  },
-  {
-    "objectID": "lectures/1a.html#epe---devin-frost-sec-01",
-    "href": "lectures/1a.html#epe---devin-frost-sec-01",
-    "title": "Welcome!",
-    "section": "EPE - Devin Frost (Sec 01)",
-    "text": "EPE - Devin Frost (Sec 01)\n\n4th Year\nMath Major\n\nEmphasis - Statistics\nEmphasis - Pure Mathematics\n\nPhilosophy Minor"
-  },
-  {
-    "objectID": "lectures/1a.html#epe---amanda-parks-sec-02",
-    "href": "lectures/1a.html#epe---amanda-parks-sec-02",
-    "title": "Welcome!",
-    "section": "EPE - Amanda Parks (Sec 02)",
-    "text": "EPE - Amanda Parks (Sec 02)\n\n2nd Year\nPre-Nursing Major"
-  },
-  {
-    "objectID": "lectures/1a.html#register-to-math-97",
-    "href": "lectures/1a.html#register-to-math-97",
-    "title": "Welcome!",
-    "section": "Register to Math 97",
-    "text": "Register to Math 97\nThis course is a 4 unit course:\n3 Units Math 201\n1 Unit Math 97"
-  },
-  {
-    "objectID": "lectures/1a.html#field-trip",
-    "href": "lectures/1a.html#field-trip",
-    "title": "Welcome!",
-    "section": "Field Trip",
-    "text": "Field Trip\nWe will be taking a field trip to the library on Wednesday Aug 23."
-  },
-  {
-    "objectID": "lectures/1a.html#math-minds",
-    "href": "lectures/1a.html#math-minds",
-    "title": "Welcome!",
-    "section": "Math Minds",
-    "text": "Math Minds\n\nMath MINDS is open to motivated Channel Islands students enrolled in a B4 Quantitative reasoning course this semester. This FREE transformative program includes:\n\nA $350 scholarship award (payable upon completion of the program requirements)\nFour workshops early in the semester to develop your mathematical ability with active learning\n\nWeeks 4 through 8 of the semester\n\nIndividualized skill development through a minimum of four one-on-one tutoring sessions with Learning Resource Center tutors\n\nMinimum of two tutoring sessions before Week 6 of the semester\nMinimum of two additional tutoring sessions before Week 12 of the semester\n\nA short asynchronous online course about learning mathematics\nFour MasterMINDS Group Check-In Meetings\n\nWeeks 9 through 15 of the semester\n\nSupport to build long-lasting strength and confidence in your mathematical ability\nA chance to make new friends and strengthen your college journey!"
-  },
-  {
-    "objectID": "lectures/1a.html#when-do-you-use-statistics",
-    "href": "lectures/1a.html#when-do-you-use-statistics",
-    "title": "Welcome!",
-    "section": "When do you use statistics?",
-    "text": "When do you use statistics?"
-  },
-  {
-    "objectID": "lectures/1a.html#what-is-the-difference-between-math-and-stats",
-    "href": "lectures/1a.html#what-is-the-difference-between-math-and-stats",
-    "title": "Welcome!",
-    "section": "What is the difference between math and stats?",
-    "text": "What is the difference between math and stats?"
-  },
-  {
-    "objectID": "lectures/1a.html#what-is-variation",
-    "href": "lectures/1a.html#what-is-variation",
-    "title": "Welcome!",
-    "section": "What is variation?",
-    "text": "What is variation?"
-  },
-  {
-    "objectID": "lectures/1a.html#complete-survey",
-    "href": "lectures/1a.html#complete-survey",
-    "title": "Welcome!",
-    "section": "Complete Survey",
-    "text": "Complete Survey\nhttps://forms.gle/EdYK1sGZpDEibaHK7"
-  },
-  {
-    "objectID": "ec/ec_3.html",
-    "href": "ec/ec_3.html",
-    "title": "Extra Credit 3",
-    "section": "",
-    "text": "Provide a summary of one book below, an write a brief analysis in supporting or opposing the book, and a personal reaction of the book. Some of these books are available through the Broome Library.\nBooks:\n\nThe Book of Why\n\nJudea Pearl\n\nAlgorithms of Oppression\n\nSafiya Umoja Noble\n\nData Feminism\n\nCatherine D’Ignazio and Lauren Klein\n\nWeapons of Math Destruction\n\nCathy O’Niel\n\nInvisible women : data bias in a world designed for men\n\nCaroline Criado Perez\n\nFactfulness: Ten Reasons We’re Wrong About the World… and Why Things are Better Than You Think\n\nHans Rosling\n\nArtificial Unintelligence: How Computers Misunderstand the World\n\nMerideth Broussard\n\nTechnically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech\n\nSara Wachter-Boettcher\n\n\nReport guidelines\n\n5-6 Pages\nMust include a title page\nDouble Spaced\n12 point font\nProofread your work\nSubmit a pdf of your work to Canvas\nDue 12/4/2023\n\nWorth 4 final grade percentage points."
-  },
-  {
-    "objectID": "ec/ec_1.html",
-    "href": "ec/ec_1.html",
-    "title": "Extra Credit 1",
-    "section": "",
-    "text": "Provide a summary of one book below, an write a brief analysis in supporting or opposing the book, and a personal reaction of the book. All books should be available through the Broome Library.\nBooks:\n\nMake it Stick: The Science of Successful Learning\n\nPeter Brown\n\nTeach Yourself How to Learn: Strategies you can use to ace any course\n\nSaundra McGuire\n\n\nReport guidelines\n\n5-6 Pages\nMust include a title page\nDouble Spaced\n12 point font\nProofread your work\nSubmit a pdf of your work to Canvas\nDue 12/4/2023\n\nWorth 3 final grade percentage points."
-  },
-  {
-    "objectID": "books.html",
-    "href": "books.html",
-    "title": "Books",
-    "section": "",
-    "text": "A List of recommended books to learn more about Statistics, all freely available from the Broome Library:"
-  },
-  {
-    "objectID": "books.html#basics",
-    "href": "books.html#basics",
-    "title": "Books",
-    "section": "Basics",
-    "text": "Basics\n\nIntroduction to Statistics and Data Analysis\n\nHeumann and Shalabh\n\nStatistical Foundations, Reasoning and Inference\n\nKauermann, Küchenhoff, and Heumann"
-  },
-  {
-    "objectID": "books.html#regression",
-    "href": "books.html#regression",
-    "title": "Books",
-    "section": "Regression",
-    "text": "Regression\n\nGeneralized Linear Models With Examples in R\n\nDunn and Smyth\nGraduate\n\nLinear and Generalized Linear Mixed Models and Their Applications (2nd Edition)\n\nJiang and Nguyen\nGraudate\n\nRegression Modeling Strategies\n\nHarrell\nUndergraduate\n\nVector Generalized Linear and Additive Models\n\nYee\nGraduate"
-  },
-  {
-    "objectID": "books.html#nonparametric",
-    "href": "books.html#nonparametric",
-    "title": "Books",
-    "section": "Nonparametric",
-    "text": "Nonparametric\n\nSemiparametric Regression with R\n\nHarezlak, Ruppert, and Wand\nGraduate"
-  },
-  {
-    "objectID": "books.html#computational",
-    "href": "books.html#computational",
-    "title": "Books",
-    "section": "Computational",
-    "text": "Computational\n\nBootstrap Methods with applications in R\n\nDikta and Scheer\nGraduate\n\nModern Optimization with R (2nd Edition)\n\nCortez\nGraduate\n\nComputational Statistics\n\nGentle\n\nMonte Carlo and Quasi-Monte Carlo Sampling\n\nLemieux\n\nStatistics With Julia\n\nNazarathy andKlok\n\nIntroducing Monte Carlo Methods in R\n\nRobert and Casella\n\nPermutation Statistical Methods with R\n\nBerry, Kvamme, Johnston, and Mielke\n\nMonte Carlo Strategies in Scientific Computing\n\nLiu"
-  },
-  {
-    "objectID": "books.html#bayesian",
-    "href": "books.html#bayesian",
-    "title": "Books",
-    "section": "Bayesian",
-    "text": "Bayesian\n\nIntroduction to Bayesian Inference, Methods and Computation\n\nHeard\n\nApplied Bayesian Statistics\n\nCowles\n\nBayesian Statistical Modeling with Stan, R, and Python\n\nMatsuura\n\nBayesian Essentials in R\n\nMarin and Robert"
-  },
-  {
-    "objectID": "books.html#theoretical",
-    "href": "books.html#theoretical",
-    "title": "Books",
-    "section": "Theoretical",
-    "text": "Theoretical\n\nEssentials of Stochastic Processes (3rd Edition)\n\nDurrett\nGraduate\n\nA Concise Introduction to Measure Theory\n\nShirali\nGraduate\n\nLarge Sample Techniques for Statistics (2nd Edition)\n\nJiang\nGraduate\n\nA Course in Mathematical Statistics and Large Sample Theory\n\nBhattacharya, Lin, and Patrangenaru\nGraduate\n\nMixture and Hidden Markov Models with R\n\nVisser and Speekenbrink\nUndergraduate\n\nModern Mathematical Statistics (3rd Edition)\n\nDevore, Berk, and Carlton\nUndergraduate\n\nProbability Theory (3rd Edition)\n\nKlenke\nGraduate\n\nTesting Statistical Hypotheses (4th Edition)\n\nLehmann and Romano\nGraduate\n\nTheory of Point Estimation\n\nLehmann and Casella\nGraduate\nMay not be available"
-  },
-  {
-    "objectID": "books.html#longitudinal-data-analysis",
-    "href": "books.html#longitudinal-data-analysis",
-    "title": "Books",
-    "section": "Longitudinal Data Analysis",
-    "text": "Longitudinal Data Analysis\n\nLongitudinal Categorical Data Analysis\n\nSutradhar"
-  },
-  {
-    "objectID": "books.html#survival-analysis",
-    "href": "books.html#survival-analysis",
-    "title": "Books",
-    "section": "Survival Analysis",
-    "text": "Survival Analysis\n\nStatistical Modelling of Survival Data with Random Effects\n\nHa, Jeong, and Lee\n\nSurvival Analysis (3rd Edition)\n\nKleinbaum and Klein\n\nApplied Survival Analysis in R\n\nMoore\n\nBayesian Survival Analysis\n\nIbrahim, Chen, and Sinha\n\nSurvival Analysis Techniques for Censored and Truncated Data (2nd Edition)\n\nKlein and Moeschberger"
-  },
-  {
-    "objectID": "books.html#machine-learning",
-    "href": "books.html#machine-learning",
-    "title": "Books",
-    "section": "Machine Learning",
-    "text": "Machine Learning\n\nFundamental of High-Dimensional Statistics\n\nLederer\n\nAn Introduction to Statistical Learning (2nd Edition)\n\nJames, Witten, Hastie and Tibshirani\n\nStatistical Learning from a Regression Perspective (2nd Edition)\n\nBerk\n\nElements of Statistical Learning\n\nHastie, Friedman, and Tibshirani\n\nStatistics for High Dimensional Data\n\nBühlmann and van der Geer\n\nProbability and Statistics for Machine Learning\n\nDas Gupta"
-  },
-  {
-    "objectID": "books.html#time-series",
-    "href": "books.html#time-series",
-    "title": "Books",
-    "section": "Time-Series",
-    "text": "Time-Series\n\nIntroduction to Time Series and Forcasting (3rd Edition)\n\nBrockwell and Davis\n\nTime Series Analysis and Its Applications\n\nShumway and Stoffer\n\nTime Series Analysis for the State-Space Model with R/Stan\n\nHagiwara"
-  },
-  {
-    "objectID": "books.html#study-desing-and-causal-inference",
-    "href": "books.html#study-desing-and-causal-inference",
-    "title": "Books",
-    "section": "Study Desing and Causal Inference",
-    "text": "Study Desing and Causal Inference\n\nCausal Inference What IF\n\nHernán and Robins\n\nDesign of Observational Studies\n\nRosenbaum\n\n\nBolded Titles, I have read thoroughly."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "ec.html",
-    "href": "ec.html",
-    "title": "Extra Credit",
-    "section": "",
-    "text": "Extra Credit is designed to expand on different topics that related to Probability and Statistics, but are not necessarily required for the course. Additionally, these opportunities provide students relief when unexpected situations occur during the semester. While it is not required, I encourage everyone to attempt each opportunity.\nBelow is more information on each assignment.\n\n\n\n\n\n\n\n\n  \n\n\n\n\nExtra Credit 1\n\n\n\n\n\nInstructions for extra credit one.\n\n\n\n\n\n\nAug 5, 2023\n\n\n\n\n\n\n  \n\n\n\n\nExtra Credit 2\n\n\n\n\n\nInstructions for extra credit two.\n\n\n\n\n\n\nAug 5, 2023\n\n\n\n\n\n\n  \n\n\n\n\nExtra Credit 3\n\n\n\n\n\nInstructions for extra credit three.\n\n\n\n\n\n\nAug 5, 2023\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "ec/ec_2.html",
-    "href": "ec/ec_2.html",
-    "title": "Extra Credit 2",
-    "section": "",
-    "text": "Provide a summary of one book below, an write a brief analysis in supporting or opposing the book, and a personal reaction of the book. The majority of these books are available through the Broome Library.\nBooks:\n\nHappiness: A Guide to Developing Life’s\n\nMatthieu Ricard\n\nGrit: The Power of Passion and Perserverance\n\nAngela Duckworth\n\nMindset: The New Psychology of Success\n\nCarol Dweck\n\n\nReport guidelines\n\n5-6 Pages\nMust include a title page\nDouble Spaced\n12 point font\nProofread your work\nSubmit a pdf of your work to Canvas\nDue 12/4/2023\n\nWorth 3 final grade percentage points."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to Elementary Statistics!",
-    "section": "",
-    "text": "Brief Introduction\n\n\n\n\n\nWelcome to the course! This is the home page of the course where I will provide a recap on what was covered in the week. Here I will post any documents or videos for your reference. If you have any questions, please email me at isaac.qs@csuci.edu.\n\n\n\n\n\n\n\n\n\nIntroduction to Statistics Book\n\n\n\n\n\nhttps://www.openintro.org/book/os/\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "lectures/2a.html#learning-outcomes",
-    "href": "lectures/2a.html#learning-outcomes",
-    "title": "Numbers & Data",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\nAnnouncements\nData\nMeasurements\nPenguins"
-  },
-  {
-    "objectID": "lectures/2a.html#expected-study-time",
-    "href": "lectures/2a.html#expected-study-time",
-    "title": "Numbers & Data",
-    "section": "Expected Study Time",
-    "text": "Expected Study Time\nYou should spend 2-3 hours per unit of registered class.\nFor Math 201, spend 8-12 hours to succeed."
-  },
-  {
-    "objectID": "lectures/2a.html#math-minds",
-    "href": "lectures/2a.html#math-minds",
-    "title": "Numbers & Data",
-    "section": "Math Minds",
-    "text": "Math Minds"
-  },
-  {
-    "objectID": "lectures/2a.html#population",
-    "href": "lectures/2a.html#population",
-    "title": "Numbers & Data",
-    "section": "Population",
-    "text": "Population\nA population is the entire group that we want to know more about."
-  },
-  {
-    "objectID": "lectures/2a.html#sample",
-    "href": "lectures/2a.html#sample",
-    "title": "Numbers & Data",
-    "section": "Sample",
-    "text": "Sample\nA sample is a subset of a population that is considered representative."
-  },
-  {
-    "objectID": "lectures/2a.html#sample-vs-population",
-    "href": "lectures/2a.html#sample-vs-population",
-    "title": "Numbers & Data",
-    "section": "Sample vs Population",
-    "text": "Sample vs Population"
-  },
-  {
-    "objectID": "lectures/2a.html#experimental-unit",
-    "href": "lectures/2a.html#experimental-unit",
-    "title": "Numbers & Data",
-    "section": "Experimental Unit",
-    "text": "Experimental Unit\nAn experimental unit is one individual unit from a sample."
-  },
-  {
-    "objectID": "lectures/2a.html#data-1",
-    "href": "lectures/2a.html#data-1",
-    "title": "Numbers & Data",
-    "section": "Data",
-    "text": "Data\nData is information from a particular experimental unit. There can be more that one piece of information per experimental unit."
-  },
-  {
-    "objectID": "lectures/2a.html#data-structure",
-    "href": "lectures/2a.html#data-structure",
-    "title": "Numbers & Data",
-    "section": "Data Structure",
-    "text": "Data Structure\nThe structure of the data can be represented in various forms:\n\nA list of long numbers\nTable"
-  },
-  {
-    "objectID": "lectures/2a.html#tabular-form",
-    "href": "lectures/2a.html#tabular-form",
-    "title": "Numbers & Data",
-    "section": "Tabular Form",
-    "text": "Tabular Form"
-  },
-  {
-    "objectID": "lectures/2a.html#measurements-1",
-    "href": "lectures/2a.html#measurements-1",
-    "title": "Numbers & Data",
-    "section": "Measurements",
-    "text": "Measurements\nMeasurements are the processes where we represent an attribute of an experimental unit as either a number or category."
-  },
-  {
-    "objectID": "lectures/2a.html#quantitative-measurements",
-    "href": "lectures/2a.html#quantitative-measurements",
-    "title": "Numbers & Data",
-    "section": "Quantitative Measurements",
-    "text": "Quantitative Measurements\nQuantitative measurements are data measurements that take a numeric form."
-  },
-  {
-    "objectID": "lectures/2a.html#qualitative-measurements",
-    "href": "lectures/2a.html#qualitative-measurements",
-    "title": "Numbers & Data",
-    "section": "Qualitative Measurements",
-    "text": "Qualitative Measurements\nQualitative measurements are data measurements that take a certain category."
-  },
-  {
-    "objectID": "lectures/2a.html#value",
-    "href": "lectures/2a.html#value",
-    "title": "Numbers & Data",
-    "section": "Value",
-    "text": "Value\nA value is a description (number or category) of a specific attribute of an experimental unit."
-  },
-  {
-    "objectID": "lectures/2a.html#variable",
-    "href": "lectures/2a.html#variable",
-    "title": "Numbers & Data",
-    "section": "Variable",
-    "text": "Variable\nA variable is the descriptive attribute that we want to obtain from an experimental unit. In terms of a data set, the variable contains all the values of specific attribute in a sample."
-  },
-  {
-    "objectID": "lectures/2a.html#penguin",
-    "href": "lectures/2a.html#penguin",
-    "title": "Numbers & Data",
-    "section": "Penguin",
-    "text": "Penguin"
-  },
-  {
-    "objectID": "lectures/2a.html#penguins-1",
-    "href": "lectures/2a.html#penguins-1",
-    "title": "Numbers & Data",
-    "section": "Penguins",
-    "text": "Penguins"
-  },
-  {
-    "objectID": "lectures/2a.html#palmer-penguins",
-    "href": "lectures/2a.html#palmer-penguins",
-    "title": "Numbers & Data",
-    "section": "Palmer Penguins",
-    "text": "Palmer Penguins"
-  },
-  {
-    "objectID": "lectures/2a.html#prediction-1",
-    "href": "lectures/2a.html#prediction-1",
-    "title": "Numbers & Data",
-    "section": "Prediction",
-    "text": "Prediction\nWhen you are given a large data set, what numbers do you want to know about?\nWhat would these numbers tell you about the data?"
-  },
-  {
-    "objectID": "lectures/3a.html#quiz",
-    "href": "lectures/3a.html#quiz",
-    "title": "Data Generating Process",
-    "section": "Quiz",
-    "text": "Quiz\n\n\nWhat is a boolean value?\n\nTRUE or FALSE\n\n\n\n\n\nWho is your EPE?\n\nSec 01: Devin\nSec 02: Amanda"
-  },
-  {
-    "objectID": "lectures/3a.html#week-3",
-    "href": "lectures/3a.html#week-3",
-    "title": "Data Generating Process",
-    "section": "Week 3",
-    "text": "Week 3\n\n\nRead Chapter 3\n\nFinish reading the chapter by Sunday Night (7/10)\n\nQuiz 2\n\nAvailable from Thursday 12 AM to Friday 11:59 PM"
-  },
-  {
-    "objectID": "lectures/3a.html#data-distribution-1",
-    "href": "lectures/3a.html#data-distribution-1",
-    "title": "Data Generating Process",
-    "section": "Data Distribution",
-    "text": "Data Distribution\nWhen thinking about data, we know an attribute is allowed to vary. With this variation, some numbers are more likely to be observed than others."
-  },
-  {
-    "objectID": "lectures/3a.html#forest-from-the-trees",
-    "href": "lectures/3a.html#forest-from-the-trees",
-    "title": "Data Generating Process",
-    "section": "Forest from the trees",
-    "text": "Forest from the trees"
-  },
-  {
-    "objectID": "lectures/3a.html#data",
-    "href": "lectures/3a.html#data",
-    "title": "Data Generating Process",
-    "section": "Data",
-    "text": "Data\n\nWhen inspecting data:\n\nDo not focus on one individual data point.\nSee how data points interact with each other\nSee what is common\nSee what is rare"
-  },
-  {
-    "objectID": "lectures/3a.html#dgp",
-    "href": "lectures/3a.html#dgp",
-    "title": "Data Generating Process",
-    "section": "DGP",
-    "text": "DGP\nThe data generation process is understanding how variation from the population is transferred to the data collected.\n\nA population has a mechanism to produce data, understanding this mechanism is essential understanding the data."
-  },
-  {
-    "objectID": "lectures/3a.html#dgp-1",
-    "href": "lectures/3a.html#dgp-1",
-    "title": "Data Generating Process",
-    "section": "DGP",
-    "text": "DGP\nA populations DGP can be defined with the following characteristics:\n\nThe potential outcomes that can be observed when measuring\nEach potential outcome will have a probability of being observed\n\nThe probability must be between 0 and 1\n\nSum of all the probabilities of each outcome will add up to 1"
-  },
-  {
-    "objectID": "lectures/3a.html#flipping-a-coin",
-    "href": "lectures/3a.html#flipping-a-coin",
-    "title": "Data Generating Process",
-    "section": "Flipping a Coin",
-    "text": "Flipping a Coin\nFlipping a coin results in either heads or tail. The probability for heads is 50%\n\nThe DGP of flipping a coin is the process of selecting an outcome, given the probability of both options are 50%."
-  },
-  {
-    "objectID": "lectures/3a.html#rolling-a-die",
-    "href": "lectures/3a.html#rolling-a-die",
-    "title": "Data Generating Process",
-    "section": "Rolling a die",
-    "text": "Rolling a die"
-  },
-  {
-    "objectID": "lectures/3a.html#measuring-body-temperature",
-    "href": "lectures/3a.html#measuring-body-temperature",
-    "title": "Data Generating Process",
-    "section": "Measuring Body Temperature",
-    "text": "Measuring Body Temperature"
-  },
-  {
-    "objectID": "lectures/3a.html#inference",
-    "href": "lectures/3a.html#inference",
-    "title": "Data Generating Process",
-    "section": "Inference",
-    "text": "Inference\nHow do we use DGP and sampling to understand the world?\n\nWe can use a sample to understand the DGP.\n\n\nWe can use the DGP to understand the sample."
-  },
-  {
-    "objectID": "lectures/3a.html#example",
-    "href": "lectures/3a.html#example",
-    "title": "Data Generating Process",
-    "section": "Example",
-    "text": "Example"
-  },
-  {
-    "objectID": "lectures/3a.html#data-1",
-    "href": "lectures/3a.html#data-1",
-    "title": "Data Generating Process",
-    "section": "Data",
-    "text": "Data\n\n\n#&gt; [1] 10.5  8.7 11.7 13.5 10.0 10.7  7.4 11.5"
-  },
-  {
-    "objectID": "lectures/3a.html#visualizing-data",
-    "href": "lectures/3a.html#visualizing-data",
-    "title": "Data Generating Process",
-    "section": "Visualizing Data",
-    "text": "Visualizing Data\nWhy should we visualize data?"
-  },
-  {
-    "objectID": "lectures/3a.html#introduction-to-histograms",
-    "href": "lectures/3a.html#introduction-to-histograms",
-    "title": "Data Generating Process",
-    "section": "Introduction to Histograms",
-    "text": "Introduction to Histograms\n\n\n#&gt; [1] 10.5  8.7 11.7 13.5 10.0 10.7  7.4 11.5"
-  },
-  {
-    "objectID": "lectures/3a.html#visualizing-data-1",
-    "href": "lectures/3a.html#visualizing-data-1",
-    "title": "Data Generating Process",
-    "section": "Visualizing Data",
-    "text": "Visualizing Data\n\n\n#&gt; [1] 10.5  8.7 11.7 13.5 10.0 10.7  7.4 11.5"
-  },
-  {
-    "objectID": "lectures/3a.html#histograms",
-    "href": "lectures/3a.html#histograms",
-    "title": "Data Generating Process",
-    "section": "Histograms",
-    "text": "Histograms\n\n\nX-Axis: the values from the sample\n\nThese are binned to capture a range of numbers\n\nY-Axis: the frequency of the data\nDisplays which values are the most common"
-  },
-  {
-    "objectID": "lectures/3a.html#shape",
-    "href": "lectures/3a.html#shape",
-    "title": "Data Generating Process",
-    "section": "Shape",
-    "text": "Shape\nShape is how we describe the histogram:\n\n\nLeft Skewed\nRight Skewed\nUnimodal\nBimodal\nNarrow\nWide"
-  },
-  {
-    "objectID": "lectures/3a.html#left-skewed",
-    "href": "lectures/3a.html#left-skewed",
-    "title": "Data Generating Process",
-    "section": "Left Skewed",
-    "text": "Left Skewed"
-  },
-  {
-    "objectID": "lectures/3a.html#right-skewed",
-    "href": "lectures/3a.html#right-skewed",
-    "title": "Data Generating Process",
-    "section": "Right Skewed",
-    "text": "Right Skewed"
-  },
-  {
-    "objectID": "lectures/3a.html#unimodal",
-    "href": "lectures/3a.html#unimodal",
-    "title": "Data Generating Process",
-    "section": "Unimodal",
-    "text": "Unimodal"
-  },
-  {
-    "objectID": "lectures/3a.html#narrow",
-    "href": "lectures/3a.html#narrow",
-    "title": "Data Generating Process",
-    "section": "Narrow",
-    "text": "Narrow"
-  },
-  {
-    "objectID": "lectures/3a.html#wide",
-    "href": "lectures/3a.html#wide",
-    "title": "Data Generating Process",
-    "section": "Wide",
-    "text": "Wide"
-  },
-  {
-    "objectID": "lectures/3a.html#bimodal",
-    "href": "lectures/3a.html#bimodal",
-    "title": "Data Generating Process",
-    "section": "Bimodal",
-    "text": "Bimodal"
-  },
-  {
-    "objectID": "lectures/3a.html#center",
-    "href": "lectures/3a.html#center",
-    "title": "Data Generating Process",
-    "section": "Center",
-    "text": "Center"
-  },
-  {
-    "objectID": "lectures/3a.html#spread",
-    "href": "lectures/3a.html#spread",
-    "title": "Data Generating Process",
-    "section": "Spread",
-    "text": "Spread"
-  },
-  {
-    "objectID": "lectures/3a.html#weird",
-    "href": "lectures/3a.html#weird",
-    "title": "Data Generating Process",
-    "section": "Weird",
-    "text": "Weird"
-  },
-  {
-    "objectID": "lectures/4b.html#histogram",
-    "href": "lectures/4b.html#histogram",
-    "title": "Data Visualization",
-    "section": "Histogram",
-    "text": "Histogram\nA histogram is a graphical representation of the distribution or frequency of data points in a dataset. It provides a visual way to understand the shape, central tendency, and spread of a dataset by dividing the data into intervals or bins and showing how many data points fall into each bin."
-  },
-  {
-    "objectID": "lectures/4b.html#histogram-r-code",
-    "href": "lectures/4b.html#histogram-r-code",
-    "title": "Data Visualization",
-    "section": "Histogram R Code",
-    "text": "Histogram R Code\n\ngf_histogram(~bill_length_mm, data = penguins)"
-  },
-  {
-    "objectID": "lectures/4b.html#histogram-1",
-    "href": "lectures/4b.html#histogram-1",
-    "title": "Data Visualization",
-    "section": "Histogram",
-    "text": "Histogram"
-  },
-  {
-    "objectID": "lectures/4b.html#box-plot",
-    "href": "lectures/4b.html#box-plot",
-    "title": "Data Visualization",
-    "section": "Box Plot",
-    "text": "Box Plot\nA box plot, also known as a box-and-whisker plot, is a graphical representation of the distribution and key statistical characteristics of a dataset. It provides a visual summary of the data’s central tendency, spread, and potential outliers."
-  },
-  {
-    "objectID": "lectures/4b.html#box-plot-1",
-    "href": "lectures/4b.html#box-plot-1",
-    "title": "Data Visualization",
-    "section": "Box Plot",
-    "text": "Box Plot"
-  },
-  {
-    "objectID": "lectures/4b.html#box-plot-r-code",
-    "href": "lectures/4b.html#box-plot-r-code",
-    "title": "Data Visualization",
-    "section": "Box Plot R Code",
-    "text": "Box Plot R Code\n\ngf_boxplot(~bill_length_mm, data = penguins)"
-  },
-  {
-    "objectID": "lectures/4b.html#box-plot-2",
-    "href": "lectures/4b.html#box-plot-2",
-    "title": "Data Visualization",
-    "section": "Box Plot",
-    "text": "Box Plot"
-  },
-  {
-    "objectID": "lectures/4b.html#categorical-variables",
-    "href": "lectures/4b.html#categorical-variables",
-    "title": "Data Visualization",
-    "section": "Categorical Variables",
-    "text": "Categorical Variables\n\n\n#&gt; $species\n#&gt;  [1] Adelie    Gentoo    Chinstrap Chinstrap Gentoo    Gentoo    Gentoo   \n#&gt;  [8] Adelie    Adelie    Gentoo    Gentoo    Gentoo    Chinstrap Gentoo   \n#&gt; [15] Chinstrap Chinstrap Gentoo    Chinstrap Adelie    Adelie   \n#&gt; Levels: Adelie Chinstrap Gentoo"
-  },
-  {
-    "objectID": "lectures/4b.html#frequency-tables",
-    "href": "lectures/4b.html#frequency-tables",
-    "title": "Data Visualization",
-    "section": "Frequency Tables",
-    "text": "Frequency Tables\nA frequency table is a statistical tool used to organize and summarize a set of data by counting the number of times each unique value or category appears within the dataset. It provides a simple and clear way to represent the distribution of data, particularly for categorical or discrete variables."
-  },
-  {
-    "objectID": "lectures/4b.html#relative-frequency",
-    "href": "lectures/4b.html#relative-frequency",
-    "title": "Data Visualization",
-    "section": "Relative Frequency",
-    "text": "Relative Frequency\nRelative frequency is a statistical concept used to describe the proportion or percentage of times a particular event or outcome occurs relative to the total number of observations or occurrences in a dataset or sample."
-  },
-  {
-    "objectID": "lectures/4b.html#proportional-tables",
-    "href": "lectures/4b.html#proportional-tables",
-    "title": "Data Visualization",
-    "section": "Proportional Tables",
-    "text": "Proportional Tables\nA proportion table is a type of statistical table used to display the relative frequencies or proportions of different categories within a dataset. It provides a way to represent the distribution of data in terms of percentages or proportions, making it easier to compare and understand the relative sizes of different categories."
-  },
-  {
-    "objectID": "lectures/4b.html#pie-charts",
-    "href": "lectures/4b.html#pie-charts",
-    "title": "Data Visualization",
-    "section": "Pie Charts",
-    "text": "Pie Charts\nA pie chart is a circular graphical representation used to display data in a way that illustrates the relative proportions or percentages of different categories or components within a whole. Pie charts are particularly useful for showing the composition of a dataset when you want to emphasize the parts of a whole and how they relate to each other."
-  },
-  {
-    "objectID": "lectures/4b.html#pie-charts-r-code",
-    "href": "lectures/4b.html#pie-charts-r-code",
-    "title": "Data Visualization",
-    "section": "Pie Charts R Code",
-    "text": "Pie Charts R Code\n\npenguins |&gt; ggplot(aes(x=\"\", fill = species)) + \n  geom_bar() + \n  coord_polar(\"y\")"
-  },
-  {
-    "objectID": "lectures/4b.html#pie-charts-in-r",
-    "href": "lectures/4b.html#pie-charts-in-r",
-    "title": "Data Visualization",
-    "section": "Pie Charts in R",
-    "text": "Pie Charts in R"
-  },
-  {
-    "objectID": "lectures/4b.html#bar-charts",
-    "href": "lectures/4b.html#bar-charts",
-    "title": "Data Visualization",
-    "section": "Bar Charts",
-    "text": "Bar Charts\nA bar chart, also known as a bar graph, is a graphical representation used to display categorical data in a way that visually represents the values or frequencies of different categories by using rectangular bars. Bar charts are particularly effective for comparing and showing the relationships between distinct categories or groups."
-  },
-  {
-    "objectID": "lectures/4b.html#bar-charts-r-code",
-    "href": "lectures/4b.html#bar-charts-r-code",
-    "title": "Data Visualization",
-    "section": "Bar Charts R Code",
-    "text": "Bar Charts R Code\n\ngf_bar(~species, data = penguins)"
-  },
-  {
-    "objectID": "lectures/4b.html#bar-charts-r-code-1",
-    "href": "lectures/4b.html#bar-charts-r-code-1",
-    "title": "Data Visualization",
-    "section": "Bar Charts R Code",
-    "text": "Bar Charts R Code"
-  },
-  {
-    "objectID": "lectures/4b.html#explaining-variation-1",
-    "href": "lectures/4b.html#explaining-variation-1",
-    "title": "Data Visualization",
-    "section": "Explaining Variation",
-    "text": "Explaining Variation\n\nThis is the process where we try to reduce the variation with the use of other variables.\n\n\nCan be thought of as getting it less wrong when taking an educated guess."
-  },
-  {
-    "objectID": "lectures/4b.html#explaining-variation-2",
-    "href": "lectures/4b.html#explaining-variation-2",
-    "title": "Data Visualization",
-    "section": "Explaining Variation",
-    "text": "Explaining Variation"
-  },
-  {
-    "objectID": "lectures/4b.html#explaining-variation-with-one-variable",
-    "href": "lectures/4b.html#explaining-variation-with-one-variable",
-    "title": "Data Visualization",
-    "section": "Explaining Variation with One Variable",
-    "text": "Explaining Variation with One Variable"
-  },
-  {
-    "objectID": "lectures/4b.html#explaining-variation-with-one-variable-1",
-    "href": "lectures/4b.html#explaining-variation-with-one-variable-1",
-    "title": "Data Visualization",
-    "section": "Explaining Variation with One Variable",
-    "text": "Explaining Variation with One Variable"
-  },
-  {
-    "objectID": "lectures/4b.html#outcome-variables",
-    "href": "lectures/4b.html#outcome-variables",
-    "title": "Data Visualization",
-    "section": "Outcome Variables",
-    "text": "Outcome Variables\nThese are variables we want to study.\n\nAlso known as outcome of interest.\n\n\nAlso known as dependent variable."
-  },
-  {
-    "objectID": "lectures/4b.html#explanatory-variables",
-    "href": "lectures/4b.html#explanatory-variables",
-    "title": "Data Visualization",
-    "section": "Explanatory Variables",
-    "text": "Explanatory Variables\nThese are variable that explain the outcome of interest.\n\nAlso known as predictor variable.\n\n\nAlso known as independent variable."
-  },
-  {
-    "objectID": "lectures/4b.html#study-habits",
-    "href": "lectures/4b.html#study-habits",
-    "title": "Data Visualization",
-    "section": "Study Habits",
-    "text": "Study Habits\n\nThe first exam will be on September 25.\n\n\nWhat are some study strategies that you can implement in this course?"
-  },
-  {
-    "objectID": "lectures/5b.html#solito-a-memoir",
-    "href": "lectures/5b.html#solito-a-memoir",
-    "title": "Research Design",
+    "objectID": "lectures/5a.html#solito-a-memoir",
+    "href": "lectures/5a.html#solito-a-memoir",
+    "title": "Modelling Relationships",
     "section": "Solito: A Memoir",
     "text": "Solito: A Memoir"
   },
   {
-    "objectID": "lectures/5b.html#first-exam",
-    "href": "lectures/5b.html#first-exam",
-    "title": "Research Design",
-    "section": "First Exam",
-    "text": "First Exam\n\nSeptember 25\n30 Questions\nMixed of Multiple Choice, True or False, and Free Response\nGet 1 sheet of notes, front and back\nIn-person"
+    "objectID": "lectures/5a.html#voces-inocentes",
+    "href": "lectures/5a.html#voces-inocentes",
+    "title": "Modelling Relationships",
+    "section": "Voces Inocentes",
+    "text": "Voces Inocentes\n\n\n\n\n\n\n\n\n\nSeptember 18\nBroome Library 1360\n5 - 8 PM\nSnacks will be provided\nCW: Portrays war, child soldiers, children death\nRegister here\nOH cancelled that day."
   },
   {
-    "objectID": "lectures/5b.html#junior-math-seminar",
-    "href": "lectures/5b.html#junior-math-seminar",
-    "title": "Research Design",
+    "objectID": "lectures/5a.html#quiz-1",
+    "href": "lectures/5a.html#quiz-1",
+    "title": "Modelling Relationships",
+    "section": "Quiz 1",
+    "text": "Quiz 1\nWhat are the components of a data generating process?"
+  },
+  {
+    "objectID": "lectures/5a.html#quiz-2",
+    "href": "lectures/5a.html#quiz-2",
+    "title": "Modelling Relationships",
+    "section": "Quiz 2",
+    "text": "Quiz 2\nDescribe the potential data generating process of blood pressure in patients in a hospital."
+  },
+  {
+    "objectID": "lectures/5a.html#quiz-3",
+    "href": "lectures/5a.html#quiz-3",
+    "title": "Modelling Relationships",
+    "section": "Quiz 3",
+    "text": "Quiz 3\nDescribe the data generating process of number of years of school in students."
+  },
+  {
+    "objectID": "lectures/5a.html#explaining-variation",
+    "href": "lectures/5a.html#explaining-variation",
+    "title": "Modelling Relationships",
+    "section": "Explaining Variation",
+    "text": "Explaining Variation\n\nThis is the process where we try to reduce the variation with the use of other variables.\n\n\nCan be thought of as getting it less wrong when taking an educated guess."
+  },
+  {
+    "objectID": "lectures/5a.html#explaining-variation-1",
+    "href": "lectures/5a.html#explaining-variation-1",
+    "title": "Modelling Relationships",
+    "section": "Explaining Variation",
+    "text": "Explaining Variation"
+  },
+  {
+    "objectID": "lectures/5a.html#explaining-variation-with-one-variable",
+    "href": "lectures/5a.html#explaining-variation-with-one-variable",
+    "title": "Modelling Relationships",
+    "section": "Explaining Variation with One Variable",
+    "text": "Explaining Variation with One Variable"
+  },
+  {
+    "objectID": "lectures/5a.html#representing-it-logically",
+    "href": "lectures/5a.html#representing-it-logically",
+    "title": "Modelling Relationships",
+    "section": "Representing it Logically",
+    "text": "Representing it Logically"
+  },
+  {
+    "objectID": "lectures/5a.html#general-form",
+    "href": "lectures/5a.html#general-form",
+    "title": "Modelling Relationships",
+    "section": "General Form",
+    "text": "General Form"
+  },
+  {
+    "objectID": "lectures/5a.html#variation-of-data",
+    "href": "lectures/5a.html#variation-of-data",
+    "title": "Modelling Relationships",
+    "section": "Variation of Data",
+    "text": "Variation of Data"
+  },
+  {
+    "objectID": "lectures/5a.html#modeling-variation",
+    "href": "lectures/5a.html#modeling-variation",
+    "title": "Modelling Relationships",
+    "section": "Modeling Variation",
+    "text": "Modeling Variation"
+  },
+  {
+    "objectID": "lectures/5a.html#explained",
+    "href": "lectures/5a.html#explained",
+    "title": "Modelling Relationships",
+    "section": "Explained",
+    "text": "Explained"
+  },
+  {
+    "objectID": "lectures/5a.html#unexplained",
+    "href": "lectures/5a.html#unexplained",
+    "title": "Modelling Relationships",
+    "section": "Unexplained",
+    "text": "Unexplained"
+  },
+  {
+    "objectID": "lectures/5a.html#system-variation",
+    "href": "lectures/5a.html#system-variation",
+    "title": "Modelling Relationships",
+    "section": "System Variation",
+    "text": "System Variation"
+  },
+  {
+    "objectID": "lectures/5a.html#sampling-variation",
+    "href": "lectures/5a.html#sampling-variation",
+    "title": "Modelling Relationships",
+    "section": "Sampling Variation",
+    "text": "Sampling Variation"
+  },
+  {
+    "objectID": "lectures/5a.html#what-is-a-quantitative-variable",
+    "href": "lectures/5a.html#what-is-a-quantitative-variable",
+    "title": "Modelling Relationships",
+    "section": "What is a quantitative variable?",
+    "text": "What is a quantitative variable?"
+  },
+  {
+    "objectID": "lectures/5a.html#back-to-age-example",
+    "href": "lectures/5a.html#back-to-age-example",
+    "title": "Modelling Relationships",
+    "section": "Back to age example",
+    "text": "Back to age example"
+  },
+  {
+    "objectID": "lectures/5a.html#a-quantitative-explanatory-variable",
+    "href": "lectures/5a.html#a-quantitative-explanatory-variable",
+    "title": "Modelling Relationships",
+    "section": "A Quantitative Explanatory Variable",
+    "text": "A Quantitative Explanatory Variable"
+  },
+  {
+    "objectID": "lectures/5a.html#modeling-the-relationship",
+    "href": "lectures/5a.html#modeling-the-relationship",
+    "title": "Modelling Relationships",
+    "section": "Modeling the relationship",
+    "text": "Modeling the relationship"
+  },
+  {
+    "objectID": "lectures/5a.html#dgp-practice",
+    "href": "lectures/5a.html#dgp-practice",
+    "title": "Modelling Relationships",
+    "section": "DGP Practice",
+    "text": "DGP Practice\nPredict/Draw how the data will look when collecting the height of 1000 CSUCI students."
+  },
+  {
+    "objectID": "lectures/6b.html#solito-a-memoir",
+    "href": "lectures/6b.html#solito-a-memoir",
+    "title": "A Simple Model",
+    "section": "Solito: A Memoir",
+    "text": "Solito: A Memoir"
+  },
+  {
+    "objectID": "lectures/6b.html#junior-math-seminar",
+    "href": "lectures/6b.html#junior-math-seminar",
+    "title": "A Simple Model",
     "section": "Junior Math Seminar",
-    "text": "Junior Math Seminar\n\nStatistics: A Math? A Science? An Art? Or Something Else?\nLocation: Sierra 2411\nDay and Time: Wednesday Sept 27 4:30-5:30 PM\nOH Cancelled that day"
+    "text": "Junior Math Seminar\n\nStatistics: A Math? A Science? An Art? Or Something Else?\nLocation: Sierra 2411\nDay and Time: Wednesday Sept 27 4:30-5:30 PM\nOH Cancelled Today"
   },
   {
-    "objectID": "lectures/5b.html#complete-survey",
-    "href": "lectures/5b.html#complete-survey",
-    "title": "Research Design",
-    "section": "Complete Survey",
-    "text": "Complete Survey\n\nhttps://forms.gle/tYgmpJFk6fzz36r18"
+    "objectID": "lectures/6b.html#thursdays-office-hours-cancelled",
+    "href": "lectures/6b.html#thursdays-office-hours-cancelled",
+    "title": "A Simple Model",
+    "section": "Thursday’s Office Hours Cancelled",
+    "text": "Thursday’s Office Hours Cancelled"
   },
   {
-    "objectID": "lectures/5b.html#what-is-the-purpose-of-research",
-    "href": "lectures/5b.html#what-is-the-purpose-of-research",
-    "title": "Research Design",
-    "section": "What is the purpose of research?",
-    "text": "What is the purpose of research?\nThe purpose of research is to systematically investigate, gather information, analyze data, and draw conclusions to advance knowledge, solve problems, or answer questions."
-  },
-  {
-    "objectID": "lectures/5b.html#experimental-studies",
-    "href": "lectures/5b.html#experimental-studies",
-    "title": "Research Design",
-    "section": "Experimental Studies",
-    "text": "Experimental Studies\nExperimental studies are research designs in which the researcher deliberately manipulates one or more independent variables to observe their effects on an outcome of interest. These studies are commonly used in scientific and social science research to establish cause-and-effect relationships between variables."
-  },
-  {
-    "objectID": "lectures/5b.html#examples-of-experimental-studies",
-    "href": "lectures/5b.html#examples-of-experimental-studies",
-    "title": "Research Design",
-    "section": "Examples of Experimental Studies",
-    "text": "Examples of Experimental Studies\n\nRandomized-Control Trials\n\nPlacebo-Drug Studies"
-  },
-  {
-    "objectID": "lectures/5b.html#observational-studies",
-    "href": "lectures/5b.html#observational-studies",
-    "title": "Research Design",
-    "section": "Observational Studies",
-    "text": "Observational Studies\nObservational studies are research designs in which researchers observe and collect data on individuals or groups without intervening or manipulating any variables. These studies aim to understand and describe the relationships between variables or to analyze the natural occurrence of events or phenomena. Unlike experimental studies, observational studies do not involve the manipulation of independent variables, and they are often used when it is not ethical or practical to conduct experiments."
-  },
-  {
-    "objectID": "lectures/5b.html#examples-of-observational-studies",
-    "href": "lectures/5b.html#examples-of-observational-studies",
-    "title": "Research Design",
-    "section": "Examples of Observational Studies",
-    "text": "Examples of Observational Studies\n\nCross-Sectional Studies\nLongitudinal Studies\nCase-Control Studies\nCohort Studies"
-  },
-  {
-    "objectID": "lectures/5b.html#randomness",
-    "href": "lectures/5b.html#randomness",
-    "title": "Research Design",
-    "section": "Randomness",
-    "text": "Randomness\n\nRandomness refers to the lack of predictability or pattern in a sequence of events or outcomes.\n\n\nRandomness is often associated with chance and uncertainty."
-  },
-  {
-    "objectID": "lectures/5b.html#random-sampling",
-    "href": "lectures/5b.html#random-sampling",
-    "title": "Research Design",
-    "section": "Random Sampling",
-    "text": "Random Sampling"
-  },
-  {
-    "objectID": "lectures/5b.html#palmer-penguins",
-    "href": "lectures/5b.html#palmer-penguins",
-    "title": "Research Design",
-    "section": "Palmer Penguins",
-    "text": "Palmer Penguins\n\n333 Penguins Measured\nCollected information on:\n\nFlipper Length\nBeak Length\nSpecies\nIsland\nBody Mass\n\n~20 million penguins in Antartica"
-  },
-  {
-    "objectID": "lectures/5b.html#flipper-length",
-    "href": "lectures/5b.html#flipper-length",
-    "title": "Research Design",
-    "section": "Flipper Length",
-    "text": "Flipper Length"
-  },
-  {
-    "objectID": "lectures/5b.html#is-there-a-signal",
-    "href": "lectures/5b.html#is-there-a-signal",
-    "title": "Research Design",
-    "section": "Is there a signal?",
-    "text": "Is there a signal?\n\nAre we seeing differences in penguin species?\n\n\nOr is it due to random chance?\n\n\nHow can we know?\n\n\nHow about we simulate random samples and conduct a permutation test?"
-  },
-  {
-    "objectID": "lectures/5b.html#permutation-test-shuffling",
-    "href": "lectures/5b.html#permutation-test-shuffling",
-    "title": "Research Design",
-    "section": "Permutation Test (Shuffling)",
-    "text": "Permutation Test (Shuffling)\nA permutation test, also known as a randomization or re-randomization test, is a statistical method used to assess the significance of an observed statistical result by comparing it to a large number of randomly generated permutations or rearrangements of the data."
-  },
-  {
-    "objectID": "lectures/5b.html#permutation-test",
-    "href": "lectures/5b.html#permutation-test",
-    "title": "Research Design",
-    "section": "Permutation Test",
-    "text": "Permutation Test\n\nWe will shuffle the outcome of interest, while maintaining the species location.\n\nThis generates a simulated data set.\n\nWe will create a large number of simulated data sets to get an idea of the distribution.\nWe will then compare the true data with the simulated data sets to see if they overlap."
-  },
-  {
-    "objectID": "lectures/5b.html#shuffling-penguins",
-    "href": "lectures/5b.html#shuffling-penguins",
-    "title": "Research Design",
-    "section": "Shuffling Penguins",
-    "text": "Shuffling Penguins\n\nWhile maintaining the structure of the data, we will shuffle the flipper length and plot them.\nWe will repeat the process multiple times\nCompare the simulated data with the actual data"
-  },
-  {
-    "objectID": "lectures/5b.html#shuffling",
-    "href": "lectures/5b.html#shuffling",
-    "title": "Research Design",
-    "section": "Shuffling",
-    "text": "Shuffling"
-  },
-  {
-    "objectID": "lectures/5b.html#side-by-side",
-    "href": "lectures/5b.html#side-by-side",
-    "title": "Research Design",
-    "section": "Side by Side",
-    "text": "Side by Side"
-  },
-  {
-    "objectID": "lectures/5b.html#shuffling-9-plots",
-    "href": "lectures/5b.html#shuffling-9-plots",
-    "title": "Research Design",
-    "section": "Shuffling 9 Plots",
-    "text": "Shuffling 9 Plots"
-  },
-  {
-    "objectID": "lectures/5b.html#overlay-points",
-    "href": "lectures/5b.html#overlay-points",
-    "title": "Research Design",
-    "section": "Overlay Points",
-    "text": "Overlay Points"
-  },
-  {
-    "objectID": "lectures/5b.html#overlay-boxplots",
-    "href": "lectures/5b.html#overlay-boxplots",
-    "title": "Research Design",
-    "section": "Overlay Boxplots",
-    "text": "Overlay Boxplots"
-  },
-  {
-    "objectID": "lectures/5b.html#how-does-the-data-fit",
-    "href": "lectures/5b.html#how-does-the-data-fit",
-    "title": "Research Design",
-    "section": "How does the data fit?",
-    "text": "How does the data fit?"
-  },
-  {
-    "objectID": "lectures/5b.html#time-management",
-    "href": "lectures/5b.html#time-management",
-    "title": "Research Design",
-    "section": "Time Management",
-    "text": "Time Management"
+    "objectID": "lectures/6b.html#exam",
+    "href": "lectures/6b.html#exam",
+    "title": "A Simple Model",
+    "section": "Exam",
+    "text": "Exam\n\n\nTest Evaluation\nTest Correction"
   },
   {
     "objectID": "lectures/template.html#learning-outcomes",
