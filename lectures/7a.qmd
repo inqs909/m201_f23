@@ -53,11 +53,11 @@ df <- rexp(1000, 2) |> {\(.) tibble(x = ., y=1:length(.))}()
 
 ## Computer Literacy Survey
 
-![](img/frame (4).png){fig-align="center"}
+![](img/frame%20(4).png){fig-align="center"}
 
 ## Plotathon
 
-![](img/2023 PAT Faculty Flyer.png){fig-align="center"}
+![](img/2023%20PAT%20Faculty%20Flyer.png){fig-align="center"}
 
 ## R Workshop
 

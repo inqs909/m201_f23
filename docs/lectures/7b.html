@@ -17,7 +17,7 @@
 <link href="../site_libs/quarto-contrib/reveal-auto-agenda-0.0.3/reveal-auto-agenda.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.3.450">
 
-  <title>MATH 201 - A Simple Model</title>
+  <title>MATH 201 - Estimating Parameters</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -35,71 +35,6 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for syntax highlighting */
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -401,7 +336,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">A Simple Model</h1>
+  <h1 class="title">Estimating Parameters</h1>
 
 <div class="quarto-title-authors">
 </div>
@@ -419,10 +354,13 @@
 <p>Announcements</p>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active">
-<p>A Simple Model</p>
+<p>Studies</p>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active">
-<p>Mean vs Median</p>
+<p>Parameters</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Statistics</p>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active">
 <p>EPE Session</p>
@@ -430,10 +368,6 @@
 </ol>
 </div>
 </section>
-<section id="computer-literacy-survey" class="slide level2">
-<h2>Computer Literacy Survey</h2>
-
-<img data-src="img/frame (4).png" class="r-stretch quarto-figure-center"></section>
 <section id="plotathon" class="slide level2">
 <h2>Plotathon</h2>
 
@@ -445,10 +379,19 @@
 <li><p>Broome 2680</p></li>
 <li><p>Free Lunch</p></li>
 </ul>
+</section>
+<section id="math-senior-seminar" class="slide level2">
+<h2>Math Senior Seminar</h2>
+<ul>
+<li><p>Monday October 9, 4:30-5:30 PM</p></li>
+<li><p>Bayesian Mixed-Effects Models and Cats: An Application of Evolutionary Biology Data</p></li>
+<li><p>Sierra 2411</p></li>
+<li><p>OH Cancelled That day</p></li>
+</ul>
 </section></section>
 <section>
-<section id="a-simple-model" class="title-slide slide level1 agenda-slide center">
-<h1>A Simple Model</h1>
+<section id="studies" class="title-slide slide level1 agenda-slide center">
+<h1>Studies</h1>
 <div class="agenda-heading">
 <p>Learning Outcomes</p>
 </div>
@@ -458,10 +401,13 @@
 <p>Announcements</p>
 </div></li>
 <li><div class="agenda-active">
-<p>A Simple Model</p>
+<p>Studies</p>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active">
-<p>Mean vs Median</p>
+<p>Parameters</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Statistics</p>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active">
 <p>EPE Session</p>
@@ -469,224 +415,138 @@
 </ol>
 </div>
 </section>
-<section id="generated-model" class="slide level2">
-<h2>Generated Model</h2>
-<p><span class="math display">\[
-Outcome \sim OtherStuff
-\]</span></p>
-</section>
-<section id="other-stuff" class="slide level2">
-<h2>Other Stuff</h2>
-<p>What is other stuff?</p>
-</section>
-<section id="generated-model-1" class="slide level2">
-<h2>Generated Model</h2>
-<p><span class="math display">\[
-Outcome \sim DGP
-\]</span></p>
-</section>
-<section id="a-simple-model-1" class="slide level2">
-<h2>A Simple Model</h2>
+<section id="example-image" class="slide level2">
+<h2>Example Image</h2>
 
-<img data-src="7a_files/figure-revealjs/unnamed-chunk-2-1.png" width="960" class="r-stretch"></section>
-<section id="a-simple-model-2" class="slide level2">
-<h2>A Simple Model</h2>
-<p><span class="math display">\[
-Outcome = \_\_\_ + OtherStuff
-\]</span></p>
-</section>
-<section id="notation" class="slide level2">
-<h2>Notation</h2>
-<p><span class="math display">\[
-Y = \ \ \ \ \ \ \ \ \ + \varepsilon
-\]</span></p>
-</section>
-<section id="the-simple-generated-model" class="slide level2">
-<h2>The Simple Generated Model</h2>
-<p><span class="math display">\[
-Y \sim \mu + \varepsilon
-\]</span></p>
-<p><span class="math display">\[
-\varepsilon \sim DGP
-\]</span></p>
-<div class="fragment">
-<p>DGP is not the same as the previous one, it is transformed due <span class="math inline">\(\beta_0\)</span>. Consider this the NULL DGP.</p>
+<img data-src="https://i.dailymail.co.uk/i/pix/2012/10/23/article-2221466-15A0DC6A000005DC-572_634x316.jpg" class="r-stretch quarto-figure-center"></section>
+<section id="what-is-the-image" class="slide level2">
+<h2>What is the image?</h2>
+
+<img data-src="7b_files/figure-revealjs/unnamed-chunk-2-1.png" width="960" class="r-stretch"></section>
+<section id="collect-more-data" class="slide level2">
+<h2>Collect More Data</h2>
+
+<img data-src="7b_files/figure-revealjs/unnamed-chunk-3-1.png" width="960" class="r-stretch"></section>
+<section id="collect-more-data-1" class="slide level2">
+<h2>Collect More Data</h2>
+
+<img data-src="7b_files/figure-revealjs/unnamed-chunk-4-1.png" width="960" class="r-stretch"></section>
+<section id="collect-more-data-2" class="slide level2">
+<h2>Collect More Data</h2>
+
+<img data-src="7b_files/figure-revealjs/unnamed-chunk-5-1.png" width="960" class="r-stretch"></section>
+<section id="collect-more-data-3" class="slide level2">
+<h2>Collect More Data</h2>
+
+<img data-src="7b_files/figure-revealjs/unnamed-chunk-6-1.png" width="960" class="r-stretch"></section>
+<section id="what-is-it" class="slide level2">
+<h2>What is it?</h2>
+
+<img data-src="7b_files/figure-revealjs/unnamed-chunk-7-1.png" width="960" class="r-stretch"></section>
+<section id="what-about-this" class="slide level2">
+<h2>What about this?</h2>
+
+<img data-src="7b_files/figure-revealjs/unnamed-chunk-8-1.png" width="960" class="r-stretch"></section>
+<section id="collect-more-data-4" class="slide level2">
+<h2>Collect More Data</h2>
+
+<img data-src="7b_files/figure-revealjs/unnamed-chunk-9-1.png" width="960" class="r-stretch"></section>
+<section id="collect-more-data-5" class="slide level2">
+<h2>Collect More Data</h2>
+
+<img data-src="7b_files/figure-revealjs/unnamed-chunk-10-1.png" width="960" class="r-stretch"></section>
+<section id="collect-more-data-6" class="slide level2">
+<h2>Collect More Data</h2>
+
+<img data-src="7b_files/figure-revealjs/unnamed-chunk-11-1.png" width="960" class="r-stretch"></section>
+<section id="collect-more-data-7" class="slide level2">
+<h2>Collect More Data</h2>
+
+<img data-src="7b_files/figure-revealjs/unnamed-chunk-12-1.png" width="960" class="r-stretch"></section>
+<section id="what-is-it-1" class="slide level2">
+<h2>What is it?</h2>
+
+<img data-src="7b_files/figure-revealjs/unnamed-chunk-13-1.png" width="960" class="r-stretch"></section></section>
+<section>
+<section id="parameters" class="title-slide slide level1 agenda-slide center">
+<h1>Parameters</h1>
+<div class="agenda-heading">
+<p>Learning Outcomes</p>
+</div>
+<div class="agenda">
+<ol>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Announcements</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Studies</p>
+</div></li>
+<li><div class="agenda-active">
+<p>Parameters</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Statistics</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>EPE Session</p>
+</div></li>
+</ol>
 </div>
 </section>
-<section id="observing-data" class="slide level2">
-<h2>Observing Data</h2>
-<p><span class="math display">\[
-Y = \beta_0 + \varepsilon
-\]</span></p>
+<section id="population" class="slide level2">
+<h2>Population</h2>
+
+<img data-src="7b_files/figure-revealjs/unnamed-chunk-14-1.png" width="960" class="r-stretch"></section>
+<section id="parameters-1" class="slide level2">
+<h2>Parameters</h2>
+</section></section>
+<section>
+<section id="statistics" class="title-slide slide level1 agenda-slide center">
+<h1>Statistics</h1>
+<div class="agenda-heading">
+<p>Learning Outcomes</p>
+</div>
+<div class="agenda">
+<ol>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Announcements</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Studies</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Parameters</p>
+</div></li>
+<li><div class="agenda-active">
+<p>Statistics</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>EPE Session</p>
+</div></li>
+</ol>
+</div>
 </section>
-<section id="estimated-data" class="slide level2">
-<h2>Estimated Data</h2>
+<section id="data" class="slide level2">
+<h2>Data</h2>
+
+<img data-src="7b_files/figure-revealjs/unnamed-chunk-15-1.png" width="960" class="r-stretch"></section>
+<section id="inference" class="slide level2">
+<h2>Inference</h2>
+</section>
+<section id="statistics-1" class="slide level2">
+<h2>Statistics</h2>
+</section>
+<section id="prediction" class="slide level2">
+<h2>Prediction</h2>
 <p><span class="math display">\[
 \hat Y=\hat\beta_0
 \]</span></p>
 </section>
-<section id="notation-1" class="slide level2">
-<h2>Notation</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="observed">Observed</h3>
-<p><span class="math display">\[
-Y = \beta_0 + \varepsilon
-\]</span></p>
-</div><div class="column" style="width:50%;">
-<h3 id="estimated">Estimated</h3>
-<p><span class="math display">\[
-\hat Y = \hat \beta_0
-\]</span></p>
-</div>
-</div>
-</section></section>
-<section>
-<section id="mean-vs-median" class="title-slide slide level1 agenda-slide center">
-<h1>Mean vs Median</h1>
-<div class="agenda-heading">
-<p>Learning Outcomes</p>
-</div>
-<div class="agenda">
-<ol>
-<li><div class="agenda-inactive agenda-pre-active">
-<p>Announcements</p>
-</div></li>
-<li><div class="agenda-inactive agenda-pre-active">
-<p>A Simple Model</p>
-</div></li>
-<li><div class="agenda-active">
-<p>Mean vs Median</p>
-</div></li>
-<li><div class="agenda-inactive agenda-post-active">
-<p>EPE Session</p>
-</div></li>
-</ol>
-</div>
-</section>
-<section id="mean-vs-median-1" class="slide level2">
-<h2>Mean vs Median</h2>
-
-<img data-src="https://i.redd.it/l1g8wkxc474b1.jpg" class="r-stretch quarto-figure-center"></section>
-<section id="mean-vs-median-2" class="slide level2">
-<h2>Mean vs Median</h2>
-<p>Which one is preferred?</p>
-</section>
-<section id="mean-vs-median-3" class="slide level2">
-<h2>Mean vs Median</h2>
-
-<img data-src="7a_files/figure-revealjs/unnamed-chunk-3-1.png" width="960" class="r-stretch"></section>
-<section id="deviations" class="slide level2">
-<h2>Deviations</h2>
-<p>Deviations are know as the distance of a data point from a model:</p>
+<section id="residuals" class="slide level2">
+<h2>Residuals</h2>
 <p><span class="math display">\[
 \hat r_i= y_i -\hat y_i
 \]</span></p>
-<p>These are also know as residuals (<span class="math inline">\(\hat r_i\)</span>)</p>
-</section>
-<section id="deviations-1" class="slide level2">
-<h2>Deviations</h2>
-
-<img data-src="7a_files/figure-revealjs/unnamed-chunk-4-1.png" width="960" class="r-stretch"></section>
-<section id="deviations-2" class="slide level2">
-<h2>Deviations</h2>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>#&gt;   [1]  -457.057057  -407.057057  -957.057057  -757.057057  -557.057057
-#&gt;   [6]  -582.057057   467.942943 -1007.057057  -407.057057   192.942943
-#&gt;  [11]  -507.057057  -757.057057   292.942943  -882.057057    -7.057057
-#&gt;  [16]  -807.057057  -607.057057  -407.057057  -257.057057  -407.057057
-#&gt;  [21]  -407.057057  -657.057057 -1007.057057 -1057.057057  -257.057057
-#&gt;  [26]  -957.057057  -307.057057  -907.057057  -307.057057  -882.057057
-#&gt;  [31]   -57.057057  -257.057057  -657.057057  -907.057057   442.942943
-#&gt;  [36] -1057.057057  -307.057057 -1107.057057   192.942943 -1207.057057
-#&gt;  [41]   392.942943  -782.057057  -757.057057   -57.057057  -707.057057
-#&gt;  [46]    92.942943  -757.057057  -157.057057 -1307.057057  -507.057057
-#&gt;  [51]  -657.057057  -407.057057 -1357.057057  -457.057057 -1057.057057
-#&gt;  [56]   192.942943  -607.057057  -157.057057 -1357.057057  -257.057057
-#&gt;  [61]  -857.057057  -107.057057 -1157.057057   242.942943  -607.057057
-#&gt;  [66]  -307.057057  -657.057057   -57.057057  -507.057057    42.942943
-#&gt;  [71]  -507.057057  -307.057057  -657.057057  -207.057057 -1007.057057
-#&gt;  [76]   492.942943  -407.057057    -7.057057  -857.057057  -657.057057
-#&gt;  [81]  -407.057057  -707.057057  -257.057057  -607.057057  -657.057057
-#&gt;  [86]    92.942943  -807.057057   242.942943  -907.057057    92.942943
-#&gt;  [91]  -507.057057   142.942943 -1307.057057  -107.057057  -482.057057
-#&gt;  [96]   517.942943 -1132.057057    42.942943 -1282.057057  -657.057057
-#&gt; [101]  -457.057057  -307.057057 -1032.057057   567.942943  -382.057057
-#&gt; [106]   392.942943 -1007.057057    67.942943  -307.057057  -132.057057
-#&gt; [111] -1307.057057  -432.057057  -857.057057  -882.057057 -1057.057057
-#&gt; [116]  -707.057057  -757.057057  -332.057057 -1157.057057  -207.057057
-#&gt; [121]  -932.057057    92.942943 -1157.057057  -207.057057  -882.057057
-#&gt; [126]  -707.057057  -707.057057   267.942943  -782.057057  -307.057057
-#&gt; [131] -1032.057057  -232.057057  -807.057057    42.942943  -807.057057
-#&gt; [136]  -732.057057 -1157.057057  -482.057057 -1207.057057  -557.057057
-#&gt; [141]    42.942943  -732.057057  -757.057057  -457.057057  -507.057057
-#&gt; [146]  -207.057057   292.942943  1492.942943   242.942943  1492.942943
-#&gt; [151]  1192.942943   342.942943   592.942943   992.942943   192.942943
-#&gt; [156]   942.942943   442.942943  1342.942943   442.942943  1642.942943
-#&gt; [161]    -7.057057  1642.942943   -57.057057  2092.942943   592.942943
-#&gt; [166]  1142.942943  1492.942943   792.942943   192.942943   842.942943
-#&gt; [171]   792.942943   892.942943  1442.942943   392.942943  1342.942943
-#&gt; [176]  1042.942943   492.942943   842.942943  1842.942943   942.942943
-#&gt; [181]  1192.942943   742.942943  1042.942943   142.942943  1142.942943
-#&gt; [186]  -257.057057  1492.942943    92.942943   542.942943  1342.942943
-#&gt; [191]   692.942943    -7.057057  1192.942943   892.942943  1092.942943
-#&gt; [196]   642.942943  1092.942943   192.942943   792.942943   692.942943
-#&gt; [201]   842.942943    92.942943   792.942943   242.942943  1342.942943
-#&gt; [206]    -7.057057  1092.942943   192.942943  1442.942943   492.942943
-#&gt; [211]  1492.942943  1592.942943   492.942943  1342.942943   542.942943
-#&gt; [216]   792.942943   892.942943   992.942943   492.942943  1592.942943
-#&gt; [221]   392.942943  1792.942943   542.942943  1742.942943   417.942943
-#&gt; [226]  1242.942943   517.942943  1142.942943   542.942943  1392.942943
-#&gt; [231]   392.942943  1092.942943   667.942943  1342.942943   742.942943
-#&gt; [236]  1192.942943   542.942943  1442.942943   642.942943   992.942943
-#&gt; [241]   717.942943   667.942943   417.942943  1042.942943   642.942943
-#&gt; [246]  1392.942943   767.942943  1292.942943  1292.942943   492.942943
-#&gt; [251]  1292.942943   367.942943  1292.942943   792.942943  1742.942943
-#&gt; [256]   442.942943  1292.942943   167.942943  1642.942943  1792.942943
-#&gt; [261]   717.942943   642.942943  1542.942943   992.942943  1192.942943
-#&gt; [266]  -707.057057  -307.057057  -557.057057  -682.057057  -482.057057
-#&gt; [271]  -257.057057  -957.057057  -457.057057   -57.057057  -507.057057
-#&gt; [276]  -407.057057  -432.057057  -507.057057  -157.057057  -632.057057
-#&gt; [281]  -157.057057  -907.057057  -507.057057  -757.057057   192.942943
-#&gt; [286]  -607.057057  -807.057057 -1307.057057  -407.057057  -907.057057
-#&gt; [291]   -57.057057  -807.057057  -407.057057  -507.057057   342.942943
-#&gt; [296] -1007.057057    92.942943  -857.057057  -107.057057  -607.057057
-#&gt; [301]  -307.057057  -357.057057   592.942943 -1507.057057   292.942943
-#&gt; [306]  -257.057057  -557.057057  -657.057057  -707.057057  -532.057057
-#&gt; [311]   242.942943  -807.057057    92.942943  -957.057057  -532.057057
-#&gt; [316]  -882.057057  -257.057057  -607.057057  -157.057057  -857.057057
-#&gt; [321]  -757.057057  -957.057057  -157.057057  -407.057057  -682.057057
-#&gt; [326]  -257.057057  -557.057057  -557.057057  -207.057057  -807.057057
-#&gt; [331]  -432.057057  -107.057057  -432.057057</code></pre>
-</div>
-</div>
-</section>
-<section id="sum-of-deviations-with-mean" class="slide level2">
-<h2>Sum of Deviations with Mean</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a>penguins <span class="sc">|&gt;</span> <span class="fu">drop_na</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb2-2"><a href="#cb2-2"></a>  {\(.) .<span class="sc">$</span>body_mass_g <span class="sc">-</span> <span class="fu">mean</span>(.<span class="sc">$</span>body_mass_g)}() <span class="sc">|&gt;</span> </span>
-<span id="cb2-3"><a href="#cb2-3"></a>  <span class="fu">sum</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>#&gt; [1] -2.637535e-11</code></pre>
-</div>
-</div>
-</section>
-<section id="x" class="slide level2">
-<h2><span class="math inline">\(10^{-x}\)</span></h2>
-
-<img data-src="7a_files/figure-revealjs/unnamed-chunk-7-1.png" width="960" class="r-stretch"></section>
-<section id="sum-of-median-deviations-with-median" class="slide level2">
-<h2>Sum of Median Deviations with Median</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a>penguins <span class="sc">|&gt;</span> <span class="fu">drop_na</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb4-2"><a href="#cb4-2"></a>  {\(.) .<span class="sc">$</span>body_mass_g <span class="sc">-</span> <span class="fu">median</span>(.<span class="sc">$</span>body_mass_g)}() <span class="sc">|&gt;</span> </span>
-<span id="cb4-3"><a href="#cb4-3"></a>  <span class="fu">sum</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>#&gt; [1] 52300</code></pre>
-</div>
-</div>
 </section></section>
 <section>
 <section id="epe-session" class="title-slide slide level1 agenda-slide center">
@@ -700,10 +560,13 @@ Y = \beta_0 + \varepsilon
 <p>Announcements</p>
 </div></li>
 <li><div class="agenda-inactive agenda-pre-active">
-<p>A Simple Model</p>
+<p>Studies</p>
 </div></li>
 <li><div class="agenda-inactive agenda-pre-active">
-<p>Mean vs Median</p>
+<p>Parameters</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Statistics</p>
 </div></li>
 <li><div class="agenda-active">
 <p>EPE Session</p>
@@ -711,15 +574,33 @@ Y = \beta_0 + \varepsilon
 </ol>
 </div>
 </section>
-<section id="prediction" class="slide level2">
-<h2>Prediction</h2>
+<section id="epe-session-1" class="slide level2">
+<h2>EPE Session</h2>
 <div class="cell">
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; [1] 24 32 28</code></pre>
+<pre><code>#&gt; [1] "Data:"</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>#&gt; [1] 10 11 20 10 11</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>#&gt; [1] "Mean:"</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>#&gt; [1] 12.4</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>#&gt; [1] "Variance:"</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>#&gt; [1] 18.3</code></pre>
 </div>
 </div>
-<p>Come up with 3 ways to transform the data.</p>
-<p>Does this remind you of something you have learned in your previous math classes?</p>
+<p>Compute the z-score:</p>
+<p><span class="math display">\[
+Z=\frac{X-\bar X}{s}
+\]</span></p>
+<p>In words, what does the z-score represent?</p>
 
 <div class="footer footer-default">
 
