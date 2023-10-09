@@ -204,3 +204,17 @@ tibble(x = 150:250, y= penguins |> drop_na() |> with(sse_v(flipper_length_mm,150
         axis.title.x = element_text(size = 36)) +
   geom_vline(xintercept=pmean, col = "red")
 ```
+
+## Why Not Others?
+
+```{r}
+tibble(x = 150:250, y= penguins |> drop_na() |> with(sse_v(flipper_length_mm,150:250))) |>
+  ggplot(aes(x,y)) + geom_line() + 
+  theme_bw() +
+  theme(axis.text.x = element_text(size = 36),
+        axis.title.x = element_text(size = 36)) +
+  geom_vline(xintercept=pmean, col = "red") +
+  geom_vline(xintercept=pmedian, col = "blue") +
+  geom_vline(xintercept=pmode, col = "green") 
+  
+```

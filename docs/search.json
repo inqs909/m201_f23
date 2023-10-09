@@ -119,6 +119,13 @@
     "text": "Why Mean\n\npna |&gt; with(mean(flipper_length_mm))\n\n#&gt; [1] 200.967"
   },
   {
+    "objectID": "lectures/8a.html#why-not-others",
+    "href": "lectures/8a.html#why-not-others",
+    "title": "Quantifying Errors",
+    "section": "Why Not Others?",
+    "text": "Why Not Others?"
+  },
+  {
     "objectID": "lectures/7a.html#computer-literacy-survey",
     "href": "lectures/7a.html#computer-literacy-survey",
     "title": "A Simple Model",
