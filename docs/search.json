@@ -60,7 +60,7 @@
     "href": "lectures/9a.html#linear-model-1",
     "title": "Linear Models",
     "section": "Linear Model",
-    "text": "Linear Model"
+    "text": "Linear Model\n\\[\nY = b_0 + b_1 X + \\varepsilon\n\\]"
   },
   {
     "objectID": "lectures/9a.html#penguin-species",

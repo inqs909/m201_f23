@@ -89,7 +89,7 @@ penguins_nona |> select(bill_length_mm)
 penguins_nona |> summarise(mean = mean(bill_length_mm))
 ```
 
-## Empty Model 
+## Empty Model
 
 ::: fragment
 $$
@@ -114,6 +114,10 @@ $$
 # Linear Model
 
 ## Linear Model
+
+$$
+Y = b_0 + b_1 X + \varepsilon
+$$
 
 ## Penguin Species
 
