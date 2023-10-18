@@ -13,6 +13,10 @@ Provide a summary of one book below, an write a brief analysis in supporting or 
 
 **Books:**
 
+-   Limitless Mind
+
+    -   Jo Boaler
+
 -   The Book of Why
 
     -   Judea Pearl
