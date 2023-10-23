@@ -57,11 +57,6 @@ penguins_nona <- penguins |> drop_na() |>
 
 ## Scorpio Season is Here!!
 
-```{=html}
-<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@fredsnightmares/video/6886212024867491077" data-video-id="6886212024867491077" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@fredsnightmares" href="https://www.tiktok.com/@fredsnightmares?refer=embed">@fredsnightmares</a> <p></p> <a target="_blank" title="♬ Viva La Swing aka #SandoTwist by @Abiud_Sando" href="https://www.tiktok.com/music/Viva-La-Swing-aka-SandoTwist-by-AbiudSando-6823159626767305477?refer=embed">♬ Viva La Swing aka #SandoTwist by @Abiud_Sando</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
-```
-## Scorpio Season is Here!!
-
 The first 6 reading assignments and quizzes are open for retakes until October 31!
 
 ::: fragment
@@ -79,6 +74,16 @@ The first 6 reading assignments and quizzes are open for retakes until October 3
 ## Plotathon
 
 ![](img/PAT24%20L&L%20Tools%20Workshop.png){fig-align="center"}
+
+## Wednesday's Class
+
+Is Cancelled.
+
+But, I encourage you to attend the LRC during this time to learn more about empty models and linear models.
+
+::: fragment
+Devin and Amanda may hold extra sessions.
+:::
 
 # Linear Models
 
