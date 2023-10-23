@@ -330,6 +330,16 @@
       margin-right: 0; 
     }
   </style>
+  
+  <script src="../site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+  <link href="../site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+  <script src="../site_libs/datatables-binding-0.28/datatables.js"></script>
+  <script src="../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <link href="../site_libs/dt-core-1.13.4/css/jquery.dataTables.min.css" rel="stylesheet">
+  <link href="../site_libs/dt-core-1.13.4/css/jquery.dataTables.extra.css" rel="stylesheet">
+  <script src="../site_libs/dt-core-1.13.4/js/jquery.dataTables.min.js"></script>
+  <link href="../site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet">
+  <script src="../site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -354,38 +364,35 @@
 <p>Announcements</p>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active">
-<p>Empty Model</p>
-</div></li>
-<li><div class="agenda-inactive agenda-post-active">
-<p>Linear Model</p>
-</div></li>
-<li><div class="agenda-inactive agenda-post-active">
-<p>EPE Session</p>
+<p>Linear Models</p>
 </div></li>
 </ol>
 </div>
 </section>
-<section id="plotathon" class="slide level2">
-<h2>Plotathon</h2>
-
-<img data-src="img/PAT24 L&amp;L Tools Workshop.png" class="r-stretch quarto-figure-center"></section>
 <section id="scorpio-season-is-here" class="slide level2">
 <h2>Scorpio Season is Here!!</h2>
 <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@fredsnightmares/video/6886212024867491077" data-video-id="6886212024867491077" style="max-width: 605px;min-width: 325px;"> <section> <a target="_blank" title="@fredsnightmares" href="https://www.tiktok.com/@fredsnightmares?refer=embed">@fredsnightmares</a> <p></p> <a target="_blank" title="♬ Viva La Swing aka #SandoTwist by @Abiud_Sando" href="https://www.tiktok.com/music/Viva-La-Swing-aka-SandoTwist-by-AbiudSando-6823159626767305477?refer=embed">♬ Viva La Swing aka #SandoTwist by @Abiud_Sando</a> </section> </blockquote> <script async="" src="https://www.tiktok.com/embed.js"></script>
 </section>
 <section id="scorpio-season-is-here-1" class="slide level2">
 <h2>Scorpio Season is Here!!</h2>
-<p>The first 7 reading assignments and quizzes are open for retakes until October 31!</p>
+<p>The first 6 reading assignments and quizzes are open for retakes until October 31!</p>
 <div class="fragment">
 <p><strong>This is your last chance!!</strong></p>
 </div>
 <div class="fragment">
 <p><strong>No more new chances will be coming for remaining of semester.</strong></p>
 </div>
-</section></section>
+<div class="fragment">
+<p><strong>Other Assignment are still due.</strong></p>
+</div>
+</section>
+<section id="plotathon" class="slide level2">
+<h2>Plotathon</h2>
+
+<img data-src="img/PAT24 L&amp;L Tools Workshop.png" class="r-stretch quarto-figure-center"></section></section>
 <section>
-<section id="empty-model" class="title-slide slide level1 agenda-slide center">
-<h1>Empty Model</h1>
+<section id="linear-models" class="title-slide slide level1 agenda-slide center">
+<h1>Linear Models</h1>
 <div class="agenda-heading">
 <p>Learning Outcomes</p>
 </div>
@@ -395,209 +402,158 @@
 <p>Announcements</p>
 </div></li>
 <li><div class="agenda-active">
-<p>Empty Model</p>
-</div></li>
-<li><div class="agenda-inactive agenda-post-active">
-<p>Linear Model</p>
-</div></li>
-<li><div class="agenda-inactive agenda-post-active">
-<p>EPE Session</p>
+<p>Linear Models</p>
 </div></li>
 </ol>
 </div>
 </section>
-<section id="motivation-penguins" class="slide level2">
-<h2>Motivation: Penguins</h2>
+<section id="motivation-danceability" class="slide level2">
+<h2>Motivation: Danceability</h2>
 <div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 8 × 1
-#&gt;   bill_length_mm
-#&gt;            &lt;dbl&gt;
-#&gt; 1           39.6
-#&gt; 2           40.3
-#&gt; 3           44  
-#&gt; 4           49.3
-#&gt; 5           49.1
-#&gt; 6           50.7
-#&gt; 7           40.6
-#&gt; 8           42.1</code></pre>
+<div class="cell-output-display">
+
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-5d6aba9ecb24d0b1b6d0" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-5d6aba9ecb24d0b1b6d0">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6"],["Speak Now","Midnights","1989","1989","Midnights","Speak Now"],["Last Kiss","The Great War","Welcome To New York","New Romantics","Vigilante Shit","Back To December"],[0.371,0.573,0.789,0.633,0.87,0.529]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>album_name<\/th>\n      <th>track_name<\/th>\n      <th>danceability<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","columnDefs":[{"className":"dt-right","targets":3},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section>
-<section id="calculate-mean" class="slide level2">
-<h2>Calculate Mean</h2>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 8 × 1
-#&gt;   bill_length_mm
-#&gt;            &lt;dbl&gt;
-#&gt; 1           39.6
-#&gt; 2           40.3
-#&gt; 3           44  
-#&gt; 4           49.3
-#&gt; 5           49.1
-#&gt; 6           50.7
-#&gt; 7           40.6
-#&gt; 8           42.1</code></pre>
-</div>
-</div>
-</section>
-<section id="mean" class="slide level2">
-<h2>Mean</h2>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 1 × 1
-#&gt;    mean
-#&gt;   &lt;dbl&gt;
-#&gt; 1  44.5</code></pre>
-</div>
-</div>
-</section>
-<section id="empty-model-1" class="slide level2">
+<section id="empty-model" class="slide level2">
 <h2>Empty Model</h2>
-<div class="fragment">
-<p><span class="math display">\[
-flipper\_length = mean + error
-\]</span></p>
-</div>
-<div class="fragment">
-<p><span class="math display">\[
-Y = 42.8375 + \varepsilon
-\]</span></p>
-</div>
-<div class="fragment">
-<!-- -->
-<h3 id="prediction">Prediction</h3>
-<p><span class="math display">\[
-\hat Y = 42.8375
-\]</span></p>
-</div>
-</section></section>
-<section>
-<section id="linear-model" class="title-slide slide level1 agenda-slide center">
-<h1>Linear Model</h1>
-<div class="agenda-heading">
-<p>Learning Outcomes</p>
-</div>
-<div class="agenda">
-<ol>
-<li><div class="agenda-inactive agenda-pre-active">
-<p>Announcements</p>
-</div></li>
-<li><div class="agenda-inactive agenda-pre-active">
-<p>Empty Model</p>
-</div></li>
-<li><div class="agenda-active">
-<p>Linear Model</p>
-</div></li>
-<li><div class="agenda-inactive agenda-post-active">
-<p>EPE Session</p>
-</div></li>
+<ol type="1">
+<li>Find the Mean of all the data</li>
+<li><span class="math display">\[
+\hat Y_i =  mean
+\]</span></li>
+<li>The predicted value is <span class="math inline">\(\hat Y_i\)</span></li>
 </ol>
+</section>
+<section id="find-the-empty-model" class="slide level2">
+<h2>Find the Empty Model</h2>
+<div class="cell">
+<div class="cell-output-display">
+
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-01f7a40d9bb7c0a4da5b" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-01f7a40d9bb7c0a4da5b">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6"],["Speak Now","Midnights","1989","1989","Midnights","Speak Now"],["Last Kiss","The Great War","Welcome To New York","New Romantics","Vigilante Shit","Back To December"],[0.371,0.573,0.789,0.633,0.87,0.529]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>album_name<\/th>\n      <th>track_name<\/th>\n      <th>danceability<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","columnDefs":[{"className":"dt-right","targets":3},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+</div>
 </div>
 </section>
-<section id="linear-model-1" class="slide level2">
-<h2>Linear Model</h2>
+<section id="sse-of-the-empty-model" class="slide level2">
+<h2>SSE of the Empty Model</h2>
 <p><span class="math display">\[
-Y = b_0 + b_1 X + \varepsilon
+SSE = \sum^n_{i=1}(Y_i-\hat Y_i)^2
+\]</span></p>
+<ol type="1">
+<li>For each data point
+<ol type="1">
+<li>Find the predicted value</li>
+<li>Obtain the residual value (<span class="math inline">\(Y_i-\hat Y_i\)</span>)</li>
+<li>Square the residual <span class="math inline">\((Y_i-\hat Y_i)^2\)</span></li>
+</ol></li>
+<li>Repeat the process for all data points</li>
+<li>Add up all the squared Residuals</li>
+</ol>
+</section>
+<section id="compute-sse-for-the-data" class="slide level2">
+<h2>Compute SSE for the Data</h2>
+<div class="cell">
+<div class="cell-output-display">
+
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-0603452f8863849dd1d6" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-0603452f8863849dd1d6">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6"],["Speak Now","Midnights","1989","1989","Midnights","Speak Now"],["Last Kiss","The Great War","Welcome To New York","New Romantics","Vigilante Shit","Back To December"],[0.371,0.573,0.789,0.633,0.87,0.529]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>album_name<\/th>\n      <th>track_name<\/th>\n      <th>danceability<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","columnDefs":[{"className":"dt-right","targets":3},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<p><span class="math display">\[
+\hat Y_i = 0.567
 \]</span></p>
 </section>
-<section id="penguin-species" class="slide level2">
-<h2>Penguin Species</h2>
+<section id="modelling-danceability-with-album" class="slide level2">
+<h2>Modelling Danceability with Album</h2>
+<p>We want to see if album can explain danceability.</p>
 <div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 8 × 2
-#&gt;   species bill_length_mm
-#&gt;   &lt;fct&gt;            &lt;dbl&gt;
-#&gt; 1 Adelie            39.6
-#&gt; 2 Adelie            40.3
-#&gt; 3 Gentoo            44  
-#&gt; 4 Gentoo            49.3
-#&gt; 5 Gentoo            49.1
-#&gt; 6 Gentoo            50.7
-#&gt; 7 Adelie            40.6
-#&gt; 8 Adelie            42.1</code></pre>
+<div class="cell-output-display">
+
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-63af3ad4239d0e587800" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-63af3ad4239d0e587800">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6"],["Speak Now","Midnights","1989","1989","Midnights","Speak Now"],["Last Kiss","The Great War","Welcome To New York","New Romantics","Vigilante Shit","Back To December"],[0.371,0.573,0.789,0.633,0.87,0.529]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>album_name<\/th>\n      <th>track_name<\/th>\n      <th>danceability<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","columnDefs":[{"className":"dt-right","targets":3},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section>
-<section id="calculate-means-per-species" class="slide level2">
-<h2>Calculate Means per Species</h2>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 8 × 2
-#&gt;   species bill_length_mm
-#&gt;   &lt;fct&gt;            &lt;dbl&gt;
-#&gt; 1 Adelie            39.6
-#&gt; 2 Adelie            40.3
-#&gt; 3 Gentoo            44  
-#&gt; 4 Gentoo            49.3
-#&gt; 5 Gentoo            49.1
-#&gt; 6 Gentoo            50.7
-#&gt; 7 Adelie            40.6
-#&gt; 8 Adelie            42.1</code></pre>
-</div>
-</div>
-<div class="fragement">
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 2 × 2
-#&gt;   species  mean
-#&gt;   &lt;fct&gt;   &lt;dbl&gt;
-#&gt; 1 Adelie   40.6
-#&gt; 2 Gentoo   48.3</code></pre>
-</div>
-</div>
-</div>
-</section>
-<section id="construct-model" class="slide level2">
-<h2>Construct Model</h2>
-<p>Using only one equation, construct a model that will give you only two value to the corresponding means:</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 2 × 2
-#&gt;   species  mean
-#&gt;   &lt;fct&gt;   &lt;dbl&gt;
-#&gt; 1 Adelie   40.6
-#&gt; 2 Gentoo   48.3</code></pre>
-</div>
-</div>
-</section></section>
-<section>
-<section id="epe-session" class="title-slide slide level1 agenda-slide center">
-<h1>EPE Session</h1>
-<div class="agenda-heading">
-<p>Learning Outcomes</p>
-</div>
-<div class="agenda">
-<ol>
-<li><div class="agenda-inactive agenda-pre-active">
-<p>Announcements</p>
-</div></li>
-<li><div class="agenda-inactive agenda-pre-active">
-<p>Empty Model</p>
-</div></li>
-<li><div class="agenda-inactive agenda-pre-active">
-<p>Linear Model</p>
-</div></li>
-<li><div class="agenda-active">
-<p>EPE Session</p>
-</div></li>
+<section id="modelling-an-outcome-with-categorical" class="slide level2">
+<h2>Modelling an outcome with categorical</h2>
+<ol type="1">
+<li>Compute the means for each group</li>
+<li>Identify the number of predictor variables (inputs, independent, X, Z, …) to explain the outcome variable (Y)
+<ol type="1">
+<li>You need one less the number of categories</li>
+</ol></li>
+<li>Construct the generic model
+<ol type="1">
+<li><span class="math inline">\(\hat Y_i = b_0 + b_1 X\)</span>: for 2 categories</li>
+<li><span class="math inline">\(\hat Y_i = b_0 + b_1 X + b_2Z\)</span>: for 3 categories</li>
+<li><span class="math inline">\(\hat Y_i = b_0 + b_1 X + b_2 Z + b_3 A + \cdots\)</span> : for 4 or more categories</li>
+</ol></li>
+<li>Define each variable to indicate category
+<ol type="1">
+<li><span class="math inline">\(1\)</span>: for a specific category</li>
+<li><span class="math inline">\(0\)</span>: for other</li>
+<li>Known as indicator variable</li>
+</ol></li>
+<li>Set the mean for each group equal to the model with appropriate indicator variable values</li>
+<li>Solve for the coefficients <span class="math inline">\(b_0, b_1, b_2, \ldots\)</span> using algebra</li>
+<li>Construct final model with numerical values</li>
 </ol>
+</section>
+<section id="model-danceability-with-albums" class="slide level2">
+<h2>Model Danceability with Albums</h2>
+<div class="cell">
+<div class="cell-output-display">
+
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-586c76f386f4051f4dc3" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-586c76f386f4051f4dc3">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6"],["Speak Now","Midnights","1989","1989","Midnights","Speak Now"],["Last Kiss","The Great War","Welcome To New York","New Romantics","Vigilante Shit","Back To December"],[0.371,0.573,0.789,0.633,0.87,0.529]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>album_name<\/th>\n      <th>track_name<\/th>\n      <th>danceability<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","columnDefs":[{"className":"dt-right","targets":3},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+</div>
 </div>
 </section>
-<section id="epe-session-1" class="slide level2">
-<h2>EPE Session</h2>
+<section id="sse-of-the-model" class="slide level2">
+<h2>SSE of the Model</h2>
+<p><span class="math display">\[
+SSE = \sum^n_{i=1}(Y_i-\hat Y_i)^2
+\]</span></p>
+<ol type="1">
+<li>For each data point
+<ol type="1">
+<li>Find the predicted value</li>
+<li>Obtain the residual value (<span class="math inline">\(Y_i-\hat Y_i\)</span>)</li>
+<li>Square the residual <span class="math inline">\((Y_i-\hat Y_i)^2\)</span></li>
+</ol></li>
+<li>Repeat the process for all data points</li>
+<li>Add up all the squared Residuals</li>
+</ol>
+</section>
+<section id="compute-the-sse-for-the-model" class="slide level2">
+<h2>Compute the SSE for the Model</h2>
 <div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>#&gt; # A tibble: 3 × 2
-#&gt;   species    mean
-#&gt;   &lt;fct&gt;     &lt;dbl&gt;
-#&gt; 1 Adelie     190.
-#&gt; 2 Chinstrap  196.
-#&gt; 3 Gentoo     217.</code></pre>
+<div class="cell-output-display">
+
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-a70cb979fab4c0dd105b" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-a70cb979fab4c0dd105b">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6"],["Speak Now","Midnights","1989","1989","Midnights","Speak Now"],["Last Kiss","The Great War","Welcome To New York","New Romantics","Vigilante Shit","Back To December"],[0.371,0.573,0.789,0.633,0.87,0.529]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>album_name<\/th>\n      <th>track_name<\/th>\n      <th>danceability<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","columnDefs":[{"className":"dt-right","targets":3},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
-<p>Construct a Model with 3 species groups</p>
+<p><span class="math display">\[
+\hat Y_i = 0.6185 - 0.0455 X - 0.1095 Z
+\]</span></p>
+<p><span class="math display">\[
+Z = \left\{\begin{array}{cc}
+1 &amp; Speak\ Now\\
+0 &amp; Other
+\end{array}
+\right.
+\]</span></p>
+<p><span class="math display">\[
+X = \left\{\begin{array}{cc}
+1 &amp; Midnights\\
+0 &amp; Other
+\end{array}
+\right.
+\]</span></p>
 
 <div class="footer footer-default">
 

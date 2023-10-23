@@ -44,6 +44,8 @@ library(palmerpenguins)
 library(ggformula)
 library(ThemePark)
 library(tidyverse)
+library(taylor)
+library(DT)
 set.seed(29)
 penguins_nona <- penguins |> drop_na() |> 
   filter(species != "Chinstrap") |> 
@@ -53,10 +55,6 @@ penguins_nona <- penguins |> drop_na() |>
 
 # Announcements
 
-## Plotathon
-
-![](img/PAT24%20L&L%20Tools%20Workshop.png){fig-align="center"}
-
 ## Scorpio Season is Here!!
 
 ```{=html}
@@ -64,7 +62,7 @@ penguins_nona <- penguins |> drop_na() |>
 ```
 ## Scorpio Season is Here!!
 
-The first 7 reading assignments and quizzes are open for retakes until October 31!
+The first 6 reading assignments and quizzes are open for retakes until October 31!
 
 ::: fragment
 **This is your last chance!!**
@@ -74,91 +72,130 @@ The first 7 reading assignments and quizzes are open for retakes until October 3
 **No more new chances will be coming for remaining of semester.**
 :::
 
-# Empty Model
+::: fragment
+**Other Assignment are still due.**
+:::
 
-## Motivation: Penguins
+## Plotathon
 
-```{r}
-penguins_nona |> select(bill_length_mm)
-```
+![](img/PAT24%20L&L%20Tools%20Workshop.png){fig-align="center"}
 
-## Calculate Mean
+# Linear Models
 
-```{r}
-penguins_nona |> select(bill_length_mm)
-```
-
-## Mean
+## Motivation: Danceability
 
 ```{r}
-penguins_nona |> summarise(mean = mean(bill_length_mm))
+set.seed(147)
+taylors <- taylor_all_songs |>
+  filter(album_name %in% c("Midnights", "1989", "Speak Now")) |>
+  select(album_name, track_name, danceability) |>
+  drop_na() |> slice_sample(n=6) 
+taylors |>  datatable(options = list(dom = "t"))
 ```
 
 ## Empty Model
 
-::: fragment
-$$
-flipper\_length = mean + error
-$$
-:::
+1.  Find the Mean of all the data
+2.  $$
+    \hat Y_i =  mean
+    $$
+3.  The predicted value is $\hat Y_i$
 
-::: fragment
-$$
-Y = 42.8375 + \varepsilon 
-$$
-:::
-
-::: fragment
-### Prediction
-
-$$
-\hat Y = 42.8375
-$$
-:::
-
-# Linear Model
-
-## Linear Model
-
-$$
-Y = b_0 + b_1 X + \varepsilon
-$$
-
-## Penguin Species
+## Find the Empty Model
 
 ```{r}
-penguins_nona
+taylors |>  datatable(options = list(dom = "t"))
 ```
 
-## Calculate Means per Species
+## SSE of the Empty Model
+
+$$
+SSE = \sum^n_{i=1}(Y_i-\hat Y_i)^2
+$$
+
+1.  For each data point
+    1.  Find the predicted value
+    2.  Obtain the residual value ($Y_i-\hat Y_i$)
+    3.  Square the residual $(Y_i-\hat Y_i)^2$
+2.  Repeat the process for all data points
+3.  Add up all the squared Residuals
+
+## Compute SSE for the Data
 
 ```{r}
-penguins_nona
+taylors |>  datatable(options = list(dom = "t"))
 ```
 
-::: fragement
-```{r}
-penguins_nona |> group_by(species) |> 
-  summarise(mean = mean(bill_length_mm))
-```
-:::
+$$
+\hat Y_i = 0.567
+$$
 
-## Construct Model
+## Modelling Danceability with Album
 
-Using only one equation, construct a model that will give you only two value to the corresponding means:
+We want to see if album can explain danceability.
 
 ```{r}
-penguins_nona |> group_by(species) |> 
-  summarise(mean = mean(bill_length_mm))
+taylors |>  datatable(options = list(dom = "t"))
 ```
 
-# EPE Session
+## Modelling an outcome with categorical
 
-## EPE Session
+1.  Compute the means for each group
+2.  Identify the number of predictor variables (inputs, independent, X, Z, ...) to explain the outcome variable (Y)
+    1.  You need one less the number of categories
+3.  Construct the generic model
+    1.  $\hat Y_i = b_0 + b_1 X$: for 2 categories
+    2.  $\hat Y_i = b_0 + b_1 X + b_2Z$: for 3 categories
+    3.  $\hat Y_i = b_0 + b_1 X + b_2 Z + b_3 A + \cdots$ : for 4 or more categories
+4.  Define each variable to indicate category
+    1.  $1$: for a specific category
+    2.  $0$: for other
+    3.  Known as indicator variable
+5.  Set the mean for each group equal to the model with appropriate indicator variable values
+6.  Solve for the coefficients $b_0, b_1, b_2, \ldots$ using algebra
+7.  Construct final model with numerical values
+
+## Model Danceability with Albums
 
 ```{r}
-penguins |>  drop_na() |> group_by(species) |> 
-  summarise(mean = mean(flipper_length_mm))
+taylors |>  datatable(options = list(dom = "t"))
 ```
 
-Construct a Model with 3 species groups
+## SSE of the Model
+
+$$
+SSE = \sum^n_{i=1}(Y_i-\hat Y_i)^2
+$$
+
+1.  For each data point
+    1.  Find the predicted value
+    2.  Obtain the residual value ($Y_i-\hat Y_i$)
+    3.  Square the residual $(Y_i-\hat Y_i)^2$
+2.  Repeat the process for all data points
+3.  Add up all the squared Residuals
+
+## Compute the SSE for the Model
+
+```{r}
+taylors |>  datatable(options = list(dom = "t"))
+```
+
+$$
+\hat Y_i = 0.6185 - 0.0455 X - 0.1095 Z 
+$$
+
+$$
+Z = \left\{\begin{array}{cc}
+1 & Speak\ Now\\
+0 & Other
+\end{array}
+\right.
+$$
+
+$$
+X = \left\{\begin{array}{cc}
+1 & Midnights\\
+0 & Other
+\end{array}
+\right.
+$$
