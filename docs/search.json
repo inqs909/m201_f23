@@ -1001,132 +1001,6 @@
     "text": "Complete Survey\nhttps://forms.gle/EdYK1sGZpDEibaHK7"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to Elementary Statistics!",
-    "section": "",
-    "text": "Brief Introduction\n\n\n\n\n\nWelcome to the course! This is the home page of the course where I will provide a recap on what was covered in the week. Here I will post any documents or videos for your reference. If you have any questions, please email me at isaac.qs@csuci.edu.\n\n\n\n\n\n\n\n\n\nIntroduction to Statistics Book\n\n\n\n\n\nhttps://www.openintro.org/book/os/\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "ec/ec_2.html",
-    "href": "ec/ec_2.html",
-    "title": "Extra Credit 2",
-    "section": "",
-    "text": "Provide a summary of one book below, an write a brief analysis in supporting or opposing the book, and a personal reaction of the book. The majority of these books are available through the Broome Library.\nBooks:\n\nHappiness: A Guide to Developing Life’s\n\nMatthieu Ricard\n\nGrit: The Power of Passion and Perserverance\n\nAngela Duckworth\n\nMindset: The New Psychology of Success\n\nCarol Dweck\n\n\nReport guidelines\n\n5-6 Pages\nMust include a title page\nDouble Spaced\n12 point font\nProofread your work\nSubmit a pdf of your work to Canvas\nDue 12/4/2023\n\nWorth 3 final grade percentage points."
-  },
-  {
-    "objectID": "ec.html",
-    "href": "ec.html",
-    "title": "Extra Credit",
-    "section": "",
-    "text": "Extra Credit is designed to expand on different topics that related to Probability and Statistics, but are not necessarily required for the course. Additionally, these opportunities provide students relief when unexpected situations occur during the semester. While it is not required, I encourage everyone to attempt each opportunity.\nBelow is more information on each assignment.\n\n\n\n\n\n\n\n\n  \n\n\n\n\nExtra Credit 1\n\n\n\n\n\nInstructions for extra credit one.\n\n\n\n\n\n\nAug 5, 2023\n\n\n\n\n\n\n  \n\n\n\n\nExtra Credit 2\n\n\n\n\n\nInstructions for extra credit two.\n\n\n\n\n\n\nAug 5, 2023\n\n\n\n\n\n\n  \n\n\n\n\nExtra Credit 3\n\n\n\n\n\nInstructions for extra credit three.\n\n\n\n\n\n\nAug 5, 2023\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "books.html",
-    "href": "books.html",
-    "title": "Books",
-    "section": "",
-    "text": "A List of recommended books to learn more about Statistics, all freely available from the Broome Library:"
-  },
-  {
-    "objectID": "books.html#basics",
-    "href": "books.html#basics",
-    "title": "Books",
-    "section": "Basics",
-    "text": "Basics\n\nIntroduction to Statistics and Data Analysis\n\nHeumann and Shalabh\n\nStatistical Foundations, Reasoning and Inference\n\nKauermann, Küchenhoff, and Heumann"
-  },
-  {
-    "objectID": "books.html#regression",
-    "href": "books.html#regression",
-    "title": "Books",
-    "section": "Regression",
-    "text": "Regression\n\nGeneralized Linear Models With Examples in R\n\nDunn and Smyth\nGraduate\n\nLinear and Generalized Linear Mixed Models and Their Applications (2nd Edition)\n\nJiang and Nguyen\nGraudate\n\nRegression Modeling Strategies\n\nHarrell\nUndergraduate\n\nVector Generalized Linear and Additive Models\n\nYee\nGraduate"
-  },
-  {
-    "objectID": "books.html#nonparametric",
-    "href": "books.html#nonparametric",
-    "title": "Books",
-    "section": "Nonparametric",
-    "text": "Nonparametric\n\nSemiparametric Regression with R\n\nHarezlak, Ruppert, and Wand\nGraduate"
-  },
-  {
-    "objectID": "books.html#computational",
-    "href": "books.html#computational",
-    "title": "Books",
-    "section": "Computational",
-    "text": "Computational\n\nBootstrap Methods with applications in R\n\nDikta and Scheer\nGraduate\n\nModern Optimization with R (2nd Edition)\n\nCortez\nGraduate\n\nComputational Statistics\n\nGentle\n\nMonte Carlo and Quasi-Monte Carlo Sampling\n\nLemieux\n\nStatistics With Julia\n\nNazarathy andKlok\n\nIntroducing Monte Carlo Methods in R\n\nRobert and Casella\n\nPermutation Statistical Methods with R\n\nBerry, Kvamme, Johnston, and Mielke\n\nMonte Carlo Strategies in Scientific Computing\n\nLiu"
-  },
-  {
-    "objectID": "books.html#bayesian",
-    "href": "books.html#bayesian",
-    "title": "Books",
-    "section": "Bayesian",
-    "text": "Bayesian\n\nIntroduction to Bayesian Inference, Methods and Computation\n\nHeard\n\nApplied Bayesian Statistics\n\nCowles\n\nBayesian Statistical Modeling with Stan, R, and Python\n\nMatsuura\n\nBayesian Essentials in R\n\nMarin and Robert"
-  },
-  {
-    "objectID": "books.html#theoretical",
-    "href": "books.html#theoretical",
-    "title": "Books",
-    "section": "Theoretical",
-    "text": "Theoretical\n\nEssentials of Stochastic Processes (3rd Edition)\n\nDurrett\nGraduate\n\nA Concise Introduction to Measure Theory\n\nShirali\nGraduate\n\nLarge Sample Techniques for Statistics (2nd Edition)\n\nJiang\nGraduate\n\nA Course in Mathematical Statistics and Large Sample Theory\n\nBhattacharya, Lin, and Patrangenaru\nGraduate\n\nMixture and Hidden Markov Models with R\n\nVisser and Speekenbrink\nUndergraduate\n\nModern Mathematical Statistics (3rd Edition)\n\nDevore, Berk, and Carlton\nUndergraduate\n\nProbability Theory (3rd Edition)\n\nKlenke\nGraduate\n\nTesting Statistical Hypotheses (4th Edition)\n\nLehmann and Romano\nGraduate\n\nTheory of Point Estimation\n\nLehmann and Casella\nGraduate\nMay not be available"
-  },
-  {
-    "objectID": "books.html#longitudinal-data-analysis",
-    "href": "books.html#longitudinal-data-analysis",
-    "title": "Books",
-    "section": "Longitudinal Data Analysis",
-    "text": "Longitudinal Data Analysis\n\nLongitudinal Categorical Data Analysis\n\nSutradhar"
-  },
-  {
-    "objectID": "books.html#survival-analysis",
-    "href": "books.html#survival-analysis",
-    "title": "Books",
-    "section": "Survival Analysis",
-    "text": "Survival Analysis\n\nStatistical Modelling of Survival Data with Random Effects\n\nHa, Jeong, and Lee\n\nSurvival Analysis (3rd Edition)\n\nKleinbaum and Klein\n\nApplied Survival Analysis in R\n\nMoore\n\nBayesian Survival Analysis\n\nIbrahim, Chen, and Sinha\n\nSurvival Analysis Techniques for Censored and Truncated Data (2nd Edition)\n\nKlein and Moeschberger"
-  },
-  {
-    "objectID": "books.html#machine-learning",
-    "href": "books.html#machine-learning",
-    "title": "Books",
-    "section": "Machine Learning",
-    "text": "Machine Learning\n\nFundamental of High-Dimensional Statistics\n\nLederer\n\nAn Introduction to Statistical Learning (2nd Edition)\n\nJames, Witten, Hastie and Tibshirani\n\nStatistical Learning from a Regression Perspective (2nd Edition)\n\nBerk\n\nElements of Statistical Learning\n\nHastie, Friedman, and Tibshirani\n\nStatistics for High Dimensional Data\n\nBühlmann and van der Geer\n\nProbability and Statistics for Machine Learning\n\nDas Gupta"
-  },
-  {
-    "objectID": "books.html#time-series",
-    "href": "books.html#time-series",
-    "title": "Books",
-    "section": "Time-Series",
-    "text": "Time-Series\n\nIntroduction to Time Series and Forcasting (3rd Edition)\n\nBrockwell and Davis\n\nTime Series Analysis and Its Applications\n\nShumway and Stoffer\n\nTime Series Analysis for the State-Space Model with R/Stan\n\nHagiwara"
-  },
-  {
-    "objectID": "books.html#study-desing-and-causal-inference",
-    "href": "books.html#study-desing-and-causal-inference",
-    "title": "Books",
-    "section": "Study Desing and Causal Inference",
-    "text": "Study Desing and Causal Inference\n\nCausal Inference What IF\n\nHernán and Robins\n\nDesign of Observational Studies\n\nRosenbaum\n\n\nBolded Titles, I have read thoroughly."
-  },
-  {
-    "objectID": "ec/ec_1.html",
-    "href": "ec/ec_1.html",
-    "title": "Extra Credit 1",
-    "section": "",
-    "text": "Provide a summary of one book below, an write a brief analysis in supporting or opposing the book, and a personal reaction of the book. All books should be available through the Broome Library.\nBooks:\n\nMake it Stick: The Science of Successful Learning\n\nPeter Brown\n\nTeach Yourself How to Learn: Strategies you can use to ace any course\n\nSaundra McGuire\n\n\nReport guidelines\n\n5-6 Pages\nMust include a title page\nDouble Spaced\n12 point font\nProofread your work\nSubmit a pdf of your work to Canvas\nDue 12/4/2023\n\nWorth 3 final grade percentage points."
-  },
-  {
-    "objectID": "ec/ec_3.html",
-    "href": "ec/ec_3.html",
-    "title": "Extra Credit 3",
-    "section": "",
-    "text": "Provide a summary of one book below, an write a brief analysis in supporting or opposing the book, and a personal reaction of the book. Some of these books are available through the Broome Library.\nBooks:\n\nLimitless Mind\n\nJo Boaler\n\nThe Book of Why\n\nJudea Pearl\n\nAlgorithms of Oppression\n\nSafiya Umoja Noble\n\nData Feminism\n\nCatherine D’Ignazio and Lauren Klein\n\nWeapons of Math Destruction\n\nCathy O’Niel\n\nInvisible women : data bias in a world designed for men\n\nCaroline Criado Perez\n\nFactfulness: Ten Reasons We’re Wrong About the World… and Why Things are Better Than You Think\n\nHans Rosling\n\nArtificial Unintelligence: How Computers Misunderstand the World\n\nMerideth Broussard\n\nTechnically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech\n\nSara Wachter-Boettcher\n\n\nReport guidelines\n\n5-6 Pages\nMust include a title page\nDouble Spaced\n12 point font\nProofread your work\nSubmit a pdf of your work to Canvas\nDue 12/4/2023\n\nWorth 4 final grade percentage points."
-  },
-  {
     "objectID": "lectures/10a.html#scorpio-season-is-here",
     "href": "lectures/10a.html#scorpio-season-is-here",
     "title": "Linear Models",
@@ -1216,6 +1090,314 @@
     "title": "Linear Models",
     "section": "Compute the SSE for the Model",
     "text": "Compute the SSE for the Model\n\n\n\n\n\n\n\n\\[\n\\hat Y_i = 0.6185 - 0.0455 X - 0.1095 Z\n\\]\n\\[\nZ = \\left\\{\\begin{array}{cc}\n1 & Speak\\ Now\\\\\n0 & Other\n\\end{array}\n\\right.\n\\]\n\\[\nX = \\left\\{\\begin{array}{cc}\n1 & Midnights\\\\\n0 & Other\n\\end{array}\n\\right.\n\\]"
+  },
+  {
+    "objectID": "ec/ec_3.html",
+    "href": "ec/ec_3.html",
+    "title": "Extra Credit 3",
+    "section": "",
+    "text": "Provide a summary of one book below, an write a brief analysis in supporting or opposing the book, and a personal reaction of the book. Some of these books are available through the Broome Library.\nBooks:\n\nLimitless Mind\n\nJo Boaler\n\nThe Book of Why\n\nJudea Pearl\n\nAlgorithms of Oppression\n\nSafiya Umoja Noble\n\nData Feminism\n\nCatherine D’Ignazio and Lauren Klein\n\nWeapons of Math Destruction\n\nCathy O’Niel\n\nInvisible women : data bias in a world designed for men\n\nCaroline Criado Perez\n\nFactfulness: Ten Reasons We’re Wrong About the World… and Why Things are Better Than You Think\n\nHans Rosling\n\nArtificial Unintelligence: How Computers Misunderstand the World\n\nMerideth Broussard\n\nTechnically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech\n\nSara Wachter-Boettcher\n\n\nReport guidelines\n\n5-6 Pages\nMust include a title page\nDouble Spaced\n12 point font\nProofread your work\nSubmit a pdf of your work to Canvas\nDue 12/4/2023\n\nWorth 4 final grade percentage points."
+  },
+  {
+    "objectID": "ec/ec_1.html",
+    "href": "ec/ec_1.html",
+    "title": "Extra Credit 1",
+    "section": "",
+    "text": "Provide a summary of one book below, an write a brief analysis in supporting or opposing the book, and a personal reaction of the book. All books should be available through the Broome Library.\nBooks:\n\nMake it Stick: The Science of Successful Learning\n\nPeter Brown\n\nTeach Yourself How to Learn: Strategies you can use to ace any course\n\nSaundra McGuire\n\n\nReport guidelines\n\n5-6 Pages\nMust include a title page\nDouble Spaced\n12 point font\nProofread your work\nSubmit a pdf of your work to Canvas\nDue 12/4/2023\n\nWorth 3 final grade percentage points."
+  },
+  {
+    "objectID": "books.html",
+    "href": "books.html",
+    "title": "Books",
+    "section": "",
+    "text": "A List of recommended books to learn more about Statistics, all freely available from the Broome Library:"
+  },
+  {
+    "objectID": "books.html#basics",
+    "href": "books.html#basics",
+    "title": "Books",
+    "section": "Basics",
+    "text": "Basics\n\nIntroduction to Statistics and Data Analysis\n\nHeumann and Shalabh\n\nStatistical Foundations, Reasoning and Inference\n\nKauermann, Küchenhoff, and Heumann"
+  },
+  {
+    "objectID": "books.html#regression",
+    "href": "books.html#regression",
+    "title": "Books",
+    "section": "Regression",
+    "text": "Regression\n\nGeneralized Linear Models With Examples in R\n\nDunn and Smyth\nGraduate\n\nLinear and Generalized Linear Mixed Models and Their Applications (2nd Edition)\n\nJiang and Nguyen\nGraudate\n\nRegression Modeling Strategies\n\nHarrell\nUndergraduate\n\nVector Generalized Linear and Additive Models\n\nYee\nGraduate"
+  },
+  {
+    "objectID": "books.html#nonparametric",
+    "href": "books.html#nonparametric",
+    "title": "Books",
+    "section": "Nonparametric",
+    "text": "Nonparametric\n\nSemiparametric Regression with R\n\nHarezlak, Ruppert, and Wand\nGraduate"
+  },
+  {
+    "objectID": "books.html#computational",
+    "href": "books.html#computational",
+    "title": "Books",
+    "section": "Computational",
+    "text": "Computational\n\nBootstrap Methods with applications in R\n\nDikta and Scheer\nGraduate\n\nModern Optimization with R (2nd Edition)\n\nCortez\nGraduate\n\nComputational Statistics\n\nGentle\n\nMonte Carlo and Quasi-Monte Carlo Sampling\n\nLemieux\n\nStatistics With Julia\n\nNazarathy andKlok\n\nIntroducing Monte Carlo Methods in R\n\nRobert and Casella\n\nPermutation Statistical Methods with R\n\nBerry, Kvamme, Johnston, and Mielke\n\nMonte Carlo Strategies in Scientific Computing\n\nLiu"
+  },
+  {
+    "objectID": "books.html#bayesian",
+    "href": "books.html#bayesian",
+    "title": "Books",
+    "section": "Bayesian",
+    "text": "Bayesian\n\nIntroduction to Bayesian Inference, Methods and Computation\n\nHeard\n\nApplied Bayesian Statistics\n\nCowles\n\nBayesian Statistical Modeling with Stan, R, and Python\n\nMatsuura\n\nBayesian Essentials in R\n\nMarin and Robert"
+  },
+  {
+    "objectID": "books.html#theoretical",
+    "href": "books.html#theoretical",
+    "title": "Books",
+    "section": "Theoretical",
+    "text": "Theoretical\n\nEssentials of Stochastic Processes (3rd Edition)\n\nDurrett\nGraduate\n\nA Concise Introduction to Measure Theory\n\nShirali\nGraduate\n\nLarge Sample Techniques for Statistics (2nd Edition)\n\nJiang\nGraduate\n\nA Course in Mathematical Statistics and Large Sample Theory\n\nBhattacharya, Lin, and Patrangenaru\nGraduate\n\nMixture and Hidden Markov Models with R\n\nVisser and Speekenbrink\nUndergraduate\n\nModern Mathematical Statistics (3rd Edition)\n\nDevore, Berk, and Carlton\nUndergraduate\n\nProbability Theory (3rd Edition)\n\nKlenke\nGraduate\n\nTesting Statistical Hypotheses (4th Edition)\n\nLehmann and Romano\nGraduate\n\nTheory of Point Estimation\n\nLehmann and Casella\nGraduate\nMay not be available"
+  },
+  {
+    "objectID": "books.html#longitudinal-data-analysis",
+    "href": "books.html#longitudinal-data-analysis",
+    "title": "Books",
+    "section": "Longitudinal Data Analysis",
+    "text": "Longitudinal Data Analysis\n\nLongitudinal Categorical Data Analysis\n\nSutradhar"
+  },
+  {
+    "objectID": "books.html#survival-analysis",
+    "href": "books.html#survival-analysis",
+    "title": "Books",
+    "section": "Survival Analysis",
+    "text": "Survival Analysis\n\nStatistical Modelling of Survival Data with Random Effects\n\nHa, Jeong, and Lee\n\nSurvival Analysis (3rd Edition)\n\nKleinbaum and Klein\n\nApplied Survival Analysis in R\n\nMoore\n\nBayesian Survival Analysis\n\nIbrahim, Chen, and Sinha\n\nSurvival Analysis Techniques for Censored and Truncated Data (2nd Edition)\n\nKlein and Moeschberger"
+  },
+  {
+    "objectID": "books.html#machine-learning",
+    "href": "books.html#machine-learning",
+    "title": "Books",
+    "section": "Machine Learning",
+    "text": "Machine Learning\n\nFundamental of High-Dimensional Statistics\n\nLederer\n\nAn Introduction to Statistical Learning (2nd Edition)\n\nJames, Witten, Hastie and Tibshirani\n\nStatistical Learning from a Regression Perspective (2nd Edition)\n\nBerk\n\nElements of Statistical Learning\n\nHastie, Friedman, and Tibshirani\n\nStatistics for High Dimensional Data\n\nBühlmann and van der Geer\n\nProbability and Statistics for Machine Learning\n\nDas Gupta"
+  },
+  {
+    "objectID": "books.html#time-series",
+    "href": "books.html#time-series",
+    "title": "Books",
+    "section": "Time-Series",
+    "text": "Time-Series\n\nIntroduction to Time Series and Forcasting (3rd Edition)\n\nBrockwell and Davis\n\nTime Series Analysis and Its Applications\n\nShumway and Stoffer\n\nTime Series Analysis for the State-Space Model with R/Stan\n\nHagiwara"
+  },
+  {
+    "objectID": "books.html#study-desing-and-causal-inference",
+    "href": "books.html#study-desing-and-causal-inference",
+    "title": "Books",
+    "section": "Study Desing and Causal Inference",
+    "text": "Study Desing and Causal Inference\n\nCausal Inference What IF\n\nHernán and Robins\n\nDesign of Observational Studies\n\nRosenbaum\n\n\nBolded Titles, I have read thoroughly."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "ec.html",
+    "href": "ec.html",
+    "title": "Extra Credit",
+    "section": "",
+    "text": "Extra Credit is designed to expand on different topics that related to Probability and Statistics, but are not necessarily required for the course. Additionally, these opportunities provide students relief when unexpected situations occur during the semester. While it is not required, I encourage everyone to attempt each opportunity.\nBelow is more information on each assignment.\n\n\n\n\n\n\n\n\n  \n\n\n\n\nExtra Credit 1\n\n\n\n\n\nInstructions for extra credit one.\n\n\n\n\n\n\nAug 5, 2023\n\n\n\n\n\n\n  \n\n\n\n\nExtra Credit 2\n\n\n\n\n\nInstructions for extra credit two.\n\n\n\n\n\n\nAug 5, 2023\n\n\n\n\n\n\n  \n\n\n\n\nExtra Credit 3\n\n\n\n\n\nInstructions for extra credit three.\n\n\n\n\n\n\nAug 5, 2023\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "ec/ec_2.html",
+    "href": "ec/ec_2.html",
+    "title": "Extra Credit 2",
+    "section": "",
+    "text": "Provide a summary of one book below, an write a brief analysis in supporting or opposing the book, and a personal reaction of the book. The majority of these books are available through the Broome Library.\nBooks:\n\nHappiness: A Guide to Developing Life’s\n\nMatthieu Ricard\n\nGrit: The Power of Passion and Perserverance\n\nAngela Duckworth\n\nMindset: The New Psychology of Success\n\nCarol Dweck\n\n\nReport guidelines\n\n5-6 Pages\nMust include a title page\nDouble Spaced\n12 point font\nProofread your work\nSubmit a pdf of your work to Canvas\nDue 12/4/2023\n\nWorth 3 final grade percentage points."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to Elementary Statistics!",
+    "section": "",
+    "text": "Brief Introduction\n\n\n\n\n\nWelcome to the course! This is the home page of the course where I will provide a recap on what was covered in the week. Here I will post any documents or videos for your reference. If you have any questions, please email me at isaac.qs@csuci.edu.\n\n\n\n\n\n\n\n\n\nIntroduction to Statistics Book\n\n\n\n\n\nhttps://www.openintro.org/book/os/\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "lectures/10b.html#motivation-danceability-1",
+    "href": "lectures/10b.html#motivation-danceability-1",
+    "title": "Linear Models",
+    "section": "Motivation: Danceability",
+    "text": "Motivation: Danceability"
+  },
+  {
+    "objectID": "lectures/10b.html#find-the-empty-model",
+    "href": "lectures/10b.html#find-the-empty-model",
+    "title": "Linear Models",
+    "section": "Find the Empty Model",
+    "text": "Find the Empty Model"
+  },
+  {
+    "objectID": "lectures/10b.html#find-the-empty-model-1",
+    "href": "lectures/10b.html#find-the-empty-model-1",
+    "title": "Linear Models",
+    "section": "Find the Empty Model",
+    "text": "Find the Empty Model\n\\[\n\\hat Y_i = 0.5698\n\\]"
+  },
+  {
+    "objectID": "lectures/10b.html#find-sse",
+    "href": "lectures/10b.html#find-sse",
+    "title": "Linear Models",
+    "section": "Find SSE",
+    "text": "Find SSE\n\\[\nSSE = 0.0573\n\\]"
+  },
+  {
+    "objectID": "lectures/10b.html#find-a-model-explaining-variability-with-album",
+    "href": "lectures/10b.html#find-a-model-explaining-variability-with-album",
+    "title": "Linear Models",
+    "section": "Find a Model explaining variability with album",
+    "text": "Find a Model explaining variability with album"
+  },
+  {
+    "objectID": "lectures/10b.html#find-a-model-explaining-variability-with-album-1",
+    "href": "lectures/10b.html#find-a-model-explaining-variability-with-album-1",
+    "title": "Linear Models",
+    "section": "Find a Model explaining variability with album",
+    "text": "Find a Model explaining variability with album\n\\[\n\\hat Y_i = 0.519 + 0.1017 X\n\\]\n\\[\nX = \\left\\{\\begin{array}{cc}\n1 & Midnights\\\\\n0 & Other\n\\end{array}\n\\right.\n\\]"
+  },
+  {
+    "objectID": "lectures/10b.html#find-the-sse-of-the-previous-linear-model",
+    "href": "lectures/10b.html#find-the-sse-of-the-previous-linear-model",
+    "title": "Linear Models",
+    "section": "Find the SSE of the previous Linear Model",
+    "text": "Find the SSE of the previous Linear Model"
+  },
+  {
+    "objectID": "lectures/10b.html#find-the-sse-of-the-previous-linear-model-1",
+    "href": "lectures/10b.html#find-the-sse-of-the-previous-linear-model-1",
+    "title": "Linear Models",
+    "section": "Find the SSE of the previous Linear Model",
+    "text": "Find the SSE of the previous Linear Model\n\\[\nSSE  = 0.0418\n\\]"
+  },
+  {
+    "objectID": "lectures/10b.html#motivation-horror-movies-1",
+    "href": "lectures/10b.html#motivation-horror-movies-1",
+    "title": "Linear Models",
+    "section": "Motivation: Horror Movies",
+    "text": "Motivation: Horror Movies"
+  },
+  {
+    "objectID": "lectures/10b.html#create-the-empty-model-for-vote_average",
+    "href": "lectures/10b.html#create-the-empty-model-for-vote_average",
+    "title": "Linear Models",
+    "section": "Create the Empty Model for vote_average",
+    "text": "Create the Empty Model for vote_average"
+  },
+  {
+    "objectID": "lectures/10b.html#create-the-empty-model-for-vote_average-1",
+    "href": "lectures/10b.html#create-the-empty-model-for-vote_average-1",
+    "title": "Linear Models",
+    "section": "Create the Empty Model for vote_average",
+    "text": "Create the Empty Model for vote_average\n\\[\n\\hat Y_i = 4.856\n\\]"
+  },
+  {
+    "objectID": "lectures/10b.html#find-sse-for-empty-model",
+    "href": "lectures/10b.html#find-sse-for-empty-model",
+    "title": "Linear Models",
+    "section": "Find SSE for Empty Model",
+    "text": "Find SSE for Empty Model"
+  },
+  {
+    "objectID": "lectures/10b.html#find-sse-for-empty-model-1",
+    "href": "lectures/10b.html#find-sse-for-empty-model-1",
+    "title": "Linear Models",
+    "section": "Find SSE for Empty Model",
+    "text": "Find SSE for Empty Model\n\\[\nSSE = 36.562\n\\]"
+  },
+  {
+    "objectID": "lectures/10b.html#find-a-model-to-explain-vote_average-by-genre_names",
+    "href": "lectures/10b.html#find-a-model-to-explain-vote_average-by-genre_names",
+    "title": "Linear Models",
+    "section": "Find a Model to explain vote_average by genre_names",
+    "text": "Find a Model to explain vote_average by genre_names"
+  },
+  {
+    "objectID": "lectures/10b.html#find-a-model-to-explain-vote_average-by-genre_names-1",
+    "href": "lectures/10b.html#find-a-model-to-explain-vote_average-by-genre_names-1",
+    "title": "Linear Models",
+    "section": "Find a Model to explain vote_average by genre_names",
+    "text": "Find a Model to explain vote_average by genre_names\n\\[\n\\hat Y_i = 5.4667 -1.1 X - 0.733 Z  \n\\]\n\\[\nX = \\left\\{\\begin{array}{cc}\n1 & Mystery \\\\\n0 & Other\n\\end{array}\n\\right.\n\\ \\\nZ = \\left\\{\\begin{array}{cc}\n1 & Thriller\\\\\n0 & Other\n\\end{array}\n\\right.\n\\]"
+  },
+  {
+    "objectID": "lectures/10b.html#find-sse-of-previous-linear-model",
+    "href": "lectures/10b.html#find-sse-of-previous-linear-model",
+    "title": "Linear Models",
+    "section": "Find SSE of previous Linear Model",
+    "text": "Find SSE of previous Linear Model"
+  },
+  {
+    "objectID": "lectures/10b.html#find-sse-of-previous-linear-model-1",
+    "href": "lectures/10b.html#find-sse-of-previous-linear-model-1",
+    "title": "Linear Models",
+    "section": "Find SSE of previous Linear Model",
+    "text": "Find SSE of previous Linear Model\n\\[\nSSE = 34.680\n\\]"
+  },
+  {
+    "objectID": "lectures/10b.html#motivation-scooby-doo-1",
+    "href": "lectures/10b.html#motivation-scooby-doo-1",
+    "title": "Linear Models",
+    "section": "Motivation: Scooby Doo",
+    "text": "Motivation: Scooby Doo"
+  },
+  {
+    "objectID": "lectures/10b.html#fit-an-empty-model-on-zoinks-count",
+    "href": "lectures/10b.html#fit-an-empty-model-on-zoinks-count",
+    "title": "Linear Models",
+    "section": "Fit an Empty Model on Zoinks Count",
+    "text": "Fit an Empty Model on Zoinks Count"
+  },
+  {
+    "objectID": "lectures/10b.html#fit-an-empty-model-on-zoinks-count-1",
+    "href": "lectures/10b.html#fit-an-empty-model-on-zoinks-count-1",
+    "title": "Linear Models",
+    "section": "Fit an Empty Model on Zoinks Count",
+    "text": "Fit an Empty Model on Zoinks Count\n\\[\n\\hat Y_i = 3.375\n\\]"
+  },
+  {
+    "objectID": "lectures/10b.html#sse-of-empty-model",
+    "href": "lectures/10b.html#sse-of-empty-model",
+    "title": "Linear Models",
+    "section": "SSE of Empty Model",
+    "text": "SSE of Empty Model"
+  },
+  {
+    "objectID": "lectures/10b.html#sse-of-empty-model-1",
+    "href": "lectures/10b.html#sse-of-empty-model-1",
+    "title": "Linear Models",
+    "section": "SSE of Empty Model",
+    "text": "SSE of Empty Model\n\\[\nSSE = 39.875\n\\]"
+  },
+  {
+    "objectID": "lectures/10b.html#fit-a-model-explaining-zoinks-count-and-monster-type",
+    "href": "lectures/10b.html#fit-a-model-explaining-zoinks-count-and-monster-type",
+    "title": "Linear Models",
+    "section": "Fit a model explaining Zoinks count and monster type",
+    "text": "Fit a model explaining Zoinks count and monster type"
+  },
+  {
+    "objectID": "lectures/10b.html#fit-a-model-explaining-zoinks-count-and-monster-type-1",
+    "href": "lectures/10b.html#fit-a-model-explaining-zoinks-count-and-monster-type-1",
+    "title": "Linear Models",
+    "section": "Fit a model explaining Zoinks count and monster type",
+    "text": "Fit a model explaining Zoinks count and monster type\n\\[\n\\hat Y_i = 2.5 -0.5 X +3 Z +1 A   \n\\]\n\\[\nX = \\left\\{\\begin{array}{cc}\n1 & Mythical \\\\\n0 & Other\n\\end{array}\n\\right.\n\\ \\\nZ = \\left\\{\\begin{array}{cc}\n1 & Possessed \\ Object\\\\\n0 & Other\n\\end{array}\n\\right.\n\\ \\\nA = \\left\\{\\begin{array}{cc}\n1 & Undead\\\\\n0 & Other\n\\end{array}\n\\right.\n\\]"
+  },
+  {
+    "objectID": "lectures/10b.html#find-the-sse-of-the-previous-model",
+    "href": "lectures/10b.html#find-the-sse-of-the-previous-model",
+    "title": "Linear Models",
+    "section": "Find the SSE of the previous model",
+    "text": "Find the SSE of the previous model"
+  },
+  {
+    "objectID": "lectures/10b.html#find-the-sse-of-the-previous-model-1",
+    "href": "lectures/10b.html#find-the-sse-of-the-previous-model-1",
+    "title": "Linear Models",
+    "section": "Find the SSE of the previous model",
+    "text": "Find the SSE of the previous model\n\\[\nSSE = 25.5\n\\]"
   },
   {
     "objectID": "lectures/2a.html#learning-outcomes",
