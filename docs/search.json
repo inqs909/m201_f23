@@ -1001,6 +1001,153 @@
     "text": "Complete Survey\nhttps://forms.gle/EdYK1sGZpDEibaHK7"
   },
   {
+    "objectID": "lectures/11a.html#scorpio-season-is-here",
+    "href": "lectures/11a.html#scorpio-season-is-here",
+    "title": "Linear Models",
+    "section": "Scorpio Season is Here!!",
+    "text": "Scorpio Season is Here!!\nThe first 6 reading assignments and quizzes are open for retakes until October 31!\n\nThis is your last chance!!\n\n\nNo more new chances will be coming for remaining of semester.\n\n\nOther Assignment are still due."
+  },
+  {
+    "objectID": "lectures/11a.html#plotathon",
+    "href": "lectures/11a.html#plotathon",
+    "title": "Linear Models",
+    "section": "Plotathon",
+    "text": "Plotathon"
+  },
+  {
+    "objectID": "lectures/11a.html#group-models-1",
+    "href": "lectures/11a.html#group-models-1",
+    "title": "Linear Models",
+    "section": "Group Models",
+    "text": "Group Models\nThe independent variables are used to indicate groups."
+  },
+  {
+    "objectID": "lectures/11a.html#danceability-model",
+    "href": "lectures/11a.html#danceability-model",
+    "title": "Linear Models",
+    "section": "Danceability Model",
+    "text": "Danceability Model\n\\[\n\\hat Y_i = 0.6185 - 0.0455 X - 0.1095 Z\n\\]\n\\[\nZ = \\left\\{\\begin{array}{cc}\n1 & Speak\\ Now\\\\\n0 & Other\n\\end{array}\n\\right.\n\\]\n\\[\nX = \\left\\{\\begin{array}{cc}\n1 & Midnights\\\\\n0 & Other\n\\end{array}\n\\right.\n\\]"
+  },
+  {
+    "objectID": "lectures/11a.html#scatter-plot",
+    "href": "lectures/11a.html#scatter-plot",
+    "title": "Linear Models",
+    "section": "Scatter Plot",
+    "text": "Scatter Plot"
+  },
+  {
+    "objectID": "lectures/11a.html#positive-linear-relationship",
+    "href": "lectures/11a.html#positive-linear-relationship",
+    "title": "Linear Models",
+    "section": "Positive Linear Relationship",
+    "text": "Positive Linear Relationship"
+  },
+  {
+    "objectID": "lectures/11a.html#scatter-plot-1",
+    "href": "lectures/11a.html#scatter-plot-1",
+    "title": "Linear Models",
+    "section": "Scatter Plot",
+    "text": "Scatter Plot"
+  },
+  {
+    "objectID": "lectures/11a.html#negative-linear-relationship",
+    "href": "lectures/11a.html#negative-linear-relationship",
+    "title": "Linear Models",
+    "section": "Negative Linear Relationship",
+    "text": "Negative Linear Relationship"
+  },
+  {
+    "objectID": "lectures/11a.html#modelling-linear-relationship-1",
+    "href": "lectures/11a.html#modelling-linear-relationship-1",
+    "title": "Linear Models",
+    "section": "Modelling Linear Relationship",
+    "text": "Modelling Linear Relationship"
+  },
+  {
+    "objectID": "lectures/11a.html#regression-models",
+    "href": "lectures/11a.html#regression-models",
+    "title": "Linear Models",
+    "section": "Regression Models",
+    "text": "Regression Models\n\\[\n\\hat Y _i = b_0 + b_1 X_i\n\\]\n\\(X_i\\) is a continuous variable, not groups"
+  },
+  {
+    "objectID": "lectures/11a.html#interpreting-intercept",
+    "href": "lectures/11a.html#interpreting-intercept",
+    "title": "Linear Models",
+    "section": "Interpreting Intercept",
+    "text": "Interpreting Intercept"
+  },
+  {
+    "objectID": "lectures/11a.html#interpreting-slope",
+    "href": "lectures/11a.html#interpreting-slope",
+    "title": "Linear Models",
+    "section": "Interpreting Slope",
+    "text": "Interpreting Slope"
+  },
+  {
+    "objectID": "lectures/11a.html#motivating-example-coffee-1",
+    "href": "lectures/11a.html#motivating-example-coffee-1",
+    "title": "Linear Models",
+    "section": "Motivating Example: Coffee",
+    "text": "Motivating Example: Coffee"
+  },
+  {
+    "objectID": "lectures/11a.html#fitting-a-linear-model-in-r",
+    "href": "lectures/11a.html#fitting-a-linear-model-in-r",
+    "title": "Linear Models",
+    "section": "Fitting a Linear Model in R",
+    "text": "Fitting a Linear Model in R\nUse the lm() function\n\nlm(Y ~ X, data = data_set)"
+  },
+  {
+    "objectID": "lectures/11a.html#fitting-a-linear-model",
+    "href": "lectures/11a.html#fitting-a-linear-model",
+    "title": "Linear Models",
+    "section": "Fitting a Linear Model",
+    "text": "Fitting a Linear Model"
+  },
+  {
+    "objectID": "lectures/11a.html#fitting-a-linear-model-in-r-1",
+    "href": "lectures/11a.html#fitting-a-linear-model-in-r-1",
+    "title": "Linear Models",
+    "section": "Fitting a Linear Model in R",
+    "text": "Fitting a Linear Model in R\n\nlm(flavor ~ aroma, data = coffee_aroma)\n\n#&gt; \n#&gt; Call:\n#&gt; lm(formula = flavor ~ aroma, data = coffee_aroma)\n#&gt; \n#&gt; Coefficients:\n#&gt; (Intercept)        aroma  \n#&gt;      1.1372       0.8435"
+  },
+  {
+    "objectID": "lectures/11a.html#fitting-a-linear-model-1",
+    "href": "lectures/11a.html#fitting-a-linear-model-1",
+    "title": "Linear Models",
+    "section": "Fitting a Linear Model",
+    "text": "Fitting a Linear Model\n\\[\n\\hat Y = 1.1372 + 0.8435 X\n\\]\n\\[\nX = \\mathrm{AROMA\\ Score}\n\\]\n\\[\n\\hat Y = \\mathrm{Predicted\\ Flavor\\ Score}\n\\]"
+  },
+  {
+    "objectID": "lectures/11a.html#interpreting-intercept-1",
+    "href": "lectures/11a.html#interpreting-intercept-1",
+    "title": "Linear Models",
+    "section": "Interpreting Intercept",
+    "text": "Interpreting Intercept\n\\[\n\\hat Y = 1.1372 + 0.8435 X\n\\]"
+  },
+  {
+    "objectID": "lectures/11a.html#interpreting-slope-1",
+    "href": "lectures/11a.html#interpreting-slope-1",
+    "title": "Linear Models",
+    "section": "Interpreting Slope",
+    "text": "Interpreting Slope\n\\[\n\\hat Y = 1.1372 + 0.8435 X\n\\]"
+  },
+  {
+    "objectID": "lectures/11a.html#predicting-value-for-given-x",
+    "href": "lectures/11a.html#predicting-value-for-given-x",
+    "title": "Linear Models",
+    "section": "Predicting Value for given X",
+    "text": "Predicting Value for given X\n\\[\n\\hat Y = 1.1372 + 0.8435 X\n\\]"
+  },
+  {
+    "objectID": "lectures/11a.html#study-habits-for-the-exam",
+    "href": "lectures/11a.html#study-habits-for-the-exam",
+    "title": "Linear Models",
+    "section": "Study Habits for the Exam",
+    "text": "Study Habits for the Exam"
+  },
+  {
     "objectID": "lectures/10a.html#scorpio-season-is-here",
     "href": "lectures/10a.html#scorpio-season-is-here",
     "title": "Linear Models",
@@ -1398,6 +1545,146 @@
     "title": "Linear Models",
     "section": "Find the SSE of the previous model",
     "text": "Find the SSE of the previous model\n\\[\nSSE = 25.5\n\\]"
+  },
+  {
+    "objectID": "lectures/11b.html#plotathon",
+    "href": "lectures/11b.html#plotathon",
+    "title": "Linear Models",
+    "section": "Plotathon",
+    "text": "Plotathon"
+  },
+  {
+    "objectID": "lectures/11b.html#motivating-example-coffee-1",
+    "href": "lectures/11b.html#motivating-example-coffee-1",
+    "title": "Linear Models",
+    "section": "Motivating Example: Coffee",
+    "text": "Motivating Example: Coffee"
+  },
+  {
+    "objectID": "lectures/11b.html#fitting-a-linear-model",
+    "href": "lectures/11b.html#fitting-a-linear-model",
+    "title": "Linear Models",
+    "section": "Fitting a Linear Model",
+    "text": "Fitting a Linear Model\n\\[\n\\hat Y = 1.1372 + 0.8435 X\n\\]\n\\[\nX = \\mathrm{AROMA\\ Score}\n\\]\n\\[\n\\hat Y = \\mathrm{Predicted\\ Flavor\\ Score}\n\\]"
+  },
+  {
+    "objectID": "lectures/11b.html#anova-table-1",
+    "href": "lectures/11b.html#anova-table-1",
+    "title": "Linear Models",
+    "section": "ANOVA Table",
+    "text": "ANOVA Table\nThe ANOVA table is designed to organize how much variation is explained by either the group or regression model. It"
+  },
+  {
+    "objectID": "lectures/11b.html#anova-table-2",
+    "href": "lectures/11b.html#anova-table-2",
+    "title": "Linear Models",
+    "section": "ANOVA Table",
+    "text": "ANOVA Table\n\n\n\n\n\n\n\n\n\n\n\n\nSource\nSS\nDF\nMS\nF\nPRE\np-value\n\n\n\n\nModel (M)\nSSM\n\\(1\\) or \\(k-1\\)\n\\(\\frac{SSM}{DFM}\\)\n\\(\\frac{MSM}{MSE}\\)\n\\(\\frac{SSM}{SST}\\)\n\\(P(f \\ge F)\\)\n\n\nError (E)\nSSE\n\\(n - DFM\\)\n\\(\\frac{SSE}{DFE}\\)\n\n\n\n\n\nNULL (T)\nSST\n\\(n-1\\)"
+  },
+  {
+    "objectID": "lectures/11b.html#sum-of-squares-ss",
+    "href": "lectures/11b.html#sum-of-squares-ss",
+    "title": "Linear Models",
+    "section": "Sum of Squares (SS)",
+    "text": "Sum of Squares (SS)\nHow much variation is involved in the row\n\nModel, how much variation is explained\n\n\nError, how much variation is remaining"
+  },
+  {
+    "objectID": "lectures/11b.html#degrees-of-freedom-df",
+    "href": "lectures/11b.html#degrees-of-freedom-df",
+    "title": "Linear Models",
+    "section": "Degrees of Freedom (DF)",
+    "text": "Degrees of Freedom (DF)\nHow much ‘freedom’ does the row have\n\nFor Model, less is better\n\n\nFor Error, more is better"
+  },
+  {
+    "objectID": "lectures/11b.html#mean-square-error",
+    "href": "lectures/11b.html#mean-square-error",
+    "title": "Linear Models",
+    "section": "Mean Square Error",
+    "text": "Mean Square Error\nOn average, how much variation is involved.\n\nModel, the average variation explained by the model.\n\n\nError, the average amount of variation remaining."
+  },
+  {
+    "objectID": "lectures/11b.html#proportion-reduction-error-pre",
+    "href": "lectures/11b.html#proportion-reduction-error-pre",
+    "title": "Linear Models",
+    "section": "Proportion Reduction Error (PRE)",
+    "text": "Proportion Reduction Error (PRE)\nThe percentage of error explained by the model for all the error."
+  },
+  {
+    "objectID": "lectures/11b.html#f",
+    "href": "lectures/11b.html#f",
+    "title": "Linear Models",
+    "section": "F",
+    "text": "F\nHow much variation is explained by the model versus the remaining amount or variation not explained\n\n\\(F&gt;1\\): Model explains the majority of the variation\n\n\n\\(0\\le F&lt;1\\): Model does not explain the majority of the variation"
+  },
+  {
+    "objectID": "lectures/11b.html#how-to-do-it-in-r",
+    "href": "lectures/11b.html#how-to-do-it-in-r",
+    "title": "Linear Models",
+    "section": "How to do it in R",
+    "text": "How to do it in R\nPass the lm saved object to the supernova function:\n\ncoffee_lm &lt;- lm(flavor ~ aroma, data = coffee_aroma)\nsupernova(coffee_lm)"
+  },
+  {
+    "objectID": "lectures/11b.html#r-output",
+    "href": "lectures/11b.html#r-output",
+    "title": "Linear Models",
+    "section": "R Output",
+    "text": "R Output\n\n\n#&gt; Error in supernova(coffee_lm): could not find function \"supernova\""
+  },
+  {
+    "objectID": "lectures/11b.html#assessing-model-fit-1",
+    "href": "lectures/11b.html#assessing-model-fit-1",
+    "title": "Linear Models",
+    "section": "Assessing Model Fit",
+    "text": "Assessing Model Fit\nThe 2 statistics that we can use to assess a model are PRE and F."
+  },
+  {
+    "objectID": "lectures/11b.html#pre",
+    "href": "lectures/11b.html#pre",
+    "title": "Linear Models",
+    "section": "PRE",
+    "text": "PRE\nThis will tell you how much variation is explained by the model.\n\nPRE &gt; 0.5 is considered good"
+  },
+  {
+    "objectID": "lectures/11b.html#f-1",
+    "href": "lectures/11b.html#f-1",
+    "title": "Linear Models",
+    "section": "F",
+    "text": "F\nThis will tell you if the explanation of the variation is due to random chance or not.\n\nIf the p-value is less than 0.05, the explanation is not due to random chance."
+  },
+  {
+    "objectID": "lectures/11b.html#pre-vs-f",
+    "href": "lectures/11b.html#pre-vs-f",
+    "title": "Linear Models",
+    "section": "PRE vs F",
+    "text": "PRE vs F\n\nPRE, will tell you if the model is useful.\n\n\nF, will tell you if the model’s explanation is due to chance or not.\n\n\nBoth are needed."
+  },
+  {
+    "objectID": "lectures/11b.html#example-1",
+    "href": "lectures/11b.html#example-1",
+    "title": "Linear Models",
+    "section": "Example",
+    "text": "Example"
+  },
+  {
+    "objectID": "lectures/11b.html#linear-model",
+    "href": "lectures/11b.html#linear-model",
+    "title": "Linear Models",
+    "section": "Linear Model",
+    "text": "Linear Model\n\ncoffee_lm &lt;- lm(flavor ~ aroma, data = coffee_aroma)\ncoffee_lm\n\n#&gt; \n#&gt; Call:\n#&gt; lm(formula = flavor ~ aroma, data = coffee_aroma)\n#&gt; \n#&gt; Coefficients:\n#&gt; (Intercept)        aroma  \n#&gt;      1.1372       0.8435"
+  },
+  {
+    "objectID": "lectures/11b.html#anova-table-3",
+    "href": "lectures/11b.html#anova-table-3",
+    "title": "Linear Models",
+    "section": "ANOVA Table",
+    "text": "ANOVA Table\n\nsupernova(coffee_lm)\n\n#&gt; Error in supernova(coffee_lm): could not find function \"supernova\""
+  },
+  {
+    "objectID": "lectures/11b.html#topics-that-will-be-on-the-exam",
+    "href": "lectures/11b.html#topics-that-will-be-on-the-exam",
+    "title": "Linear Models",
+    "section": "Topics that will be on the exam",
+    "text": "Topics that will be on the exam\n\nConstructing the NULL Model\nConstructing a Group Model\nCalculating SSE\nInterpreting the Regression Model\nSome R programming"
   },
   {
     "objectID": "lectures/2a.html#learning-outcomes",
