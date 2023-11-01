@@ -520,15 +520,15 @@ X = \mathrm{AROMA\ Score}
 </section>
 <section id="anova-table-2" class="slide level2">
 <h2>ANOVA Table</h2>
-<table>
+<table style="width:100%;">
 <colgroup>
-<col style="width: 10%">
-<col style="width: 4%">
-<col style="width: 13%">
-<col style="width: 18%">
-<col style="width: 18%">
-<col style="width: 18%">
-<col style="width: 13%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -628,7 +628,7 @@ X = \mathrm{AROMA\ Score}
 <h2>R Output</h2>
 <div class="cell">
 <div class="cell-output cell-output-error">
-<pre><code>#&gt; Error in supernova(coffee_lm): could not find function "supernova"</code></pre>
+<pre><code>#&gt; Error in eval(expr, envir, enclos): object 'coffee_lm' not found</code></pre>
 </div>
 </div>
 </section></section>
@@ -744,8 +744,16 @@ X = \mathrm{AROMA\ Score}
 <h2>ANOVA Table</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="fu">supernova</span>(coffee_lm)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-error">
-<pre><code>#&gt; Error in supernova(coffee_lm): could not find function "supernova"</code></pre>
+<div class="cell-output cell-output-stdout">
+<pre><code>#&gt;  Analysis of Variance Table (Type III SS)
+#&gt;  Model: flavor ~ aroma
+#&gt; 
+#&gt;                               SS   df     MS        F   PRE     p
+#&gt;  ----- --------------- | ------- ---- ------ -------- ----- -----
+#&gt;  Model (error reduced) |  90.510    1 90.510 1851.653 .5811 .0000
+#&gt;  Error (from model)    |  65.256 1335  0.049                     
+#&gt;  ----- --------------- | ------- ---- ------ -------- ----- -----
+#&gt;  Total (empty model)   | 155.766 1336  0.117</code></pre>
 </div>
 </div>
 </section></section>

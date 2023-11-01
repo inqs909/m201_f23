@@ -1628,7 +1628,7 @@
     "href": "lectures/11b.html#r-output",
     "title": "Linear Models",
     "section": "R Output",
-    "text": "R Output\n\n\n#&gt; Error in supernova(coffee_lm): could not find function \"supernova\""
+    "text": "R Output\n\n\n#&gt; Error in eval(expr, envir, enclos): object 'coffee_lm' not found"
   },
   {
     "objectID": "lectures/11b.html#assessing-model-fit-1",
@@ -1677,7 +1677,7 @@
     "href": "lectures/11b.html#anova-table-3",
     "title": "Linear Models",
     "section": "ANOVA Table",
-    "text": "ANOVA Table\n\nsupernova(coffee_lm)\n\n#&gt; Error in supernova(coffee_lm): could not find function \"supernova\""
+    "text": "ANOVA Table\n\nsupernova(coffee_lm)\n\n#&gt;  Analysis of Variance Table (Type III SS)\n#&gt;  Model: flavor ~ aroma\n#&gt; \n#&gt;                               SS   df     MS        F   PRE     p\n#&gt;  ----- --------------- | ------- ---- ------ -------- ----- -----\n#&gt;  Model (error reduced) |  90.510    1 90.510 1851.653 .5811 .0000\n#&gt;  Error (from model)    |  65.256 1335  0.049                     \n#&gt;  ----- --------------- | ------- ---- ------ -------- ----- -----\n#&gt;  Total (empty model)   | 155.766 1336  0.117"
   },
   {
     "objectID": "lectures/11b.html#topics-that-will-be-on-the-exam",
