@@ -84,7 +84,8 @@ coffee_aroma |> ggplot(aes(x=aroma, y = flavor)) +
 
 ```{r}
 #| echo: true
-lm(flavor ~ aroma, data = coffee_aroma)
+res <- lm(flavor ~ aroma, data = coffee_aroma)
+res
 ```
 
 ## Is there a linear relationship or due to random chance?
@@ -128,8 +129,9 @@ gf_point(shuffle(flavor) ~ aroma, data = coffee_aroma) %>%
 ## Shuffled vs Emperical
 
 ```{r}
+#| echo: true
 gf_point(shuffle(flavor) ~ aroma, data = coffee_aroma) %>%
-  gf_point(flavor ~ aroma, data = coffee_aroma, color = "red")
+  gf_point(flavor ~ aroma, data = coffee_aroma, color = "red") %>%
   gf_theme(theme_bw()) %>%
   gf_labs(x = "Aroma", y = "Shuffled Flavor") %>%
   gf_theme(axis.title = element_text(size = 24))
@@ -162,6 +164,7 @@ gf_point(shuffle(flavor) ~ aroma, data = coffee_aroma) %>%
 ## Shuffle LM Object
 
 ```{r}
+#| echo: true
 lm(shuffle(flavor) ~ aroma, data = coffee_aroma)
 lm(shuffle(flavor) ~ aroma, data = coffee_aroma)
 lm(shuffle(flavor) ~ aroma, data = coffee_aroma)
@@ -175,6 +178,7 @@ lm(shuffle(flavor) ~ aroma, data = coffee_aroma)
 ## Only want at b1
 
 ```{r}
+#| echo: true
 b1(shuffle(flavor) ~ aroma, data = coffee_aroma)
 b1(shuffle(flavor) ~ aroma, data = coffee_aroma)
 b1(shuffle(flavor) ~ aroma, data = coffee_aroma)
@@ -186,6 +190,7 @@ b1(shuffle(flavor) ~ aroma, data = coffee_aroma)
 ## Repeat it 10,000
 
 ```{r}
+#| echo: true
 b1_sim <- do(10000) * b1(shuffle(flavor) ~ aroma, 
                          data = coffee_aroma)
 b1_sim
@@ -198,6 +203,7 @@ The distribution of $b_1$ shows all the possible values that $b_1$ can take with
 ## Distribution of $b_1$
 
 ```{r}
+#| echo: true
 gf_dens(b1_sim, ~ b1) %>%
   gf_theme(axis.title = element_text(size = 36),
            axis.text = element_text(size=28))
@@ -206,6 +212,7 @@ gf_dens(b1_sim, ~ b1) %>%
 ## What about our observed value?
 
 ```{r}
+#| echo: true
 gf_dens(b1_sim, ~ b1) %>%
   gf_vline(xintercept = b1(res))
 ```
