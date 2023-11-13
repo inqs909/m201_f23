@@ -106,7 +106,7 @@ The ANOVA table is designed to organize how much variation is explained by eithe
 ## ANOVA Table
 
 | Source    | SS  | DF           | MS                | F                 | PRE               | p-value      |
-|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|-----------|-----|--------------|-------------------|-------------------|-------------------|--------------|
 | Model (M) | SSM | $1$ or $k-1$ | $\frac{SSM}{DFM}$ | $\frac{MSM}{MSE}$ | $\frac{SSM}{SST}$ | $P(f \ge F)$ |
 | Error (E) | SSE | $n - DFM$    | $\frac{SSE}{DFE}$ |                   |                   |              |
 | NULL (T)  | SST | $n-1$        |                   |                   |                   |              |
