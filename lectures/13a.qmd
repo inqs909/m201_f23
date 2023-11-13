@@ -51,14 +51,15 @@ library(DT)
 library(supernova)
 library(coursekata)
 set.seed(29)
-penguins_nona <- penguins |> drop_na() |> 
-  filter(species != "Chinstrap") |> 
-  slice_sample(n=8) |>
-  select(species, bill_length_mm)
-tuesdata <- tidytuesdayR::tt_load('2020-07-07')
+# penguins_nona <- penguins |> drop_na() |> 
+#   filter(species != "Chinstrap") |> 
+#   slice_sample(n=8) |>
+#   select(species, bill_length_mm)
+# tuesdata <- tidytuesdayR::tt_load('2020-07-07')
 tuesdata <- tidytuesdayR::tt_load(2020, week = 28)
 
 coffee_ratings <- tuesdata$coffee_ratings
+coffee_aroma <- coffee_ratings |> filter(aroma > 5.5)
 res <- lm(flavor ~ aroma, data = coffee_aroma)
 # Or read in the data manually
 
