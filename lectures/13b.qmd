@@ -82,6 +82,16 @@ b1_sim_1000000 <- do(1000000) * b1(shuffle(mpg) ~ qsec,
 ## Motivating Example
 
 ```{r}
+library(palmerpenguins)
+library(ggformula)
+library(ThemePark)
+library(mosaic)
+library(tidyverse)
+library(taylor)
+library(DT)
+library(supernova)
+library(coursekata)
+
 mtcars |> ggplot(aes(x=qsec, y = mpg)) +
   geom_point() + theme_bw() +
   theme(axis.title = element_text(size = 36))
@@ -309,4 +319,4 @@ tally(~ abs(b1) > b1(res), data = b1_sim_1000000)[1] / 1000001
 
 ## Answer Survey
 
-![](img/frame (6).png){fig-align="center"}
+![](img/frame%20(6).png){fig-align="center"}
