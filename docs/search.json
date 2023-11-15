@@ -2051,6 +2051,13 @@
     "text": "Mathematical compared to Increasing Simulated Number\n\\[\nP= 0.0171\n\\]\n\n\n#&gt; [1] \"Sim: 1000\"\n\n\n#&gt; Error in tally(~abs(b1) &gt; b1(res), data = b1_sim_1000): could not find function \"tally\"\n\n\n#&gt; [1] \"Sim: 10000\"\n\n\n#&gt; Error in tally(~abs(b1) &gt; b1(res), data = b1_sim_10000): could not find function \"tally\"\n\n\n#&gt; [1] \"Sim: 100000\"\n\n\n#&gt; Error in tally(~abs(b1) &gt; b1(res), data = b1_sim_100000): could not find function \"tally\"\n\n\n#&gt; [1] \"Sim: 1000000\"\n\n\n#&gt; Error in tally(~abs(b1) &gt; b1(res), data = b1_sim_1000000): could not find function \"tally\""
   },
   {
+    "objectID": "lectures/13b.html#answer-survey",
+    "href": "lectures/13b.html#answer-survey",
+    "title": "Inference",
+    "section": "Answer Survey",
+    "text": "Answer Survey"
+  },
+  {
     "objectID": "lectures/2a.html#learning-outcomes",
     "href": "lectures/2a.html#learning-outcomes",
     "title": "Numbers & Data",

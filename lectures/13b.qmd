@@ -98,7 +98,6 @@ mtcars |> ggplot(aes(x=qsec, y = mpg)) +
 
 ```
 
-
 ## Linear Model
 
 ```{r}
@@ -209,7 +208,7 @@ gf_histogram(~b1, data = b1_sim, fill = ~middle(b1, .95)) %>%
 
 The p-value tells you what is the probability of observing your $b_1$ or something more extreme.
 
-## Visually 
+## Visually
 
 ```{r}
 #| echo: true
@@ -268,7 +267,6 @@ $$
 \mathrm{p} = Pr(t \ge |T|)
 $$
 
-
 ## P-Value
 
 $$
@@ -287,12 +285,10 @@ $$
 P= 0.0171
 $$
 
-
 ```{r}
 print("Sim: 10000")
 tally(~ abs(b1) > b1(res), data = b1_sim_10000)[1] / 10001
 ```
-
 
 ## Mathematical compared to Increasing Simulated Number
 
@@ -311,10 +307,6 @@ print("Sim: 1000000")
 tally(~ abs(b1) > b1(res), data = b1_sim_1000000)[1] / 1000001
 ```
 
+## Answer Survey
 
-
-
-
-
-
-
+![](img/frame (6).png){fig-align="center"}
