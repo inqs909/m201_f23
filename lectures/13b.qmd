@@ -7,7 +7,9 @@ format:
     navigation-mode: vertical
     controls-layout: bottom-right
     controls-tutorial: true
-    incremental: false 
+    incremental: false
+    code-fold: true
+    code-summary: "Show the code"
     chalkboard:
       src: notes/chalkboard_1a.json
       storage: chalkboard_pres
@@ -26,10 +28,15 @@ revealjs-plugins:
   - pointer
   - verticator
   
+webr: 
+  show-startup-message: true
+  packages: ['ggformula', 'mosaic', 'coursekata']
+  
 filters: 
   - reveal-header
   - code-fullscreen
   - reveal-auto-agenda
+  - webr
   
 auto-agenda:
   bullets: numbered
@@ -42,22 +49,12 @@ editor: visual
 #| include: false
 #| cache: true
 
-library(palmerpenguins)
-library(ggformula)
-library(ThemePark)
-library(mosaic)
-library(tidyverse)
-library(taylor)
-library(DT)
-library(supernova)
-library(coursekata)
 set.seed(29)
 # penguins_nona <- penguins |> drop_na() |> 
 #   filter(species != "Chinstrap") |> 
 #   slice_sample(n=8) |>
 #   select(species, bill_length_mm)
 # tuesdata <- tidytuesdayR::tt_load('2020-07-07')
-tuesdata <- tidytuesdayR::tt_load(2020, week = 28)
 
 # coffee_ratings <- tuesdata$coffee_ratings
 # coffee_aroma <- coffee_ratings |> filter(aroma > 5.5)
@@ -77,20 +74,22 @@ b1_sim_1000000 <- do(1000000) * b1(shuffle(mpg) ~ qsec,
 
 ```
 
+```{r}
+#| include: false
+#| label: load_libraries
+
+
+library(ggformula)
+library(mosaic)
+library(coursekata)
+
+```
+
 # Inference
 
 ## Motivating Example
 
 ```{r}
-library(palmerpenguins)
-library(ggformula)
-library(ThemePark)
-library(mosaic)
-library(tidyverse)
-library(taylor)
-library(DT)
-library(supernova)
-library(coursekata)
 
 mtcars |> ggplot(aes(x=qsec, y = mpg)) +
   geom_point() + theme_bw() +
@@ -134,8 +133,7 @@ mtcars %>% gf_point(shuffle(mpg) ~ qsec) %>%
 
 ## Shuffled vs Empirical
 
-```{r}
-#| echo: true
+```{web-r}
 mtcars %>% gf_point(shuffle(mpg) ~ qsec) %>%
   gf_point(mpg ~ qsec,
              color = "purple", fill = "red") %>%
