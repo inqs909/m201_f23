@@ -9,7 +9,6 @@ format:
     controls-tutorial: true
     incremental: false
     code-fold: true
-    code-summary: "Show the code"
     chalkboard:
       src: notes/chalkboard_1a.json
       storage: chalkboard_pres
@@ -30,11 +29,10 @@ revealjs-plugins:
   
 webr: 
   show-startup-message: true
-  packages: ['ggformula', 'mosaic', 'coursekata']
+  packages: ['ggplot2']
   
 filters: 
   - reveal-header
-  - code-fullscreen
   - reveal-auto-agenda
   - webr
   
@@ -85,6 +83,15 @@ library(coursekata)
 
 ```
 
+```{webr-r}
+#| context: setup
+webr::shim_install()
+install.packages('coursekata', 
+                 repos = c('https://coursekata.r-universe.dev', 
+                           'https://repo.r-wasm.org'))
+library(coursekata)
+```
+
 # Inference
 
 ## Motivating Example
@@ -133,7 +140,7 @@ mtcars %>% gf_point(shuffle(mpg) ~ qsec) %>%
 
 ## Shuffled vs Empirical
 
-```{web-r}
+```{webr-r}
 mtcars %>% gf_point(shuffle(mpg) ~ qsec) %>%
   gf_point(mpg ~ qsec,
              color = "purple", fill = "red") %>%

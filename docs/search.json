@@ -1894,14 +1894,14 @@
     "href": "lectures/13b.html#shuffled-vs-empirical",
     "title": "Inference",
     "section": "Shuffled vs Empirical",
-    "text": "Shuffled vs Empirical\nmtcars %&gt;% gf_point(shuffle(mpg) ~ qsec) %&gt;%\n  gf_point(mpg ~ qsec,\n             color = \"purple\", fill = \"red\") %&gt;%\n  gf_theme(theme_bw()) %&gt;%\n  gf_labs(x = \"Quarter Mile Time\", y = \"MPG\") %&gt;%\n  gf_theme(axis.title = element_text(size = 24))"
+    "text": "Shuffled vs Empirical\n\n  🟡 Loading\n    webR..."
   },
   {
     "objectID": "lectures/13b.html#obtaining-b1",
     "href": "lectures/13b.html#obtaining-b1",
     "title": "Inference",
     "section": "Obtaining b1",
-    "text": "Obtaining b1\n\n\nCode\nb1(shuffle(mpg) ~ qsec, data = mtcars)\n\n\n#&gt; [1] 0.198131\n\n\nCode\nb1(shuffle(mpg) ~ qsec, data = mtcars)\n\n\n#&gt; [1] 0.01690733\n\n\nCode\nb1(shuffle(mpg) ~ qsec, data = mtcars)\n\n\n#&gt; [1] -0.4144978\n\n\nCode\nb1(shuffle(mpg) ~ qsec, data = mtcars)\n\n\n#&gt; [1] -0.7154026\n\n\nCode\nb1(shuffle(mpg) ~ qsec, data = mtcars)\n\n\n#&gt; [1] 0.3543922\n\n\nCode\nb1(shuffle(mpg) ~ qsec, data = mtcars)\n\n\n#&gt; [1] -0.4508153"
+    "text": "Obtaining b1\n\n\nCode\nb1(shuffle(mpg) ~ qsec, data = mtcars)\n\n\n#&gt; [1] 0.3258938\n\n\nCode\nb1(shuffle(mpg) ~ qsec, data = mtcars)\n\n\n#&gt; [1] 0.1666121\n\n\nCode\nb1(shuffle(mpg) ~ qsec, data = mtcars)\n\n\n#&gt; [1] -1.185368\n\n\nCode\nb1(shuffle(mpg) ~ qsec, data = mtcars)\n\n\n#&gt; [1] -0.8066357\n\n\nCode\nb1(shuffle(mpg) ~ qsec, data = mtcars)\n\n\n#&gt; [1] 0.3543922\n\n\nCode\nb1(shuffle(mpg) ~ qsec, data = mtcars)\n\n\n#&gt; [1] -0.4508153"
   },
   {
     "objectID": "lectures/13b.html#repeat-it-10000",
