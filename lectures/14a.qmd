@@ -64,20 +64,22 @@ f_sim_100000 <- do(100000) * f(shuffle(body_mass_kg) ~ species,
 #| include: false
 #| label: load_libraries
 
-
 library(ggformula)
 library(mosaic)
-library(coursekata)
-
-```
-
-```{webr-r}
-#| context: setup
-webr::shim_install()
 library(coursekata)
 ```
 
 # Inference
+
+```{webr-r}
+#| context: setup
+shuffle <- function(x){
+  n <- length(x)
+  return(sample(x, n))
+}
+penguins <- penguins |> drop_na() |> 
+  mutate(body_mass_kg = body_mass_g / 1000)
+```
 
 ## Motivating Example
 
@@ -136,7 +138,6 @@ penguins |> ggplot(aes(x = species, y = body_mass_g)) +
 ## Obtaining F
 
 ```{r}
-#| echo: true
 f(shuffle(mpg) ~ qsec, data = mtcars)
 f(shuffle(mpg) ~ qsec, data = mtcars)
 f(shuffle(mpg) ~ qsec, data = mtcars)
@@ -148,7 +149,6 @@ f(shuffle(mpg) ~ qsec, data = mtcars)
 ## Obtaining PRE
 
 ```{r}
-#| echo: true
 pre(shuffle(mpg) ~ qsec, data = mtcars)
 pre(shuffle(mpg) ~ qsec, data = mtcars)
 pre(shuffle(mpg) ~ qsec, data = mtcars)
@@ -169,7 +169,7 @@ pre_sim <- do(1000) * pre(shuffle(mpg) ~ qsec,
 
 ## Distribution of PRE
 
-The distribution of $F$ shows all the possible values that $F$ can take with their respective probabilities.
+The distribution of $PRE$ shows all the possible values that $PRE$ can take with their respective probabilities.
 
 ## Distribution of PRE
 
@@ -209,7 +209,7 @@ gf_histogram(~f, data = f_sim, fill = ~upper(f, .05)) %>%
 
 ## P-Value
 
-The p-value tells you what is the probability of observing your $b_1$ or something more extreme.
+The p-value tells you what is the probability of observing your $F$ or something more extreme.
 
 ## Visually
 
@@ -221,7 +221,7 @@ gf_histogram(~f, data = f_sim, fill = ~ f > f(res)) %>%
 
 ## Computing the p-value
 
-We will count how many simulated $f$'s are more extreme and divided by the number of simulations plus one.
+We will count how many simulated $F$'s are more extreme and divided by the number of simulations plus one.
 
 ## Counting how many F's are more extreme
 
@@ -270,7 +270,7 @@ tally(~ f > f(res), data = f_sim_1000)[1] / 10001
 ## Mathematical compared to Increasing Simulated Number
 
 $$
-P= 0.0171
+P= 0.000
 $$
 
 ```{r}

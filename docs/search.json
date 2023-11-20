@@ -53,14 +53,14 @@
     "href": "lectures/14a.html#obtaining-f",
     "title": "Inference",
     "section": "Obtaining F",
-    "text": "Obtaining F\n\n\nCode\nf(shuffle(mpg) ~ qsec, data = mtcars)\n\n\n#&gt; [1] 1.247653\n\n\nCode\nf(shuffle(mpg) ~ qsec, data = mtcars)\n\n\n#&gt; [1] 2.973099\n\n\nCode\nf(shuffle(mpg) ~ qsec, data = mtcars)\n\n\n#&gt; [1] 0.6777638\n\n\nCode\nf(shuffle(mpg) ~ qsec, data = mtcars)\n\n\n#&gt; [1] 0.5489494\n\n\nCode\nf(shuffle(mpg) ~ qsec, data = mtcars)\n\n\n#&gt; [1] 0.5276875\n\n\nCode\nf(shuffle(mpg) ~ qsec, data = mtcars)\n\n\n#&gt; [1] 2.758505"
+    "text": "Obtaining F\n\n\n#&gt; [1] 1.247653\n\n\n#&gt; [1] 2.973099\n\n\n#&gt; [1] 0.6777638\n\n\n#&gt; [1] 0.5489494\n\n\n#&gt; [1] 0.5276875\n\n\n#&gt; [1] 2.758505"
   },
   {
     "objectID": "lectures/14a.html#obtaining-pre",
     "href": "lectures/14a.html#obtaining-pre",
     "title": "Inference",
     "section": "Obtaining PRE",
-    "text": "Obtaining PRE\n\n\nCode\npre(shuffle(mpg) ~ qsec, data = mtcars)\n\n\n#&gt; [1] 0.001641251\n\n\nCode\npre(shuffle(mpg) ~ qsec, data = mtcars)\n\n\n#&gt; [1] 0.03680501\n\n\nCode\npre(shuffle(mpg) ~ qsec, data = mtcars)\n\n\n#&gt; [1] 0.002159657\n\n\nCode\npre(shuffle(mpg) ~ qsec, data = mtcars)\n\n\n#&gt; [1] 0.001049988\n\n\nCode\npre(shuffle(mpg) ~ qsec, data = mtcars)\n\n\n#&gt; [1] 0.008002626\n\n\nCode\npre(shuffle(mpg) ~ qsec, data = mtcars)\n\n\n#&gt; [1] 0.008278263"
+    "text": "Obtaining PRE\n\n\n#&gt; [1] 0.001641251\n\n\n#&gt; [1] 0.03680501\n\n\n#&gt; [1] 0.002159657\n\n\n#&gt; [1] 0.001049988\n\n\n#&gt; [1] 0.008002626\n\n\n#&gt; [1] 0.008278263"
   },
   {
     "objectID": "lectures/14a.html#repeat-it-1000",
@@ -74,7 +74,7 @@
     "href": "lectures/14a.html#distribution-of-pre",
     "title": "Inference",
     "section": "Distribution of PRE",
-    "text": "Distribution of PRE\nThe distribution of \\(F\\) shows all the possible values that \\(F\\) can take with their respective probabilities."
+    "text": "Distribution of PRE\nThe distribution of \\(PRE\\) shows all the possible values that \\(PRE\\) can take with their respective probabilities."
   },
   {
     "objectID": "lectures/14a.html#distribution-of-pre-1",
@@ -116,7 +116,7 @@
     "href": "lectures/14a.html#p-value-1",
     "title": "Inference",
     "section": "P-Value",
-    "text": "P-Value\nThe p-value tells you what is the probability of observing your \\(b_1\\) or something more extreme."
+    "text": "P-Value\nThe p-value tells you what is the probability of observing your \\(F\\) or something more extreme."
   },
   {
     "objectID": "lectures/14a.html#visually",
@@ -130,7 +130,7 @@
     "href": "lectures/14a.html#computing-the-p-value",
     "title": "Inference",
     "section": "Computing the p-value",
-    "text": "Computing the p-value\nWe will count how many simulated \\(f\\)’s are more extreme and divided by the number of simulations plus one."
+    "text": "Computing the p-value\nWe will count how many simulated \\(F\\)’s are more extreme and divided by the number of simulations plus one."
   },
   {
     "objectID": "lectures/14a.html#counting-how-many-fs-are-more-extreme",
@@ -179,6 +179,6 @@
     "href": "lectures/14a.html#mathematical-compared-to-increasing-simulated-number-1",
     "title": "Inference",
     "section": "Mathematical compared to Increasing Simulated Number",
-    "text": "Mathematical compared to Increasing Simulated Number\n\\[\nP= 0.0171\n\\]\n\n\n#&gt; [1] \"Sim: 1000\"\n\n\n#&gt; TRUE \n#&gt;    0\n\n\n#&gt; [1] \"Sim: 10000\"\n\n\n#&gt; TRUE \n#&gt;    0\n\n\n#&gt; [1] \"Sim: 100000\"\n\n\n#&gt; TRUE \n#&gt;    0"
+    "text": "Mathematical compared to Increasing Simulated Number\n\\[\nP= 0.000\n\\]\n\n\n#&gt; [1] \"Sim: 1000\"\n\n\n#&gt; TRUE \n#&gt;    0\n\n\n#&gt; [1] \"Sim: 10000\"\n\n\n#&gt; TRUE \n#&gt;    0\n\n\n#&gt; [1] \"Sim: 100000\"\n\n\n#&gt; TRUE \n#&gt;    0"
   }
 ]
