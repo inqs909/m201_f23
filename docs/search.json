@@ -1,184 +1,191 @@
 [
   {
-    "objectID": "lectures/14a.html#motivating-example",
-    "href": "lectures/14a.html#motivating-example",
-    "title": "Inference",
+    "objectID": "lectures/15a.html#motivating-example",
+    "href": "lectures/15a.html#motivating-example",
+    "title": "Confidence Intervals",
     "section": "Motivating Example",
     "text": "Motivating Example"
   },
   {
-    "objectID": "lectures/14a.html#adding-a-box-plot",
-    "href": "lectures/14a.html#adding-a-box-plot",
-    "title": "Inference",
-    "section": "Adding a Box Plot",
-    "text": "Adding a Box Plot"
-  },
-  {
-    "objectID": "lectures/14a.html#linear-model",
-    "href": "lectures/14a.html#linear-model",
-    "title": "Inference",
+    "objectID": "lectures/15a.html#linear-model",
+    "href": "lectures/15a.html#linear-model",
+    "title": "Confidence Intervals",
     "section": "Linear Model",
-    "text": "Linear Model\n\n\nCode\nres &lt;- penguins %&gt;% lm(body_mass_kg ~ species, data = .)\nres\n\n\n#&gt; \n#&gt; Call:\n#&gt; lm(formula = body_mass_kg ~ species, data = .)\n#&gt; \n#&gt; Coefficients:\n#&gt;      (Intercept)  speciesChinstrap     speciesGentoo  \n#&gt;          3.70616           0.02692           1.38627"
+    "text": "Linear Model\n\n\n#&gt; \n#&gt; Call:\n#&gt; lm(formula = weight ~ mage, data = births14)\n#&gt; \n#&gt; Coefficients:\n#&gt; (Intercept)         mage  \n#&gt;      6.7930       0.0142"
   },
   {
-    "objectID": "lectures/14a.html#are-the-means-from-each-species-different-or-is-it-due-to-random-chance",
-    "href": "lectures/14a.html#are-the-means-from-each-species-different-or-is-it-due-to-random-chance",
-    "title": "Inference",
-    "section": "Are the Means from each species different? Or is it due to random chance?",
-    "text": "Are the Means from each species different? Or is it due to random chance?"
+    "objectID": "lectures/15a.html#randomization-test",
+    "href": "lectures/15a.html#randomization-test",
+    "title": "Confidence Intervals",
+    "section": "Randomization Test",
+    "text": "Randomization Test\nWhat are we asking when we shuffle the data?"
   },
   {
-    "objectID": "lectures/14a.html#inference-1",
-    "href": "lectures/14a.html#inference-1",
-    "title": "Inference",
-    "section": "Inference",
-    "text": "Inference\nThe process to determine if an estimate of a parameter is valuable or just due to random chance."
+    "objectID": "lectures/15a.html#beta_10-vs-beta_1-ne-0",
+    "href": "lectures/15a.html#beta_10-vs-beta_1-ne-0",
+    "title": "Confidence Intervals",
+    "section": "\\(\\beta_1=0\\) vs \\(\\beta_1 \\ne 0\\)",
+    "text": "\\(\\beta_1=0\\) vs \\(\\beta_1 \\ne 0\\)"
   },
   {
-    "objectID": "lectures/14a.html#randomness-of-data",
-    "href": "lectures/14a.html#randomness-of-data",
-    "title": "Inference",
-    "section": "Randomness of Data",
-    "text": "Randomness of Data\n\n\nCode\npenguins %&gt;% gf_jitter(shuffle(body_mass_kg) ~ species) %&gt;%\n  gf_theme(theme_bw()) %&gt;%\n  gf_labs(x = \"Quarter Mile Time\", y = \"MPG\") %&gt;%\n  gf_theme(axis.title = element_text(size = 24))"
+    "objectID": "lectures/15a.html#conclusion",
+    "href": "lectures/15a.html#conclusion",
+    "title": "Confidence Intervals",
+    "section": "Conclusion",
+    "text": "Conclusion\n\n\nCode\ntally(~ abs(b1) &gt; abs(b1(res)), b1_sim_1000)[1] / 1001\n\n\n#&gt;  TRUE \n#&gt; 0.037"
   },
   {
-    "objectID": "lectures/14a.html#empirical-vs-shuffled",
-    "href": "lectures/14a.html#empirical-vs-shuffled",
-    "title": "Inference",
-    "section": "Empirical vs Shuffled",
-    "text": "Empirical vs Shuffled\n\n  🟡 Loading\n    webR..."
+    "objectID": "lectures/15a.html#what-about-different-values-of-beta",
+    "href": "lectures/15a.html#what-about-different-values-of-beta",
+    "title": "Confidence Intervals",
+    "section": "What about different values of \\(\\beta\\)?",
+    "text": "What about different values of \\(\\beta\\)?"
   },
   {
-    "objectID": "lectures/14a.html#obtaining-f",
-    "href": "lectures/14a.html#obtaining-f",
-    "title": "Inference",
-    "section": "Obtaining F",
-    "text": "Obtaining F\n\n\n#&gt; [1] 1.247653\n\n\n#&gt; [1] 2.973099\n\n\n#&gt; [1] 0.6777638\n\n\n#&gt; [1] 0.5489494\n\n\n#&gt; [1] 0.5276875\n\n\n#&gt; [1] 2.758505"
+    "objectID": "lectures/15a.html#hat-if-beta_10.01",
+    "href": "lectures/15a.html#hat-if-beta_10.01",
+    "title": "Confidence Intervals",
+    "section": "hat if \\(\\beta_1=0.01\\)?",
+    "text": "hat if \\(\\beta_1=0.01\\)?"
   },
   {
-    "objectID": "lectures/14a.html#obtaining-pre",
-    "href": "lectures/14a.html#obtaining-pre",
-    "title": "Inference",
-    "section": "Obtaining PRE",
-    "text": "Obtaining PRE\n\n\n#&gt; [1] 0.001641251\n\n\n#&gt; [1] 0.03680501\n\n\n#&gt; [1] 0.002159657\n\n\n#&gt; [1] 0.001049988\n\n\n#&gt; [1] 0.008002626\n\n\n#&gt; [1] 0.008278263"
+    "objectID": "lectures/15a.html#what-if-beta_1-0.001",
+    "href": "lectures/15a.html#what-if-beta_1-0.001",
+    "title": "Confidence Intervals",
+    "section": "What if \\(\\beta_1 = 0.001\\)?",
+    "text": "What if \\(\\beta_1 = 0.001\\)?"
   },
   {
-    "objectID": "lectures/14a.html#repeat-it-1000",
-    "href": "lectures/14a.html#repeat-it-1000",
-    "title": "Inference",
-    "section": "Repeat it 1000",
-    "text": "Repeat it 1000\n\n\nCode\nf_sim &lt;- do(1000) * f(shuffle(mpg) ~ qsec, \n                         data = mtcars)\npre_sim &lt;- do(1000) * pre(shuffle(mpg) ~ qsec, \n                         data = mtcars)"
+    "objectID": "lectures/15a.html#what-if-beta_1-0.02",
+    "href": "lectures/15a.html#what-if-beta_1-0.02",
+    "title": "Confidence Intervals",
+    "section": "What if \\(\\beta_1 = 0.02\\)?",
+    "text": "What if \\(\\beta_1 = 0.02\\)?"
   },
   {
-    "objectID": "lectures/14a.html#distribution-of-pre",
-    "href": "lectures/14a.html#distribution-of-pre",
-    "title": "Inference",
-    "section": "Distribution of PRE",
-    "text": "Distribution of PRE\nThe distribution of \\(PRE\\) shows all the possible values that \\(PRE\\) can take with their respective probabilities."
+    "objectID": "lectures/15a.html#what-if-beta_1-0.03",
+    "href": "lectures/15a.html#what-if-beta_1-0.03",
+    "title": "Confidence Intervals",
+    "section": "What if \\(\\beta_1 = 0.03\\)?",
+    "text": "What if \\(\\beta_1 = 0.03\\)?"
   },
   {
-    "objectID": "lectures/14a.html#distribution-of-pre-1",
-    "href": "lectures/14a.html#distribution-of-pre-1",
-    "title": "Inference",
-    "section": "Distribution of PRE",
-    "text": "Distribution of PRE\n\n\nCode\ngf_histogram(~pre, data = pre_sim)"
+    "objectID": "lectures/15a.html#confidence-intervals-1",
+    "href": "lectures/15a.html#confidence-intervals-1",
+    "title": "Confidence Intervals",
+    "section": "Confidence Intervals",
+    "text": "Confidence Intervals\nThese are a collection of \\(\\beta_1\\) values that will fail to reject the Null Hypothesis.\n\nThe \\(\\beta_1\\) values that are not different from our current estimate \\(b_1\\)"
   },
   {
-    "objectID": "lectures/14a.html#distribution-of-f",
-    "href": "lectures/14a.html#distribution-of-f",
-    "title": "Inference",
-    "section": "Distribution of \\(F\\)",
-    "text": "Distribution of \\(F\\)\nThe distribution of \\(F\\) shows all the possible values that \\(F\\) can take with their respective probabilities."
+    "objectID": "lectures/15a.html#confidence-intervals-2",
+    "href": "lectures/15a.html#confidence-intervals-2",
+    "title": "Confidence Intervals",
+    "section": "Confidence Intervals",
+    "text": "Confidence Intervals"
   },
   {
-    "objectID": "lectures/14a.html#distribution-of-f-1",
-    "href": "lectures/14a.html#distribution-of-f-1",
-    "title": "Inference",
-    "section": "Distribution of \\(F\\)",
-    "text": "Distribution of \\(F\\)\n\n\nCode\ngf_histogram(~f, data = f_sim)"
+    "objectID": "lectures/15a.html#confidence-intervals-3",
+    "href": "lectures/15a.html#confidence-intervals-3",
+    "title": "Confidence Intervals",
+    "section": "Confidence Intervals",
+    "text": "Confidence Intervals"
   },
   {
-    "objectID": "lectures/14a.html#portioning-the-upper-5-the-distribution",
-    "href": "lectures/14a.html#portioning-the-upper-5-the-distribution",
-    "title": "Inference",
-    "section": "Portioning the upper 5% the Distribution",
-    "text": "Portioning the upper 5% the Distribution\n\n\nCode\ngf_histogram(~f, data = f_sim, fill = ~upper(f, .05))"
+    "objectID": "lectures/15a.html#how-to-construct-the-dgp-centered-around-b_1",
+    "href": "lectures/15a.html#how-to-construct-the-dgp-centered-around-b_1",
+    "title": "Confidence Intervals",
+    "section": "How to construct the DGP centered around \\(b_1\\)?",
+    "text": "How to construct the DGP centered around \\(b_1\\)?\n\nBootstrapping Techniques\n\n\nMathematical Models"
   },
   {
-    "objectID": "lectures/14a.html#where-is-our-observed-value",
-    "href": "lectures/14a.html#where-is-our-observed-value",
-    "title": "Inference",
-    "section": "Where is our observed value?",
-    "text": "Where is our observed value?\n\n\nCode\ngf_histogram(~f, data = f_sim, fill = ~upper(f, .05)) %&gt;%\n  gf_vline(xintercept = f(res))"
+    "objectID": "lectures/15a.html#bootstrapping-techniques-1",
+    "href": "lectures/15a.html#bootstrapping-techniques-1",
+    "title": "Confidence Intervals",
+    "section": "Bootstrapping Techniques",
+    "text": "Bootstrapping Techniques\nBootstrapping is a technique to determine which \\(\\beta_1\\) values, or any other statistic, will not be significantly different than \\(b_1\\).\n\nBootstrapping will simulate several fake data sets from the DGP of the data. Afterwards, each data set will produce a statistic to construct the sampling distribution."
   },
   {
-    "objectID": "lectures/14a.html#p-value-1",
-    "href": "lectures/14a.html#p-value-1",
-    "title": "Inference",
-    "section": "P-Value",
-    "text": "P-Value\nThe p-value tells you what is the probability of observing your \\(F\\) or something more extreme."
+    "objectID": "lectures/15a.html#bootstrap-theory",
+    "href": "lectures/15a.html#bootstrap-theory",
+    "title": "Confidence Intervals",
+    "section": "Bootstrap Theory",
+    "text": "Bootstrap Theory\n\nThe data set was generated from a distribution called \\(f\\).\n\n\n\\(f\\) is unknown, we will sample from \\(\\hat f\\) generated from the data.\n\n\nWhen \\(n \\rightarrow \\infty\\), then \\(\\hat f\\rightarrow f\\)\n\n\nSo long as \\(n\\) is sufficiently large, the DGP of a statistic will be generated."
   },
   {
-    "objectID": "lectures/14a.html#visually",
-    "href": "lectures/14a.html#visually",
-    "title": "Inference",
-    "section": "Visually",
-    "text": "Visually\n\n\nCode\ngf_histogram(~f, data = f_sim, fill = ~ f &gt; f(res)) %&gt;%\n  gf_vline(xintercept = f(res))"
+    "objectID": "lectures/15a.html#bootstrapping-algorithm",
+    "href": "lectures/15a.html#bootstrapping-algorithm",
+    "title": "Confidence Intervals",
+    "section": "Bootstrapping Algorithm",
+    "text": "Bootstrapping Algorithm\n\nResample the data set using the resample() function\nFit a linear model using the resampled data and lm() function\nStore the estimates from the linear model\nRepeat steps 1-3, until you a high number of simulations\nCompute the confidence interval or standard errors from the bootstrap estimates"
   },
   {
-    "objectID": "lectures/14a.html#computing-the-p-value",
-    "href": "lectures/14a.html#computing-the-p-value",
-    "title": "Inference",
-    "section": "Computing the p-value",
-    "text": "Computing the p-value\nWe will count how many simulated \\(F\\)’s are more extreme and divided by the number of simulations plus one."
+    "objectID": "lectures/15a.html#bootstrapping-in-r",
+    "href": "lectures/15a.html#bootstrapping-in-r",
+    "title": "Confidence Intervals",
+    "section": "Bootstrapping in R",
+    "text": "Bootstrapping in R\nThe resample() will create a new data set by sampling the old data set with replacement.\n\n\nCode\nboot1 &lt;- lm(weight ~ mage, data = resample(births14))\nb1(boot1)\n\n\n#&gt; [1] 0.0218\n\n\nUse the do() function to repeat this process a high number of times.\n\n\nCode\nboot_samples &lt;- do(1000) * b1(lm(weight ~ mage, \n                              data = resample(births14)))\nboot_samples %&gt;% head()\n\n\n#&gt;        b1\n#&gt; 1 0.02027\n#&gt; 2 0.02403\n#&gt; 3 0.01389\n#&gt; 4 0.00732\n#&gt; 5 0.01881\n#&gt; 6 0.01301"
   },
   {
-    "objectID": "lectures/14a.html#counting-how-many-fs-are-more-extreme",
-    "href": "lectures/14a.html#counting-how-many-fs-are-more-extreme",
-    "title": "Inference",
-    "section": "Counting how many F’s are more extreme",
-    "text": "Counting how many F’s are more extreme\n\n\nCode\ntally(~ f &gt; f(res), data = f_sim)\n\n\n#&gt; f &gt; f(res)\n#&gt;  TRUE FALSE \n#&gt;     0  1000"
+    "objectID": "lectures/15a.html#bootstrap-distribution",
+    "href": "lectures/15a.html#bootstrap-distribution",
+    "title": "Confidence Intervals",
+    "section": "Bootstrap Distribution",
+    "text": "Bootstrap Distribution"
   },
   {
-    "objectID": "lectures/14a.html#computing-the-p-value-1",
-    "href": "lectures/14a.html#computing-the-p-value-1",
-    "title": "Inference",
-    "section": "Computing the p-value",
-    "text": "Computing the p-value\n\n\n#&gt; TRUE \n#&gt;    0"
+    "objectID": "lectures/15a.html#confidence-interval",
+    "href": "lectures/15a.html#confidence-interval",
+    "title": "Confidence Intervals",
+    "section": "95% Confidence Interval",
+    "text": "95% Confidence Interval"
   },
   {
-    "objectID": "lectures/14a.html#mathematical-model",
-    "href": "lectures/14a.html#mathematical-model",
-    "title": "Inference",
+    "objectID": "lectures/15a.html#confidence-interval-1",
+    "href": "lectures/15a.html#confidence-interval-1",
+    "title": "Confidence Intervals",
+    "section": "95% Confidence Interval",
+    "text": "95% Confidence Interval\n\n\nCode\nb1_boot_1000 %&gt;% confint()\n\n\n#&gt;   name    lower  upper level     method estimate\n#&gt; 1   b1 0.000733 0.0284  0.95 percentile   0.0142"
+  },
+  {
+    "objectID": "lectures/15a.html#mathematical-model",
+    "href": "lectures/15a.html#mathematical-model",
+    "title": "Confidence Intervals",
     "section": "Mathematical Model",
-    "text": "Mathematical Model\n\\[\nTS = \\frac{MSG}{MSE} \\sim F(k-1,n-k-1)\n\\]"
+    "text": "Mathematical Model\n\\[\nT= \\frac{b_1 - \\beta_1}{SE(b_1)} \\sim t(n-1)\n\\]"
   },
   {
-    "objectID": "lectures/14a.html#p-value-2",
-    "href": "lectures/14a.html#p-value-2",
-    "title": "Inference",
-    "section": "P-Value",
-    "text": "P-Value\n\\[\n\\mathrm{p} = Pr(TS \\ge F)\n\\]"
+    "objectID": "lectures/15a.html#confidence-interval-2",
+    "href": "lectures/15a.html#confidence-interval-2",
+    "title": "Confidence Intervals",
+    "section": "Confidence Interval",
+    "text": "Confidence Interval\n\\[\nPr(a&lt;T&lt;b) = 1- \\alpha\n\\]\n\n\\(\\alpha = 0.05\\)"
   },
   {
-    "objectID": "lectures/14a.html#lets-have-r-do-it",
-    "href": "lectures/14a.html#lets-have-r-do-it",
-    "title": "Inference",
-    "section": "Let’s have R do it!",
-    "text": "Let’s have R do it!\n\n\n#&gt;  Analysis of Variance Table (Type III SS)\n#&gt;  Model: body_mass_kg ~ species\n#&gt; \n#&gt;                               SS  df     MS       F   PRE     p\n#&gt;  ----- --------------- | ------- --- ------ ------- ----- -----\n#&gt;  Model (error reduced) | 145.190   2 72.595 341.895 .6745 .0000\n#&gt;  Error (from model)    |  70.069 330  0.212                    \n#&gt;  ----- --------------- | ------- --- ------ ------- ----- -----\n#&gt;  Total (empty model)   | 215.260 332  0.648"
+    "objectID": "lectures/15a.html#confidence-interval-3",
+    "href": "lectures/15a.html#confidence-interval-3",
+    "title": "Confidence Intervals",
+    "section": "Confidence Interval",
+    "text": "Confidence Interval\n\\[\nPr\\left(t_{a/2,n-1} &lt; \\frac{b_1-\\beta_1}{SE(b_1)} &lt; t_{1-a/2,n-1}\\right) = 1 - \\alpha\n\\]"
   },
   {
-    "objectID": "lectures/14a.html#mathematical-compared-to-increasing-simulated-number",
-    "href": "lectures/14a.html#mathematical-compared-to-increasing-simulated-number",
-    "title": "Inference",
-    "section": "Mathematical compared to Increasing Simulated Number",
-    "text": "Mathematical compared to Increasing Simulated Number\n\\[\nP= 0.000\n\\]\n\n\n#&gt; [1] \"Sim: 1000\"\n\n\n#&gt; TRUE \n#&gt;    0"
+    "objectID": "lectures/15a.html#computing-interval",
+    "href": "lectures/15a.html#computing-interval",
+    "title": "Confidence Intervals",
+    "section": "Computing Interval",
+    "text": "Computing Interval\n\\[\nb_1 - t_{a/2,n-1} SE(b_1) &lt; \\beta_1 &lt; b_1 + t_{a/2,n-1} SE(b_1)\n\\]\nOR\n\\[\nb_1 \\pm t_{a/2,n-1} SE(b_1)\n\\]"
   },
   {
-    "objectID": "lectures/14a.html#mathematical-compared-to-increasing-simulated-number-1",
-    "href": "lectures/14a.html#mathematical-compared-to-increasing-simulated-number-1",
-    "title": "Inference",
-    "section": "Mathematical compared to Increasing Simulated Number",
-    "text": "Mathematical compared to Increasing Simulated Number\n\\[\nP= 0.000\n\\]\n\n\n#&gt; [1] \"Sim: 1000\"\n\n\n#&gt; TRUE \n#&gt;    0\n\n\n#&gt; [1] \"Sim: 10000\"\n\n\n#&gt; TRUE \n#&gt;    0\n\n\n#&gt; [1] \"Sim: 100000\"\n\n\n#&gt; TRUE \n#&gt;    0"
+    "objectID": "lectures/15a.html#confidence-interval-4",
+    "href": "lectures/15a.html#confidence-interval-4",
+    "title": "Confidence Intervals",
+    "section": "95% Confidence Interval",
+    "text": "95% Confidence Interval\n\n\nCode\nres %&gt;% confint()\n\n\n#&gt;                2.5 % 97.5 %\n#&gt; (Intercept) 6.384711 7.2012\n#&gt; mage        0.000177 0.0283"
+  },
+  {
+    "objectID": "lectures/15a.html#bootstrap-vs-mathematical-models",
+    "href": "lectures/15a.html#bootstrap-vs-mathematical-models",
+    "title": "Confidence Intervals",
+    "section": "Bootstrap vs Mathematical Models",
+    "text": "Bootstrap vs Mathematical Models\n\n\n#&gt; [1] \"Mathematical Model\"\n\n\n#&gt;    2.5 %   97.5 % \n#&gt; 0.000177 0.028308\n\n\n\n\n#&gt; [1] \"Bootstrap: 1000\"\n\n\n#&gt;      lower  upper\n#&gt; 1 0.000733 0.0284\n\n\n#&gt; [1] \"Bootstrap: 10000\"\n\n\n#&gt;       lower  upper\n#&gt; 1 -4.32e-06 0.0287\n\n\n#&gt; [1] \"Bootstrap: 100000\"\n\n\n#&gt;       lower  upper\n#&gt; 1 -0.000207 0.0286"
   }
 ]
