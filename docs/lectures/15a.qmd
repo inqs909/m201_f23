@@ -45,7 +45,8 @@ editor: visual
 library(coursekata)
 library(openintro)
 res <- lm(weight ~ mage, data = births14)
-set.seed(1234)
+set.seed(1234
+         )
 test <- expression(b1(shuffle(weight) ~ mage, data = births14))
 
 b1_sim_1000 <- tibble(b1 = replicate(1000, eval(test)))
@@ -129,7 +130,7 @@ tally(~ abs(b1) > abs(b1(res)), b1_sim_1000)[1] / 1001
 
 ## What about different values of $\beta$?
 
-## hat if $\beta_1=0.01$?
+## What if $\beta_1=0.01$?
 
 ```{r}
 b1_sim_1000_1 |> ggplot(aes(b1)) + 
