@@ -2454,7 +2454,7 @@
     "href": "lectures/15b.html#computing-the-mean",
     "title": "Confidence Intervals",
     "section": "Computing the mean",
-    "text": "Computing the mean\n\\[\n\\hat Y = 3.71 + 0.03 \\times Chinstrap + 1.39 \\times Gentoo\n\\]\n\nAdelie\nChinstrap\n\n\n\nGentoo"
+    "text": "Computing the mean\n\\[\n\\hat Y = 3.71 + 0.03 \\times Chinstrap + 1.39 \\times Gentoo\n\\]\n\nAdelie\nChinstrap\nGentoo"
   },
   {
     "objectID": "lectures/15b.html#confidence-interval",

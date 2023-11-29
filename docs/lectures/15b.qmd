@@ -96,9 +96,6 @@ $$
 
 -   Chinstrap
 
-```{=html}
-<!-- -->
-```
 -   Gentoo
 
 ## Confidence Interval
@@ -237,4 +234,4 @@ DEC 7th 11:59 PM
 
 ## Complete Survey
 
-![](img/frame (7).png)
+![](img/frame%20(7).png)
