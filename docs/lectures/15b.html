@@ -393,308 +393,8 @@
       margin-right: 0; 
     }
   </style>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/monaco-editor@0.43.0/min/vs/editor/editor.main.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
-  <style>
-    .monaco-editor pre {
-      background-color: unset !important;
-    }
-
-    .qwebr-icon-status-spinner {
-      color: #7894c4;
-    }
-
-    .qwebr-icon-run-code {
-      color: #0d9c29
-    }
-
-    .qwebr-output-code-stdout {
-      color: #111;
-    }
-
-    .qwebr-output-code-stderr {
-      color: #db4133;
-    }
-
-    .qwebr-button-run {
-      background-color: #EEEEEE;
-      border-bottom-left-radius: 0;
-      border-bottom-right-radius: 0; /* Extra styling for consistency */
-      display: inline-block;
-      font-weight: 400;
-      line-height: 1.5;
-      color: #000;
-      text-align: center;
-      text-decoration: none;
-      -webkit-text-decoration: none;
-      -moz-text-decoration: none;
-      -ms-text-decoration: none;
-      -o-text-decoration: none;
-      /* vertical-align: middle; */ /* Prevents a space from appearing between the code cell and button */
-      -webkit-user-select: none;
-      border-color: #dee2e6;
-      border: 1px solid rgba(0,0,0,0);
-      padding: 0.375rem 0.75rem;
-      font-size: 1rem;
-      border-top-right-radius: 0.25rem;
-      border-top-left-radius: 0.25rem;
-      transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    }
-
-    .qwebr-button-run:hover {
-      color: #000;
-      background-color: #e3e6ea;
-      border-color: #e1e5e9;
-    }
-
-    .qwebr-button-run:disabled,.qwebr-button-run.disabled,fieldset:disabled .qwebr-button-run {
-      pointer-events: none;
-      opacity: .65
-    }
-
-    /* Custom styling for RevealJS Presentations*/
-
-    /* Reset the style of the interactive area */
-    .reveal div.qwebr-interactive-area {
-      width: 100%;
-      height: 100%;
-      display: block;
-      box-shadow: none;
-      max-width: 100%;
-      max-height: 100%;
-      margin: 0;
-      padding: 0;
-    } 
-
-    /* Pad the right side by 10 px to avoid rubbing the border */
-    .reveal div.qwebr-output-code-area pre {
-      padding: 0px 0px 0px 10px;
-    }
-
-    /* Collapse the inside code tags to avoid extra space between line outputs */
-    .reveal pre div code.qwebr-output-code-stdout, .reveal pre div code.qwebr-output-code-stderr {
-      padding: 0;
-      display: contents;
-    }
-
-    .reveal pre div code.qwebr-output-code-stdout {
-      color: #111;
-    }
-
-    .reveal pre div code.qwebr-output-code-stderr {
-      color: #db4133;
-    }
-
-
-    /* Create a border around console and output (does not effect graphs) */
-    .reveal div.qwebr-console-area {
-      border: 1px solid #EEEEEE;
-      box-shadow: 2px 2px 10px #EEEEEE;
-    }
-
-    /* Cap output height and allow text to scroll */
-    /* TODO: Is there a better way to fit contents/max it parallel to the monaco editor size? */
-    .reveal div.qwebr-output-code-area pre {
-      max-height: 400px;
-      overflow: scroll;
-    }
-  </style>
-
-  <script type="module">
-
-    // Start a timer
-    const initializeWebRTimerStart = performance.now();
-
-    // Determine if we need to install R packages
-    var installRPackagesList = [''];
-    // Check to see if we have an empty array, if we do set to skip the installation.
-    var setupRPackages = !(installRPackagesList.indexOf("") !== -1);
-    var autoloadRPackages = true;
-
-    // Display a startup message?
-    var showStartupMessage = true;
-    var showHeaderMessage = false;
-    if (showStartupMessage) {
-
-      // Get references to header elements
-      const headerHTML = document.getElementById("title-block-header");
-      const headerRevealJS = document.getElementById("title-slide");
-
-      // Create the outermost div element for metadata
-      const quartoTitleMeta = document.createElement("div");
-      quartoTitleMeta.classList.add("quarto-title-meta");
-
-      // Create the first inner div element
-      const firstInnerDiv = document.createElement("div");
-
-      // Create the second inner div element for "WebR Status" heading and contents
-      const secondInnerDiv = document.createElement("div");
-      secondInnerDiv.classList.add("quarto-title-meta-heading");
-      secondInnerDiv.innerText = "WebR Status";
-
-      // Create another inner div for contents
-      const secondInnerDivContents = document.createElement("div");
-      secondInnerDivContents.classList.add("quarto-title-meta-contents");
-
-      // Describe the WebR state
-      var startupMessageWebR = document.createElement("p");
-      startupMessageWebR.innerText = "🟡 Loading...";
-      startupMessageWebR.setAttribute("id", "startup");
-      // Add `aria-live` to auto-announce the startup status to screen readers
-      startupMessageWebR.setAttribute("aria-live", "assertive");
-
-      // Append the startup message to the contents
-      secondInnerDivContents.appendChild(startupMessageWebR);
-
-      // Add a status indicator for COOP and COEP Headers if needed
-      if (showHeaderMessage) {
-        const crossOriginMessage = document.createElement("p");
-        crossOriginMessage.innerText = `${crossOriginIsolated ? '🟢' : '🟡'} COOP & COEP Headers`;
-        crossOriginMessage.setAttribute("id", "coop-coep-header");
-        secondInnerDivContents.appendChild(crossOriginMessage);
-      }
-
-      // Combine the inner divs and contents
-      firstInnerDiv.appendChild(secondInnerDiv);
-      firstInnerDiv.appendChild(secondInnerDivContents);
-      quartoTitleMeta.appendChild(firstInnerDiv);
-
-      // Determine where to insert the quartoTitleMeta element
-      if (headerHTML) {
-        // Append to the existing "title-block-header" element
-        headerHTML.appendChild(quartoTitleMeta);
-      } else if (headerRevealJS) {
-        // If using RevealJS, add to the "title-slide" div
-        headerRevealJS.appendChild(firstInnerDiv);
-      } else {
-        // If neither headerHTML nor headerRevealJS is found, insert after "webr-monaco-editor-init" script
-        const monacoScript = document.getElementById("webr-monaco-editor-init");
-        const header = document.createElement("header");
-        header.setAttribute("id", "title-block-header");
-        header.appendChild(quartoTitleMeta);
-        monacoScript.after(header);
-      }
-    }
-
-    // Retrieve the webr.mjs
-    import { WebR, ChannelType } from "https://webr.r-wasm.org/v0.2.2/webr.mjs";
-
-    // Populate WebR options with defaults or new values based on 
-    // webr meta
-    globalThis.webR = new WebR({
-      "baseURL": "https://webr.r-wasm.org/v0.2.2/",
-      "serviceWorkerUrl": "",
-      "homedir": "/home/web_user", 
-      "channelType": ChannelType.Automatic
-    });
-
-    // Initialization WebR
-    await globalThis.webR.init();
-
-    // Setup a shelter
-    globalThis.webRCodeShelter = await new globalThis.webR.Shelter();
-
-    // Setup a pager to allow processing help documentation 
-    await globalThis.webR.evalRVoid('webr::pager_install()'); 
-
-    // Function to set the button text
-    function qwebrSetInteractiveButtonState(buttonText, enableCodeButton = true) {
-      document.querySelectorAll(".qwebr-button-run").forEach((btn) => {
-        btn.innerHTML = buttonText;
-        btn.disabled = !enableCodeButton;
-      });
-    }
-
-    // Function to update the status message
-    function qwebrUpdateStatusHeader(message) {
-      startupMessageWebR.innerHTML = `
-        <i class="fa-solid fa-spinner fa-spin qwebr-icon-status-spinner"></i>
-        <span>${message}</span>`;
-    }
-
-    // Function to install a single package
-    async function qwebrInstallRPackage(packageName) {
-      await globalThis.webR.installPackages([packageName]);
-    }
-
-    // Function to load a single package
-    async function qwebrLoadRPackage(packageName) {
-      await globalThis.webR.evalRVoid(`library(${packageName});`);
-    }
-
-    // Generic function to process R packages
-    async function qwebrProcessRPackagesWithStatus(packages, processType, displayStatusMessageUpdate = true) {
-      // Switch between contexts
-      const messagePrefix = processType === 'install' ? 'Installing' : 'Loading';
-
-      // Modify button state
-      qwebrSetInteractiveButtonState(`🟡 ${messagePrefix} package ...`, false);
-
-      // Iterate over packages
-      for (let i = 0; i < packages.length; i++) {
-        const activePackage = packages[i];
-        const formattedMessage = `${messagePrefix} package ${i + 1} out of ${packages.length}: ${activePackage}`;
-        
-        // Display the update
-        if (displayStatusMessageUpdate) {
-          qwebrUpdateStatusHeader(formattedMessage);
-        }
-
-        // Run package installation
-        if (processType === 'install') {
-          await qwebrInstallRPackage(activePackage);
-        } else {
-          await qwebrLoadRPackage(activePackage);
-        }
-      }
-
-      // Clean slate
-      if (processType === 'load') {
-        await globalThis.webR.flush();
-      }
-    }
-
-
-    // Check to see if any packages need to be installed
-    if (setupRPackages) {
-      // Obtain only a unique list of packages
-      const uniqueRPackageList = Array.from(new Set(installRPackagesList));
-
-      // Install R packages one at a time (either silently or with a status update)
-      await qwebrProcessRPackagesWithStatus(uniqueRPackageList, 'install', showStartupMessage);
-
-      if(autoloadRPackages) {
-        // Load R packages one at a time (either silently or with a status update)
-        await qwebrProcessRPackagesWithStatus(uniqueRPackageList, 'load', showStartupMessage);
-      }
-    }
-
-    // Stop timer
-    const initializeWebRTimerEnd = performance.now();
-
-    // Release document status as ready
-    if (showStartupMessage) {
-      startupMessageWebR.innerText = "🟢 Ready!"
-    }
-    
-    qwebrSetInteractiveButtonState(
-      `<i class="fa-solid fa-play qwebr-icon-run-code"></i> <span>Run Code</span>`, 
-      true
-    );
-
-  </script>
 </head>
 <body class="quarto-light">
-<script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.43.0/min/vs/loader.js"></script>
-<script type="module" id="webr-monaco-editor-init">
-
-  // Configure the Monaco Editor's loader
-  require.config({
-    paths: {
-      'vs': 'https://cdn.jsdelivr.net/npm/monaco-editor@0.43.0/min/vs'
-    }
-  });
-</script>
   <div class="reveal">
     <div class="slides">
 
@@ -706,21 +406,24 @@
 
 </section>
 <section>
-<section id="inference" class="title-slide slide level1 agenda-slide center">
-<h1>Inference</h1>
+<section id="confidence-intervals" class="title-slide slide level1 agenda-slide center">
+<h1>Confidence Intervals</h1>
 <div class="agenda-heading">
 <p>Learning Outcomes</p>
 </div>
 <div class="agenda">
 <ol>
 <li><div class="agenda-active">
-<p>Inference</p>
+<p>Confidence Intervals</p>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active">
-<p>P-Value</p>
+<p>Semester</p>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active">
-<p>Compute Mathematically</p>
+<p>Course Evaluations</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Complete Survey</p>
 </div></li>
 </ol>
 </div>
@@ -728,13 +431,13 @@
 <section id="motivating-example" class="slide level2">
 <h2>Motivating Example</h2>
 
-<img data-src="15b_files/figure-revealjs/unnamed-chunk-3-1.png" width="960" class="r-stretch"></section>
-<section id="adding-a-box-plot" class="slide level2">
-<h2>Adding a Box Plot</h2>
+<img data-src="15b_files/figure-revealjs/unnamed-chunk-2-1.png" width="960" class="r-stretch"></section>
+<section id="motivating-example-1" class="slide level2">
+<h2>Motivating Example</h2>
 
-<img data-src="15b_files/figure-revealjs/unnamed-chunk-4-1.png" width="960" class="r-stretch"></section>
-<section id="linear-model" class="slide level2">
-<h2>Linear Model</h2>
+<img data-src="15b_files/figure-revealjs/unnamed-chunk-3-1.png" width="960" class="r-stretch"></section>
+<section id="linear-models" class="slide level2">
+<h2>Linear Models</h2>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -752,569 +455,259 @@
 </div>
 </div>
 </section>
-<section id="are-the-means-from-each-species-different-or-is-it-due-to-random-chance" class="slide level2">
-<h2>Are the Means from each species different? Or is it due to random chance?</h2>
+<section id="computing-the-mean" class="slide level2">
+<h2>Computing the mean</h2>
+<p><span class="math display">\[
+\hat Y = 3.71 + 0.03 \times Chinstrap + 1.39 \times Gentoo
+\]</span></p>
+<ul>
+<li><p>Adelie</p></li>
+<li><p>Chinstrap</p></li>
+</ul>
+<!-- -->
+<ul>
+<li>Gentoo</li>
+</ul>
 </section>
-<section id="inference-1" class="slide level2">
-<h2>Inference</h2>
-<p>The process to determine if an estimate of a parameter is valuable or just due to random chance.</p>
+<section id="confidence-interval" class="slide level2">
+<h2>Confidence Interval</h2>
+<p>These are a collection of <span class="math inline">\(\beta_1\)</span> values that will fail to reject the Null Hypothesis.</p>
+<div class="fragment">
+<p>The <span class="math inline">\(\beta_1\)</span> values that are not different from our current estimate <span class="math inline">\(b_1\)</span></p>
+</div>
 </section>
-<section id="randomness-of-data" class="slide level2">
-<h2>Randomness of Data</h2>
+<section id="confidence-interval-1" class="slide level2">
+<h2>Confidence Interval</h2>
+<p>These are a collection of specific parameters that will fail to reject the null hypothesis.</p>
+<ul>
+<li><p>Adelie: <span class="math inline">\(\mu_a\)</span></p></li>
+<li><p>Chinstrap: <span class="math inline">\(\mu_c\)</span></p></li>
+<li><p>Gentoo: <span class="math inline">\(\mu_g\)</span></p></li>
+</ul>
+</section>
+<section id="looking-at-adelie" class="slide level2">
+<h2>Looking at Adelie</h2>
+
+<img data-src="15b_files/figure-revealjs/unnamed-chunk-5-1.png" width="960" class="r-stretch"></section>
+<section id="boostrap-ci" class="slide level2">
+<h2>Boostrap CI</h2>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a>penguins <span class="sc">%&gt;%</span> <span class="fu">gf_jitter</span>(<span class="fu">shuffle</span>(body_mass_kg) <span class="sc">~</span> species) <span class="sc">%&gt;%</span></span>
-<span id="cb3-2"><a href="#cb3-2"></a>  <span class="fu">gf_theme</span>(<span class="fu">theme_bw</span>()) <span class="sc">%&gt;%</span></span>
-<span id="cb3-3"><a href="#cb3-3"></a>  <span class="fu">gf_labs</span>(<span class="at">x =</span> <span class="st">"Quarter Mile Time"</span>, <span class="at">y =</span> <span class="st">"MPG"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb3-4"><a href="#cb3-4"></a>  <span class="fu">gf_theme</span>(<span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">24</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a>extract_mean <span class="ot">&lt;-</span> <span class="cf">function</span>(x){</span>
+<span id="cb3-2"><a href="#cb3-2"></a>means <span class="ot">&lt;-</span> <span class="fu">favstats</span>(body_mass_kg <span class="sc">~</span> species, <span class="at">data =</span> penguins) <span class="sc">%&gt;%</span> </span>
+<span id="cb3-3"><a href="#cb3-3"></a>  <span class="fu">select</span>(species, mean) <span class="sc">%&gt;%</span></span>
+<span id="cb3-4"><a href="#cb3-4"></a>  <span class="fu">t</span>() <span class="sc">%&gt;%</span> .[<span class="dv">2</span>,] <span class="sc">|&gt;</span> <span class="fu">as.numeric</span>() </span>
+<span id="cb3-5"><a href="#cb3-5"></a><span class="fu">return</span>(<span class="fu">tibble</span>(<span class="at">adelie =</span> means[<span class="dv">1</span>], </span>
+<span id="cb3-6"><a href="#cb3-6"></a>                <span class="at">chinstrap =</span> means[<span class="dv">2</span>], </span>
+<span id="cb3-7"><a href="#cb3-7"></a>                <span class="at">gentoo =</span> means[<span class="dv">3</span>]))</span>
+<span id="cb3-8"><a href="#cb3-8"></a>}</span>
+<span id="cb3-9"><a href="#cb3-9"></a>boot_means <span class="ot">&lt;-</span> <span class="fu">do</span>(<span class="dv">1000</span>) <span class="sc">*</span> <span class="fu">extract_mean</span>(<span class="fu">resample</span>(penguins))</span>
+<span id="cb3-10"><a href="#cb3-10"></a><span class="fu">print</span>(<span class="st">"Adelie"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
-
-</div>
-<img data-src="15b_files/figure-revealjs/unnamed-chunk-6-1.png" width="960" class="r-stretch"></section>
-<section id="empirical-vs-shuffled" class="slide level2">
-<h2>Empirical vs Shuffled</h2>
-<div id="qwebr-interactive-area-1" class="qwebr-interactive-area">
-  <button class="btn btn-default qwebr-button-run" disabled="" type="button" id="qwebr-button-run-1">🟡 Loading
-    webR...</button>
-  <div id="qwebr-console-area-1" class="qwebr-console-area">
-    <div id="qwebr-editor-1" class="qwebr-editor"></div>
-    <div id="qwebr-output-code-area-1" class="qwebr-output-code-area" aria-live="assertive">
-      <pre style="visibility: hidden"></pre>
-    </div>
-  </div>
-  <div id="qwebr-output-graph-area-1" class="qwebr-output-graph-area">
-  </div>
-</div>
-<script type="module">
-  // Retrieve webR code cell information
-  const runButton = document.getElementById("qwebr-button-run-1");
-  const outputCodeDiv = document.getElementById("qwebr-output-code-area-1");
-  const editorDiv = document.getElementById("qwebr-editor-1");
-  const outputGraphDiv = document.getElementById("qwebr-output-graph-area-1");
-
-  // Add a light grey outline around the code editor
-  editorDiv.style.border = "1px solid #eee";
-
-  // Load the Monaco Editor and create an instance
-  let editor;
-  require(['vs/editor/editor.main'], function () {
-    editor = monaco.editor.create(editorDiv, {
-      value: `shuffle <- function(x){n <- length(x); return(sample(x, n))}
-penguins |> ggplot(aes(x = species, y = body_mass_g)) +
-  theme_bw() +labs(x = "Species", y = "Body Mass") + theme(axis.text = element_text(size = 18)) +
-  geom_jitter()`,
-      language: 'r',
-      theme: 'vs-light',
-      automaticLayout: true,           // TODO: Could be problematic for slide decks
-      scrollBeyondLastLine: false,
-      minimap: {
-        enabled: false
-      },
-      fontSize: '17.5pt',               // Bootstrap is 1 rem
-      renderLineHighlight: "none",     // Disable current line highlighting
-      hideCursorInOverviewRuler: true  // Remove cursor indictor in right hand side scroll bar
-    });
-
-    // Dynamically modify the height of the editor window if new lines are added.
-    let ignoreEvent = false;
-    const updateHeight = () => {
-      const contentHeight = editor.getContentHeight();
-      // We're avoiding a width change
-      //editorDiv.style.width = `${width}px`;
-      editorDiv.style.height = `${contentHeight}px`;
-      try {
-        ignoreEvent = true;
-
-        // The key to resizing is this call
-        editor.layout();
-      } finally {
-        ignoreEvent = false;
-      }
-    };
-
-    // Helper function to check if selected text is empty
-    function isEmptyCodeText(selectedCodeText) {
-      return (selectedCodeText === null || selectedCodeText === undefined || selectedCodeText === "");
-    }
-
-    // Registry of keyboard shortcuts that should be re-added to each editor window
-    // when focus changes.
-    const addWebRKeyboardShortCutCommands = () => {
-      // Add a keydown event listener for Shift+Enter to run all code in cell
-      editor.addCommand(monaco.KeyMod.Shift | monaco.KeyCode.Enter, () => {
-
-        // Retrieve all text inside the editor
-        executeCode(editor.getValue());
-      });
-
-      // Add a keydown event listener for CMD/Ctrl+Enter to run selected code
-      editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyCode.Enter, () => {
-
-        // Get the selected text from the editor
-        const selectedText = editor.getModel().getValueInRange(editor.getSelection());
-        // Check if no code is selected
-        if (isEmptyCodeText(selectedText)) {
-          // Obtain the current cursor position
-          let currentPosition = editor.getPosition();
-          // Retrieve the current line content
-          let currentLine = editor.getModel().getLineContent(currentPosition.lineNumber);
-
-          // Propose a new position to move the cursor to
-          let newPosition = new monaco.Position(currentPosition.lineNumber + 1, 1);
-
-          // Check if the new position is beyond the last line of the editor
-          if (newPosition.lineNumber > editor.getModel().getLineCount()) {
-            // Add a new line at the end of the editor
-            editor.executeEdits("addNewLine", [{
-            range: new monaco.Range(newPosition.lineNumber, 1, newPosition.lineNumber, 1),
-            text: "\n", 
-            forceMoveMarkers: true,
-            }]);
-          }
-          
-          // Run the entire line of code.
-          executeCode(currentLine);
-
-          // Move cursor to new position
-          editor.setPosition(newPosition);
-        } else {
-          // Code to run when Ctrl+Enter is pressed with selected code
-          executeCode(selectedText);
-        }
-      });
-    }
-
-    // Register an on focus event handler for when a code cell is selected to update
-    // what keyboard shortcut commands should work.
-    // This is a workaround to fix a regression that happened with multiple
-    // editor windows since Monaco 0.32.0 
-    // https://github.com/microsoft/monaco-editor/issues/2947
-    editor.onDidFocusEditorText(addWebRKeyboardShortCutCommands);
-
-    // Register an on change event for when new code is added to the editor window
-    editor.onDidContentSizeChange(updateHeight);
-
-    // Manually re-update height to account for the content we inserted into the call
-    updateHeight();
-  });
-
-  // Function to execute the code (accepts code as an argument)
-  async function executeCode(codeToRun) {
-
-    // Disallowing execution of other code cells
-    document.querySelectorAll(".qwebr-button-run").forEach((btn) => {
-      btn.disabled = true;
-    });
-
-    // Emphasize the active code cell
-    runButton.innerHTML = '<i class="fa-solid fa-spinner fa-spin qwebr-icon-status-spinner"></i> <span>Run Code</span>';
-
-    // Create a canvas variable for graphics
-    let canvas = undefined;
-
-    // Create a pager variable for help/file contents
-    let pager = [];
-
-    // Process 
-    async function parseTypePager(msg) { 
-
-        // Split out the event data
-        const { path, title, deleteFile } = msg.data; 
-
-        // Process the pager data by reading the information from disk
-        const paged_data = await webR.FS.readFile(path).then((data) => {
-          // Obtain the file content
-          let content = new TextDecoder().decode(data);
-
-          // Remove excessive backspace characters until none remain
-          while(content.match(/.[\b]/)){
-            content = content.replace(/.[\b]/g, '');
-          }
-
-          // Returned cleaned data
-          return content;
-        });
-
-        // Unlink file if needed
-        if (deleteFile) { 
-          await webR.FS.unlink(path); 
-        } 
-
-        // Return extracted data with spaces
-        return paged_data;
-    } 
-
-    // Initialize webR
-    await webR.init();
-
-    // Setup a webR canvas by making a namespace call into the {webr} package
-    await webR.evalRVoid("webr::canvas(width=504, height=360)");
-
-    // Capture output data from evaluating the code
-    const result = await webRCodeShelter.captureR(codeToRun, {
-      withAutoprint: true,
-      captureStreams: true,
-      captureConditions: false//,
-      // env: webR.objs.emptyEnv, // maintain a global environment for webR v0.2.0
-    });
-
-    // Start attempting to parse the result data
-    try {
-
-      // Stop creating images
-      await webR.evalRVoid("dev.off()");
-
-      // Merge output streams of STDOUT and STDErr (messages and errors are combined.)
-      const out = result.output
-        .filter(evt => evt.type === "stdout" || evt.type === "stderr")
-        .map((evt, index) => {
-          const className = `qwebr-output-code-${evt.type}`;
-          return `<code id="${className}-editor-1-result-${index + 1}" class="${className}">${evt.data}</code>`;
-        })
-        .join("\n");
-
-
-      // Clean the state
-      const msgs = await webR.flush();
-
-      // Output each image event stored
-      msgs.forEach((msg) => {
-        // Determine if old canvas can be used or a new canvas is required.
-        if (msg.type === 'canvas'){
-          // Add image to the current canvas
-          if (msg.data.event === 'canvasImage') {
-            canvas.getContext('2d').drawImage(msg.data.image, 0, 0);
-          } else if (msg.data.event === 'canvasNewPage') {
-            // Generate a new canvas element
-            canvas = document.createElement("canvas");
-            canvas.setAttribute("width", 2 * 504);
-            canvas.setAttribute("height", 2 * 360);
-            canvas.style.width = "700px";
-            canvas.style.display = "block";
-            canvas.style.margin = "auto";
-          }
-        } 
-      });
-
-      // Use `map` to process the filtered "pager" events asynchronously
-      const pager = await Promise.all(
-        msgs.filter(msg => msg.type === 'pager').map(
-          async (msg) => {
-            return await parseTypePager(msg);
-          }
-        )
-      );
-
-      // Nullify the output area of content
-      outputCodeDiv.innerHTML = "";
-      outputGraphDiv.innerHTML = "";
-
-      // Design an output object for messages
-      const pre = document.createElement("pre");
-      if (/\S/.test(out)) {
-        // Display results as HTML elements to retain output styling
-        const div = document.createElement("div");
-        div.innerHTML = out;
-        pre.appendChild(div);
-      } else {
-        // If nothing is present, hide the element.
-        pre.style.visibility = "hidden";
-      }
-      outputCodeDiv.appendChild(pre);
-
-      // Place the graphics on the canvas
-      if (canvas) {
-        outputGraphDiv.appendChild(canvas);
-      }
-
-      // Display the pager data
-      if (pager) {
-        // Use the `pre` element to preserve whitespace.
-        pager.forEach((paged_data, index) => {
-          let pre_pager = document.createElement("pre");
-          pre_pager.innerText = paged_data;
-          pre_pager.classList.add("qwebr-output-code-pager");
-          pre_pager.setAttribute("id", "qwebr-output-code-pager-editor-1-result-" + (index + 1));
-          outputCodeDiv.appendChild(pre_pager);
-        });
-      }
-    } finally {
-      // Clean up the remaining code
-      webRCodeShelter.purge();
-    }
-
-    // Switch to allowing execution of code
-    document.querySelectorAll(".qwebr-button-run").forEach((btn) => {
-      btn.disabled = false;
-    });
-
-    // Revert to the initial code cell state
-    runButton.innerHTML = '<i class="fa-solid fa-play qwebr-icon-run-code"></i> <span>Run Code</span>';
-  }
-
-  // Add a click event listener to the run button
-  runButton.onclick = function () {
-    executeCode(editor.getValue());
-  };
-</script>
-</section>
-<section id="obtaining-f" class="slide level2">
-<h2>Obtaining F</h2>
-<div class="cell">
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; [1] 1.056393</code></pre>
+<pre><code>#&gt; [1] "Adelie"</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="fu">quantile</span>(boot_means<span class="sc">$</span>adelie, <span class="at">probs =</span> <span class="fu">c</span>(.<span class="dv">025</span>, .<span class="dv">975</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; [1] 0.1064417</code></pre>
+<pre><code>#&gt;     2.5%    97.5% 
+#&gt; 3.706164 3.706164</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a><span class="fu">print</span>(<span class="st">"Chinstrap"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; [1] 0.5255795</code></pre>
+<pre><code>#&gt; [1] "Chinstrap"</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1"></a><span class="fu">quantile</span>(boot_means<span class="sc">$</span>chinstrap, <span class="at">probs =</span> <span class="fu">c</span>(.<span class="dv">025</span>, .<span class="dv">975</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; [1] 0.06424396</code></pre>
+<pre><code>#&gt;     2.5%    97.5% 
+#&gt; 3.733088 3.733088</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1"></a><span class="fu">print</span>(<span class="st">"Gentoo"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; [1] 7.001953</code></pre>
+<pre><code>#&gt; [1] "Gentoo"</code></pre>
 </div>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1"></a><span class="fu">quantile</span>(boot_means<span class="sc">$</span>gentoo, <span class="at">probs =</span> <span class="fu">c</span>(.<span class="dv">025</span>, .<span class="dv">975</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
-<pre><code>#&gt; [1] 2.312397</code></pre>
+<pre><code>#&gt;     2.5%    97.5% 
+#&gt; 5.092437 5.092437</code></pre>
 </div>
 </div>
 </section>
-<section id="obtaining-pre" class="slide level2">
-<h2>Obtaining PRE</h2>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>#&gt; [1] 0.06234033</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>#&gt; [1] 0.03202886</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>#&gt; [1] 0.003798468</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>#&gt; [1] 0.01237855</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>#&gt; [1] 0.06997496</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>#&gt; [1] 0.0418293</code></pre>
-</div>
-</div>
-</section>
-<section id="repeat-it-1000" class="slide level2">
-<h2>Repeat it 1000</h2>
+<section id="mathematical-models" class="slide level2">
+<h2>Mathematical Models</h2>
+<p>Use the <code>pairwise()</code> to compute confidence intervals.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1"></a>f_sim <span class="ot">&lt;-</span> <span class="fu">do</span>(<span class="dv">1000</span>) <span class="sc">*</span> <span class="fu">f</span>(<span class="fu">shuffle</span>(mpg) <span class="sc">~</span> qsec, </span>
-<span id="cb16-2"><a href="#cb16-2"></a>                         <span class="at">data =</span> mtcars)</span>
-<span id="cb16-3"><a href="#cb16-3"></a>pre_sim <span class="ot">&lt;-</span> <span class="fu">do</span>(<span class="dv">1000</span>) <span class="sc">*</span> <span class="fu">pre</span>(<span class="fu">shuffle</span>(mpg) <span class="sc">~</span> qsec, </span>
-<span id="cb16-4"><a href="#cb16-4"></a>                         <span class="at">data =</span> mtcars)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1"></a>res <span class="sc">%&gt;%</span> <span class="fu">pairwise</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
+<div class="cell-output cell-output-stdout">
+<pre><code>#&gt; 
+#&gt; 
+#&gt;   group_1   group_2    diff pooled_se      q    df  lower upper p_adj
+#&gt;   &lt;chr&gt;     &lt;chr&gt;     &lt;dbl&gt;     &lt;dbl&gt;  &lt;dbl&gt; &lt;int&gt;  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+#&gt; 1 Chinstrap Adelie    0.027     0.048  0.563   330 -0.132 0.186 .9164
+#&gt; 2 Gentoo    Adelie    1.386     0.040 34.450   330  1.252 1.520 .0000
+#&gt; 3 Gentoo    Chinstrap 1.359     0.050 27.444   330  1.194 1.524 .0000</code></pre>
+</div>
 </div>
 </section>
-<section id="distribution-of-pre" class="slide level2">
-<h2>Distribution of PRE</h2>
-<p>The distribution of <span class="math inline">\(PRE\)</span> shows all the possible values that <span class="math inline">\(PRE\)</span> can take with their respective probabilities.</p>
-</section>
-<section id="distribution-of-pre-1" class="slide level2">
-<h2>Distribution of PRE</h2>
+<section id="plots" class="slide level2">
+<h2>Plots</h2>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1"></a><span class="fu">gf_histogram</span>(<span class="sc">~</span>pre, <span class="at">data =</span> pre_sim)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1"></a>res <span class="sc">%&gt;%</span> <span class="fu">pairwise</span>(<span class="at">plot =</span> T)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 
+<div class="cell-output cell-output-stdout">
+<pre><code>#&gt; 
+#&gt; 
+#&gt;   group_1   group_2    diff pooled_se      q    df  lower upper p_adj
+#&gt;   &lt;chr&gt;     &lt;chr&gt;     &lt;dbl&gt;     &lt;dbl&gt;  &lt;dbl&gt; &lt;int&gt;  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+#&gt; 1 Chinstrap Adelie    0.027     0.048  0.563   330 -0.132 0.186 .9164
+#&gt; 2 Gentoo    Adelie    1.386     0.040 34.450   330  1.252 1.520 .0000
+#&gt; 3 Gentoo    Chinstrap 1.359     0.050 27.444   330  1.194 1.524 .0000</code></pre>
 </div>
-<img data-src="15b_files/figure-revealjs/unnamed-chunk-10-1.png" width="960" class="r-stretch"></section>
-<section id="distribution-of-f" class="slide level2">
-<h2>Distribution of <span class="math inline">\(F\)</span></h2>
-<p>The distribution of <span class="math inline">\(F\)</span> shows all the possible values that <span class="math inline">\(F\)</span> can take with their respective probabilities.</p>
-</section>
-<section id="distribution-of-f-1" class="slide level2">
-<h2>Distribution of <span class="math inline">\(F\)</span></h2>
-<div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1"></a><span class="fu">gf_histogram</span>(<span class="sc">~</span>f, <span class="at">data =</span> f_sim)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-
 </div>
-<img data-src="15b_files/figure-revealjs/unnamed-chunk-11-1.png" width="960" class="r-stretch"></section>
-<section id="portioning-the-upper-5-the-distribution" class="slide level2">
-<h2>Portioning the upper 5% the Distribution</h2>
-<div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1"></a><span class="fu">gf_histogram</span>(<span class="sc">~</span>f, <span class="at">data =</span> f_sim, <span class="at">fill =</span> <span class="sc">~</span><span class="fu">upper</span>(f, .<span class="dv">05</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-
-</div>
-<img data-src="15b_files/figure-revealjs/unnamed-chunk-12-1.png" width="960" class="r-stretch"></section>
-<section id="where-is-our-observed-value" class="slide level2">
-<h2>Where is our observed value?</h2>
-<div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1"></a><span class="fu">gf_histogram</span>(<span class="sc">~</span>f, <span class="at">data =</span> f_sim, <span class="at">fill =</span> <span class="sc">~</span><span class="fu">upper</span>(f, .<span class="dv">05</span>)) <span class="sc">%&gt;%</span></span>
-<span id="cb20-2"><a href="#cb20-2"></a>  <span class="fu">gf_vline</span>(<span class="at">xintercept =</span> <span class="fu">f</span>(res))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-
-</div>
-<img data-src="15b_files/figure-revealjs/unnamed-chunk-13-1.png" width="960" class="r-stretch"></section></section>
+<img data-src="15b_files/figure-revealjs/unnamed-chunk-8-1.png" width="960" class="r-stretch"></section></section>
 <section>
-<section id="p-value" class="title-slide slide level1 agenda-slide center">
-<h1>P-Value</h1>
+<section id="semester" class="title-slide slide level1 agenda-slide center">
+<h1>Semester</h1>
 <div class="agenda-heading">
 <p>Learning Outcomes</p>
 </div>
 <div class="agenda">
 <ol>
 <li><div class="agenda-inactive agenda-pre-active">
-<p>Inference</p>
+<p>Confidence Intervals</p>
 </div></li>
 <li><div class="agenda-active">
-<p>P-Value</p>
+<p>Semester</p>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active">
-<p>Compute Mathematically</p>
+<p>Course Evaluations</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Complete Survey</p>
 </div></li>
 </ol>
 </div>
 </section>
-<section id="p-value-1" class="slide level2">
-<h2>P-Value</h2>
-<p>The p-value tells you what is the probability of observing your <span class="math inline">\(F\)</span> or something more extreme.</p>
+<section id="final" class="slide level2">
+<h2>Final</h2>
+<ul>
+<li><p>Max of 30 Questions</p></li>
+<li><p>Mixed of Multiple Choice, True or False, and Free Response</p></li>
+<li><p>Get 1 sheet of notes, front and back</p></li>
+<li><p>In-person</p></li>
+<li><p>You are not allowed to talk to anyone during the exam</p></li>
+<li><p>You can use an inexpensive calculator, bring one</p></li>
+<li><p>All other electronic devices must be silenced an put away</p></li>
+<li><p>The exam is worth 100 points</p></li>
+<li><p>Write any explanations in the context of the problem</p></li>
+</ul>
 </section>
-<section id="visually" class="slide level2">
-<h2>Visually</h2>
-<div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1"></a><span class="fu">gf_histogram</span>(<span class="sc">~</span>f, <span class="at">data =</span> f_sim, <span class="at">fill =</span> <span class="sc">~</span> f <span class="sc">&gt;</span> <span class="fu">f</span>(res)) <span class="sc">%&gt;%</span></span>
-<span id="cb21-2"><a href="#cb21-2"></a>  <span class="fu">gf_vline</span>(<span class="at">xintercept =</span> <span class="fu">f</span>(res))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-
-</div>
-<img data-src="15b_files/figure-revealjs/unnamed-chunk-14-1.png" width="960" class="r-stretch"></section>
-<section id="computing-the-p-value" class="slide level2">
-<h2>Computing the p-value</h2>
-<p>We will count how many simulated <span class="math inline">\(F\)</span>’s are more extreme and divided by the number of simulations plus one.</p>
+<section id="final-material" class="slide level2">
+<h2>Final Material</h2>
+<ul>
+<li><p>Linear Models</p></li>
+<li><p>Inference</p></li>
+<li><p>Confidence Intervals</p></li>
+</ul>
 </section>
-<section id="counting-how-many-fs-are-more-extreme" class="slide level2">
-<h2>Counting how many F’s are more extreme</h2>
-<div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1"></a><span class="fu">tally</span>(<span class="sc">~</span> f <span class="sc">&gt;</span> <span class="fu">f</span>(res), <span class="at">data =</span> f_sim)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-stdout">
-<pre><code>#&gt; f &gt; f(res)
-#&gt;  TRUE FALSE 
-#&gt;     0  1000</code></pre>
-</div>
-</div>
+<section id="mw-10-am-class-final" class="slide level2">
+<h2>MW 10 AM Class Final</h2>
+<p>Wednesday December 6</p>
+<p>8 AM - 10 AM</p>
 </section>
-<section id="computing-the-p-value-1" class="slide level2">
-<h2>Computing the p-value</h2>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>#&gt; TRUE 
-#&gt;    0</code></pre>
-</div>
-</div>
+<section id="mw-2-pm-class-final" class="slide level2">
+<h2>MW 2 PM Class Final</h2>
+<p>Wednesday December 6</p>
+<p>1 PM - 3 PM</p>
+</section>
+<section id="when-are-labs-due" class="slide level2">
+<h2>When are Labs DUE</h2>
+<p>DEC 7th 11:59 PM</p>
+</section>
+<section id="when-are-readings-due" class="slide level2">
+<h2>When are Readings DUE</h2>
+<p>DEC 7th 11:59 PM</p>
+</section>
+<section id="when-are-extra-credits-due" class="slide level2">
+<h2>When are Extra Credits DUE</h2>
+<p>DEC 7th 11:59 PM</p>
 </section></section>
 <section>
-<section id="compute-mathematically" class="title-slide slide level1 agenda-slide center">
-<h1>Compute Mathematically</h1>
+<section id="course-evaluations" class="title-slide slide level1 agenda-slide center">
+<h1>Course Evaluations</h1>
 <div class="agenda-heading">
 <p>Learning Outcomes</p>
 </div>
 <div class="agenda">
 <ol>
 <li><div class="agenda-inactive agenda-pre-active">
-<p>Inference</p>
+<p>Confidence Intervals</p>
 </div></li>
 <li><div class="agenda-inactive agenda-pre-active">
-<p>P-Value</p>
+<p>Semester</p>
 </div></li>
 <li><div class="agenda-active">
-<p>Compute Mathematically</p>
+<p>Course Evaluations</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Complete Survey</p>
 </div></li>
 </ol>
 </div>
 </section>
-<section id="mathematical-model" class="slide level2">
-<h2>Mathematical Model</h2>
-<p><span class="math display">\[
-TS = \frac{MSG}{MSE} \sim F(k-1,n-k-1)
-\]</span></p>
-</section>
-<section id="p-value-2" class="slide level2">
-<h2>P-Value</h2>
-<p><span class="math display">\[
-\mathrm{p} = Pr(TS \ge F)
-\]</span></p>
-</section>
-<section id="lets-have-r-do-it" class="slide level2">
-<h2>Let’s have R do it!</h2>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>#&gt;  Analysis of Variance Table (Type III SS)
-#&gt;  Model: body_mass_kg ~ species
-#&gt; 
-#&gt;                               SS  df     MS       F   PRE     p
-#&gt;  ----- --------------- | ------- --- ------ ------- ----- -----
-#&gt;  Model (error reduced) | 145.190   2 72.595 341.895 .6745 .0000
-#&gt;  Error (from model)    |  70.069 330  0.212                    
-#&gt;  ----- --------------- | ------- --- ------ ------- ----- -----
-#&gt;  Total (empty model)   | 215.260 332  0.648</code></pre>
+<section id="please-complete-course-evaluations" class="slide level2">
+<h2>Please Complete Course Evaluations</h2>
+<ul>
+<li>Complete them for all your courses</li>
+</ul>
+</section></section>
+<section>
+<section id="complete-survey" class="title-slide slide level1 agenda-slide center">
+<h1>Complete Survey</h1>
+<div class="agenda-heading">
+<p>Learning Outcomes</p>
 </div>
-</div>
-</section>
-<section id="mathematical-compared-to-increasing-simulated-number" class="slide level2">
-<h2>Mathematical compared to Increasing Simulated Number</h2>
-<p><span class="math display">\[
-P= 0.000
-\]</span></p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>#&gt; [1] "Sim: 1000"</code></pre>
-</div>
-<div class="cell-output cell-output-error">
-<pre><code>#&gt; Error in eval(expr, envir, enclos): object 'f_sim_1000' not found</code></pre>
-</div>
+<div class="agenda">
+<ol>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Confidence Intervals</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Semester</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Course Evaluations</p>
+</div></li>
+<li><div class="agenda-active">
+<p>Complete Survey</p>
+</div></li>
+</ol>
 </div>
 </section>
-<section id="mathematical-compared-to-increasing-simulated-number-1" class="slide level2">
-<h2>Mathematical compared to Increasing Simulated Number</h2>
-<p><span class="math display">\[
-P= 0.000
-\]</span></p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>#&gt; [1] "Sim: 1000"</code></pre>
-</div>
-<div class="cell-output cell-output-error">
-<pre><code>#&gt; Error in eval(expr, envir, enclos): object 'f_sim_1000' not found</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>#&gt; [1] "Sim: 10000"</code></pre>
-</div>
-<div class="cell-output cell-output-error">
-<pre><code>#&gt; Error in eval(expr, envir, enclos): object 'f_sim_10000' not found</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code>#&gt; [1] "Sim: 100000"</code></pre>
-</div>
-<div class="cell-output cell-output-error">
-<pre><code>#&gt; Error in eval(expr, envir, enclos): object 'f_sim_100000' not found</code></pre>
-</div>
-</div>
+<section id="complete-survey-1" class="slide level2">
+<h2>Complete Survey</h2>
+<p><img data-src="img/frame (7).png"></p>
 
 <div class="footer footer-default">
 

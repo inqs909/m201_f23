@@ -2436,179 +2436,130 @@
     "text": "Motivating Example"
   },
   {
-    "objectID": "lectures/15b.html#adding-a-box-plot",
-    "href": "lectures/15b.html#adding-a-box-plot",
+    "objectID": "lectures/15b.html#motivating-example-1",
+    "href": "lectures/15b.html#motivating-example-1",
     "title": "Confidence Intervals",
-    "section": "Adding a Box Plot",
-    "text": "Adding a Box Plot"
+    "section": "Motivating Example",
+    "text": "Motivating Example"
   },
   {
-    "objectID": "lectures/15b.html#linear-model",
-    "href": "lectures/15b.html#linear-model",
+    "objectID": "lectures/15b.html#linear-models",
+    "href": "lectures/15b.html#linear-models",
     "title": "Confidence Intervals",
-    "section": "Linear Model",
-    "text": "Linear Model\n\n\nCode\nres &lt;- penguins %&gt;% lm(body_mass_kg ~ species, data = .)\nres\n\n\n#&gt; \n#&gt; Call:\n#&gt; lm(formula = body_mass_kg ~ species, data = .)\n#&gt; \n#&gt; Coefficients:\n#&gt;      (Intercept)  speciesChinstrap     speciesGentoo  \n#&gt;          3.70616           0.02692           1.38627"
+    "section": "Linear Models",
+    "text": "Linear Models\n\n\nCode\nres &lt;- penguins %&gt;% lm(body_mass_kg ~ species, data = .)\nres\n\n\n#&gt; \n#&gt; Call:\n#&gt; lm(formula = body_mass_kg ~ species, data = .)\n#&gt; \n#&gt; Coefficients:\n#&gt;      (Intercept)  speciesChinstrap     speciesGentoo  \n#&gt;          3.70616           0.02692           1.38627"
   },
   {
-    "objectID": "lectures/15b.html#are-the-means-from-each-species-different-or-is-it-due-to-random-chance",
-    "href": "lectures/15b.html#are-the-means-from-each-species-different-or-is-it-due-to-random-chance",
+    "objectID": "lectures/15b.html#computing-the-mean",
+    "href": "lectures/15b.html#computing-the-mean",
     "title": "Confidence Intervals",
-    "section": "Are the Means from each species different? Or is it due to random chance?",
-    "text": "Are the Means from each species different? Or is it due to random chance?"
+    "section": "Computing the mean",
+    "text": "Computing the mean\n\\[\n\\hat Y = 3.71 + 0.03 \\times Chinstrap + 1.39 \\times Gentoo\n\\]\n\nAdelie\nChinstrap\n\n\n\nGentoo"
   },
   {
-    "objectID": "lectures/15b.html#inference-1",
-    "href": "lectures/15b.html#inference-1",
+    "objectID": "lectures/15b.html#confidence-interval",
+    "href": "lectures/15b.html#confidence-interval",
     "title": "Confidence Intervals",
-    "section": "Inference",
-    "text": "Inference\nThe process to determine if an estimate of a parameter is valuable or just due to random chance."
+    "section": "Confidence Interval",
+    "text": "Confidence Interval\nThese are a collection of \\(\\beta_1\\) values that will fail to reject the Null Hypothesis.\n\nThe \\(\\beta_1\\) values that are not different from our current estimate \\(b_1\\)"
   },
   {
-    "objectID": "lectures/15b.html#randomness-of-data",
-    "href": "lectures/15b.html#randomness-of-data",
+    "objectID": "lectures/15b.html#confidence-interval-1",
+    "href": "lectures/15b.html#confidence-interval-1",
     "title": "Confidence Intervals",
-    "section": "Randomness of Data",
-    "text": "Randomness of Data\n\n\nCode\npenguins %&gt;% gf_jitter(shuffle(body_mass_kg) ~ species) %&gt;%\n  gf_theme(theme_bw()) %&gt;%\n  gf_labs(x = \"Quarter Mile Time\", y = \"MPG\") %&gt;%\n  gf_theme(axis.title = element_text(size = 24))"
+    "section": "Confidence Interval",
+    "text": "Confidence Interval\nThese are a collection of specific parameters that will fail to reject the null hypothesis.\n\nAdelie: \\(\\mu_a\\)\nChinstrap: \\(\\mu_c\\)\nGentoo: \\(\\mu_g\\)"
   },
   {
-    "objectID": "lectures/15b.html#empirical-vs-shuffled",
-    "href": "lectures/15b.html#empirical-vs-shuffled",
+    "objectID": "lectures/15b.html#looking-at-adelie",
+    "href": "lectures/15b.html#looking-at-adelie",
     "title": "Confidence Intervals",
-    "section": "Empirical vs Shuffled",
-    "text": "Empirical vs Shuffled\n\n  🟡 Loading\n    webR..."
+    "section": "Looking at Adelie",
+    "text": "Looking at Adelie"
   },
   {
-    "objectID": "lectures/15b.html#obtaining-f",
-    "href": "lectures/15b.html#obtaining-f",
+    "objectID": "lectures/15b.html#boostrap-ci",
+    "href": "lectures/15b.html#boostrap-ci",
     "title": "Confidence Intervals",
-    "section": "Obtaining F",
-    "text": "Obtaining F\n\n\n#&gt; [1] 1.056393\n\n\n#&gt; [1] 0.1064417\n\n\n#&gt; [1] 0.5255795\n\n\n#&gt; [1] 0.06424396\n\n\n#&gt; [1] 7.001953\n\n\n#&gt; [1] 2.312397"
+    "section": "Boostrap CI",
+    "text": "Boostrap CI\n\n\nCode\nextract_mean &lt;- function(x){\nmeans &lt;- favstats(body_mass_kg ~ species, data = penguins) %&gt;% \n  select(species, mean) %&gt;%\n  t() %&gt;% .[2,] |&gt; as.numeric() \nreturn(tibble(adelie = means[1], \n                chinstrap = means[2], \n                gentoo = means[3]))\n}\nboot_means &lt;- do(1000) * extract_mean(resample(penguins))\nprint(\"Adelie\")\n\n\n#&gt; [1] \"Adelie\"\n\n\nCode\nquantile(boot_means$adelie, probs = c(.025, .975))\n\n\n#&gt;     2.5%    97.5% \n#&gt; 3.706164 3.706164\n\n\nCode\nprint(\"Chinstrap\")\n\n\n#&gt; [1] \"Chinstrap\"\n\n\nCode\nquantile(boot_means$chinstrap, probs = c(.025, .975))\n\n\n#&gt;     2.5%    97.5% \n#&gt; 3.733088 3.733088\n\n\nCode\nprint(\"Gentoo\")\n\n\n#&gt; [1] \"Gentoo\"\n\n\nCode\nquantile(boot_means$gentoo, probs = c(.025, .975))\n\n\n#&gt;     2.5%    97.5% \n#&gt; 5.092437 5.092437"
   },
   {
-    "objectID": "lectures/15b.html#obtaining-pre",
-    "href": "lectures/15b.html#obtaining-pre",
+    "objectID": "lectures/15b.html#mathematical-models",
+    "href": "lectures/15b.html#mathematical-models",
     "title": "Confidence Intervals",
-    "section": "Obtaining PRE",
-    "text": "Obtaining PRE\n\n\n#&gt; [1] 0.06234033\n\n\n#&gt; [1] 0.03202886\n\n\n#&gt; [1] 0.003798468\n\n\n#&gt; [1] 0.01237855\n\n\n#&gt; [1] 0.06997496\n\n\n#&gt; [1] 0.0418293"
+    "section": "Mathematical Models",
+    "text": "Mathematical Models\nUse the pairwise() to compute confidence intervals.\n\n\nCode\nres %&gt;% pairwise()\n\n\n#&gt; \n#&gt; \n#&gt;   group_1   group_2    diff pooled_se      q    df  lower upper p_adj\n#&gt;   &lt;chr&gt;     &lt;chr&gt;     &lt;dbl&gt;     &lt;dbl&gt;  &lt;dbl&gt; &lt;int&gt;  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;\n#&gt; 1 Chinstrap Adelie    0.027     0.048  0.563   330 -0.132 0.186 .9164\n#&gt; 2 Gentoo    Adelie    1.386     0.040 34.450   330  1.252 1.520 .0000\n#&gt; 3 Gentoo    Chinstrap 1.359     0.050 27.444   330  1.194 1.524 .0000"
   },
   {
-    "objectID": "lectures/15b.html#repeat-it-1000",
-    "href": "lectures/15b.html#repeat-it-1000",
+    "objectID": "lectures/15b.html#plots",
+    "href": "lectures/15b.html#plots",
     "title": "Confidence Intervals",
-    "section": "Repeat it 1000",
-    "text": "Repeat it 1000\n\n\nCode\nf_sim &lt;- do(1000) * f(shuffle(mpg) ~ qsec, \n                         data = mtcars)\npre_sim &lt;- do(1000) * pre(shuffle(mpg) ~ qsec, \n                         data = mtcars)"
+    "section": "Plots",
+    "text": "Plots\n\n\nCode\nres %&gt;% pairwise(plot = T)\n\n\n\n#&gt; \n#&gt; \n#&gt;   group_1   group_2    diff pooled_se      q    df  lower upper p_adj\n#&gt;   &lt;chr&gt;     &lt;chr&gt;     &lt;dbl&gt;     &lt;dbl&gt;  &lt;dbl&gt; &lt;int&gt;  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;\n#&gt; 1 Chinstrap Adelie    0.027     0.048  0.563   330 -0.132 0.186 .9164\n#&gt; 2 Gentoo    Adelie    1.386     0.040 34.450   330  1.252 1.520 .0000\n#&gt; 3 Gentoo    Chinstrap 1.359     0.050 27.444   330  1.194 1.524 .0000"
   },
   {
-    "objectID": "lectures/15b.html#distribution-of-pre",
-    "href": "lectures/15b.html#distribution-of-pre",
+    "objectID": "lectures/15b.html#final",
+    "href": "lectures/15b.html#final",
     "title": "Confidence Intervals",
-    "section": "Distribution of PRE",
-    "text": "Distribution of PRE\nThe distribution of \\(PRE\\) shows all the possible values that \\(PRE\\) can take with their respective probabilities."
+    "section": "Final",
+    "text": "Final\n\nMax of 30 Questions\nMixed of Multiple Choice, True or False, and Free Response\nGet 1 sheet of notes, front and back\nIn-person\nYou are not allowed to talk to anyone during the exam\nYou can use an inexpensive calculator, bring one\nAll other electronic devices must be silenced an put away\nThe exam is worth 100 points\nWrite any explanations in the context of the problem"
   },
   {
-    "objectID": "lectures/15b.html#distribution-of-pre-1",
-    "href": "lectures/15b.html#distribution-of-pre-1",
+    "objectID": "lectures/15b.html#final-material",
+    "href": "lectures/15b.html#final-material",
     "title": "Confidence Intervals",
-    "section": "Distribution of PRE",
-    "text": "Distribution of PRE\n\n\nCode\ngf_histogram(~pre, data = pre_sim)"
+    "section": "Final Material",
+    "text": "Final Material\n\nLinear Models\nInference\nConfidence Intervals"
   },
   {
-    "objectID": "lectures/15b.html#distribution-of-f",
-    "href": "lectures/15b.html#distribution-of-f",
+    "objectID": "lectures/15b.html#mw-10-am-class-final",
+    "href": "lectures/15b.html#mw-10-am-class-final",
     "title": "Confidence Intervals",
-    "section": "Distribution of \\(F\\)",
-    "text": "Distribution of \\(F\\)\nThe distribution of \\(F\\) shows all the possible values that \\(F\\) can take with their respective probabilities."
+    "section": "MW 10 AM Class Final",
+    "text": "MW 10 AM Class Final\nWednesday December 6\n8 AM - 10 AM"
   },
   {
-    "objectID": "lectures/15b.html#distribution-of-f-1",
-    "href": "lectures/15b.html#distribution-of-f-1",
+    "objectID": "lectures/15b.html#mw-2-pm-class-final",
+    "href": "lectures/15b.html#mw-2-pm-class-final",
     "title": "Confidence Intervals",
-    "section": "Distribution of \\(F\\)",
-    "text": "Distribution of \\(F\\)\n\n\nCode\ngf_histogram(~f, data = f_sim)"
+    "section": "MW 2 PM Class Final",
+    "text": "MW 2 PM Class Final\nWednesday December 6\n1 PM - 3 PM"
   },
   {
-    "objectID": "lectures/15b.html#portioning-the-upper-5-the-distribution",
-    "href": "lectures/15b.html#portioning-the-upper-5-the-distribution",
+    "objectID": "lectures/15b.html#when-are-labs-due",
+    "href": "lectures/15b.html#when-are-labs-due",
     "title": "Confidence Intervals",
-    "section": "Portioning the upper 5% the Distribution",
-    "text": "Portioning the upper 5% the Distribution\n\n\nCode\ngf_histogram(~f, data = f_sim, fill = ~upper(f, .05))"
+    "section": "When are Labs DUE",
+    "text": "When are Labs DUE\nDEC 7th 11:59 PM"
   },
   {
-    "objectID": "lectures/15b.html#where-is-our-observed-value",
-    "href": "lectures/15b.html#where-is-our-observed-value",
+    "objectID": "lectures/15b.html#when-are-readings-due",
+    "href": "lectures/15b.html#when-are-readings-due",
     "title": "Confidence Intervals",
-    "section": "Where is our observed value?",
-    "text": "Where is our observed value?\n\n\nCode\ngf_histogram(~f, data = f_sim, fill = ~upper(f, .05)) %&gt;%\n  gf_vline(xintercept = f(res))"
+    "section": "When are Readings DUE",
+    "text": "When are Readings DUE\nDEC 7th 11:59 PM"
   },
   {
-    "objectID": "lectures/15b.html#p-value-1",
-    "href": "lectures/15b.html#p-value-1",
+    "objectID": "lectures/15b.html#when-are-extra-credits-due",
+    "href": "lectures/15b.html#when-are-extra-credits-due",
     "title": "Confidence Intervals",
-    "section": "P-Value",
-    "text": "P-Value\nThe p-value tells you what is the probability of observing your \\(F\\) or something more extreme."
+    "section": "When are Extra Credits DUE",
+    "text": "When are Extra Credits DUE\nDEC 7th 11:59 PM"
   },
   {
-    "objectID": "lectures/15b.html#visually",
-    "href": "lectures/15b.html#visually",
+    "objectID": "lectures/15b.html#please-complete-course-evaluations",
+    "href": "lectures/15b.html#please-complete-course-evaluations",
     "title": "Confidence Intervals",
-    "section": "Visually",
-    "text": "Visually\n\n\nCode\ngf_histogram(~f, data = f_sim, fill = ~ f &gt; f(res)) %&gt;%\n  gf_vline(xintercept = f(res))"
+    "section": "Please Complete Course Evaluations",
+    "text": "Please Complete Course Evaluations\n\nComplete them for all your courses"
   },
   {
-    "objectID": "lectures/15b.html#computing-the-p-value",
-    "href": "lectures/15b.html#computing-the-p-value",
+    "objectID": "lectures/15b.html#complete-survey-1",
+    "href": "lectures/15b.html#complete-survey-1",
     "title": "Confidence Intervals",
-    "section": "Computing the p-value",
-    "text": "Computing the p-value\nWe will count how many simulated \\(F\\)’s are more extreme and divided by the number of simulations plus one."
-  },
-  {
-    "objectID": "lectures/15b.html#counting-how-many-fs-are-more-extreme",
-    "href": "lectures/15b.html#counting-how-many-fs-are-more-extreme",
-    "title": "Confidence Intervals",
-    "section": "Counting how many F’s are more extreme",
-    "text": "Counting how many F’s are more extreme\n\n\nCode\ntally(~ f &gt; f(res), data = f_sim)\n\n\n#&gt; f &gt; f(res)\n#&gt;  TRUE FALSE \n#&gt;     0  1000"
-  },
-  {
-    "objectID": "lectures/15b.html#computing-the-p-value-1",
-    "href": "lectures/15b.html#computing-the-p-value-1",
-    "title": "Confidence Intervals",
-    "section": "Computing the p-value",
-    "text": "Computing the p-value\n\n\n#&gt; TRUE \n#&gt;    0"
-  },
-  {
-    "objectID": "lectures/15b.html#mathematical-model",
-    "href": "lectures/15b.html#mathematical-model",
-    "title": "Confidence Intervals",
-    "section": "Mathematical Model",
-    "text": "Mathematical Model\n\\[\nTS = \\frac{MSG}{MSE} \\sim F(k-1,n-k-1)\n\\]"
-  },
-  {
-    "objectID": "lectures/15b.html#p-value-2",
-    "href": "lectures/15b.html#p-value-2",
-    "title": "Confidence Intervals",
-    "section": "P-Value",
-    "text": "P-Value\n\\[\n\\mathrm{p} = Pr(TS \\ge F)\n\\]"
-  },
-  {
-    "objectID": "lectures/15b.html#lets-have-r-do-it",
-    "href": "lectures/15b.html#lets-have-r-do-it",
-    "title": "Confidence Intervals",
-    "section": "Let’s have R do it!",
-    "text": "Let’s have R do it!\n\n\n#&gt;  Analysis of Variance Table (Type III SS)\n#&gt;  Model: body_mass_kg ~ species\n#&gt; \n#&gt;                               SS  df     MS       F   PRE     p\n#&gt;  ----- --------------- | ------- --- ------ ------- ----- -----\n#&gt;  Model (error reduced) | 145.190   2 72.595 341.895 .6745 .0000\n#&gt;  Error (from model)    |  70.069 330  0.212                    \n#&gt;  ----- --------------- | ------- --- ------ ------- ----- -----\n#&gt;  Total (empty model)   | 215.260 332  0.648"
-  },
-  {
-    "objectID": "lectures/15b.html#mathematical-compared-to-increasing-simulated-number",
-    "href": "lectures/15b.html#mathematical-compared-to-increasing-simulated-number",
-    "title": "Confidence Intervals",
-    "section": "Mathematical compared to Increasing Simulated Number",
-    "text": "Mathematical compared to Increasing Simulated Number\n\\[\nP= 0.000\n\\]\n\n\n#&gt; [1] \"Sim: 1000\"\n\n\n#&gt; Error in eval(expr, envir, enclos): object 'f_sim_1000' not found"
-  },
-  {
-    "objectID": "lectures/15b.html#mathematical-compared-to-increasing-simulated-number-1",
-    "href": "lectures/15b.html#mathematical-compared-to-increasing-simulated-number-1",
-    "title": "Confidence Intervals",
-    "section": "Mathematical compared to Increasing Simulated Number",
-    "text": "Mathematical compared to Increasing Simulated Number\n\\[\nP= 0.000\n\\]\n\n\n#&gt; [1] \"Sim: 1000\"\n\n\n#&gt; Error in eval(expr, envir, enclos): object 'f_sim_1000' not found\n\n\n#&gt; [1] \"Sim: 10000\"\n\n\n#&gt; Error in eval(expr, envir, enclos): object 'f_sim_10000' not found\n\n\n#&gt; [1] \"Sim: 100000\"\n\n\n#&gt; Error in eval(expr, envir, enclos): object 'f_sim_100000' not found"
+    "section": "Complete Survey",
+    "text": "Complete Survey"
   },
   {
     "objectID": "lectures/2a.html#learning-outcomes",

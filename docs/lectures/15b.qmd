@@ -42,228 +42,199 @@ editor: visual
 ```{r}
 #| include: false
 #| cache: true
-library(coursekata)
-library(openintro)
-res <- lm(weight ~ mage, data = births14)
 
-b1_sim_1000 <- do(1000) * b1(weight ~ mage, 
-                             data = resample(births14))
-b1_sim_10000 <- do(10000) * b1(weight ~ mage, 
-                               data = resample(births14))
-b1_sim_100000 <- do(100000) * b1(weight ~ mage, 
-                                data = resample(births14))
+set.seed(3249)
+res <- lm(body_mass_kg ~ species, data = penguins)
+themes <- list(theme_bw(),
+               theme(axis.title = element_text(size = 32),
+        axis.text = element_text(size = 26)))
+b1_sim_1000_1 <- tibble(b1 = rnorm(1000, 1, sd = 1)) + 3.7
+b1_sim_1000_2 <- tibble(b1 = rnorm(1000, -0.1, sd = 1)) + 3.7
+b1_sim_1000_3 <- tibble(b1 = rnorm(1000, -2, sd = 1)) + 3.7
+b1_sim_1000_4 <- tibble(b1 = rnorm(1000, 3, sd = 1)) + 3.7
+b1_boot_1000 <- tibble(b1 = rnorm(1000, 3.7, sd = 1))
 
 ```
 
-```{r}
-#| include: false
-#| label: load_libraries
-
-library(ggformula)
-library(mosaic)
-library(coursekata)
-```
-
-# Inference
+# Confidence Intervals
 
 ## Motivating Example
 
 ```{r}
-
+library(coursekata)
 penguins |> ggplot(aes(x=species, y = body_mass_kg)) +
-  geom_jitter() + theme_bw() +
+  geom_jitter() +
   theme(axis.title = element_text(size = 36)) +
-  labs(x = "Species", y = "Body Mass")
-
+  labs(x = "Species", y = "Body Mass") + themes
 ```
 
-## Adding a Box Plot
+## Motivating Example
 
 ```{r}
 penguins |> ggplot(aes(x=species, y = body_mass_kg)) +
-  geom_jitter() + geom_boxplot() + theme_bw() +
+  geom_jitter() + geom_boxplot() +
   theme(axis.title = element_text(size = 36)) +
-  labs(x = "Species", y = "Body Mass")
-
+  labs(x = "Species", y = "Body Mass") + themes
 ```
 
-## Linear Model
+## Linear Models
 
 ```{r}
 #| echo: true
+
 res <- penguins %>% lm(body_mass_kg ~ species, data = .)
 res
 ```
 
-## Are the Means from each species different? Or is it due to random chance?
+## Computing the mean
 
-## Inference
+$$
+\hat Y = 3.71 + 0.03 \times Chinstrap + 1.39 \times Gentoo 
+$$
 
-The process to determine if an estimate of a parameter is valuable or just due to random chance.
+-   Adelie
 
-## Randomness of Data
+-   Chinstrap
+
+```{=html}
+<!-- -->
+```
+-   Gentoo
+
+## Confidence Interval
+
+These are a collection of $\beta_1$ values that will fail to reject the Null Hypothesis.
+
+::: fragment
+The $\beta_1$ values that are not different from our current estimate $b_1$
+:::
+
+## Confidence Interval
+
+These are a collection of specific parameters that will fail to reject the null hypothesis.
+
+-   Adelie: $\mu_a$
+
+-   Chinstrap: $\mu_c$
+
+-   Gentoo: $\mu_g$
+
+## Looking at Adelie
+
+```{r}
+b1_sim_1000_4 |> ggplot(aes(b1)) + 
+  geom_density() +
+  geom_vline(xintercept = 3.7) +
+  geom_density(data = b1_sim_1000_1) +
+  geom_density(data = b1_sim_1000_2) +
+  geom_density(data = b1_sim_1000_3) +
+  geom_density(data = b1_boot_1000, 
+               fill = "green", alpha = .2)  +
+  xlab("Adelie") +
+  themes
+```
+
+## Boostrap CI
 
 ```{r}
 #| echo: true
-penguins %>% gf_jitter(shuffle(body_mass_kg) ~ species) %>%
-  gf_theme(theme_bw()) %>%
-  gf_labs(x = "Quarter Mile Time", y = "MPG") %>%
-  gf_theme(axis.title = element_text(size = 24))
+extract_mean <- function(x){
+means <- favstats(body_mass_kg ~ species, data = penguins) %>% 
+  select(species, mean) %>%
+  t() %>% .[2,] |> as.numeric() 
+return(tibble(adelie = means[1], 
+                chinstrap = means[2], 
+                gentoo = means[3]))
+}
+boot_means <- do(1000) * extract_mean(resample(penguins))
+print("Adelie")
+quantile(boot_means$adelie, probs = c(.025, .975))
+print("Chinstrap")
+quantile(boot_means$chinstrap, probs = c(.025, .975))
+print("Gentoo")
+quantile(boot_means$gentoo, probs = c(.025, .975))
 ```
 
-## Empirical vs Shuffled
+## Mathematical Models
 
-```{webr-r}
-shuffle <- function(x){n <- length(x); return(sample(x, n))}
-penguins |> ggplot(aes(x = species, y = body_mass_g)) +
-  theme_bw() +labs(x = "Species", y = "Body Mass") + theme(axis.text = element_text(size = 18)) +
-  geom_jitter()
-```
-
-## Obtaining F
-
-```{r}
-f(shuffle(mpg) ~ qsec, data = mtcars)
-f(shuffle(mpg) ~ qsec, data = mtcars)
-f(shuffle(mpg) ~ qsec, data = mtcars)
-f(shuffle(mpg) ~ qsec, data = mtcars)
-f(shuffle(mpg) ~ qsec, data = mtcars)
-f(shuffle(mpg) ~ qsec, data = mtcars)
-```
-
-## Obtaining PRE
-
-```{r}
-pre(shuffle(mpg) ~ qsec, data = mtcars)
-pre(shuffle(mpg) ~ qsec, data = mtcars)
-pre(shuffle(mpg) ~ qsec, data = mtcars)
-pre(shuffle(mpg) ~ qsec, data = mtcars)
-pre(shuffle(mpg) ~ qsec, data = mtcars)
-pre(shuffle(mpg) ~ qsec, data = mtcars)
-```
-
-## Repeat it 1000
+Use the `pairwise()` to compute confidence intervals.
 
 ```{r}
 #| echo: true
-f_sim <- do(1000) * f(shuffle(mpg) ~ qsec, 
-                         data = mtcars)
-pre_sim <- do(1000) * pre(shuffle(mpg) ~ qsec, 
-                         data = mtcars)
+res %>% pairwise()
 ```
 
-## Distribution of PRE
-
-The distribution of $PRE$ shows all the possible values that $PRE$ can take with their respective probabilities.
-
-## Distribution of PRE
+## Plots
 
 ```{r}
 #| echo: true
-gf_histogram(~pre, data = pre_sim)
+
+res %>% pairwise(plot = T)
 
 ```
 
-## Distribution of $F$
+# Semester
 
-The distribution of $F$ shows all the possible values that $F$ can take with their respective probabilities.
+## Final
 
-## Distribution of $F$
+-   Max of 30 Questions
 
-```{r}
-#| echo: true
-gf_histogram(~f, data = f_sim)
-```
+-   Mixed of Multiple Choice, True or False, and Free Response
 
-## Portioning the upper 5% the Distribution
+-   Get 1 sheet of notes, front and back
 
-```{r}
-#| echo: true
-gf_histogram(~f, data = f_sim, fill = ~upper(f, .05))
-```
+-   In-person
 
-## Where is our observed value?
+-   You are not allowed to talk to anyone during the exam
 
-```{r}
-#| echo: true
-gf_histogram(~f, data = f_sim, fill = ~upper(f, .05)) %>%
-  gf_vline(xintercept = f(res))
-```
+-   You can use an inexpensive calculator, bring one
 
-# P-Value
+-   All other electronic devices must be silenced an put away
 
-## P-Value
+-   The exam is worth 100 points
 
-The p-value tells you what is the probability of observing your $F$ or something more extreme.
+-   Write any explanations in the context of the problem
 
-## Visually
+## Final Material
 
-```{r}
-#| echo: true
-gf_histogram(~f, data = f_sim, fill = ~ f > f(res)) %>%
-  gf_vline(xintercept = f(res))
-```
+-   Linear Models
 
-## Computing the p-value
+-   Inference
 
-We will count how many simulated $F$'s are more extreme and divided by the number of simulations plus one.
+-   Confidence Intervals
 
-## Counting how many F's are more extreme
+## MW 10 AM Class Final
 
-```{r}
-#| echo: true
-tally(~ f > f(res), data = f_sim)
-```
+Wednesday December 6
 
-## Computing the p-value
+8 AM - 10 AM
 
-```{r}
-tally(~ f > f(res), data = f_sim)[1] / 10001
-```
+## MW 2 PM Class Final
 
-# Compute Mathematically
+Wednesday December 6
 
-## Mathematical Model
+1 PM - 3 PM
 
-$$
-TS = \frac{MSG}{MSE} \sim F(k-1,n-k-1)
-$$
+## When are Labs DUE
 
-## P-Value
+DEC 7th 11:59 PM
 
-$$
-\mathrm{p} = Pr(TS \ge F)
-$$
+## When are Readings DUE
 
-## Let's have R do it!
+DEC 7th 11:59 PM
 
-```{r}
-penguins %>% lm(body_mass_kg ~ species, data = .) %>% supernova()
-```
+## When are Extra Credits DUE
 
-## Mathematical compared to Increasing Simulated Number
+DEC 7th 11:59 PM
 
-$$
-P= 0.000
-$$
+# Course Evaluations
 
-```{r}
-print("Sim: 1000")
-tally(~ f > f(res), data = f_sim_1000)[1] / 10001
-```
+## Please Complete Course Evaluations
 
-## Mathematical compared to Increasing Simulated Number
+-   Complete them for all your courses
 
-$$
-P= 0.000
-$$
+# Complete Survey
 
-```{r}
-print("Sim: 1000")
-tally(~ f > f(res), data = f_sim_1000)[1] / 1001
-print("Sim: 10000")
-tally(~ f > f(res), data = f_sim_10000)[1] / 10001
-print("Sim: 100000")
-tally(~ f > f(res), data = f_sim_100000)[1] / 100001
+## Complete Survey
 
-```
+![](img/frame (7).png)
