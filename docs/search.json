@@ -2489,7 +2489,7 @@
     "href": "lectures/15b.html#mathematical-models",
     "title": "Confidence Intervals",
     "section": "Mathematical Models",
-    "text": "Mathematical Models\nUse the pairwise() to compute confidence intervals.\n\n\nCode\nres %&gt;% pairwise()\n\n\n#&gt; \n#&gt; \n#&gt;   group_1   group_2    diff pooled_se      q    df  lower upper p_adj\n#&gt;   &lt;chr&gt;     &lt;chr&gt;     &lt;dbl&gt;     &lt;dbl&gt;  &lt;dbl&gt; &lt;int&gt;  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;\n#&gt; 1 Chinstrap Adelie    0.027     0.048  0.563   330 -0.132 0.186 .9164\n#&gt; 2 Gentoo    Adelie    1.386     0.040 34.450   330  1.252 1.520 .0000\n#&gt; 3 Gentoo    Chinstrap 1.359     0.050 27.444   330  1.194 1.524 .0000"
+    "text": "Mathematical Models\nUse the pairwise() to compute confidence intervals.\nA difference occurs when 0 is not within the intervals.\n\n\nCode\nres %&gt;% pairwise()\n\n\n#&gt; \n#&gt; \n#&gt;   group_1   group_2    diff pooled_se      q    df  lower upper p_adj\n#&gt;   &lt;chr&gt;     &lt;chr&gt;     &lt;dbl&gt;     &lt;dbl&gt;  &lt;dbl&gt; &lt;int&gt;  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;\n#&gt; 1 Chinstrap Adelie    0.027     0.048  0.563   330 -0.132 0.186 .9164\n#&gt; 2 Gentoo    Adelie    1.386     0.040 34.450   330  1.252 1.520 .0000\n#&gt; 3 Gentoo    Chinstrap 1.359     0.050 27.444   330  1.194 1.524 .0000"
   },
   {
     "objectID": "lectures/15b.html#plots",

@@ -156,6 +156,8 @@ quantile(boot_means$gentoo, probs = c(.025, .975))
 
 Use the `pairwise()` to compute confidence intervals.
 
+A difference occurs when 0 is not within the intervals.
+
 ```{r}
 #| echo: true
 res %>% pairwise()
